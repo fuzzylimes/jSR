@@ -1,0 +1,395 @@
+{
+  "data": [
+    {
+      "id": "8gejmne3",
+      "name": "3DO Interactive Multiplayer",
+      "released": 1993,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/8gejmne3"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=8gejmne3"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=8gejmne3"
+        }
+      ]
+    },
+    {
+      "id": "mx6pow93",
+      "name": "Acorn Archimedes",
+      "released": 1987,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/mx6pow93"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=mx6pow93"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=mx6pow93"
+        }
+      ]
+    },
+    {
+      "id": "gde32g6k",
+      "name": "Amiga",
+      "released": 1985,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/gde32g6k"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=gde32g6k"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=gde32g6k"
+        }
+      ]
+    },
+    {
+      "id": "wxeo0der",
+      "name": "Amiga CD32",
+      "released": 1993,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/wxeo0der"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=wxeo0der"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=wxeo0der"
+        }
+      ]
+    },
+    {
+      "id": "5negykey",
+      "name": "Amstrad CPC",
+      "released": 1984,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/5negykey"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=5negykey"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=5negykey"
+        }
+      ]
+    },
+    {
+      "id": "gde3vw9k",
+      "name": "Amstrad PCW",
+      "released": 1985,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/gde3vw9k"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=gde3vw9k"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=gde3vw9k"
+        }
+      ]
+    },
+    {
+      "id": "lq60nl94",
+      "name": "Android",
+      "released": 2008,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/lq60nl94"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=lq60nl94"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=lq60nl94"
+        }
+      ]
+    },
+    {
+      "id": "w89ryw6l",
+      "name": "Apple II",
+      "released": 1977,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/w89ryw6l"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=w89ryw6l"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=w89ryw6l"
+        }
+      ]
+    },
+    {
+      "id": "7g6mom9r",
+      "name": "Apple IIGS",
+      "released": 1986,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/7g6mom9r"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=7g6mom9r"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=7g6mom9r"
+        }
+      ]
+    },
+    {
+      "id": "vm9vn63k",
+      "name": "Arcade",
+      "released": 1980,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/vm9vn63k"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=vm9vn63k"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=vm9vn63k"
+        }
+      ]
+    },
+    {
+      "id": "mr6k206z",
+      "name": "Arduboy",
+      "released": 2015,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/mr6k206z"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=mr6k206z"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=mr6k206z"
+        }
+      ]
+    },
+    {
+      "id": "o0644863",
+      "name": "Atari 2600",
+      "released": 1977,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/o0644863"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=o0644863"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=o0644863"
+        }
+      ]
+    },
+    {
+      "id": "lq60ol64",
+      "name": "Atari 5200",
+      "released": 1982,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/lq60ol64"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=lq60ol64"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=lq60ol64"
+        }
+      ]
+    },
+    {
+      "id": "gde33gek",
+      "name": "Atari 7800",
+      "released": 1986,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/gde33gek"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=gde33gek"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=gde33gek"
+        }
+      ]
+    },
+    {
+      "id": "n5e1m7e2",
+      "name": "Atari 8-bit family (400/800/XL/XE)",
+      "released": 1979,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/n5e1m7e2"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=n5e1m7e2"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=n5e1m7e2"
+        }
+      ]
+    },
+    {
+      "id": "jm9577eo",
+      "name": "Atari Flashback",
+      "released": 2012,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/jm9577eo"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=jm9577eo"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=jm9577eo"
+        }
+      ]
+    },
+    {
+      "id": "jm95oz6o",
+      "name": "Atari Jaguar",
+      "released": 1993,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/jm95oz6o"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=jm95oz6o"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=jm95oz6o"
+        }
+      ]
+    },
+    {
+      "id": "kz9wzm9p",
+      "name": "Atari Jaguar CD",
+      "released": 1995,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/kz9wzm9p"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=kz9wzm9p"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=kz9wzm9p"
+        }
+      ]
+    },
+    {
+      "id": "o0641163",
+      "name": "Atari Lynx",
+      "released": 1989,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/o0641163"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=o0641163"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=o0641163"
+        }
+      ]
+    },
+    {
+      "id": "n5e1g7e2",
+      "name": "Atari ST",
+      "released": 1985,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/n5e1g7e2"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=n5e1g7e2"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=n5e1g7e2"
+        }
+      ]
+    }
+  ],
+  "pagination": {
+    "offset": 0,
+    "max": 20,
+    "size": 20,
+    "links": [
+      {
+        "rel": "next",
+        "uri": "https://www.speedrun.com/api/v1/platforms?offset=20"
+      }
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "data": {
+    "id": "5d74ypvd",
+    "name": "-The Invasion 2 - 01-01 Super Easy Road - by Redigit",
+    "weblink": "https://www.speedrun.com/smbx/-The_Invasion_2_-_01-01_Super_Easy_Road_-_by_Redigit",
+    "rules": null,
+    "links": [
+      {
+        "rel": "self",
+        "uri": "https://www.speedrun.com/api/v1/levels/5d74ypvd"
+      },
+      {
+        "rel": "game",
+        "uri": "https://www.speedrun.com/api/v1/games/pdv0x91w"
+      },
+      {
+        "rel": "categories",
+        "uri": "https://www.speedrun.com/api/v1/levels/5d74ypvd/categories"
+      },
+      {
+        "rel": "variables",
+        "uri": "https://www.speedrun.com/api/v1/levels/5d74ypvd/variables"
+      },
+      {
+        "rel": "records",
+        "uri": "https://www.speedrun.com/api/v1/levels/5d74ypvd/records"
+      },
+      {
+        "rel": "runs",
+        "uri": "https://www.speedrun.com/api/v1/runs?level=5d74ypvd"
+      },
+      {
+        "rel": "leaderboard",
+        "uri": "https://www.speedrun.com/api/v1/leaderboards/pdv0x91w/level/5d74ypvd/7dgrergk"
+      }
+    ]
+  }
+}

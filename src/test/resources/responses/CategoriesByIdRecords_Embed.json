@@ -1,0 +1,670 @@
+{
+  "data": [
+    {
+      "weblink": "https://www.speedrun.com/smbx#The_Invasion_2",
+      "game": {
+        "data": {
+          "id": "pdv0x91w",
+          "names": {
+            "international": "Super Mario Bros. X",
+            "japanese": null,
+            "twitch": "Super Mario Bros. X"
+          },
+          "abbreviation": "smbx",
+          "weblink": "https://www.speedrun.com/smbx",
+          "released": 2009,
+          "release-date": "2009-01-01",
+          "ruleset": {
+            "show-milliseconds": true,
+            "require-verification": true,
+            "require-video": true,
+            "run-times": [
+              "realtime"
+            ],
+            "default-time": "realtime",
+            "emulators-allowed": false
+          },
+          "romhack": false,
+          "gametypes": [],
+          "platforms": [
+            "8gej2n93"
+          ],
+          "regions": [],
+          "genres": [
+            "qdnqkn8k",
+            "pm21dr24"
+          ],
+          "engines": [
+            "yw3vyr3o"
+          ],
+          "developers": [
+            "yz8kxxzw",
+            "nzm8dre0",
+            "pe1392zo",
+            "1zkxonej",
+            "3zy3xp64"
+          ],
+          "publishers": [],
+          "moderators": {
+            "68wz2v8g": "super-moderator",
+            "y8d4l798": "moderator",
+            "v813edlx": "moderator"
+          },
+          "created": "2015-04-01T14:42:51Z",
+          "assets": {
+            "logo": {
+              "uri": "https://www.speedrun.com/themes/Default/logo.png",
+              "width": 640,
+              "height": 78
+            },
+            "cover-tiny": {
+              "uri": "https://www.speedrun.com/themes/smbx/cover-32.png",
+              "width": 45,
+              "height": 32
+            },
+            "cover-small": {
+              "uri": "https://www.speedrun.com/themes/smbx/cover-64.png",
+              "width": 90,
+              "height": 64
+            },
+            "cover-medium": {
+              "uri": "https://www.speedrun.com/themes/smbx/cover-128.png",
+              "width": 180,
+              "height": 128
+            },
+            "cover-large": {
+              "uri": "https://www.speedrun.com/themes/smbx/cover-256.png",
+              "width": 360,
+              "height": 256
+            },
+            "icon": {
+              "uri": "https://www.speedrun.com/themes/Default/favicon.png",
+              "width": 64,
+              "height": 64
+            },
+            "trophy-1st": {
+              "uri": "https://www.speedrun.com/themes/smbx/1st.png",
+              "width": 32,
+              "height": 32
+            },
+            "trophy-2nd": {
+              "uri": "https://www.speedrun.com/themes/smbx/2nd.png",
+              "width": 32,
+              "height": 32
+            },
+            "trophy-3rd": {
+              "uri": "https://www.speedrun.com/themes/smbx/3rd.png",
+              "width": 32,
+              "height": 32
+            },
+            "trophy-4th": null,
+            "background": {
+              "uri": "https://www.speedrun.com/themes/smbx/background.png",
+              "width": 800,
+              "height": 600
+            },
+            "foreground": null
+          },
+          "links": [
+            {
+              "rel": "self",
+              "uri": "https://www.speedrun.com/api/v1/games/pdv0x91w"
+            },
+            {
+              "rel": "runs",
+              "uri": "https://www.speedrun.com/api/v1/runs?game=pdv0x91w"
+            },
+            {
+              "rel": "levels",
+              "uri": "https://www.speedrun.com/api/v1/games/pdv0x91w/levels"
+            },
+            {
+              "rel": "categories",
+              "uri": "https://www.speedrun.com/api/v1/games/pdv0x91w/categories"
+            },
+            {
+              "rel": "variables",
+              "uri": "https://www.speedrun.com/api/v1/games/pdv0x91w/variables"
+            },
+            {
+              "rel": "records",
+              "uri": "https://www.speedrun.com/api/v1/games/pdv0x91w/records"
+            },
+            {
+              "rel": "series",
+              "uri": "https://www.speedrun.com/api/v1/series/xn05xx72"
+            },
+            {
+              "rel": "series",
+              "uri": "https://www.speedrun.com/api/v1/series/y4r230mn"
+            },
+            {
+              "rel": "derived-games",
+              "uri": "https://www.speedrun.com/api/v1/games/pdv0x91w/derived-games"
+            },
+            {
+              "rel": "romhacks",
+              "uri": "https://www.speedrun.com/api/v1/games/pdv0x91w/derived-games"
+            },
+            {
+              "rel": "leaderboard",
+              "uri": "https://www.speedrun.com/api/v1/leaderboards/pdv0x91w/category/jdzme6kv"
+            }
+          ]
+        }
+      },
+      "category": {
+        "data": {
+          "id": "jdzme6kv",
+          "name": "The Invasion 2",
+          "weblink": "https://www.speedrun.com/smbx#The_Invasion_2",
+          "type": "per-game",
+          "rules": "Beat The Invasion 2 with the following characters:  Mario, Luigi, Peach, Toad, and Link.\r\n\r\nTimer starts intro level starts and ends when you kill Bowser.\r\n\r\nMultiplayer is banned.\r\n\r\nUsing cheat codes is banned.\r\n\r\nInfinites Are Banned",
+          "players": {
+            "type": "exactly",
+            "value": 1
+          },
+          "miscellaneous": false,
+          "links": [
+            {
+              "rel": "self",
+              "uri": "https://www.speedrun.com/api/v1/categories/jdzme6kv"
+            },
+            {
+              "rel": "game",
+              "uri": "https://www.speedrun.com/api/v1/games/pdv0x91w"
+            },
+            {
+              "rel": "variables",
+              "uri": "https://www.speedrun.com/api/v1/categories/jdzme6kv/variables"
+            },
+            {
+              "rel": "records",
+              "uri": "https://www.speedrun.com/api/v1/categories/jdzme6kv/records"
+            },
+            {
+              "rel": "runs",
+              "uri": "https://www.speedrun.com/api/v1/runs?category=jdzme6kv"
+            },
+            {
+              "rel": "leaderboard",
+              "uri": "https://www.speedrun.com/api/v1/leaderboards/pdv0x91w/category/jdzme6kv"
+            }
+          ]
+        }
+      },
+      "level": {
+        "data": []
+      },
+      "platform": null,
+      "region": null,
+      "emulators": null,
+      "video-only": false,
+      "timing": null,
+      "values": {},
+      "runs": [
+        {
+          "place": 1,
+          "run": {
+            "id": "yjkv04gm",
+            "weblink": "https://www.speedrun.com/smbx/run/yjkv04gm",
+            "game": "pdv0x91w",
+            "level": null,
+            "category": "jdzme6kv",
+            "videos": {
+              "links": [
+                {
+                  "uri": "https://www.youtube.com/watch?v=-U12e2rqsEA"
+                }
+              ]
+            },
+            "comment": "Here's how I calculated my time if you want to double check.\r\n\r\nI entered the Bowser Boss Fight at 28:16:094. That boss fight took 11:856. There was also a save quit after I died at Random Water Level at 18:52:918. I entered the level and quit at 18:53:776, which adds an extra 00:658.\r\n\r\nAdding 28:27:950+00:658+11:856 finalizes my time as 28:28:608\r\n\r\nSub 28 is most likely possible based on my past 2 runs. However, I will not be going for them for a long time unless I get it at Fangame Marathon 2018.",
+            "status": {
+              "status": "verified",
+              "examiner": "0jm6w6o8",
+              "verify-date": "2018-04-17T15:58:35Z"
+            },
+            "players": [
+              {
+                "rel": "user",
+                "id": "v813edlx",
+                "uri": "https://www.speedrun.com/api/v1/users/v813edlx"
+              }
+            ],
+            "date": "2018-04-17",
+            "submitted": "2018-04-17T02:00:58Z",
+            "times": {
+              "primary": "PT28M28.608S",
+              "primary_t": 1708.608,
+              "realtime": "PT28M28.608S",
+              "realtime_t": 1708.608,
+              "realtime_noloads": null,
+              "realtime_noloads_t": 0,
+              "ingame": null,
+              "ingame_t": 0
+            },
+            "system": {
+              "platform": "8gej2n93",
+              "emulated": false,
+              "region": null
+            },
+            "splits": null,
+            "values": {
+              "j84kwwjn": "0q5omg71",
+              "9l73ympn": "5q8e5w3q",
+              "0nw2mjdn": "rqvmeoyq"
+            }
+          }
+        },
+        {
+          "place": 2,
+          "run": {
+            "id": "yl07qj3y",
+            "weblink": "https://www.speedrun.com/smbx/run/yl07qj3y",
+            "game": "pdv0x91w",
+            "level": null,
+            "category": "jdzme6kv",
+            "videos": {
+              "links": [
+                {
+                  "uri": "https://www.supermariobrosx.org/forums/viewtopic.php?f=69&t=20870"
+                }
+              ]
+            },
+            "comment": null,
+            "status": {
+              "status": "verified",
+              "examiner": "v813edlx",
+              "verify-date": "2019-10-01T18:06:23Z"
+            },
+            "players": [
+              {
+                "rel": "guest",
+                "name": "UbuntuJackson",
+                "uri": "https://www.speedrun.com/api/v1/guests/UbuntuJackson"
+              }
+            ],
+            "date": "2018-08-21",
+            "submitted": "2019-10-01T18:06:23Z",
+            "times": {
+              "primary": "PT28M44.736S",
+              "primary_t": 1724.736,
+              "realtime": "PT28M44.736S",
+              "realtime_t": 1724.736,
+              "realtime_noloads": null,
+              "realtime_noloads_t": 0,
+              "ingame": null,
+              "ingame_t": 0
+            },
+            "system": {
+              "platform": "8gej2n93",
+              "emulated": false,
+              "region": null
+            },
+            "splits": null,
+            "values": {
+              "j84kwwjn": "zqomrrp1",
+              "9l73ympn": "zqoydzx1",
+              "0nw2mjdn": "rqvmeoyq"
+            }
+          }
+        },
+        {
+          "place": 3,
+          "run": {
+            "id": "0znnw48z",
+            "weblink": "https://www.speedrun.com/smbx/run/0znnw48z",
+            "game": "pdv0x91w",
+            "level": null,
+            "category": "jdzme6kv",
+            "videos": {
+              "links": [
+                {
+                  "uri": "https://youtu.be/Udao-FxcDuc"
+                }
+              ]
+            },
+            "comment": "I don't have arms :D",
+            "status": {
+              "status": "verified",
+              "examiner": "48g06k1x",
+              "verify-date": "2017-02-19T13:44:05Z"
+            },
+            "players": [
+              {
+                "rel": "guest",
+                "name": "Yooshino",
+                "uri": "https://www.speedrun.com/api/v1/guests/Yooshino"
+              }
+            ],
+            "date": "2017-02-19",
+            "submitted": "2017-02-19T13:44:05Z",
+            "times": {
+              "primary": "PT53M41.375S",
+              "primary_t": 3221.375,
+              "realtime": "PT53M41.375S",
+              "realtime_t": 3221.375,
+              "realtime_noloads": null,
+              "realtime_noloads_t": 0,
+              "ingame": null,
+              "ingame_t": 0
+            },
+            "system": {
+              "platform": "8gej2n93",
+              "emulated": false,
+              "region": null
+            },
+            "splits": null,
+            "values": {
+              "j84kwwjn": "zqomrrp1",
+              "9l73ympn": "zqoydzx1",
+              "0nw2mjdn": "0q5oeer1"
+            }
+          }
+        }
+      ],
+      "links": [
+        {
+          "rel": "game",
+          "uri": "https://www.speedrun.com/api/v1/games/pdv0x91w"
+        },
+        {
+          "rel": "category",
+          "uri": "https://www.speedrun.com/api/v1/categories/jdzme6kv"
+        }
+      ],
+      "players": {
+        "data": [
+          {
+            "rel": "user",
+            "id": "v813edlx",
+            "names": {
+              "international": "Eclipsed",
+              "japanese": null
+            },
+            "weblink": "https://www.speedrun.com/user/Eclipsed",
+            "name-style": {
+              "style": "gradient",
+              "color-from": {
+                "light": "#249BCE",
+                "dark": "#44BBEE"
+              },
+              "color-to": {
+                "light": "#249BCE",
+                "dark": "#44BBEE"
+              }
+            },
+            "role": "user",
+            "signup": "2018-02-21T21:45:22Z",
+            "location": {
+              "country": {
+                "code": "us",
+                "names": {
+                  "international": "United States",
+                  "japanese": null
+                }
+              }
+            },
+            "twitch": {
+              "uri": "https://www.twitch.tv/eclipsedseventyfive"
+            },
+            "hitbox": null,
+            "youtube": {
+              "uri": "https://www.youtube.com/channel/UC3N8-c7xIbzlzBmRPHdNP8w"
+            },
+            "twitter": null,
+            "speedrunslive": null,
+            "links": [
+              {
+                "rel": "self",
+                "uri": "https://www.speedrun.com/api/v1/users/v813edlx"
+              },
+              {
+                "rel": "runs",
+                "uri": "https://www.speedrun.com/api/v1/runs?user=v813edlx"
+              },
+              {
+                "rel": "games",
+                "uri": "https://www.speedrun.com/api/v1/games?moderator=v813edlx"
+              },
+              {
+                "rel": "personal-bests",
+                "uri": "https://www.speedrun.com/api/v1/users/v813edlx/personal-bests"
+              }
+            ]
+          },
+          {
+            "rel": "guest",
+            "name": "UbuntuJackson",
+            "links": [
+              {
+                "rel": "self",
+                "uri": "https://www.speedrun.com/api/v1/guests/UbuntuJackson"
+              },
+              {
+                "rel": "runs",
+                "uri": "https://www.speedrun.com/api/v1/runs?guest=UbuntuJackson"
+              }
+            ]
+          },
+          {
+            "rel": "guest",
+            "name": "Yooshino",
+            "links": [
+              {
+                "rel": "self",
+                "uri": "https://www.speedrun.com/api/v1/guests/Yooshino"
+              },
+              {
+                "rel": "runs",
+                "uri": "https://www.speedrun.com/api/v1/runs?guest=Yooshino"
+              }
+            ]
+          }
+        ]
+      },
+      "regions": {
+        "data": []
+      },
+      "platforms": {
+        "data": [
+          {
+            "id": "8gej2n93",
+            "name": "PC",
+            "released": 1970,
+            "links": [
+              {
+                "rel": "self",
+                "uri": "https://www.speedrun.com/api/v1/platforms/8gej2n93"
+              },
+              {
+                "rel": "games",
+                "uri": "https://www.speedrun.com/api/v1/games?platform=8gej2n93"
+              },
+              {
+                "rel": "runs",
+                "uri": "https://www.speedrun.com/api/v1/runs?platform=8gej2n93"
+              }
+            ]
+          }
+        ]
+      },
+      "variables": {
+        "data": [
+          {
+            "id": "j84kwwjn",
+            "name": "Full Game - The Invasion 2",
+            "category": "jdzme6kv",
+            "scope": {
+              "type": "global"
+            },
+            "mandatory": true,
+            "user-defined": false,
+            "obsoletes": true,
+            "values": {
+              "_note": "`choices` is deprecated, please use `values` instead",
+              "choices": {
+                "zqomrrp1": "Any%",
+                "013vmzrl": "100%",
+                "013w55dq": "All Stars%",
+                "klrzwwj1": "Main Exits",
+                "0q5omg71": "Any% Any Characters"
+              },
+              "values": {
+                "zqomrrp1": {
+                  "label": "Any%",
+                  "rules": "Any% rules\r\nBeat The Invasion 2 episode with any of the following characters (Mario, Luigi, Peach, Toad, Link) you want. Timer starts on first Input and ends when you kill Bowser.\r\n\r\nUsing cheats not allowed.",
+                  "flags": {
+                    "miscellaneous": false
+                  }
+                },
+                "013vmzrl": {
+                  "label": "100%",
+                  "rules": "-Collect 7 stars, beat all levels, and unlock all paths.\r\n-No cheats allowed.\r\n-Timer starts at first input.\r\n-Timer ends upon final hit on Bowser in The King of Koopas.",
+                  "flags": {
+                    "miscellaneous": false
+                  }
+                },
+                "013w55dq": {
+                  "label": "All Stars%",
+                  "rules": "AllStars% rules\r\nCollect 7 stars in The Invasion 2 and end episode with any character you want. Timer starts on first input and ends when you kill Bowser. \r\n\r\nUsing cheats not allowed.",
+                  "flags": {
+                    "miscellaneous": false
+                  }
+                },
+                "klrzwwj1": {
+                  "label": "Main Exits",
+                  "rules": "-You're not allowed to take any Secret exits such as keys, stars or other such things.\r\n-That means that you need to go through all worlds and you can't unlock any of the toad houses.\r\n-Timer starts when episode is loaded.\r\n-Timer ends on the final hit on Bowser in The King of Koopas.",
+                  "flags": {
+                    "miscellaneous": false
+                  }
+                },
+                "0q5omg71": {
+                  "label": "Any% Any Characters",
+                  "rules": "You can use any ordering, any combination, and any version of any official characters you want.\r\n\r\nYou may not use Juni.\r\nYou may use a shared powerup script. This script has to hold for all characters\r\n\r\nWhen you submit please list out all characters and versions they are.",
+                  "flags": {
+                    "miscellaneous": false
+                  }
+                }
+              },
+              "default": "zqomrrp1"
+            },
+            "is-subcategory": true,
+            "links": [
+              {
+                "rel": "self",
+                "uri": "https://www.speedrun.com/api/v1/variables/j84kwwjn"
+              },
+              {
+                "rel": "game",
+                "uri": "https://www.speedrun.com/api/v1/games/pdv0x91w"
+              },
+              {
+                "rel": "category",
+                "uri": "https://www.speedrun.com/api/v1/categories/jdzme6kv"
+              }
+            ]
+          },
+          {
+            "id": "9l73ympn",
+            "name": "Shared Powerups",
+            "category": null,
+            "scope": {
+              "type": "full-game"
+            },
+            "mandatory": true,
+            "user-defined": true,
+            "obsoletes": true,
+            "values": {
+              "_note": "`choices` is deprecated, please use `values` instead",
+              "choices": {
+                "zqoydzx1": "No",
+                "5q8e5w3q": "Yes"
+              },
+              "values": {
+                "zqoydzx1": {
+                  "label": "No"
+                },
+                "5q8e5w3q": {
+                  "label": "Yes"
+                }
+              },
+              "default": null
+            },
+            "is-subcategory": false,
+            "links": [
+              {
+                "rel": "self",
+                "uri": "https://www.speedrun.com/api/v1/variables/9l73ympn"
+              },
+              {
+                "rel": "game",
+                "uri": "https://www.speedrun.com/api/v1/games/pdv0x91w"
+              }
+            ]
+          },
+          {
+            "id": "0nw2mjdn",
+            "name": "Character",
+            "category": null,
+            "scope": {
+              "type": "global"
+            },
+            "mandatory": false,
+            "user-defined": true,
+            "obsoletes": true,
+            "values": {
+              "_note": "`choices` is deprecated, please use `values` instead",
+              "choices": {
+                "5lekggpl": "Mario",
+                "0q5oeer1": "Luigi",
+                "4lxxwwjl": "Toad",
+                "814xeewq": "Peach",
+                "z194gyjl": "Link",
+                "rqvmeoyq": "Other"
+              },
+              "values": {
+                "5lekggpl": {
+                  "label": "Mario"
+                },
+                "0q5oeer1": {
+                  "label": "Luigi"
+                },
+                "4lxxwwjl": {
+                  "label": "Toad"
+                },
+                "814xeewq": {
+                  "label": "Peach"
+                },
+                "z194gyjl": {
+                  "label": "Link"
+                },
+                "rqvmeoyq": {
+                  "label": "Other"
+                }
+              },
+              "default": null
+            },
+            "is-subcategory": false,
+            "links": [
+              {
+                "rel": "self",
+                "uri": "https://www.speedrun.com/api/v1/variables/0nw2mjdn"
+              },
+              {
+                "rel": "game",
+                "uri": "https://www.speedrun.com/api/v1/games/pdv0x91w"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "pagination": {
+    "offset": 0,
+    "max": 20,
+    "size": 1,
+    "links": []
+  }
+}

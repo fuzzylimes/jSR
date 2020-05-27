@@ -1,0 +1,193 @@
+{
+  "data": [
+    {
+      "weblink": "https://www.speedrun.com/smbx#The_Invasion_2",
+      "game": "pdv0x91w",
+      "category": "jdzme6kv",
+      "level": null,
+      "platform": null,
+      "region": null,
+      "emulators": null,
+      "video-only": false,
+      "timing": null,
+      "values": {},
+      "runs": [
+        {
+          "place": 1,
+          "run": {
+            "id": "yjkv04gm",
+            "weblink": "https://www.speedrun.com/smbx/run/yjkv04gm",
+            "game": "pdv0x91w",
+            "level": null,
+            "category": "jdzme6kv",
+            "videos": {
+              "links": [
+                {
+                  "uri": "https://www.youtube.com/watch?v=-U12e2rqsEA"
+                }
+              ]
+            },
+            "comment": "Here's how I calculated my time if you want to double check.\r\n\r\nI entered the Bowser Boss Fight at 28:16:094. That boss fight took 11:856. There was also a save quit after I died at Random Water Level at 18:52:918. I entered the level and quit at 18:53:776, which adds an extra 00:658.\r\n\r\nAdding 28:27:950+00:658+11:856 finalizes my time as 28:28:608\r\n\r\nSub 28 is most likely possible based on my past 2 runs. However, I will not be going for them for a long time unless I get it at Fangame Marathon 2018.",
+            "status": {
+              "status": "verified",
+              "examiner": "0jm6w6o8",
+              "verify-date": "2018-04-17T15:58:35Z"
+            },
+            "players": [
+              {
+                "rel": "user",
+                "id": "v813edlx",
+                "uri": "https://www.speedrun.com/api/v1/users/v813edlx"
+              }
+            ],
+            "date": "2018-04-17",
+            "submitted": "2018-04-17T02:00:58Z",
+            "times": {
+              "primary": "PT28M28.608S",
+              "primary_t": 1708.608,
+              "realtime": "PT28M28.608S",
+              "realtime_t": 1708.608,
+              "realtime_noloads": null,
+              "realtime_noloads_t": 0,
+              "ingame": null,
+              "ingame_t": 0
+            },
+            "system": {
+              "platform": "8gej2n93",
+              "emulated": false,
+              "region": null
+            },
+            "splits": null,
+            "values": {
+              "j84kwwjn": "0q5omg71",
+              "9l73ympn": "5q8e5w3q",
+              "0nw2mjdn": "rqvmeoyq"
+            }
+          }
+        },
+        {
+          "place": 2,
+          "run": {
+            "id": "yl07qj3y",
+            "weblink": "https://www.speedrun.com/smbx/run/yl07qj3y",
+            "game": "pdv0x91w",
+            "level": null,
+            "category": "jdzme6kv",
+            "videos": {
+              "links": [
+                {
+                  "uri": "https://www.supermariobrosx.org/forums/viewtopic.php?f=69&t=20870"
+                }
+              ]
+            },
+            "comment": null,
+            "status": {
+              "status": "verified",
+              "examiner": "v813edlx",
+              "verify-date": "2019-10-01T18:06:23Z"
+            },
+            "players": [
+              {
+                "rel": "guest",
+                "name": "UbuntuJackson",
+                "uri": "https://www.speedrun.com/api/v1/guests/UbuntuJackson"
+              }
+            ],
+            "date": "2018-08-21",
+            "submitted": "2019-10-01T18:06:23Z",
+            "times": {
+              "primary": "PT28M44.736S",
+              "primary_t": 1724.736,
+              "realtime": "PT28M44.736S",
+              "realtime_t": 1724.736,
+              "realtime_noloads": null,
+              "realtime_noloads_t": 0,
+              "ingame": null,
+              "ingame_t": 0
+            },
+            "system": {
+              "platform": "8gej2n93",
+              "emulated": false,
+              "region": null
+            },
+            "splits": null,
+            "values": {
+              "j84kwwjn": "zqomrrp1",
+              "9l73ympn": "zqoydzx1",
+              "0nw2mjdn": "rqvmeoyq"
+            }
+          }
+        },
+        {
+          "place": 3,
+          "run": {
+            "id": "0znnw48z",
+            "weblink": "https://www.speedrun.com/smbx/run/0znnw48z",
+            "game": "pdv0x91w",
+            "level": null,
+            "category": "jdzme6kv",
+            "videos": {
+              "links": [
+                {
+                  "uri": "https://youtu.be/Udao-FxcDuc"
+                }
+              ]
+            },
+            "comment": "I don't have arms :D",
+            "status": {
+              "status": "verified",
+              "examiner": "48g06k1x",
+              "verify-date": "2017-02-19T13:44:05Z"
+            },
+            "players": [
+              {
+                "rel": "guest",
+                "name": "Yooshino",
+                "uri": "https://www.speedrun.com/api/v1/guests/Yooshino"
+              }
+            ],
+            "date": "2017-02-19",
+            "submitted": "2017-02-19T13:44:05Z",
+            "times": {
+              "primary": "PT53M41.375S",
+              "primary_t": 3221.375,
+              "realtime": "PT53M41.375S",
+              "realtime_t": 3221.375,
+              "realtime_noloads": null,
+              "realtime_noloads_t": 0,
+              "ingame": null,
+              "ingame_t": 0
+            },
+            "system": {
+              "platform": "8gej2n93",
+              "emulated": false,
+              "region": null
+            },
+            "splits": null,
+            "values": {
+              "j84kwwjn": "zqomrrp1",
+              "9l73ympn": "zqoydzx1",
+              "0nw2mjdn": "0q5oeer1"
+            }
+          }
+        }
+      ],
+      "links": [
+        {
+          "rel": "game",
+          "uri": "https://www.speedrun.com/api/v1/games/pdv0x91w"
+        },
+        {
+          "rel": "category",
+          "uri": "https://www.speedrun.com/api/v1/categories/jdzme6kv"
+        }
+      ]
+    }
+  ],
+  "pagination": {
+    "offset": 0,
+    "max": 20,
+    "size": 1,
+    "links": []
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "data": {
+    "id": "o86vmv3j",
+    "names": {
+      "international": "Elajjaz",
+      "japanese": null
+    },
+    "weblink": "https://www.speedrun.com/user/Elajjaz",
+    "name-style": {
+      "style": "gradient",
+      "color-from": {
+        "light": "#EE2222",
+        "dark": "#EE4444"
+      },
+      "color-to": {
+        "light": "#EE2222",
+        "dark": "#EE4444"
+      }
+    },
+    "role": "user",
+    "signup": "2015-12-02T12:37:03Z",
+    "location": {
+      "country": {
+        "code": "se",
+        "names": {
+          "international": "Sweden",
+          "japanese": null
+        }
+      }
+    },
+    "twitch": {
+      "uri": "https://www.twitch.tv/Elajjaz"
+    },
+    "hitbox": null,
+    "youtube": {
+      "uri": "https://www.youtube.com/user/Elajjaz"
+    },
+    "twitter": {
+      "uri": "https://www.twitter.com/Elajjaz"
+    },
+    "speedrunslive": {
+      "uri": "http://www.speedrunslive.com/profiles/#!/Elajjaz"
+    },
+    "links": [
+      {
+        "rel": "self",
+        "uri": "https://www.speedrun.com/api/v1/users/o86vmv3j"
+      },
+      {
+        "rel": "runs",
+        "uri": "https://www.speedrun.com/api/v1/runs?user=o86vmv3j"
+      },
+      {
+        "rel": "games",
+        "uri": "https://www.speedrun.com/api/v1/games?moderator=o86vmv3j"
+      },
+      {
+        "rel": "personal-bests",
+        "uri": "https://www.speedrun.com/api/v1/users/o86vmv3j/personal-bests"
+      }
+    ]
+  }
+}

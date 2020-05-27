@@ -1,0 +1,40 @@
+{
+  "data": {
+    "id": "jdzme6kv",
+    "name": "The Invasion 2",
+    "weblink": "https://www.speedrun.com/smbx#The_Invasion_2",
+    "type": "per-game",
+    "rules": "Beat The Invasion 2 with the following characters:  Mario, Luigi, Peach, Toad, and Link.\r\n\r\nTimer starts intro level starts and ends when you kill Bowser.\r\n\r\nMultiplayer is banned.\r\n\r\nUsing cheat codes is banned.\r\n\r\nInfinites Are Banned",
+    "players": {
+      "type": "exactly",
+      "value": 1
+    },
+    "miscellaneous": false,
+    "links": [
+      {
+        "rel": "self",
+        "uri": "https://www.speedrun.com/api/v1/categories/jdzme6kv"
+      },
+      {
+        "rel": "game",
+        "uri": "https://www.speedrun.com/api/v1/games/pdv0x91w"
+      },
+      {
+        "rel": "variables",
+        "uri": "https://www.speedrun.com/api/v1/categories/jdzme6kv/variables"
+      },
+      {
+        "rel": "records",
+        "uri": "https://www.speedrun.com/api/v1/categories/jdzme6kv/records"
+      },
+      {
+        "rel": "runs",
+        "uri": "https://www.speedrun.com/api/v1/runs?category=jdzme6kv"
+      },
+      {
+        "rel": "leaderboard",
+        "uri": "https://www.speedrun.com/api/v1/leaderboards/pdv0x91w/category/jdzme6kv"
+      }
+    ]
+  }
+}

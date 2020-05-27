@@ -1,0 +1,82 @@
+{
+  "data": [
+    {
+      "id": "nd2ekj5d",
+      "names": {
+        "international": ".hack//G.U. Last Recode",
+        "japanese": null
+      },
+      "abbreviation": "guhd",
+      "weblink": "https://www.speedrun.com/guhd"
+    },
+    {
+      "id": "pd0y226e",
+      "names": {
+        "international": ".hack//G.U. Volume 1: Rebirth",
+        "japanese": null
+      },
+      "abbreviation": ".hack_g.u._volume_1_rebirth",
+      "weblink": "https://www.speedrun.com/.hack_g.u._volume_1_rebirth"
+    },
+    {
+      "id": "kdk7ye1m",
+      "names": {
+        "international": ".hack//G.U. Volume 2: Reminisce",
+        "japanese": null
+      },
+      "abbreviation": ".hack_g.u._volume_2_reminisce",
+      "weblink": "https://www.speedrun.com/.hack_g.u._volume_2_reminisce"
+    },
+    {
+      "id": "o1ygzr1q",
+      "names": {
+        "international": ".hack//G.U. Volume 3: Redemption",
+        "japanese": null
+      },
+      "abbreviation": ".hack_g.u._volume_3_redemption",
+      "weblink": "https://www.speedrun.com/.hack_g.u._volume_3_redemption"
+    },
+    {
+      "id": "k6qrzm1g",
+      "names": {
+        "international": ".hack//Infection",
+        "japanese": ".hack//感染拡大"
+      },
+      "abbreviation": ".hackinfection",
+      "weblink": "https://www.speedrun.com/.hackinfection"
+    },
+    {
+      "id": "369k2gdl",
+      "names": {
+        "international": ".hack//Mutation",
+        "japanese": ".hack//悪性変異"
+      },
+      "abbreviation": ".hackmutation",
+      "weblink": "https://www.speedrun.com/.hackmutation"
+    },
+    {
+      "id": "y65p30de",
+      "names": {
+        "international": ".hack//Outbreak",
+        "japanese": null
+      },
+      "abbreviation": ".hackoutbreak",
+      "weblink": "https://www.speedrun.com/.hackoutbreak"
+    },
+    {
+      "id": "w6j2ye1j",
+      "names": {
+        "international": ".hack//Quarantine",
+        "japanese": null
+      },
+      "abbreviation": ".hackquarantine",
+      "weblink": "https://www.speedrun.com/.hackquarantine"
+    }
+  ],
+  "pagination": {
+    "offset": 0,
+    "max": 250,
+    "size": 8,
+    "links": []
+  }
+}

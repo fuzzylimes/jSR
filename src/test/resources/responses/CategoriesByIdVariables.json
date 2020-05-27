@@ -1,0 +1,170 @@
+{
+  "data": [
+    {
+      "id": "j84kwwjn",
+      "name": "Full Game - The Invasion 2",
+      "category": "jdzme6kv",
+      "scope": {
+        "type": "global"
+      },
+      "mandatory": true,
+      "user-defined": false,
+      "obsoletes": true,
+      "values": {
+        "_note": "`choices` is deprecated, please use `values` instead",
+        "choices": {
+          "zqomrrp1": "Any%",
+          "013vmzrl": "100%",
+          "013w55dq": "All Stars%",
+          "klrzwwj1": "Main Exits",
+          "0q5omg71": "Any% Any Characters"
+        },
+        "values": {
+          "zqomrrp1": {
+            "label": "Any%",
+            "rules": "Any% rules\r\nBeat The Invasion 2 episode with any of the following characters (Mario, Luigi, Peach, Toad, Link) you want. Timer starts on first Input and ends when you kill Bowser.\r\n\r\nUsing cheats not allowed.",
+            "flags": {
+              "miscellaneous": false
+            }
+          },
+          "013vmzrl": {
+            "label": "100%",
+            "rules": "-Collect 7 stars, beat all levels, and unlock all paths.\r\n-No cheats allowed.\r\n-Timer starts at first input.\r\n-Timer ends upon final hit on Bowser in The King of Koopas.",
+            "flags": {
+              "miscellaneous": false
+            }
+          },
+          "013w55dq": {
+            "label": "All Stars%",
+            "rules": "AllStars% rules\r\nCollect 7 stars in The Invasion 2 and end episode with any character you want. Timer starts on first input and ends when you kill Bowser. \r\n\r\nUsing cheats not allowed.",
+            "flags": {
+              "miscellaneous": false
+            }
+          },
+          "klrzwwj1": {
+            "label": "Main Exits",
+            "rules": "-You're not allowed to take any Secret exits such as keys, stars or other such things.\r\n-That means that you need to go through all worlds and you can't unlock any of the toad houses.\r\n-Timer starts when episode is loaded.\r\n-Timer ends on the final hit on Bowser in The King of Koopas.",
+            "flags": {
+              "miscellaneous": false
+            }
+          },
+          "0q5omg71": {
+            "label": "Any% Any Characters",
+            "rules": "You can use any ordering, any combination, and any version of any official characters you want.\r\n\r\nYou may not use Juni.\r\nYou may use a shared powerup script. This script has to hold for all characters\r\n\r\nWhen you submit please list out all characters and versions they are.",
+            "flags": {
+              "miscellaneous": false
+            }
+          }
+        },
+        "default": "zqomrrp1"
+      },
+      "is-subcategory": true,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/variables/j84kwwjn"
+        },
+        {
+          "rel": "game",
+          "uri": "https://www.speedrun.com/api/v1/games/pdv0x91w"
+        },
+        {
+          "rel": "category",
+          "uri": "https://www.speedrun.com/api/v1/categories/jdzme6kv"
+        }
+      ]
+    },
+    {
+      "id": "9l73ympn",
+      "name": "Shared Powerups",
+      "category": null,
+      "scope": {
+        "type": "full-game"
+      },
+      "mandatory": true,
+      "user-defined": true,
+      "obsoletes": true,
+      "values": {
+        "_note": "`choices` is deprecated, please use `values` instead",
+        "choices": {
+          "zqoydzx1": "No",
+          "5q8e5w3q": "Yes"
+        },
+        "values": {
+          "zqoydzx1": {
+            "label": "No"
+          },
+          "5q8e5w3q": {
+            "label": "Yes"
+          }
+        },
+        "default": null
+      },
+      "is-subcategory": false,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/variables/9l73ympn"
+        },
+        {
+          "rel": "game",
+          "uri": "https://www.speedrun.com/api/v1/games/pdv0x91w"
+        }
+      ]
+    },
+    {
+      "id": "0nw2mjdn",
+      "name": "Character",
+      "category": null,
+      "scope": {
+        "type": "global"
+      },
+      "mandatory": false,
+      "user-defined": true,
+      "obsoletes": true,
+      "values": {
+        "_note": "`choices` is deprecated, please use `values` instead",
+        "choices": {
+          "5lekggpl": "Mario",
+          "0q5oeer1": "Luigi",
+          "4lxxwwjl": "Toad",
+          "814xeewq": "Peach",
+          "z194gyjl": "Link",
+          "rqvmeoyq": "Other"
+        },
+        "values": {
+          "5lekggpl": {
+            "label": "Mario"
+          },
+          "0q5oeer1": {
+            "label": "Luigi"
+          },
+          "4lxxwwjl": {
+            "label": "Toad"
+          },
+          "814xeewq": {
+            "label": "Peach"
+          },
+          "z194gyjl": {
+            "label": "Link"
+          },
+          "rqvmeoyq": {
+            "label": "Other"
+          }
+        },
+        "default": null
+      },
+      "is-subcategory": false,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/variables/0nw2mjdn"
+        },
+        {
+          "rel": "game",
+          "uri": "https://www.speedrun.com/api/v1/games/pdv0x91w"
+        }
+      ]
+    }
+  ]
+}

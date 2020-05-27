@@ -1,0 +1,81 @@
+{
+  "data": {
+    "id": "8nwjpj7y",
+    "names": {
+      "international": ".hack//",
+      "japanese": null
+    },
+    "abbreviation": ".hack",
+    "weblink": "https://www.speedrun.com/.hack",
+    "moderators": {
+      "68we7q8g": "moderator",
+      "qjoee786": "moderator",
+      "48ge6kyj": "super-moderator"
+    },
+    "created": "2015-11-19T03:09:47Z",
+    "assets": {
+      "logo": {
+        "uri": "https://www.speedrun.com/themes/.hack/logo.png",
+        "width": 720,
+        "height": 128
+      },
+      "cover-tiny": {
+        "uri": "https://www.speedrun.com/themes/.hack/cover-32.png",
+        "width": 45,
+        "height": 28
+      },
+      "cover-small": {
+        "uri": "https://www.speedrun.com/themes/.hack/cover-64.png",
+        "width": 90,
+        "height": 56
+      },
+      "cover-medium": {
+        "uri": "https://www.speedrun.com/themes/.hack/cover-128.png",
+        "width": 180,
+        "height": 112
+      },
+      "cover-large": {
+        "uri": "https://www.speedrun.com/themes/.hack/cover-256.png",
+        "width": 360,
+        "height": 225
+      },
+      "icon": {
+        "uri": "https://www.speedrun.com/themes/Default/favicon.png",
+        "width": 64,
+        "height": 64
+      },
+      "trophy-1st": {
+        "uri": "https://www.speedrun.com/themes/Default/1st.png",
+        "width": 64,
+        "height": 64
+      },
+      "trophy-2nd": {
+        "uri": "https://www.speedrun.com/themes/Default/2nd.png",
+        "width": 64,
+        "height": 64
+      },
+      "trophy-3rd": {
+        "uri": "https://www.speedrun.com/themes/Default/3rd.png",
+        "width": 64,
+        "height": 64
+      },
+      "trophy-4th": null,
+      "background": {
+        "uri": "https://www.speedrun.com/themes/.hack/background.png",
+        "width": 3840,
+        "height": 2160
+      },
+      "foreground": null
+    },
+    "links": [
+      {
+        "rel": "self",
+        "uri": "https://www.speedrun.com/api/v1/series/8nwjpj7y"
+      },
+      {
+        "rel": "games",
+        "uri": "https://www.speedrun.com/api/v1/series/8nwjpj7y/games"
+      }
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "data": {
+    "id": "jm9577eo",
+    "name": "Atari Flashback",
+    "released": 2012,
+    "links": [
+      {
+        "rel": "self",
+        "uri": "https://www.speedrun.com/api/v1/platforms/jm9577eo"
+      },
+      {
+        "rel": "games",
+        "uri": "https://www.speedrun.com/api/v1/games?platform=jm9577eo"
+      },
+      {
+        "rel": "runs",
+        "uri": "https://www.speedrun.com/api/v1/runs?platform=jm9577eo"
+      }
+    ]
+  }
+}

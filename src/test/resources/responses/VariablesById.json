@@ -1,0 +1,109 @@
+{
+  "data": {
+    "id": "dlomqkj8",
+    "name": "Level",
+    "category": null,
+    "scope": {
+      "type": "single-level",
+      "level": "z98nxor9"
+    },
+    "mandatory": true,
+    "user-defined": false,
+    "obsoletes": true,
+    "values": {
+      "_note": "`choices` is deprecated, please use `values` instead",
+      "choices": {
+        "klr7dwjq": "1-1",
+        "21ddn741": "1-2",
+        "5q8z37gq": "1-3",
+        "4qy4me4q": "1-Tower",
+        "mln3760q": "1-4",
+        "8107yewl": "1-5",
+        "9qjdoyeq": "1-A",
+        "jq67wk31": "1-Castle",
+        "5lmnejjq": "Individual World RTA"
+      },
+      "values": {
+        "klr7dwjq": {
+          "label": "1-1",
+          "rules": null,
+          "flags": {
+            "miscellaneous": null
+          }
+        },
+        "21ddn741": {
+          "label": "1-2",
+          "rules": null,
+          "flags": {
+            "miscellaneous": null
+          }
+        },
+        "5q8z37gq": {
+          "label": "1-3",
+          "rules": null,
+          "flags": {
+            "miscellaneous": null
+          }
+        },
+        "4qy4me4q": {
+          "label": "1-Tower",
+          "rules": null,
+          "flags": {
+            "miscellaneous": null
+          }
+        },
+        "mln3760q": {
+          "label": "1-4",
+          "rules": null,
+          "flags": {
+            "miscellaneous": null
+          }
+        },
+        "8107yewl": {
+          "label": "1-5",
+          "rules": null,
+          "flags": {
+            "miscellaneous": null
+          }
+        },
+        "9qjdoyeq": {
+          "label": "1-A",
+          "rules": null,
+          "flags": {
+            "miscellaneous": null
+          }
+        },
+        "jq67wk31": {
+          "label": "1-Castle",
+          "rules": null,
+          "flags": {
+            "miscellaneous": null
+          }
+        },
+        "5lmnejjq": {
+          "label": "Individual World RTA",
+          "rules": null,
+          "flags": {
+            "miscellaneous": false
+          }
+        }
+      },
+      "default": "5lmnejjq"
+    },
+    "is-subcategory": true,
+    "links": [
+      {
+        "rel": "self",
+        "uri": "https://www.speedrun.com/api/v1/variables/dlomqkj8"
+      },
+      {
+        "rel": "game",
+        "uri": "https://www.speedrun.com/api/v1/games/lde302j6"
+      },
+      {
+        "rel": "level",
+        "uri": "https://www.speedrun.com/api/v1/levels/z98nxor9"
+      }
+    ]
+  }
+}

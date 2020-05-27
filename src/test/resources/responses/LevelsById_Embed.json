@@ -1,0 +1,176 @@
+{
+  "data": {
+    "id": "5d74ypvd",
+    "name": "-The Invasion 2 - 01-01 Super Easy Road - by Redigit",
+    "weblink": "https://www.speedrun.com/smbx/-The_Invasion_2_-_01-01_Super_Easy_Road_-_by_Redigit",
+    "rules": null,
+    "links": [
+      {
+        "rel": "self",
+        "uri": "https://www.speedrun.com/api/v1/levels/5d74ypvd"
+      },
+      {
+        "rel": "game",
+        "uri": "https://www.speedrun.com/api/v1/games/pdv0x91w"
+      },
+      {
+        "rel": "categories",
+        "uri": "https://www.speedrun.com/api/v1/levels/5d74ypvd/categories"
+      },
+      {
+        "rel": "variables",
+        "uri": "https://www.speedrun.com/api/v1/levels/5d74ypvd/variables"
+      },
+      {
+        "rel": "records",
+        "uri": "https://www.speedrun.com/api/v1/levels/5d74ypvd/records"
+      },
+      {
+        "rel": "runs",
+        "uri": "https://www.speedrun.com/api/v1/runs?level=5d74ypvd"
+      },
+      {
+        "rel": "leaderboard",
+        "uri": "https://www.speedrun.com/api/v1/leaderboards/pdv0x91w/level/5d74ypvd/7dgrergk"
+      }
+    ],
+    "categories": {
+      "data": [
+        {
+          "id": "7dgrergk",
+          "name": "Levels (With Powerup)",
+          "weblink": "https://www.speedrun.com/smbx/-The_Invasion_2_-_01-01_Super_Easy_Road_-_by_Redigit#Levels_With_Powerup",
+          "type": "per-level",
+          "rules": "Timer starts first frame of levels and ends upon last input.",
+          "players": {
+            "type": "exactly",
+            "value": 1
+          },
+          "miscellaneous": false,
+          "links": [
+            {
+              "rel": "self",
+              "uri": "https://www.speedrun.com/api/v1/categories/7dgrergk"
+            },
+            {
+              "rel": "game",
+              "uri": "https://www.speedrun.com/api/v1/games/pdv0x91w"
+            },
+            {
+              "rel": "variables",
+              "uri": "https://www.speedrun.com/api/v1/categories/7dgrergk/variables"
+            },
+            {
+              "rel": "records",
+              "uri": "https://www.speedrun.com/api/v1/categories/7dgrergk/records"
+            },
+            {
+              "rel": "runs",
+              "uri": "https://www.speedrun.com/api/v1/runs?category=7dgrergk"
+            },
+            {
+              "rel": "leaderboard",
+              "uri": "https://www.speedrun.com/api/v1/leaderboards/pdv0x91w/level/5d74ypvd/7dgrergk"
+            }
+          ]
+        },
+        {
+          "id": "q25q5jv2",
+          "name": "Levels (Without Powerup)",
+          "weblink": "https://www.speedrun.com/smbx/-The_Invasion_2_-_01-01_Super_Easy_Road_-_by_Redigit#Levels_Without_Powerup",
+          "type": "per-level",
+          "rules": "Timer starts first frame of levels and ends upon last input. Must start small.",
+          "players": {
+            "type": "exactly",
+            "value": 1
+          },
+          "miscellaneous": false,
+          "links": [
+            {
+              "rel": "self",
+              "uri": "https://www.speedrun.com/api/v1/categories/q25q5jv2"
+            },
+            {
+              "rel": "game",
+              "uri": "https://www.speedrun.com/api/v1/games/pdv0x91w"
+            },
+            {
+              "rel": "variables",
+              "uri": "https://www.speedrun.com/api/v1/categories/q25q5jv2/variables"
+            },
+            {
+              "rel": "records",
+              "uri": "https://www.speedrun.com/api/v1/categories/q25q5jv2/records"
+            },
+            {
+              "rel": "runs",
+              "uri": "https://www.speedrun.com/api/v1/runs?category=q25q5jv2"
+            },
+            {
+              "rel": "leaderboard",
+              "uri": "https://www.speedrun.com/api/v1/leaderboards/pdv0x91w/level/5d74ypvd/q25q5jv2"
+            }
+          ]
+        }
+      ]
+    },
+    "variables": {
+      "data": [
+        {
+          "id": "0nw2mjdn",
+          "name": "Character",
+          "category": null,
+          "scope": {
+            "type": "global"
+          },
+          "mandatory": false,
+          "user-defined": true,
+          "obsoletes": true,
+          "values": {
+            "_note": "`choices` is deprecated, please use `values` instead",
+            "choices": {
+              "5lekggpl": "Mario",
+              "0q5oeer1": "Luigi",
+              "4lxxwwjl": "Toad",
+              "814xeewq": "Peach",
+              "z194gyjl": "Link",
+              "rqvmeoyq": "Other"
+            },
+            "values": {
+              "5lekggpl": {
+                "label": "Mario"
+              },
+              "0q5oeer1": {
+                "label": "Luigi"
+              },
+              "4lxxwwjl": {
+                "label": "Toad"
+              },
+              "814xeewq": {
+                "label": "Peach"
+              },
+              "z194gyjl": {
+                "label": "Link"
+              },
+              "rqvmeoyq": {
+                "label": "Other"
+              }
+            },
+            "default": null
+          },
+          "is-subcategory": false,
+          "links": [
+            {
+              "rel": "self",
+              "uri": "https://www.speedrun.com/api/v1/variables/0nw2mjdn"
+            },
+            {
+              "rel": "game",
+              "uri": "https://www.speedrun.com/api/v1/games/pdv0x91w"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,1527 @@
+{
+  "data": [
+    {
+      "id": "8nwjpj7y",
+      "names": {
+        "international": ".hack//",
+        "japanese": null
+      },
+      "abbreviation": ".hack",
+      "weblink": "https://www.speedrun.com/.hack",
+      "moderators": {
+        "68we7q8g": "moderator",
+        "qjoee786": "moderator",
+        "48ge6kyj": "super-moderator"
+      },
+      "created": "2015-11-19T03:09:47Z",
+      "assets": {
+        "logo": {
+          "uri": "https://www.speedrun.com/themes/.hack/logo.png",
+          "width": 720,
+          "height": 128
+        },
+        "cover-tiny": {
+          "uri": "https://www.speedrun.com/themes/.hack/cover-32.png",
+          "width": 45,
+          "height": 28
+        },
+        "cover-small": {
+          "uri": "https://www.speedrun.com/themes/.hack/cover-64.png",
+          "width": 90,
+          "height": 56
+        },
+        "cover-medium": {
+          "uri": "https://www.speedrun.com/themes/.hack/cover-128.png",
+          "width": 180,
+          "height": 112
+        },
+        "cover-large": {
+          "uri": "https://www.speedrun.com/themes/.hack/cover-256.png",
+          "width": 360,
+          "height": 225
+        },
+        "icon": {
+          "uri": "https://www.speedrun.com/themes/Default/favicon.png",
+          "width": 64,
+          "height": 64
+        },
+        "trophy-1st": {
+          "uri": "https://www.speedrun.com/themes/Default/1st.png",
+          "width": 64,
+          "height": 64
+        },
+        "trophy-2nd": {
+          "uri": "https://www.speedrun.com/themes/Default/2nd.png",
+          "width": 64,
+          "height": 64
+        },
+        "trophy-3rd": {
+          "uri": "https://www.speedrun.com/themes/Default/3rd.png",
+          "width": 64,
+          "height": 64
+        },
+        "trophy-4th": null,
+        "background": {
+          "uri": "https://www.speedrun.com/themes/.hack/background.png",
+          "width": 3840,
+          "height": 2160
+        },
+        "foreground": null
+      },
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/series/8nwjpj7y"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/series/8nwjpj7y/games"
+        }
+      ]
+    },
+    {
+      "id": "m72kkx17",
+      "names": {
+        "international": "10 Gnomes",
+        "japanese": null
+      },
+      "abbreviation": "10_gnomes",
+      "weblink": "https://www.speedrun.com/10_gnomes",
+      "moderators": {
+        "98rlreq8": "super-moderator",
+        "qxk6wl28": "moderator"
+      },
+      "created": "2017-11-29T04:56:33Z",
+      "assets": {
+        "logo": {
+          "uri": "https://www.speedrun.com/themes/Default/logo.png",
+          "width": 640,
+          "height": 78
+        },
+        "cover-tiny": {
+          "uri": "https://www.speedrun.com/themes/10_gnomes/cover-32.png",
+          "width": 45,
+          "height": 45
+        },
+        "cover-small": {
+          "uri": "https://www.speedrun.com/themes/10_gnomes/cover-64.png",
+          "width": 90,
+          "height": 90
+        },
+        "cover-medium": {
+          "uri": "https://www.speedrun.com/themes/10_gnomes/cover-128.png",
+          "width": 180,
+          "height": 180
+        },
+        "cover-large": {
+          "uri": "https://www.speedrun.com/themes/10_gnomes/cover-256.png",
+          "width": 320,
+          "height": 320
+        },
+        "icon": {
+          "uri": "https://www.speedrun.com/themes/Default/favicon.png",
+          "width": 64,
+          "height": 64
+        },
+        "trophy-1st": {
+          "uri": "https://www.speedrun.com/themes/Default/1st.png",
+          "width": 64,
+          "height": 64
+        },
+        "trophy-2nd": {
+          "uri": "https://www.speedrun.com/themes/Default/2nd.png",
+          "width": 64,
+          "height": 64
+        },
+        "trophy-3rd": {
+          "uri": "https://www.speedrun.com/themes/Default/3rd.png",
+          "width": 64,
+          "height": 64
+        },
+        "trophy-4th": null,
+        "background": {
+          "uri": "https://www.speedrun.com/themes/10_gnomes/background.png",
+          "width": 1920,
+          "height": 1200
+        },
+        "foreground": null
+      },
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/series/m72kkx17"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/series/m72kkx17/games"
+        }
+      ]
+    },
+    {
+      "id": "r4gd1141",
+      "names": {
+        "international": "10 Second Ninja",
+        "japanese": null
+      },
+      "abbreviation": "10_second_ninja",
+      "weblink": "https://www.speedrun.com/10_second_ninja",
+      "moderators": {
+        "v811kr8p": "moderator",
+        "98rppqqj": "super-moderator",
+        "kj92mw78": "moderator"
+      },
+      "created": "2017-06-07T03:36:19Z",
+      "assets": {
+        "logo": {
+          "uri": "https://www.speedrun.com/themes/Default/logo.png",
+          "width": 640,
+          "height": 78
+        },
+        "cover-tiny": {
+          "uri": "https://www.speedrun.com/themes/10_second_ninja/cover-32.png",
+          "width": 45,
+          "height": 25
+        },
+        "cover-small": {
+          "uri": "https://www.speedrun.com/themes/10_second_ninja/cover-64.png",
+          "width": 90,
+          "height": 51
+        },
+        "cover-medium": {
+          "uri": "https://www.speedrun.com/themes/10_second_ninja/cover-128.png",
+          "width": 180,
+          "height": 103
+        },
+        "cover-large": {
+          "uri": "https://www.speedrun.com/themes/10_second_ninja/cover-256.png",
+          "width": 360,
+          "height": 207
+        },
+        "icon": {
+          "uri": "https://www.speedrun.com/themes/Default/favicon.png",
+          "width": 64,
+          "height": 64
+        },
+        "trophy-1st": {
+          "uri": "https://www.speedrun.com/themes/Default/1st.png",
+          "width": 64,
+          "height": 64
+        },
+        "trophy-2nd": {
+          "uri": "https://www.speedrun.com/themes/Default/2nd.png",
+          "width": 64,
+          "height": 64
+        },
+        "trophy-3rd": {
+          "uri": "https://www.speedrun.com/themes/Default/3rd.png",
+          "width": 64,
+          "height": 64
+        },
+        "trophy-4th": null,
+        "background": {
+          "uri": "https://www.speedrun.com/themes/10_second_ninja/background.png",
+          "width": 1080,
+          "height": 1197
+        },
+        "foreground": null
+      },
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/series/r4gd1141"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/series/r4gd1141/games"
+        }
+      ]
+    },
+    {
+      "id": "vnv30070",
+      "names": {
+        "international": "1080°",
+        "japanese": null
+      },
+      "abbreviation": "1080_snowboarding",
+      "weblink": "https://www.speedrun.com/1080_snowboarding",
+      "moderators": {
+        "kj9rz7j4": "super-moderator"
+      },
+      "created": null,
+      "assets": {
+        "logo": {
+          "uri": "https://www.speedrun.com/themes/Default/logo.png",
+          "width": 640,
+          "height": 78
+        },
+        "cover-tiny": {
+          "uri": "https://www.speedrun.com/themes/1080_snowboarding/cover-32.png",
+          "width": 45,
+          "height": 36
+        },
+        "cover-small": {
+          "uri": "https://www.speedrun.com/themes/1080_snowboarding/cover-64.png",
+          "width": 90,
+          "height": 72
+        },
+        "cover-medium": {
+          "uri": "https://www.speedrun.com/themes/1080_snowboarding/cover-128.png",
+          "width": 180,
+          "height": 144
+        },
+        "cover-large": {
+          "uri": "https://www.speedrun.com/themes/1080_snowboarding/cover-256.png",
+          "width": 360,
+          "height": 289
+        },
+        "icon": {
+          "uri": "https://www.speedrun.com/themes/Default/favicon.png",
+          "width": 64,
+          "height": 64
+        },
+        "trophy-1st": {
+          "uri": "https://www.speedrun.com/themes/Default/1st.png",
+          "width": 64,
+          "height": 64
+        },
+        "trophy-2nd": {
+          "uri": "https://www.speedrun.com/themes/Default/2nd.png",
+          "width": 64,
+          "height": 64
+        },
+        "trophy-3rd": {
+          "uri": "https://www.speedrun.com/themes/Default/3rd.png",
+          "width": 64,
+          "height": 64
+        },
+        "trophy-4th": null,
+        "background": null,
+        "foreground": null
+      },
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/series/vnv30070"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/series/vnv30070/games"
+        }
+      ]
+    },
+    {
+      "id": "34jdoo4o",
+      "names": {
+        "international": "12 Labours of Hercules",
+        "japanese": null
+      },
+      "abbreviation": "12loh",
+      "weblink": "https://www.speedrun.com/12loh",
+      "moderators": {
+        "68wk0748": "super-moderator"
+      },
+      "created": "2017-04-30T03:04:04Z",
+      "assets": {
+        "logo": {
+          "uri": "https://www.speedrun.com/themes/Default/logo.png",
+          "width": 640,
+          "height": 78
+        },
+        "cover-tiny": {
+          "uri": "https://www.speedrun.com/themes/12loh/cover-32.png",
+          "width": 32,
+          "height": 45
+        },
+        "cover-small": {
+          "uri": "https://www.speedrun.com/themes/12loh/cover-64.png",
+          "width": 64,
+          "height": 90
+        },
+        "cover-medium": {
+          "uri": "https://www.speedrun.com/themes/12loh/cover-128.png",
+          "width": 128,
+          "height": 180
+        },
+        "cover-large": {
+          "uri": "https://www.speedrun.com/themes/12loh/cover-256.png",
+          "width": 256,
+          "height": 360
+        },
+        "icon": {
+          "uri": "https://www.speedrun.com/themes/Default/favicon.png",
+          "width": 64,
+          "height": 64
+        },
+        "trophy-1st": {
+          "uri": "https://www.speedrun.com/themes/Default/1st.png",
+          "width": 64,
+          "height": 64
+        },
+        "trophy-2nd": {
+          "uri": "https://www.speedrun.com/themes/Default/2nd.png",
+          "width": 64,
+          "height": 64
+        },
+        "trophy-3rd": {
+          "uri": "https://www.speedrun.com/themes/Default/3rd.png",
+          "width": 64,
+          "height": 64
+        },
+        "trophy-4th": null,
+        "background": null,
+        "foreground": null
+      },
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/series/34jdoo4o"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/series/34jdoo4o/games"
+        }
+      ]
+    },
+    {
+      "id": "qnlmljk4",
+      "names": {
+        "international": "1940/194X",
+        "japanese": null
+      },
+      "abbreviation": "1940194x",
+      "weblink": "https://www.speedrun.com/1940194x",
+      "moderators": {
+        "7j4ndywx": "super-moderator"
+      },
+      "created": "2020-04-25T05:56:45Z",
+      "assets": {
+        "logo": {
+          "uri": "https://www.speedrun.com/themes/Default/logo.png",
+          "width": 640,
+          "height": 78
+        },
+        "cover-tiny": {
+          "uri": "https://www.speedrun.com/themes/1940194x/cover-32.png",
+          "width": 45,
+          "height": 10
+        },
+        "cover-small": {
+          "uri": "https://www.speedrun.com/themes/1940194x/cover-64.png",
+          "width": 90,
+          "height": 20
+        },
+        "cover-medium": {
+          "uri": "https://www.speedrun.com/themes/1940194x/cover-128.png",
+          "width": 180,
+          "height": 41
+        },
+        "cover-large": {
+          "uri": "https://www.speedrun.com/themes/1940194x/cover-256.png",
+          "width": 226,
+          "height": 52
+        },
+        "icon": {
+          "uri": "https://www.speedrun.com/themes/1940194x/favicon.png",
+          "width": 64,
+          "height": 14
+        },
+        "trophy-1st": {
+          "uri": "https://www.speedrun.com/themes/Default/1st.png",
+          "width": 64,
+          "height": 64
+        },
+        "trophy-2nd": {
+          "uri": "https://www.speedrun.com/themes/Default/2nd.png",
+          "width": 64,
+          "height": 64
+        },
+        "trophy-3rd": {
+          "uri": "https://www.speedrun.com/themes/Default/3rd.png",
+          "width": 64,
+          "height": 64
+        },
+        "trophy-4th": null,
+        "background": null,
+        "foreground": null
+      },
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/series/qnlmljk4"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/series/qnlmljk4/games"
+        }
+      ]
+    },
+    {
+      "id": "vnv3d307",
+      "names": {
+        "international": "3D Ultra Pinball",
+        "japanese": null
+      },
+      "abbreviation": "3d_ultra_pinball_series",
+      "weblink": "https://www.speedrun.com/3d_ultra_pinball_series",
+      "moderators": {
+        "qjnzo1wj": "super-moderator",
+        "1xykryz8": "super-moderator",
+        "v81pk5q8": "super-moderator",
+        "e8e7zz6x": "super-moderator"
+      },
+      "created": "2018-09-05T02:29:18Z",
+      "assets": {
+        "logo": {
+          "uri": "https://www.speedrun.com/themes/Default/logo.png",
+          "width": 640,
+          "height": 78
+        },
+        "cover-tiny": {
+          "uri": "https://www.speedrun.com/themes/3d_ultra_pinball_series/cover-32.png",
+          "width": 45,
+          "height": 33
+        },
+        "cover-small": {
+          "uri": "https://www.speedrun.com/themes/3d_ultra_pinball_series/cover-64.png",
+          "width": 90,
+          "height": 67
+        },
+        "cover-medium": {
+          "uri": "https://www.speedrun.com/themes/3d_ultra_pinball_series/cover-128.png",
+          "width": 180,
+          "height": 135
+        },
+        "cover-large": {
+          "uri": "https://www.speedrun.com/themes/3d_ultra_pinball_series/cover-256.png",
+          "width": 360,
+          "height": 270
+        },
+        "icon": {
+          "uri": "https://www.speedrun.com/themes/Default/favicon.png",
+          "width": 64,
+          "height": 64
+        },
+        "trophy-1st": {
+          "uri": "https://www.speedrun.com/themes/Default/1st.png",
+          "width": 64,
+          "height": 64
+        },
+        "trophy-2nd": {
+          "uri": "https://www.speedrun.com/themes/Default/2nd.png",
+          "width": 64,
+          "height": 64
+        },
+        "trophy-3rd": {
+          "uri": "https://www.speedrun.com/themes/Default/3rd.png",
+          "width": 64,
+          "height": 64
+        },
+        "trophy-4th": null,
+        "background": null,
+        "foreground": null
+      },
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/series/vnv3d307"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/series/vnv3d307/games"
+        }
+      ]
+    },
+    {
+      "id": "vnvjlpn0",
+      "names": {
+        "international": "4-in-1 Fun Pak",
+        "japanese": null
+      },
+      "abbreviation": "4-in-1_fun_pak_series",
+      "weblink": "https://www.speedrun.com/4-in-1_fun_pak_series",
+      "moderators": {
+        "zx7q4087": "super-moderator"
+      },
+      "created": "2015-12-19T17:30:44Z",
+      "assets": {
+        "logo": {
+          "uri": "https://www.speedrun.com/themes/Default/logo.png",
+          "width": 640,
+          "height": 78
+        },
+        "cover-tiny": {
+          "uri": "https://www.speedrun.com/themes/4-in-1_fun_pak_series/cover-32.png",
+          "width": 45,
+          "height": 40
+        },
+        "cover-small": {
+          "uri": "https://www.speedrun.com/themes/4-in-1_fun_pak_series/cover-64.png",
+          "width": 90,
+          "height": 81
+        },
+        "cover-medium": {
+          "uri": "https://www.speedrun.com/themes/4-in-1_fun_pak_series/cover-128.png",
+          "width": 180,
+          "height": 162
+        },
+        "cover-large": {
+          "uri": "https://www.speedrun.com/themes/4-in-1_fun_pak_series/cover-256.png",
+          "width": 320,
+          "height": 288
+        },
+        "icon": {
+          "uri": "https://www.speedrun.com/themes/Default/favicon.png",
+          "width": 64,
+          "height": 64
+        },
+        "trophy-1st": {
+          "uri": "https://www.speedrun.com/themes/Default/1st.png",
+          "width": 64,
+          "height": 64
+        },
+        "trophy-2nd": {
+          "uri": "https://www.speedrun.com/themes/Default/2nd.png",
+          "width": 64,
+          "height": 64
+        },
+        "trophy-3rd": {
+          "uri": "https://www.speedrun.com/themes/Default/3rd.png",
+          "width": 64,
+          "height": 64
+        },
+        "trophy-4th": null,
+        "background": null,
+        "foreground": null
+      },
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/series/vnvjlpn0"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/series/vnvjlpn0/games"
+        }
+      ]
+    },
+    {
+      "id": "5nk0pg49",
+      "names": {
+        "international": "8-Bit RTS",
+        "japanese": null
+      },
+      "abbreviation": "8bitrts",
+      "weblink": "https://www.speedrun.com/8bitrts",
+      "moderators": {
+        "zxz4r9jq": "super-moderator",
+        "qj2gv68k": "super-moderator"
+      },
+      "created": "2016-11-05T05:37:41Z",
+      "assets": {
+        "logo": {
+          "uri": "https://www.speedrun.com/themes/Default/logo.png",
+          "width": 640,
+          "height": 78
+        },
+        "cover-tiny": {
+          "uri": "https://www.speedrun.com/themes/8bitrts/cover-32.png",
+          "width": 45,
+          "height": 45
+        },
+        "cover-small": {
+          "uri": "https://www.speedrun.com/themes/8bitrts/cover-64.png",
+          "width": 90,
+          "height": 90
+        },
+        "cover-medium": {
+          "uri": "https://www.speedrun.com/themes/8bitrts/cover-128.png",
+          "width": 128,
+          "height": 128
+        },
+        "cover-large": {
+          "uri": "https://www.speedrun.com/themes/8bitrts/cover-256.png",
+          "width": 128,
+          "height": 128
+        },
+        "icon": {
+          "uri": "https://www.speedrun.com/themes/8bitrts/favicon.png",
+          "width": 16,
+          "height": 16
+        },
+        "trophy-1st": {
+          "uri": "https://www.speedrun.com/themes/Default/1st.png",
+          "width": 64,
+          "height": 64
+        },
+        "trophy-2nd": {
+          "uri": "https://www.speedrun.com/themes/Default/2nd.png",
+          "width": 64,
+          "height": 64
+        },
+        "trophy-3rd": {
+          "uri": "https://www.speedrun.com/themes/Default/3rd.png",
+          "width": 64,
+          "height": 64
+        },
+        "trophy-4th": null,
+        "background": {
+          "uri": "https://www.speedrun.com/themes/8bitrts/background.png",
+          "width": 1920,
+          "height": 1080
+        },
+        "foreground": null
+      },
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/series/5nk0pg49"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/series/5nk0pg49/games"
+        }
+      ]
+    },
+    {
+      "id": "y71k6qng",
+      "names": {
+        "international": "A Boy and His Blob",
+        "japanese": null
+      },
+      "abbreviation": "blobseries",
+      "weblink": "https://www.speedrun.com/blobseries",
+      "moderators": {
+        "7j4rwm81": "super-moderator"
+      },
+      "created": "2015-01-07T05:38:09Z",
+      "assets": {
+        "logo": {
+          "uri": "https://www.speedrun.com/themes/Default/logo.png",
+          "width": 640,
+          "height": 78
+        },
+        "cover-tiny": {
+          "uri": "https://www.speedrun.com/themes/blobseries/cover-32.png",
+          "width": 45,
+          "height": 37
+        },
+        "cover-small": {
+          "uri": "https://www.speedrun.com/themes/blobseries/cover-64.png",
+          "width": 90,
+          "height": 74
+        },
+        "cover-medium": {
+          "uri": "https://www.speedrun.com/themes/blobseries/cover-128.png",
+          "width": 180,
+          "height": 149
+        },
+        "cover-large": {
+          "uri": "https://www.speedrun.com/themes/blobseries/cover-256.png",
+          "width": 360,
+          "height": 298
+        },
+        "icon": {
+          "uri": "https://www.speedrun.com/themes/blobseries/favicon.png",
+          "width": 16,
+          "height": 16
+        },
+        "trophy-1st": {
+          "uri": "https://www.speedrun.com/themes/Default/1st.png",
+          "width": 64,
+          "height": 64
+        },
+        "trophy-2nd": {
+          "uri": "https://www.speedrun.com/themes/Default/2nd.png",
+          "width": 64,
+          "height": 64
+        },
+        "trophy-3rd": {
+          "uri": "https://www.speedrun.com/themes/Default/3rd.png",
+          "width": 64,
+          "height": 64
+        },
+        "trophy-4th": null,
+        "background": {
+          "uri": "https://www.speedrun.com/themes/blobseries/background.png",
+          "width": 640,
+          "height": 480
+        },
+        "foreground": null
+      },
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/series/y71k6qng"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/series/y71k6qng/games"
+        }
+      ]
+    },
+    {
+      "id": "6431e17w",
+      "names": {
+        "international": "A Hat in Time",
+        "japanese": null
+      },
+      "abbreviation": "ahitseries",
+      "weblink": "https://www.speedrun.com/ahitseries",
+      "moderators": {
+        "368w238g": "super-moderator",
+        "kj96onj4": "super-moderator",
+        "y8dpd986": "moderator",
+        "qjo1y3x6": "moderator",
+        "v81v4q8p": "moderator",
+        "qjnq24jm": "moderator",
+        "18vp6y8l": "moderator"
+      },
+      "created": "2017-09-16T01:54:24Z",
+      "assets": {
+        "logo": {
+          "uri": "https://www.speedrun.com/themes/ahitseries/logo.png",
+          "width": 180,
+          "height": 32
+        },
+        "cover-tiny": {
+          "uri": "https://www.speedrun.com/themes/ahitseries/cover-32.png",
+          "width": 45,
+          "height": 32
+        },
+        "cover-small": {
+          "uri": "https://www.speedrun.com/themes/ahitseries/cover-64.png",
+          "width": 90,
+          "height": 64
+        },
+        "cover-medium": {
+          "uri": "https://www.speedrun.com/themes/ahitseries/cover-128.png",
+          "width": 180,
+          "height": 128
+        },
+        "cover-large": {
+          "uri": "https://www.speedrun.com/themes/ahitseries/cover-256.png",
+          "width": 360,
+          "height": 256
+        },
+        "icon": {
+          "uri": "https://www.speedrun.com/themes/ahitseries/favicon.png",
+          "width": 16,
+          "height": 16
+        },
+        "trophy-1st": {
+          "uri": "https://www.speedrun.com/themes/ahitseries/1st.png",
+          "width": 16,
+          "height": 16
+        },
+        "trophy-2nd": {
+          "uri": "https://www.speedrun.com/themes/ahitseries/2nd.png",
+          "width": 16,
+          "height": 16
+        },
+        "trophy-3rd": {
+          "uri": "https://www.speedrun.com/themes/ahitseries/3rd.png",
+          "width": 16,
+          "height": 16
+        },
+        "trophy-4th": null,
+        "background": {
+          "uri": "https://www.speedrun.com/themes/ahitseries/background.png",
+          "width": 2560,
+          "height": 1440
+        },
+        "foreground": null
+      },
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/series/6431e17w"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/series/6431e17w/games"
+        }
+      ]
+    },
+    {
+      "id": "m729vqn2",
+      "names": {
+        "international": "A.R.E.S.",
+        "japanese": null
+      },
+      "abbreviation": "a.r.e.s.",
+      "weblink": "https://www.speedrun.com/a.r.e.s.",
+      "moderators": {
+        "e8eopoj0": "super-moderator"
+      },
+      "created": "2016-08-10T02:09:17Z",
+      "assets": {
+        "logo": {
+          "uri": "https://www.speedrun.com/themes/a.r.e.s./logo.png",
+          "width": 180,
+          "height": 32
+        },
+        "cover-tiny": {
+          "uri": "https://www.speedrun.com/themes/a.r.e.s./cover-32.png",
+          "width": 31,
+          "height": 45
+        },
+        "cover-small": {
+          "uri": "https://www.speedrun.com/themes/a.r.e.s./cover-64.png",
+          "width": 63,
+          "height": 90
+        },
+        "cover-medium": {
+          "uri": "https://www.speedrun.com/themes/a.r.e.s./cover-128.png",
+          "width": 126,
+          "height": 180
+        },
+        "cover-large": {
+          "uri": "https://www.speedrun.com/themes/a.r.e.s./cover-256.png",
+          "width": 252,
+          "height": 360
+        },
+        "icon": {
+          "uri": "https://www.speedrun.com/themes/a.r.e.s./favicon.png",
+          "width": 64,
+          "height": 64
+        },
+        "trophy-1st": {
+          "uri": "https://www.speedrun.com/themes/a.r.e.s./1st.png",
+          "width": 16,
+          "height": 16
+        },
+        "trophy-2nd": {
+          "uri": "https://www.speedrun.com/themes/a.r.e.s./2nd.png",
+          "width": 16,
+          "height": 16
+        },
+        "trophy-3rd": {
+          "uri": "https://www.speedrun.com/themes/a.r.e.s./3rd.png",
+          "width": 16,
+          "height": 16
+        },
+        "trophy-4th": null,
+        "background": {
+          "uri": "https://www.speedrun.com/themes/a.r.e.s./background.png",
+          "width": 1920,
+          "height": 1080
+        },
+        "foreground": null
+      },
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/series/m729vqn2"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/series/m729vqn2/games"
+        }
+      ]
+    },
+    {
+      "id": "v7ogdjkn",
+      "names": {
+        "international": "Accounting",
+        "japanese": null
+      },
+      "abbreviation": "accountingvr",
+      "weblink": "https://www.speedrun.com/accountingvr",
+      "moderators": {
+        "18vqwejl": "super-moderator",
+        "5j5g4yg8": "super-moderator"
+      },
+      "created": "2018-01-24T06:22:34Z",
+      "assets": {
+        "logo": {
+          "uri": "https://www.speedrun.com/themes/Default/logo.png",
+          "width": 640,
+          "height": 78
+        },
+        "cover-tiny": {
+          "uri": "https://www.speedrun.com/themes/404/cover-32.png",
+          "width": 32,
+          "height": 32
+        },
+        "cover-small": {
+          "uri": "https://www.speedrun.com/themes/404/cover-64.png",
+          "width": 64,
+          "height": 64
+        },
+        "cover-medium": {
+          "uri": "https://www.speedrun.com/themes/404/cover-128.png",
+          "width": 128,
+          "height": 128
+        },
+        "cover-large": {
+          "uri": "https://www.speedrun.com/themes/404/cover-256.png",
+          "width": 256,
+          "height": 256
+        },
+        "icon": {
+          "uri": "https://www.speedrun.com/themes/Default/favicon.png",
+          "width": 64,
+          "height": 64
+        },
+        "trophy-1st": {
+          "uri": "https://www.speedrun.com/themes/Default/1st.png",
+          "width": 64,
+          "height": 64
+        },
+        "trophy-2nd": {
+          "uri": "https://www.speedrun.com/themes/Default/2nd.png",
+          "width": 64,
+          "height": 64
+        },
+        "trophy-3rd": {
+          "uri": "https://www.speedrun.com/themes/Default/3rd.png",
+          "width": 64,
+          "height": 64
+        },
+        "trophy-4th": null,
+        "background": null,
+        "foreground": null
+      },
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/series/v7ogdjkn"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/series/v7ogdjkn/games"
+        }
+      ]
+    },
+    {
+      "id": "gny33g7x",
+      "names": {
+        "international": "Ace Attorney",
+        "japanese": null
+      },
+      "abbreviation": "ace_attorney",
+      "weblink": "https://www.speedrun.com/ace_attorney",
+      "moderators": {
+        "18q6wojn": "super-moderator",
+        "7j47k5j1": "super-moderator",
+        "v81md938": "moderator"
+      },
+      "created": "2015-01-02T10:00:17Z",
+      "assets": {
+        "logo": {
+          "uri": "https://www.speedrun.com/themes/Default/logo.png",
+          "width": 640,
+          "height": 78
+        },
+        "cover-tiny": {
+          "uri": "https://www.speedrun.com/themes/ace_attorney/cover-32.png",
+          "width": 45,
+          "height": 40
+        },
+        "cover-small": {
+          "uri": "https://www.speedrun.com/themes/ace_attorney/cover-64.png",
+          "width": 90,
+          "height": 81
+        },
+        "cover-medium": {
+          "uri": "https://www.speedrun.com/themes/ace_attorney/cover-128.png",
+          "width": 180,
+          "height": 162
+        },
+        "cover-large": {
+          "uri": "https://www.speedrun.com/themes/ace_attorney/cover-256.png",
+          "width": 360,
+          "height": 324
+        },
+        "icon": {
+          "uri": "https://www.speedrun.com/themes/ace_attorney/favicon.png",
+          "width": 96,
+          "height": 96
+        },
+        "trophy-1st": {
+          "uri": "https://www.speedrun.com/themes/ace_attorney/1st.png",
+          "width": 12,
+          "height": 16
+        },
+        "trophy-2nd": {
+          "uri": "https://www.speedrun.com/themes/ace_attorney/2nd.png",
+          "width": 16,
+          "height": 14
+        },
+        "trophy-3rd": {
+          "uri": "https://www.speedrun.com/themes/ace_attorney/3rd.png",
+          "width": 16,
+          "height": 11
+        },
+        "trophy-4th": null,
+        "background": {
+          "uri": "https://www.speedrun.com/themes/ace_attorney/background.png",
+          "width": 2000,
+          "height": 1200
+        },
+        "foreground": null
+      },
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/series/gny33g7x"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/series/gny33g7x/games"
+        }
+      ]
+    },
+    {
+      "id": "v7om8wn0",
+      "names": {
+        "international": "Ace Combat",
+        "japanese": "エースコンバット"
+      },
+      "abbreviation": "acecombat",
+      "weblink": "https://www.speedrun.com/acecombat",
+      "moderators": {
+        "48g571jp": "super-moderator"
+      },
+      "created": "2015-03-30T02:17:21Z",
+      "assets": {
+        "logo": {
+          "uri": "https://www.speedrun.com/themes/Default/logo.png",
+          "width": 640,
+          "height": 78
+        },
+        "cover-tiny": {
+          "uri": "https://www.speedrun.com/themes/acecombat/cover-32.png",
+          "width": 45,
+          "height": 36
+        },
+        "cover-small": {
+          "uri": "https://www.speedrun.com/themes/acecombat/cover-64.png",
+          "width": 90,
+          "height": 72
+        },
+        "cover-medium": {
+          "uri": "https://www.speedrun.com/themes/acecombat/cover-128.png",
+          "width": 180,
+          "height": 144
+        },
+        "cover-large": {
+          "uri": "https://www.speedrun.com/themes/acecombat/cover-256.png",
+          "width": 360,
+          "height": 288
+        },
+        "icon": {
+          "uri": "https://www.speedrun.com/themes/Default/favicon.png",
+          "width": 64,
+          "height": 64
+        },
+        "trophy-1st": {
+          "uri": "https://www.speedrun.com/themes/Default/1st.png",
+          "width": 64,
+          "height": 64
+        },
+        "trophy-2nd": {
+          "uri": "https://www.speedrun.com/themes/Default/2nd.png",
+          "width": 64,
+          "height": 64
+        },
+        "trophy-3rd": {
+          "uri": "https://www.speedrun.com/themes/Default/3rd.png",
+          "width": 64,
+          "height": 64
+        },
+        "trophy-4th": null,
+        "background": null,
+        "foreground": null
+      },
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/series/v7om8wn0"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/series/v7om8wn0/games"
+        }
+      ]
+    },
+    {
+      "id": "v7o69970",
+      "names": {
+        "international": "Achievement Unlocked",
+        "japanese": null
+      },
+      "abbreviation": "achievement_unlocked",
+      "weblink": "https://www.speedrun.com/achievement_unlocked",
+      "moderators": {
+        "v81gw58p": "super-moderator"
+      },
+      "created": "2015-06-14T15:45:38Z",
+      "assets": {
+        "logo": {
+          "uri": "https://www.speedrun.com/themes/Default/logo.png",
+          "width": 640,
+          "height": 78
+        },
+        "cover-tiny": {
+          "uri": "https://www.speedrun.com/themes/achievement_unlocked/cover-32.png",
+          "width": 45,
+          "height": 45
+        },
+        "cover-small": {
+          "uri": "https://www.speedrun.com/themes/achievement_unlocked/cover-64.png",
+          "width": 90,
+          "height": 90
+        },
+        "cover-medium": {
+          "uri": "https://www.speedrun.com/themes/achievement_unlocked/cover-128.png",
+          "width": 128,
+          "height": 128
+        },
+        "cover-large": {
+          "uri": "https://www.speedrun.com/themes/achievement_unlocked/cover-256.png",
+          "width": 128,
+          "height": 128
+        },
+        "icon": {
+          "uri": "https://www.speedrun.com/themes/Default/favicon.png",
+          "width": 64,
+          "height": 64
+        },
+        "trophy-1st": {
+          "uri": "https://www.speedrun.com/themes/Default/1st.png",
+          "width": 64,
+          "height": 64
+        },
+        "trophy-2nd": {
+          "uri": "https://www.speedrun.com/themes/Default/2nd.png",
+          "width": 64,
+          "height": 64
+        },
+        "trophy-3rd": {
+          "uri": "https://www.speedrun.com/themes/Default/3rd.png",
+          "width": 64,
+          "height": 64
+        },
+        "trophy-4th": null,
+        "background": null,
+        "foreground": null
+      },
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/series/v7o69970"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/series/v7o69970/games"
+        }
+      ]
+    },
+    {
+      "id": "y71gydl7",
+      "names": {
+        "international": "Action Henk",
+        "japanese": null
+      },
+      "abbreviation": "action_henk",
+      "weblink": "https://www.speedrun.com/action_henk",
+      "moderators": {
+        "98rp6kgj": "super-moderator",
+        "qj2ygyp8": "moderator"
+      },
+      "created": "2018-11-18T23:04:43Z",
+      "assets": {
+        "logo": {
+          "uri": "https://www.speedrun.com/themes/Default/logo.png",
+          "width": 640,
+          "height": 78
+        },
+        "cover-tiny": {
+          "uri": "https://www.speedrun.com/themes/action_henk/cover-32.png",
+          "width": 45,
+          "height": 45
+        },
+        "cover-small": {
+          "uri": "https://www.speedrun.com/themes/action_henk/cover-64.png",
+          "width": 90,
+          "height": 90
+        },
+        "cover-medium": {
+          "uri": "https://www.speedrun.com/themes/action_henk/cover-128.png",
+          "width": 180,
+          "height": 180
+        },
+        "cover-large": {
+          "uri": "https://www.speedrun.com/themes/action_henk/cover-256.png",
+          "width": 256,
+          "height": 256
+        },
+        "icon": {
+          "uri": "https://www.speedrun.com/themes/Default/favicon.png",
+          "width": 64,
+          "height": 64
+        },
+        "trophy-1st": {
+          "uri": "https://www.speedrun.com/themes/Default/1st.png",
+          "width": 64,
+          "height": 64
+        },
+        "trophy-2nd": {
+          "uri": "https://www.speedrun.com/themes/Default/2nd.png",
+          "width": 64,
+          "height": 64
+        },
+        "trophy-3rd": {
+          "uri": "https://www.speedrun.com/themes/Default/3rd.png",
+          "width": 64,
+          "height": 64
+        },
+        "trophy-4th": null,
+        "background": null,
+        "foreground": null
+      },
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/series/y71gydl7"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/series/y71gydl7/games"
+        }
+      ]
+    },
+    {
+      "id": "qnleoo75",
+      "names": {
+        "international": "ActRaiser",
+        "japanese": null
+      },
+      "abbreviation": "actraiserseries",
+      "weblink": "https://www.speedrun.com/actraiserseries",
+      "moderators": {
+        "7j4qwmx1": "super-moderator",
+        "68wpovxg": "super-moderator"
+      },
+      "created": "2015-01-05T01:49:58Z",
+      "assets": {
+        "logo": {
+          "uri": "https://www.speedrun.com/themes/Default/logo.png",
+          "width": 640,
+          "height": 78
+        },
+        "cover-tiny": {
+          "uri": "https://www.speedrun.com/themes/actraiserseries/cover-32.png",
+          "width": 45,
+          "height": 23
+        },
+        "cover-small": {
+          "uri": "https://www.speedrun.com/themes/actraiserseries/cover-64.png",
+          "width": 90,
+          "height": 47
+        },
+        "cover-medium": {
+          "uri": "https://www.speedrun.com/themes/actraiserseries/cover-128.png",
+          "width": 180,
+          "height": 94
+        },
+        "cover-large": {
+          "uri": "https://www.speedrun.com/themes/actraiserseries/cover-256.png",
+          "width": 360,
+          "height": 189
+        },
+        "icon": {
+          "uri": "https://www.speedrun.com/themes/actraiserseries/favicon.png",
+          "width": 16,
+          "height": 16
+        },
+        "trophy-1st": {
+          "uri": "https://www.speedrun.com/themes/Default/1st.png",
+          "width": 64,
+          "height": 64
+        },
+        "trophy-2nd": {
+          "uri": "https://www.speedrun.com/themes/Default/2nd.png",
+          "width": 64,
+          "height": 64
+        },
+        "trophy-3rd": {
+          "uri": "https://www.speedrun.com/themes/Default/3rd.png",
+          "width": 64,
+          "height": 64
+        },
+        "trophy-4th": null,
+        "background": null,
+        "foreground": null
+      },
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/series/qnleoo75"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/series/qnleoo75/games"
+        }
+      ]
+    },
+    {
+      "id": "5nkvlg79",
+      "names": {
+        "international": "Adiboo",
+        "japanese": null
+      },
+      "abbreviation": "adiboo_series",
+      "weblink": "https://www.speedrun.com/adiboo_series",
+      "moderators": {
+        "1xy1pmxr": "super-moderator"
+      },
+      "created": "2016-07-12T02:21:43Z",
+      "assets": {
+        "logo": {
+          "uri": "https://www.speedrun.com/themes/Default/logo.png",
+          "width": 640,
+          "height": 78
+        },
+        "cover-tiny": {
+          "uri": "https://www.speedrun.com/themes/adiboo_series/cover-32.png",
+          "width": 45,
+          "height": 33
+        },
+        "cover-small": {
+          "uri": "https://www.speedrun.com/themes/adiboo_series/cover-64.png",
+          "width": 90,
+          "height": 67
+        },
+        "cover-medium": {
+          "uri": "https://www.speedrun.com/themes/adiboo_series/cover-128.png",
+          "width": 180,
+          "height": 135
+        },
+        "cover-large": {
+          "uri": "https://www.speedrun.com/themes/adiboo_series/cover-256.png",
+          "width": 360,
+          "height": 270
+        },
+        "icon": {
+          "uri": "https://www.speedrun.com/themes/Default/favicon.png",
+          "width": 64,
+          "height": 64
+        },
+        "trophy-1st": {
+          "uri": "https://www.speedrun.com/themes/Default/1st.png",
+          "width": 64,
+          "height": 64
+        },
+        "trophy-2nd": {
+          "uri": "https://www.speedrun.com/themes/Default/2nd.png",
+          "width": 64,
+          "height": 64
+        },
+        "trophy-3rd": {
+          "uri": "https://www.speedrun.com/themes/Default/3rd.png",
+          "width": 64,
+          "height": 64
+        },
+        "trophy-4th": null,
+        "background": null,
+        "foreground": null
+      },
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/series/5nkvlg79"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/series/5nkvlg79/games"
+        }
+      ]
+    },
+    {
+      "id": "q4zj3xn8",
+      "names": {
+        "international": "Adventure Island",
+        "japanese": "高橋名人の冒険島シリーズ"
+      },
+      "abbreviation": "adventureisland",
+      "weblink": "https://www.speedrun.com/adventureisland",
+      "moderators": {
+        "18vo0exl": "super-moderator"
+      },
+      "created": null,
+      "assets": {
+        "logo": {
+          "uri": "https://www.speedrun.com/themes/Default/logo.png",
+          "width": 640,
+          "height": 78
+        },
+        "cover-tiny": {
+          "uri": "https://www.speedrun.com/themes/adventureisland/cover-32.png",
+          "width": 45,
+          "height": 14
+        },
+        "cover-small": {
+          "uri": "https://www.speedrun.com/themes/adventureisland/cover-64.png",
+          "width": 90,
+          "height": 29
+        },
+        "cover-medium": {
+          "uri": "https://www.speedrun.com/themes/adventureisland/cover-128.png",
+          "width": 180,
+          "height": 58
+        },
+        "cover-large": {
+          "uri": "https://www.speedrun.com/themes/adventureisland/cover-256.png",
+          "width": 360,
+          "height": 117
+        },
+        "icon": {
+          "uri": "https://www.speedrun.com/themes/Default/favicon.png",
+          "width": 64,
+          "height": 64
+        },
+        "trophy-1st": {
+          "uri": "https://www.speedrun.com/themes/Default/1st.png",
+          "width": 64,
+          "height": 64
+        },
+        "trophy-2nd": {
+          "uri": "https://www.speedrun.com/themes/Default/2nd.png",
+          "width": 64,
+          "height": 64
+        },
+        "trophy-3rd": {
+          "uri": "https://www.speedrun.com/themes/Default/3rd.png",
+          "width": 64,
+          "height": 64
+        },
+        "trophy-4th": null,
+        "background": null,
+        "foreground": null
+      },
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/series/q4zj3xn8"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/series/q4zj3xn8/games"
+        }
+      ]
+    }
+  ],
+  "pagination": {
+    "offset": 0,
+    "max": 20,
+    "size": 20,
+    "links": [
+      {
+        "rel": "next",
+        "uri": "https://www.speedrun.com/api/v1/series?offset=20"
+      }
+    ]
+  }
+}

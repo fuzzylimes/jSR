@@ -1,0 +1,80 @@
+{
+  "data": [
+    {
+      "id": "7dgrergk",
+      "name": "Levels (With Powerup)",
+      "weblink": "https://www.speedrun.com/smbx/-The_Invasion_2_-_01-01_Super_Easy_Road_-_by_Redigit#Levels_With_Powerup",
+      "type": "per-level",
+      "rules": "Timer starts first frame of levels and ends upon last input.",
+      "players": {
+        "type": "exactly",
+        "value": 1
+      },
+      "miscellaneous": false,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/categories/7dgrergk"
+        },
+        {
+          "rel": "game",
+          "uri": "https://www.speedrun.com/api/v1/games/pdv0x91w"
+        },
+        {
+          "rel": "variables",
+          "uri": "https://www.speedrun.com/api/v1/categories/7dgrergk/variables"
+        },
+        {
+          "rel": "records",
+          "uri": "https://www.speedrun.com/api/v1/categories/7dgrergk/records"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?category=7dgrergk"
+        },
+        {
+          "rel": "leaderboard",
+          "uri": "https://www.speedrun.com/api/v1/leaderboards/pdv0x91w/level/5d74ypvd/7dgrergk"
+        }
+      ]
+    },
+    {
+      "id": "q25q5jv2",
+      "name": "Levels (Without Powerup)",
+      "weblink": "https://www.speedrun.com/smbx/-The_Invasion_2_-_01-01_Super_Easy_Road_-_by_Redigit#Levels_Without_Powerup",
+      "type": "per-level",
+      "rules": "Timer starts first frame of levels and ends upon last input. Must start small.",
+      "players": {
+        "type": "exactly",
+        "value": 1
+      },
+      "miscellaneous": false,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/categories/q25q5jv2"
+        },
+        {
+          "rel": "game",
+          "uri": "https://www.speedrun.com/api/v1/games/pdv0x91w"
+        },
+        {
+          "rel": "variables",
+          "uri": "https://www.speedrun.com/api/v1/categories/q25q5jv2/variables"
+        },
+        {
+          "rel": "records",
+          "uri": "https://www.speedrun.com/api/v1/categories/q25q5jv2/records"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?category=q25q5jv2"
+        },
+        {
+          "rel": "leaderboard",
+          "uri": "https://www.speedrun.com/api/v1/leaderboards/pdv0x91w/level/5d74ypvd/q25q5jv2"
+        }
+      ]
+    }
+  ]
+}
