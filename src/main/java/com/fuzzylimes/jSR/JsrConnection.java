@@ -3,7 +3,6 @@ package com.fuzzylimes.jSR;
 import com.fuzzylimes.jSR.clients.*;
 import com.fuzzylimes.jSR.resources.PagedResponse;
 import com.fuzzylimes.jSR.resources.Region;
-import com.fuzzylimes.jSR.resources.Regions;
 import com.fuzzylimes.jSR.resources.Variable;
 import okhttp3.OkHttpClient;
 

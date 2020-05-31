@@ -17,10 +17,12 @@ public class LevelsClient {
 
 
     // GET levels/{id}/variables
+    // Returns a list of {@link Variable}
     // https://github.com/speedruncomorg/api/blob/master/version1/levels.md#get-levelsidvariables
 
 
     // GET levels/{id}/records
+    // Returns a {@link PagedResponse} of {@link Record} objects
     // https://github.com/speedruncomorg/api/blob/master/version1/levels.md#get-levelsidrecords
 
 }

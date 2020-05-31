@@ -5,7 +5,7 @@ import java.util.List;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
-import com.fuzzylimes.jSR.util.CategoryEmbedDeserializer;
+import com.fuzzylimes.jSR.util.EmbeddedCategoriesDeserializer;
 import com.fuzzylimes.jSR.util.VariableEmbedDeserializer;
 import lombok.Data;
 
@@ -29,7 +29,7 @@ public class Level{
 
 	@JsonInclude(JsonInclude.Include.NON_NULL)
 	@JsonProperty("categories")
-	@JsonDeserialize(using = CategoryEmbedDeserializer.class)
+	@JsonDeserialize(using = EmbeddedCategoriesDeserializer.class)
 	private List<Category> categories;
 
 	@JsonInclude(JsonInclude.Include.NON_NULL)

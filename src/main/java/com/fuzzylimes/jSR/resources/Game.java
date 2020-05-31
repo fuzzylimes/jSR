@@ -4,12 +4,15 @@ import java.util.List;
 import java.util.Map;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
+import com.fuzzylimes.jSR.util.EmbeddedRegionsDeserializer;
 import lombok.Data;
 
 @Data
 public class Game{
 
 	@JsonProperty("regions")
+	@JsonDeserialize(using = EmbeddedRegionsDeserializer.class)
 	private GameRegion regions;
 
 	@JsonProperty("developers")

@@ -11,7 +11,7 @@ import java.util.Map;
 public class VariableValues {
 
 	@JsonProperty("default")
-	private String jsonMemberDefault;
+	private String defaultValue;
 
 	@JsonProperty("values")
 	private Map<String, VariableValuesValue> values;

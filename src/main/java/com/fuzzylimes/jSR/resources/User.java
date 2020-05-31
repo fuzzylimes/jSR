@@ -1,6 +1,8 @@
 package com.fuzzylimes.jSR.resources;
 
 import java.util.List;
+
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
 
@@ -45,4 +47,8 @@ public class User{
 
 	@JsonProperty("id")
 	private String id;
+
+	@JsonProperty("rel")
+	@JsonInclude(JsonInclude.Include.NON_NULL)
+	private String rel;
 }

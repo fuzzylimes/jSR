@@ -6,14 +6,10 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fuzzylimes.jSR.JacksonTests.util.DeserializeUtil;
 import com.fuzzylimes.jSR.resources.PagedResponse;
 import com.fuzzylimes.jSR.resources.Platform;
-import com.fuzzylimes.jSR.resources.Platforms;
-import com.fuzzylimes.jSR.resources.Variable;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import java.io.IOException;
-
-import static com.fuzzylimes.jSR.resources.ScopeTypes.SINGLE_LEVEL;
 
 public class PlatformsTest {
     ObjectMapper mapper = new ObjectMapper();

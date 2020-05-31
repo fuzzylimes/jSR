@@ -1,17 +1,21 @@
 package com.fuzzylimes.jSR.JacksonTests;
 
+import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fuzzylimes.jSR.JacksonTests.util.DeserializeUtil;
+import com.fuzzylimes.jSR.resources.Category;
 import com.fuzzylimes.jSR.resources.Level;
+import com.fuzzylimes.jSR.resources.Variable;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import java.io.IOException;
+import java.util.List;
 
 import static com.fuzzylimes.jSR.resources.CategoryTypes.PER_LEVEL;
 
-public class LevelsTest {
+public class EmbeddedLevelTest {
     ObjectMapper mapper = new ObjectMapper();
 
     @Test
@@ -37,4 +41,28 @@ public class LevelsTest {
         Assertions.assertEquals(1, var.getVariables().size());
         Assertions.assertEquals(false, var.getVariables().get(0).isSubcategory());
     }
+
+    @Test
+    public void deserializeLevelsByIdCategoriesTest() throws IOException {
+        JsonNode node = mapper.readTree(DeserializeUtil.getFile("/responses/LevelsByIdCategories.json"));
+        List<Category> var = mapper.readValue(node.get("data").toString(), new TypeReference<List<Category>>() {});
+        System.out.println(node);
+
+        Assertions.assertEquals(2, var.size());
+        Assertions.assertEquals("7dgrergk", var.get(0).getId());
+        Assertions.assertEquals(PER_LEVEL, var.get(0).getType());
+    }
+
+    @Test
+    public void deserializeLevelsByIdVariablesTest() throws IOException {
+        JsonNode node = mapper.readTree(DeserializeUtil.getFile("/responses/LevelsByIdVariables.json"));
+        List<Variable> var = mapper.readValue(node.get("data").toString(), new TypeReference<List<Variable>>() {});
+        System.out.println(node);
+
+        Assertions.assertEquals(1, var.size());
+        Assertions.assertEquals("0nw2mjdn", var.get(0).getId());
+        Assertions.assertNull(var.get(0).getValues().getDefaultValue());
+        Assertions.assertEquals("Luigi", var.get(0).getValues().getValues().get("0q5oeer1").getLabel());
+    }
+
 }

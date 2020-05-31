@@ -7,12 +7,10 @@ import lombok.Data;
 import java.util.List;
 
 @Data
-public class Variables {
+public class EmbeddedGame {
 
-	@JsonProperty("variableList")
-	@JsonAlias("data")
-	private List<Variable> variableList;
+    private Game gameEmbed;
 
-	@JsonProperty("pagination")
-	private Pagination pagination;
+    private String id;
+
 }

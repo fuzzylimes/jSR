@@ -19,7 +19,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class CategoryEmbedDeserializer extends JsonDeserializer {
+public class EmbeddedCategoriesDeserializer extends JsonDeserializer {
 
     ObjectMapper mapper = new ObjectMapper();
 

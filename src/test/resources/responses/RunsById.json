@@ -1,0 +1,70 @@
+{
+  "data": {
+    "id": "1wzpqgyq",
+    "weblink": "https://www.speedrun.com/ge/run/1wzpqgyq",
+    "game": "nj1ne1p4",
+    "level": null,
+    "category": "prklq2n9",
+    "videos": {
+      "links": [
+        {
+          "uri": "https://www.youtube.com/watch?v=KKjPMD0aHaY"
+        }
+      ]
+    },
+    "comment": "bad RNG on frigate otherwise pretty solid",
+    "status": {
+      "status": "verified",
+      "examiner": null,
+      "verify-date": null
+    },
+    "players": [
+      {
+        "rel": "user",
+        "id": "v48grxpr",
+        "uri": "https://www.speedrun.com/api/v1/users/v48grxpr"
+      }
+    ],
+    "date": "2013-06-10",
+    "submitted": null,
+    "times": {
+      "primary": "PT21M52S",
+      "primary_t": 1312,
+      "realtime": "PT21M52S",
+      "realtime_t": 1312,
+      "realtime_noloads": null,
+      "realtime_noloads_t": 0,
+      "ingame": null,
+      "ingame_t": 0
+    },
+    "system": {
+      "platform": "w89rwelk",
+      "emulated": false,
+      "region": "pr184lqn"
+    },
+    "splits": null,
+    "values": {},
+    "links": [
+      {
+        "rel": "self",
+        "uri": "https://www.speedrun.com/api/v1/runs/1wzpqgyq"
+      },
+      {
+        "rel": "game",
+        "uri": "https://www.speedrun.com/api/v1/games/nj1ne1p4"
+      },
+      {
+        "rel": "category",
+        "uri": "https://www.speedrun.com/api/v1/categories/prklq2n9"
+      },
+      {
+        "rel": "platform",
+        "uri": "https://www.speedrun.com/api/v1/platforms/w89rwelk"
+      },
+      {
+        "rel": "region",
+        "uri": "https://www.speedrun.com/api/v1/regions/pr184lqn"
+      }
+    ]
+  }
+}

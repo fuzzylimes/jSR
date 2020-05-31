@@ -13,7 +13,7 @@ public class GameRegion {
     private List<String> ids;
 
     @JsonProperty("embeddedRegions")
-    private List<EmbeddedRegion> embeddedRegions;
+    private List<EmbeddedGameRegion> embeddedRegions;
 
 }
 
