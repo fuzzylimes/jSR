@@ -1,0 +1,512 @@
+{
+  "data": {
+    "weblink": "https://www.speedrun.com/aoe2/full_game#All_Campaigns",
+    "game": {
+      "data": {
+        "id": "xldev513",
+        "names": {
+          "international": "Age of Empires II",
+          "japanese": null,
+          "twitch": "Age of Empires II"
+        },
+        "abbreviation": "aoe2",
+        "weblink": "https://www.speedrun.com/aoe2",
+        "released": 1999,
+        "release-date": "1999-09-30",
+        "ruleset": {
+          "show-milliseconds": false,
+          "require-verification": true,
+          "require-video": true,
+          "run-times": [
+            "realtime"
+          ],
+          "default-time": "realtime",
+          "emulators-allowed": true
+        },
+        "romhack": false,
+        "gametypes": [],
+        "platforms": [
+          "n5e17e27",
+          "8gej2n93"
+        ],
+        "regions": [],
+        "genres": [
+          "jp23mxn6"
+        ],
+        "engines": [
+          "v93d7m3y"
+        ],
+        "developers": [
+          "5yz87g6w"
+        ],
+        "publishers": [
+          "4dnll7nl"
+        ],
+        "moderators": {
+          "gpj0mxwr": "super-moderator",
+          "v18q6wjn": "super-moderator",
+          "y0jm0e81": "super-moderator",
+          "qj29poxk": "super-moderator"
+        },
+        "created": null,
+        "assets": {
+          "logo": {
+            "uri": "https://www.speedrun.com/themes/aoe2/logo.png",
+            "width": 180,
+            "height": 32
+          },
+          "cover-tiny": {
+            "uri": "https://www.speedrun.com/themes/aoe2/cover-32.png",
+            "width": 32,
+            "height": 45
+          },
+          "cover-small": {
+            "uri": "https://www.speedrun.com/themes/aoe2/cover-64.png",
+            "width": 64,
+            "height": 90
+          },
+          "cover-medium": {
+            "uri": "https://www.speedrun.com/themes/aoe2/cover-128.png",
+            "width": 128,
+            "height": 180
+          },
+          "cover-large": {
+            "uri": "https://www.speedrun.com/themes/aoe2/cover-256.png",
+            "width": 256,
+            "height": 360
+          },
+          "icon": {
+            "uri": "https://www.speedrun.com/themes/aoe2/favicon.png",
+            "width": 48,
+            "height": 48
+          },
+          "trophy-1st": {
+            "uri": "https://www.speedrun.com/themes/Default/1st.png",
+            "width": 64,
+            "height": 64
+          },
+          "trophy-2nd": {
+            "uri": "https://www.speedrun.com/themes/Default/2nd.png",
+            "width": 64,
+            "height": 64
+          },
+          "trophy-3rd": {
+            "uri": "https://www.speedrun.com/themes/Default/3rd.png",
+            "width": 64,
+            "height": 64
+          },
+          "trophy-4th": null,
+          "background": {
+            "uri": "https://www.speedrun.com/themes/aoe2/background.png",
+            "width": 1920,
+            "height": 1080
+          },
+          "foreground": null
+        },
+        "links": [
+          {
+            "rel": "self",
+            "uri": "https://www.speedrun.com/api/v1/games/xldev513"
+          },
+          {
+            "rel": "runs",
+            "uri": "https://www.speedrun.com/api/v1/runs?game=xldev513"
+          },
+          {
+            "rel": "levels",
+            "uri": "https://www.speedrun.com/api/v1/games/xldev513/levels"
+          },
+          {
+            "rel": "categories",
+            "uri": "https://www.speedrun.com/api/v1/games/xldev513/categories"
+          },
+          {
+            "rel": "variables",
+            "uri": "https://www.speedrun.com/api/v1/games/xldev513/variables"
+          },
+          {
+            "rel": "records",
+            "uri": "https://www.speedrun.com/api/v1/games/xldev513/records"
+          },
+          {
+            "rel": "series",
+            "uri": "https://www.speedrun.com/api/v1/series/yr4gy141"
+          },
+          {
+            "rel": "derived-games",
+            "uri": "https://www.speedrun.com/api/v1/games/xldev513/derived-games"
+          },
+          {
+            "rel": "romhacks",
+            "uri": "https://www.speedrun.com/api/v1/games/xldev513/derived-games"
+          }
+        ]
+      }
+    },
+    "category": {
+      "data": {
+        "id": "rklg3rdn",
+        "name": "All Campaigns",
+        "weblink": "https://www.speedrun.com/aoe2/full_game#All_Campaigns",
+        "type": "per-game",
+        "rules": "Timing starts when the first scenario has finished loading (game screen appears, or if fading in, when the mouse cursor changes), and ends when the \"You Are Victorious!\" text appears on the final scenario. \r\n\r\nBe sure that you have completed all the scenarios in every campaign, including The Conquerors campaigns. **THIS DOES NOT INCLUDE AoE2HD EXCLUSIVE CAMPAIGNS.**\r\n\r\nDifficulty may be changed throughout the run.\r\n\r\nRuns use real time that has passed from start to finish rather than in-game time.\r\n\r\nThe in-game speed may not be set beyond 2.0, as that feature is exclusive to the HD release.",
+        "players": {
+          "type": "exactly",
+          "value": 1
+        },
+        "miscellaneous": false,
+        "links": [
+          {
+            "rel": "self",
+            "uri": "https://www.speedrun.com/api/v1/categories/rklg3rdn"
+          },
+          {
+            "rel": "game",
+            "uri": "https://www.speedrun.com/api/v1/games/xldev513"
+          },
+          {
+            "rel": "variables",
+            "uri": "https://www.speedrun.com/api/v1/categories/rklg3rdn/variables"
+          },
+          {
+            "rel": "records",
+            "uri": "https://www.speedrun.com/api/v1/categories/rklg3rdn/records"
+          },
+          {
+            "rel": "runs",
+            "uri": "https://www.speedrun.com/api/v1/runs?category=rklg3rdn"
+          },
+          {
+            "rel": "leaderboard",
+            "uri": "https://www.speedrun.com/api/v1/leaderboards/xldev513/category/rklg3rdn"
+          }
+        ]
+      }
+    },
+    "level": {
+      "data": []
+    },
+    "platform": null,
+    "region": null,
+    "emulators": null,
+    "video-only": false,
+    "timing": "realtime",
+    "values": {},
+    "runs": [
+      {
+        "place": 1,
+        "run": {
+          "id": "yw1nj0nz",
+          "weblink": "https://www.speedrun.com/aoe2/run/yw1nj0nz",
+          "game": "xldev513",
+          "level": null,
+          "category": "rklg3rdn",
+          "videos": {
+            "links": [
+              {
+                "uri": "https://www.youtube.com/watch?v=F1z59gYX7Jk"
+              }
+            ]
+          },
+          "comment": "Bad levels:\r\nJoA5 - Transport ship never landed, so no trigger for the end never loaded?\r\nSala2 - Bad ships\r\nBB3  - Myself playing super bad\r\nAtt1 -  Destroy monastery then market. noted.\r\nMonte 2 - Bad luck on the red army killing my rams and bad play.\r\nHastings - Needed to play it on AoE2HD not AoC\r\nVindlandsaga - Longboats wrecked me.",
+          "status": {
+            "status": "verified",
+            "examiner": "v18q6wjn",
+            "verify-date": "2018-01-05T03:22:57Z"
+          },
+          "players": [
+            {
+              "rel": "user",
+              "id": "18vqvejl",
+              "uri": "https://www.speedrun.com/api/v1/users/18vqvejl"
+            }
+          ],
+          "date": "2018-01-02",
+          "submitted": "2018-01-02T22:04:03Z",
+          "times": {
+            "primary": "PT7H3M43S",
+            "primary_t": 25423,
+            "realtime": "PT7H3M43S",
+            "realtime_t": 25423,
+            "realtime_noloads": null,
+            "realtime_noloads_t": 0,
+            "ingame": null,
+            "ingame_t": 0
+          },
+          "system": {
+            "platform": "8gej2n93",
+            "emulated": false,
+            "region": null
+          },
+          "splits": {
+            "rel": "splits.io",
+            "uri": "https://splits.io/api/v3/runs/23gp"
+          },
+          "values": {
+            "m5ly6jn4": "xqke89q9"
+          }
+        }
+      },
+      {
+        "place": 2,
+        "run": {
+          "id": "pzgkj6ey",
+          "weblink": "https://www.speedrun.com/aoe2/run/pzgkj6ey",
+          "game": "xldev513",
+          "level": null,
+          "category": "rklg3rdn",
+          "videos": {
+            "links": [
+              {
+                "uri": "http://www.twitch.tv/adam_ak/v/4191464"
+              },
+              {
+                "uri": "http://www.twitch.tv/adam_ak/v/4191449"
+              }
+            ]
+          },
+          "comment": "part 2: http://www.twitch.tv/adam_ak/v/4191464\r\n\r\nResult of the race with Mhmd and Dawned. Montezuma and BoC were a mess -- rest was OK. Will improve :v)",
+          "status": {
+            "status": "verified",
+            "examiner": "v18q6wjn",
+            "verify-date": "2015-05-10T12:09:40Z"
+          },
+          "players": [
+            {
+              "rel": "user",
+              "id": "gpj0mxwr",
+              "uri": "https://www.speedrun.com/api/v1/users/gpj0mxwr"
+            }
+          ],
+          "date": "2015-04-11",
+          "submitted": "2015-04-20T13:41:10Z",
+          "times": {
+            "primary": "PT27H55M24S",
+            "primary_t": 100524,
+            "realtime": "PT27H55M24S",
+            "realtime_t": 100524,
+            "realtime_noloads": null,
+            "realtime_noloads_t": 0,
+            "ingame": null,
+            "ingame_t": 0
+          },
+          "system": {
+            "platform": "8gej2n93",
+            "emulated": false,
+            "region": null
+          },
+          "splits": null,
+          "values": {
+            "m5ly6jn4": "p12z471x"
+          }
+        }
+      }
+    ],
+    "links": [
+      {
+        "rel": "game",
+        "uri": "https://www.speedrun.com/api/v1/games/xldev513"
+      },
+      {
+        "rel": "category",
+        "uri": "https://www.speedrun.com/api/v1/categories/rklg3rdn"
+      }
+    ],
+    "players": {
+      "data": [
+        {
+          "rel": "user",
+          "id": "18vqvejl",
+          "names": {
+            "international": "Chazb",
+            "japanese": null
+          },
+          "weblink": "https://www.speedrun.com/user/Chazb",
+          "name-style": {
+            "style": "gradient",
+            "color-from": {
+              "light": "#808080",
+              "dark": "#B8B8B8"
+            },
+            "color-to": {
+              "light": "#808080",
+              "dark": "#B8B8B8"
+            }
+          },
+          "role": "user",
+          "signup": "2015-05-21T20:33:47Z",
+          "location": {
+            "country": {
+              "code": "gb/eng",
+              "names": {
+                "international": "England",
+                "japanese": null
+              }
+            }
+          },
+          "twitch": {
+            "uri": "https://www.twitch.tv/ChazB"
+          },
+          "hitbox": null,
+          "youtube": {
+            "uri": "https://www.youtube.com/user/Chazzybl7"
+          },
+          "twitter": null,
+          "speedrunslive": null,
+          "links": [
+            {
+              "rel": "self",
+              "uri": "https://www.speedrun.com/api/v1/users/18vqvejl"
+            },
+            {
+              "rel": "runs",
+              "uri": "https://www.speedrun.com/api/v1/runs?user=18vqvejl"
+            },
+            {
+              "rel": "games",
+              "uri": "https://www.speedrun.com/api/v1/games?moderator=18vqvejl"
+            },
+            {
+              "rel": "personal-bests",
+              "uri": "https://www.speedrun.com/api/v1/users/18vqvejl/personal-bests"
+            }
+          ]
+        },
+        {
+          "rel": "user",
+          "id": "gpj0mxwr",
+          "names": {
+            "international": "Adam_ak",
+            "japanese": null
+          },
+          "weblink": "https://www.speedrun.com/user/Adam_ak",
+          "name-style": {
+            "style": "gradient",
+            "color-from": {
+              "light": "#7AB941",
+              "dark": "#8AC951"
+            },
+            "color-to": {
+              "light": "#7AB941",
+              "dark": "#8AC951"
+            }
+          },
+          "role": "user",
+          "signup": "2014-03-25T02:07:48Z",
+          "location": null,
+          "twitch": {
+            "uri": "https://www.twitch.tv/adam_ak"
+          },
+          "hitbox": null,
+          "youtube": {
+            "uri": "https://www.youtube.com/user/AdamKuczynski"
+          },
+          "twitter": {
+            "uri": "https://www.twitter.com/AdamKuczynski"
+          },
+          "speedrunslive": {
+            "uri": "http://www.speedrunslive.com/profiles/#!/Adam"
+          },
+          "links": [
+            {
+              "rel": "self",
+              "uri": "https://www.speedrun.com/api/v1/users/gpj0mxwr"
+            },
+            {
+              "rel": "runs",
+              "uri": "https://www.speedrun.com/api/v1/runs?user=gpj0mxwr"
+            },
+            {
+              "rel": "games",
+              "uri": "https://www.speedrun.com/api/v1/games?moderator=gpj0mxwr"
+            },
+            {
+              "rel": "personal-bests",
+              "uri": "https://www.speedrun.com/api/v1/users/gpj0mxwr/personal-bests"
+            }
+          ]
+        }
+      ]
+    },
+    "regions": {
+      "data": []
+    },
+    "platforms": {
+      "data": [
+        {
+          "id": "8gej2n93",
+          "name": "PC",
+          "released": 1970,
+          "links": [
+            {
+              "rel": "self",
+              "uri": "https://www.speedrun.com/api/v1/platforms/8gej2n93"
+            },
+            {
+              "rel": "games",
+              "uri": "https://www.speedrun.com/api/v1/games?platform=8gej2n93"
+            },
+            {
+              "rel": "runs",
+              "uri": "https://www.speedrun.com/api/v1/runs?platform=8gej2n93"
+            }
+          ]
+        }
+      ]
+    },
+    "variables": {
+      "data": [
+        {
+          "id": "m5ly6jn4",
+          "name": "Game Version",
+          "category": null,
+          "scope": {
+            "type": "full-game"
+          },
+          "mandatory": true,
+          "user-defined": false,
+          "obsoletes": true,
+          "values": {
+            "_note": "`choices` is deprecated, please use `values` instead",
+            "choices": {
+              "81pyne17": "AoK",
+              "xqke89q9": "AoC",
+              "p12z471x": "HD Edition",
+              "gq72evd1": "UserPatch 1.4",
+              "mln0w00q": "UserPatch 1.5"
+            },
+            "values": {
+              "81pyne17": {
+                "label": "AoK"
+              },
+              "xqke89q9": {
+                "label": "AoC"
+              },
+              "p12z471x": {
+                "label": "HD Edition"
+              },
+              "gq72evd1": {
+                "label": "UserPatch 1.4"
+              },
+              "mln0w00q": {
+                "label": "UserPatch 1.5"
+              }
+            },
+            "default": null
+          },
+          "is-subcategory": false,
+          "links": [
+            {
+              "rel": "self",
+              "uri": "https://www.speedrun.com/api/v1/variables/m5ly6jn4"
+            },
+            {
+              "rel": "game",
+              "uri": "https://www.speedrun.com/api/v1/games/xldev513"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

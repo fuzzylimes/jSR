@@ -1,0 +1,20 @@
+{
+  "data": {
+    "id": "mol4z19n",
+    "name": "CHN / PAL",
+    "links": [
+      {
+        "rel": "self",
+        "uri": "https://www.speedrun.com/api/v1/regions/mol4z19n"
+      },
+      {
+        "rel": "games",
+        "uri": "https://www.speedrun.com/api/v1/games?region=mol4z19n"
+      },
+      {
+        "rel": "runs",
+        "uri": "https://www.speedrun.com/api/v1/runs?region=mol4z19n"
+      }
+    ]
+  }
+}

@@ -1,0 +1,183 @@
+{
+  "data": {
+    "weblink": "https://www.speedrun.com/smbx/-The_Invasion_2_-_01-01_Super_Easy_Road_-_by_Redigit#Levels_With_Powerup",
+    "game": "pdv0x91w",
+    "category": "7dgrergk",
+    "level": "5d74ypvd",
+    "platform": null,
+    "region": null,
+    "emulators": null,
+    "video-only": false,
+    "timing": "realtime",
+    "values": {},
+    "runs": [
+      {
+        "place": 1,
+        "run": {
+          "id": "yl4k453m",
+          "weblink": "https://www.speedrun.com/smbx/run/yl4k453m",
+          "game": "pdv0x91w",
+          "level": "5d74ypvd",
+          "category": "7dgrergk",
+          "videos": {
+            "links": [
+              {
+                "uri": "https://youtu.be/9qjg0Im0IIA"
+              }
+            ]
+          },
+          "comment": null,
+          "status": {
+            "status": "verified",
+            "examiner": "y8d4l798",
+            "verify-date": "2018-07-23T22:18:23Z"
+          },
+          "players": [
+            {
+              "rel": "user",
+              "id": "v813edlx",
+              "uri": "https://www.speedrun.com/api/v1/users/v813edlx"
+            }
+          ],
+          "date": "2018-07-23",
+          "submitted": "2018-07-23T21:34:33Z",
+          "times": {
+            "primary": "PT14.164S",
+            "primary_t": 14.164,
+            "realtime": "PT14.164S",
+            "realtime_t": 14.164,
+            "realtime_noloads": null,
+            "realtime_noloads_t": 0,
+            "ingame": null,
+            "ingame_t": 0
+          },
+          "system": {
+            "platform": "8gej2n93",
+            "emulated": false,
+            "region": null
+          },
+          "splits": null,
+          "values": {
+            "0nw2mjdn": "4lxxwwjl"
+          }
+        }
+      },
+      {
+        "place": 2,
+        "run": {
+          "id": "z51j1nem",
+          "weblink": "https://www.speedrun.com/smbx/run/z51j1nem",
+          "game": "pdv0x91w",
+          "level": "5d74ypvd",
+          "category": "7dgrergk",
+          "videos": {
+            "links": [
+              {
+                "uri": "https://www.youtube.com/watch?v=gKrzgW2cp4k"
+              }
+            ]
+          },
+          "comment": null,
+          "status": {
+            "status": "verified",
+            "examiner": "v813edlx",
+            "verify-date": "2018-07-26T05:57:07Z"
+          },
+          "players": [
+            {
+              "rel": "user",
+              "id": "y8d4l798",
+              "uri": "https://www.speedrun.com/api/v1/users/y8d4l798"
+            }
+          ],
+          "date": "2018-07-23",
+          "submitted": "2018-07-23T22:20:22Z",
+          "times": {
+            "primary": "PT14.227S",
+            "primary_t": 14.227,
+            "realtime": "PT14.227S",
+            "realtime_t": 14.227,
+            "realtime_noloads": null,
+            "realtime_noloads_t": 0,
+            "ingame": null,
+            "ingame_t": 0
+          },
+          "system": {
+            "platform": "8gej2n93",
+            "emulated": false,
+            "region": null
+          },
+          "splits": null,
+          "values": {
+            "0nw2mjdn": "4lxxwwjl"
+          }
+        }
+      },
+      {
+        "place": 3,
+        "run": {
+          "id": "y450jkqm",
+          "weblink": "https://www.speedrun.com/smbx/run/y450jkqm",
+          "game": "pdv0x91w",
+          "level": "5d74ypvd",
+          "category": "7dgrergk",
+          "videos": {
+            "links": [
+              {
+                "uri": "https://www.youtube.com/watch?v=PHM29p_KlSg"
+              }
+            ]
+          },
+          "comment": null,
+          "status": {
+            "status": "verified",
+            "examiner": "v813edlx",
+            "verify-date": "2018-03-15T08:15:03Z"
+          },
+          "players": [
+            {
+              "rel": "user",
+              "id": "98r690g8",
+              "uri": "https://www.speedrun.com/api/v1/users/98r690g8"
+            }
+          ],
+          "date": "2017-10-26",
+          "submitted": "2018-03-15T08:15:03Z",
+          "times": {
+            "primary": "PT18.500S",
+            "primary_t": 18.5,
+            "realtime": "PT18.500S",
+            "realtime_t": 18.5,
+            "realtime_noloads": null,
+            "realtime_noloads_t": 0,
+            "ingame": null,
+            "ingame_t": 0
+          },
+          "system": {
+            "platform": "8gej2n93",
+            "emulated": false,
+            "region": null
+          },
+          "splits": null,
+          "values": {
+            "0nw2mjdn": "4lxxwwjl"
+          }
+        }
+      }
+    ],
+    "links": [
+      {
+        "rel": "game",
+        "uri": "https://www.speedrun.com/api/v1/games/pdv0x91w"
+      },
+      {
+        "rel": "category",
+        "uri": "https://www.speedrun.com/api/v1/categories/7dgrergk"
+      },
+      {
+        "rel": "level",
+        "uri": "https://www.speedrun.com/api/v1/levels/5d74ypvd"
+      }
+    ]
+  }
+}
