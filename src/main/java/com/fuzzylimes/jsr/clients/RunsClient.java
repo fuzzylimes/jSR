@@ -1,7 +1,7 @@
 package com.fuzzylimes.jsr.clients;
 
-import com.fuzzylimes.jsr.sorting.Direction;
-import com.fuzzylimes.jsr.sorting.RunsOrderBy;
+import com.fuzzylimes.jsr.query_parameters.sorting.Direction;
+import com.fuzzylimes.jsr.query_parameters.sorting.RunsOrderBy;
 import com.fuzzylimes.jsr.query_parameters.RunsQuery;
 import com.fuzzylimes.jsr.resources.PagedResponse;
 import com.fuzzylimes.jsr.resources.Run;

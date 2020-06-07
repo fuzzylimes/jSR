@@ -1,4 +1,4 @@
-package com.fuzzylimes.jsr.sorting;
+package com.fuzzylimes.jsr.query_parameters.sorting;
 
 public enum RunsOrderBy {
 

@@ -7,6 +7,7 @@ import com.fuzzylimes.jsr.util.UnexpectedResponseException;
 import okhttp3.*;
 
 import java.io.IOException;
+import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
@@ -24,18 +25,27 @@ public class JsrClient {
     public static final ObjectMapper mapper = new ObjectMapper();
 
     public static JsonNode getSyncQuery(String url) throws IOException, UnexpectedResponseException {
-        return getSyncQuery(url, null);
+        return getSyncQuery(url, new HashMap<>());
     }
 
-    public static JsonNode getSyncQuery(String url, Map<String, String> qParams) throws IOException, UnexpectedResponseException {
+    @SafeVarargs
+    public static JsonNode getSyncQuery(String url, Map<String, String>... qParams) throws IOException, UnexpectedResponseException {
+
+        if (url == null) {
+            throw new IllegalArgumentException("url must not be null");
+        }
+
         HttpUrl.Builder httpBuilder = HttpUrl.parse(url).newBuilder();
         if (qParams != null) {
-            for (Map.Entry<String, String> param : qParams.entrySet()) {
-                httpBuilder.addQueryParameter(param.getKey(), param.getValue());
+            for (Map<String, String> qParam : qParams) {
+                for (Map.Entry<String, String> param : qParam.entrySet()) {
+                    httpBuilder.addQueryParameter(param.getKey(), param.getValue());
+                }
             }
         }
+
         Request request = new Request.Builder()
-                .url(url)
+                .url(httpBuilder.build())
                 .addHeader("User-Agent", Properties.USER_AGENT)
                 .build();
 

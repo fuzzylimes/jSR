@@ -1,6 +1,6 @@
-package com.fuzzylimes.jsr.sorting;
+package com.fuzzylimes.jsr.query_parameters.sorting;
 
-public enum VariablesOrderBy {
+public enum VariablesOrderBy implements OrderBy {
 
 
     /** sorts alphanumerically by the variable name */
