@@ -1,44 +1,33 @@
 package com.fuzzylimes.jsr.clients;
 
 import com.fasterxml.jackson.databind.JsonNode;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fuzzylimes.jsr.common.Properties;
 import com.fuzzylimes.jsr.resources.Guest;
-import okhttp3.OkHttpClient;
-import okhttp3.Request;
-import okhttp3.Response;
+import com.fuzzylimes.jsr.util.UnexpectedResponseException;
 
 import java.io.IOException;
-import java.net.URL;
+
+import static com.fuzzylimes.jsr.JsrClient.getSyncQuery;
+import static com.fuzzylimes.jsr.JsrClient.mapper;
+import static com.fuzzylimes.jsr.common.Properties.*;
 
 public class GuestClient {
-    private ObjectMapper mapper;
-    private OkHttpClient client;
-
-    public GuestClient(OkHttpClient client) {
-        this.mapper = new ObjectMapper();
-        this.client = client;
-    }
 
     /**
      * GET guests/{name}
      *
-     * Returns a single Guest object
-     * https://github.com/speedruncomorg/api/blob/master/version1/guests.md#get-guestsname
+     * <p>Allows you to query for a guest by their guest name. Guests are non-registered users, where
+     * a record was created for them on behalf of someone else.</p>
+     *
+     * <ul>
+     *     <li><a href="https://github.com/speedruncomorg/api/blob/master/version1/guests.md#get-guestsname">API Docs</a></li>
+     * </ul>
      *
      * @param name name of the guest to be retrieved
      * @return {@link Guest} object
      * @throws IOException if unable to retrieve response or parse response
      */
-    public Guest getGuestByName(String name) throws IOException {
-        URL url = new URL(Properties.BASE_RESOURCE + Properties.GUESTS_PATH + "/" + name);
-        Request request = new Request.Builder()
-                .url(url)
-                .addHeader("User-Agent", Properties.USER_AGENT)
-                .build();
-
-        Response response = client.newCall(request).execute();
-        JsonNode node = mapper.readTree(response.body().string());
+    public static Guest getGuestByName(String name) throws IOException, UnexpectedResponseException {
+        JsonNode node = getSyncQuery(buildPath(BASE_RESOURCE, GUESTS_PATH, name));
         return mapper.readValue(node.get("data").toString(), Guest.class);
     }
 

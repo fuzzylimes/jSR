@@ -1,6 +1,6 @@
 package com.fuzzylimes.jsr.query_parameters.sorting;
 
-public enum UserOrderBy {
+public enum UserOrderBy implements OrderBy  {
 
 
     /** sorts alphanumerically by the international name */

@@ -4,68 +4,85 @@ import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fuzzylimes.jsr.common.Properties;
+import com.fuzzylimes.jsr.query_parameters.sorting.CategoriesOrderBy;
+import com.fuzzylimes.jsr.query_parameters.sorting.Direction;
+import com.fuzzylimes.jsr.query_parameters.sorting.RegionsOrderBy;
+import com.fuzzylimes.jsr.query_parameters.sorting.Sorting;
 import com.fuzzylimes.jsr.resources.PagedResponse;
 import com.fuzzylimes.jsr.resources.Region;
+import com.fuzzylimes.jsr.util.UnexpectedResponseException;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.Response;
 
 import java.io.IOException;
 import java.net.URL;
+import java.util.List;
+
+import static com.fuzzylimes.jsr.JsrClient.getSyncQuery;
+import static com.fuzzylimes.jsr.JsrClient.mapper;
+import static com.fuzzylimes.jsr.common.Properties.*;
 
 public class RegionClient {
 
-    private ObjectMapper mapper;
-    private OkHttpClient client;
-    private TypeReference<PagedResponse<Region>> typeReference;
+    private TypeReference<PagedResponse<Region>> typeReference = new TypeReference<PagedResponse<Region>>() {};
 
-    public RegionClient(OkHttpClient client) {
-        this.mapper = new ObjectMapper();
-        this.client = client;
-        this.typeReference = new TypeReference<PagedResponse<Region>>() {};
+    /**
+     * GET regions
+     *
+     * <p>Used to retrieve a {@link PagedResponse} of {@link Region} objects, sorted by the parameters defined
+     * in {@link Sorting} of type {@link RegionsOrderBy} </p>
+     *
+     * <ul>
+     *     <li>Supports Order by and Direction in {@link RegionsOrderBy} and {@link Direction}</li>
+     *     <li><a href="https://github.com/speedruncomorg/api/blob/master/version1/regions.md#get-regions">API Docs</a></li>
+     * </ul>
+     *
+     * @param sorting Defined sorting order; {@link Sorting} of type {@link RegionsOrderBy}
+     * @return a {@link PagedResponse} of {@link Region}
+     * @throws IOException if something goes wrong with mapping
+     * @throws UnexpectedResponseException if non-2XX or no body returned to request
+     */
+    public PagedResponse<Region> getRegions(Sorting<RegionsOrderBy> sorting) throws IOException, UnexpectedResponseException {
+        JsonNode node = getSyncQuery(buildPath(BASE_RESOURCE, REGION_PATH), sorting.getQueryMap());
+        return mapper.readValue(node.toString(), typeReference);
     }
 
     /**
      * GET regions
      *
+     * <p>Used to retrieve a {@link PagedResponse} of {@link Region} objects</p>
+     *
+     * <ul>
+     *     <li><a href="https://github.com/speedruncomorg/api/blob/master/version1/regions.md#get-regions">API Docs</a></li>
+     * </ul>
+     *
      * @return a {@link PagedResponse} of {@link Region}
-     * @throws IOException if unable to retrieve response or parse response
+     * @throws IOException if something goes wrong with mapping
+     * @throws UnexpectedResponseException if non-2XX or no body returned to request
      */
-    public PagedResponse<Region> getRegions() throws IOException {
-        URL url = new URL(Properties.BASE_RESOURCE + Properties.REGION_PATH);
-        Request request = new Request.Builder()
-                .url(url)
-                .addHeader("User-Agent", Properties.USER_AGENT)
-                .build();
-
-        Response response = client.newCall(request).execute();
-        if (response.isSuccessful() && response.body() != null) {
-            return mapper.readValue(response.body().string(), typeReference);
-        } else {
-            return new PagedResponse<>();
-        }
-
+    public PagedResponse<Region> getRegions() throws IOException, UnexpectedResponseException {
+        return getRegions(Sorting.<RegionsOrderBy>builder().build());
     }
 
-    /**
-     * @param id
-     * @return
-     * @throws IOException
-     */
-    public Region getRegion(String id) throws IOException {
-        URL url = new URL(Properties.BASE_RESOURCE + Properties.REGION_PATH + "/" + id);
-        Request request = new Request.Builder()
-                .url(url)
-                .addHeader("User-Agent", Properties.USER_AGENT)
-                .build();
 
-        Response response = client.newCall(request).execute();
-        if (response.isSuccessful() && response.body() != null) {
-            JsonNode r = mapper.readTree(response.body().string());
-            return mapper.readValue(r.get("data").toString(), Region.class);
-        } else {
-            return new Region();
-        }
+    /**
+     * GET regions/{id}
+     *
+     * <p>Used to retrieve a specific {@link Region}</p>
+     *
+     * <ul>
+     *     <li><a href="https://github.com/speedruncomorg/api/blob/master/version1/regions.md#get-regionsid">API Docs</a></li>
+     * </ul>
+     *
+     * @param regionId Id of {@link Region} to be queried
+     * @return a {@link Region}
+     * @throws IOException if something goes wrong with mapping
+     * @throws UnexpectedResponseException if non-2XX or no body returned to request
+     */
+    public Region getRegionById(String regionId) throws IOException, UnexpectedResponseException {
+        JsonNode node = getSyncQuery(buildPath(BASE_RESOURCE, REGION_PATH, regionId));
+        return mapper.readValue(node.get("data").toString(), Region.class);
     }
 
 }

@@ -2,73 +2,74 @@ package com.fuzzylimes.jsr.clients;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.JsonNode;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fuzzylimes.jsr.common.Properties;
 import com.fuzzylimes.jsr.query_parameters.sorting.Direction;
 import com.fuzzylimes.jsr.query_parameters.sorting.PlatformOrderBy;
+import com.fuzzylimes.jsr.query_parameters.sorting.Sorting;
 import com.fuzzylimes.jsr.resources.PagedResponse;
 import com.fuzzylimes.jsr.resources.Platform;
-import okhttp3.OkHttpClient;
-import okhttp3.Request;
-import okhttp3.Response;
+import com.fuzzylimes.jsr.util.UnexpectedResponseException;
 
 import java.io.IOException;
-import java.net.URL;
+
+import static com.fuzzylimes.jsr.JsrClient.getSyncQuery;
+import static com.fuzzylimes.jsr.JsrClient.mapper;
+import static com.fuzzylimes.jsr.common.Properties.*;
 
 public class PlatformClient {
 
-    private ObjectMapper mapper;
-    private OkHttpClient client;
-    private TypeReference<PagedResponse<Platform>> platformsType;
+    private static final TypeReference<PagedResponse<Platform>> platformsType = new TypeReference<PagedResponse<Platform>>() {};
 
-    public PlatformClient(OkHttpClient client) {
-        this.mapper = new ObjectMapper();
-        this.client = client;
-        this.platformsType = new TypeReference<PagedResponse<Platform>>() {};
+    /**
+     * GET platforms
+     *
+     * <p>Used to retrieve a {@link PagedResponse} of {@link Platform} objects, and sorted by the
+     * parameters defined in {@link Sorting} of type {@link PlatformOrderBy}</p>
+     *
+     * <ul>
+     *     <li>Supports OrderBy and Direction using {@link PlatformOrderBy} and {@link Direction}</li>
+     *     <li><a href="https://github.com/speedruncomorg/api/blob/master/version1/platforms.md#get-platforms">API Docs</a></li>
+     * </ul>
+     *
+     * @return Platforms object with list of Platforms and pagination
+     * @throws IOException if unable to retrieve response or parse response
+     */
+    public static PagedResponse<Platform> getPlatforms(Sorting<PlatformOrderBy> sorting) throws IOException, UnexpectedResponseException {
+        JsonNode node = getSyncQuery(buildPath(BASE_RESOURCE, PLATFORMS_PATH), sorting.getQueryMap());
+        return mapper.readValue(node.toString(), platformsType);
     }
 
     /**
      * GET platforms
      *
-     * Returns a list of {@link Platform} objects
-     * Supports OrderBy and Direction using {@link PlatformOrderBy} and {@link Direction}
-     * https://github.com/speedruncomorg/api/blob/master/version1/platforms.md#get-platforms
+     * <p>Used to retrieve a {@link PagedResponse} of {@link Platform} objects</p>
+     *
+     * <ul>
+     *     <li><a href="https://github.com/speedruncomorg/api/blob/master/version1/platforms.md#get-platforms">API Docs</a></li>
+     * </ul>
      *
      * @return Platforms object with list of Platforms and pagination
      * @throws IOException if unable to retrieve response or parse response
      */
-    public PagedResponse<Platform> getPlatforms() throws IOException {
-        URL url = new URL(Properties.BASE_RESOURCE + Properties.PLATFORMS_PATH);
-        Request request = new Request.Builder()
-                .url(url)
-                .addHeader("User-Agent", Properties.USER_AGENT)
-                .build();
-
-        Response response = client.newCall(request).execute();
-        JsonNode node = mapper.readTree(response.body().string());
-        return mapper.readValue(node.toString(), platformsType);
+    public static PagedResponse<Platform> getPlatforms() throws IOException, UnexpectedResponseException {
+        return getPlatforms(Sorting.<PlatformOrderBy>builder().build());
     }
 
 
     /**
      * GET platforms/{id}
-     * Returns a single {@link Platform} object
-     * https://github.com/speedruncomorg/api/blob/master/version1/platforms.md#get-platformsid
+     *
+     * <p>Used to retrieve a specific {@link Platform}</p>
+     *
+     * <ul>
+     *     <li><a href="https://github.com/speedruncomorg/api/blob/master/version1/platforms.md#get-platformsid">API Docs</a></li>
+     * </ul>
      *
      * @param id id of Platform to query
      * @return {@link Platform} object
      * @throws IOException if unable to retrieve response or parse response
      */
-
-    public Platform getPlatformsById(String id) throws IOException {
-        URL url = new URL(Properties.BASE_RESOURCE + Properties.PLATFORMS_PATH + "/" + id);
-        Request request = new Request.Builder()
-                .url(url)
-                .addHeader("User-Agent", Properties.USER_AGENT)
-                .build();
-
-        Response response = client.newCall(request).execute();
-        JsonNode node = mapper.readTree(response.body().string());
+    public static Platform getPlatformsById(String id) throws IOException, UnexpectedResponseException {
+        JsonNode node = getSyncQuery(buildPath(BASE_RESOURCE, PLATFORMS_PATH, id));
         return mapper.readValue(node.get("data").toString(), Platform.class);
     }
 }

@@ -4,18 +4,17 @@ import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fuzzylimes.jsr.JacksonTests.util.DeserializeUtil;
-import com.fuzzylimes.jsr.resources.Category;
-import com.fuzzylimes.jsr.resources.Level;
-import com.fuzzylimes.jsr.resources.Variable;
+import com.fuzzylimes.jsr.resources.*;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import java.io.IOException;
+import java.lang.System;
 import java.util.List;
 
 import static com.fuzzylimes.jsr.resources.CategoryTypes.PER_LEVEL;
 
-public class EmbeddedLevelTest {
+public class LevelTest {
     ObjectMapper mapper = new ObjectMapper();
 
     @Test
@@ -39,7 +38,7 @@ public class EmbeddedLevelTest {
         Assertions.assertEquals(2, var.getCategories().size());
         Assertions.assertEquals(PER_LEVEL, var.getCategories().get(1).getType());
         Assertions.assertEquals(1, var.getVariables().size());
-        Assertions.assertEquals(false, var.getVariables().get(0).isSubcategory());
+        Assertions.assertFalse(var.getVariables().get(0).isSubcategory());
     }
 
     @Test
@@ -63,6 +62,30 @@ public class EmbeddedLevelTest {
         Assertions.assertEquals("0nw2mjdn", var.get(0).getId());
         Assertions.assertNull(var.get(0).getValues().getDefaultValue());
         Assertions.assertEquals("Luigi", var.get(0).getValues().getValues().get("0q5oeer1").getLabel());
+    }
+
+    @Test
+    public void deserializeLevelsByIdRecordsTest() throws IOException {
+        JsonNode node = mapper.readTree(DeserializeUtil.getFile("/responses/LevelsByIdRecords.json"));
+        PagedResponse<Leaderboard> var = mapper.readValue(node.toString(), new TypeReference<PagedResponse<Leaderboard>>() {});
+        System.out.println(node);
+
+        Assertions.assertEquals(2, var.getResourceList().size());
+        Assertions.assertEquals("5d74ypvd", var.getResourceList().get(0).getLevel().getId());
+        Assertions.assertNull(var.getResourceList().get(1).getPlatform());
+        Assertions.assertEquals("v8lnen2x", var.getResourceList().get(1).getRuns().get(0).getRun().getPlayers().getPlayers().get(0).getId());
+    }
+
+    @Test
+    public void deserializeLevelsByIdRecords_EmbedTest() throws IOException {
+        JsonNode node = mapper.readTree(DeserializeUtil.getFile("/responses/LevelsByIdRecords_Embed.json"));
+        PagedResponse<Leaderboard> var = mapper.readValue(node.toString(), new TypeReference<PagedResponse<Leaderboard>>() {});
+        System.out.println(node);
+
+        Assertions.assertEquals(2, var.getResourceList().size());
+        Assertions.assertEquals("5d74ypvd", var.getResourceList().get(0).getLevel().getLevelEmbed().getId());
+        Assertions.assertNull(var.getResourceList().get(1).getPlatform());
+        Assertions.assertEquals("v8lnen2x", var.getResourceList().get(1).getRuns().get(0).getRun().getPlayers().getPlayers().get(0).getId());
     }
 
 }

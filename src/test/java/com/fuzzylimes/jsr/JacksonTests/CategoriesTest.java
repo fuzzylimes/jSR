@@ -21,7 +21,7 @@ public class CategoriesTest {
         Category var = mapper.readValue(node.get("data").toString(), Category.class);
         System.out.println(node);
 
-        Assertions.assertEquals(false, var.isMiscellaneous());
+        Assertions.assertFalse(var.isMiscellaneous());
         Assertions.assertEquals("jdzme6kv", var.getId());
         Assertions.assertEquals(1, var.getPlayers().getValue());
 

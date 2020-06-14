@@ -1,6 +1,6 @@
 package com.fuzzylimes.jsr.query_parameters.sorting;
 
-public enum PlatformOrderBy {
+public enum PlatformOrderBy implements OrderBy {
 
 
     /** sorts alphanumerically by the platform name */

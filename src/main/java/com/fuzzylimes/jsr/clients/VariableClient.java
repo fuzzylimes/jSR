@@ -31,7 +31,7 @@ public class VariableClient {
      * @throws IOException if unable to retrieve response or parse response
      */
     public Variable getVariableById(String id) throws IOException {
-        URL url = new URL(Properties.BASE_RESOURCE + Properties.VARIABLE_PATH + "/" + id);
+        URL url = new URL(Properties.BASE_RESOURCE + Properties.VARIABLES_PATH + "/" + id);
         Request request = new Request.Builder()
                 .url(url)
                 .addHeader("User-Agent", Properties.USER_AGENT)

@@ -1,6 +1,6 @@
 package com.fuzzylimes.jsr.query_parameters.sorting;
 
-public enum RegionsOrderBy {
+public enum RegionsOrderBy implements OrderBy  {
 
 
     /** sorts alphanumerically by the region name */

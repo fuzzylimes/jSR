@@ -1,6 +1,6 @@
 package com.fuzzylimes.jsr.query_parameters.sorting;
 
-public enum CategoriesOrderBy {
+public enum CategoriesOrderBy implements OrderBy {
 
 
     /** sorts alphanumerically by the category name */

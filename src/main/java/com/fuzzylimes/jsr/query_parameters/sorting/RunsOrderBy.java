@@ -1,6 +1,6 @@
 package com.fuzzylimes.jsr.query_parameters.sorting;
 
-public enum RunsOrderBy {
+public enum RunsOrderBy implements OrderBy {
 
 
     /** sorts by the game the run was done in */

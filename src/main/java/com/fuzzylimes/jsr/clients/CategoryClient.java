@@ -5,6 +5,7 @@ import com.fasterxml.jackson.databind.JsonNode;
 import com.fuzzylimes.jsr.query_parameters.CategoryRecordsQuery;
 import com.fuzzylimes.jsr.resources.Category;
 import com.fuzzylimes.jsr.resources.Leaderboard;
+import com.fuzzylimes.jsr.resources.PagedResponse;
 import com.fuzzylimes.jsr.resources.Variable;
 import com.fuzzylimes.jsr.query_parameters.sorting.Sorting;
 import com.fuzzylimes.jsr.query_parameters.sorting.VariablesOrderBy;
@@ -25,7 +26,7 @@ public class CategoryClient {
      * <p>Used to retrieve a category resource by a specific category id with embedded values.
      *
      * <ul>
-     *   <li>Supports embed with game,variables
+     *   <li>Supports embed with {@value com.fuzzylimes.jsr.common.Properties#CATEGORY_EMBED_VALUES}
      * </ul>
      *
      * @param id id of the category to query
@@ -56,7 +57,7 @@ public class CategoryClient {
      * @throws UnexpectedResponseException if non-2XX or no body returned to request
      */
     public static Category getCategoryById(String id) throws IOException, UnexpectedResponseException {
-        return getCategoryById(id, null);
+        return getCategoryById(id, false);
     }
 
 
@@ -75,8 +76,7 @@ public class CategoryClient {
      * @throws UnexpectedResponseException if non-2XX or no body returned to request
      */
     public static List<Variable> getVariablesForCategory(String id) throws IOException, UnexpectedResponseException {
-        JsonNode node = getSyncQuery(buildPath(BASE_RESOURCE, CATEGORIES_PATH, id));
-        return mapper.readValue(node.get("data").toString(), new TypeReference<List<Variable>>() {});
+        return getVariablesForCategory(id, Sorting.<VariablesOrderBy>builder().build());
     }
 
 
@@ -97,7 +97,7 @@ public class CategoryClient {
      * @throws UnexpectedResponseException if non-2XX or no body returned to request
      */
     public static List<Variable> getVariablesForCategory(String id, Sorting<VariablesOrderBy> sorting) throws IOException, UnexpectedResponseException {
-        JsonNode node = getSyncQuery(buildPath(BASE_RESOURCE, CATEGORIES_PATH, id, "variables"), sorting.getQueryMap());
+        JsonNode node = getSyncQuery(buildPath(BASE_RESOURCE, CATEGORIES_PATH, id, VARIABLES_PATH), sorting.getQueryMap());
         return mapper.readValue(node.get("data").toString(), new TypeReference<List<Variable>>() {});
     }
 
@@ -109,7 +109,7 @@ public class CategoryClient {
      * a set of provided {@link CategoryRecordsQuery} query params and optionally enriched with embedded data objects.
      * <ul>
      *   <li>Supports query parameters top and skip-empty
-     *   <li>Supports embed with game,category,level,players,regions,platforms,variables</li>
+     *   <li>Supports embed with {@value com.fuzzylimes.jsr.common.Properties#LEADERBOARD_EMBED_VALUES}</li>
      *   <li><a href="https://github.com/speedruncomorg/api/blob/master/version1/categories.md#get-categoriesidrecords">
      *       API Docs</a>
      * </ul>
@@ -121,11 +121,11 @@ public class CategoryClient {
      * @throws IOException if something goes wrong with mapping
      * @throws UnexpectedResponseException if non-2XX or no body returned to request
      */
-    public static List<Leaderboard> getCategoryRecords(String id, Boolean embed, CategoryRecordsQuery queryParams) throws IOException, UnexpectedResponseException {
+    public static PagedResponse<Leaderboard> getCategoryRecords(String id, Boolean embed, CategoryRecordsQuery queryParams) throws IOException, UnexpectedResponseException {
         JsonNode node = Boolean.TRUE.equals(embed) ?
-                getSyncQuery(buildPath(BASE_RESOURCE, CATEGORIES_PATH, id), CATEGORY_EMBED, queryParams.getQueryMap()):
-                getSyncQuery(buildPath(BASE_RESOURCE, CATEGORIES_PATH, id), queryParams.getQueryMap());
-        return mapper.readValue(node.get("data").toString(), new TypeReference<List<Leaderboard>>() {});
+                getSyncQuery(buildPath(BASE_RESOURCE, CATEGORIES_PATH, id, RECORDS_PATH), CATEGORY_EMBED, queryParams.getQueryMap()):
+                getSyncQuery(buildPath(BASE_RESOURCE, CATEGORIES_PATH, id, RECORDS_PATH), queryParams.getQueryMap());
+        return mapper.readValue(node.toString(), new TypeReference<PagedResponse<Leaderboard>>() {});
     }
 
     /**
@@ -134,7 +134,7 @@ public class CategoryClient {
      * <p>Used to retrieve a list of {@link Leaderboard} records associated with a specific category id, optionally
      * enriched with embedded data objects.
      * <ul>
-     *   <li>Supports embed with game,category,level,players,regions,platforms,variables</li>
+     *   <li>Supports {@value com.fuzzylimes.jsr.common.Properties#LEADERBOARD_EMBED_VALUES}</li>
      *   <li><a href="https://github.com/speedruncomorg/api/blob/master/version1/categories.md#get-categoriesidrecords">
      *       API Docs</a>
      * </ul>
@@ -145,7 +145,7 @@ public class CategoryClient {
      * @throws IOException if something goes wrong with mapping
      * @throws UnexpectedResponseException if non-2XX or no body returned to request
      */
-    public static List<Leaderboard> getCategoryRecords(String id, Boolean embed) throws IOException, UnexpectedResponseException {
+    public static PagedResponse<Leaderboard> getCategoryRecords(String id, Boolean embed) throws IOException, UnexpectedResponseException {
         return getCategoryRecords(id, embed, CategoryRecordsQuery.builder().build());
     }
 
@@ -163,7 +163,7 @@ public class CategoryClient {
      * @throws IOException if something goes wrong with mapping
      * @throws UnexpectedResponseException if non-2XX or no body returned to request
      */
-    public static List<Leaderboard> getCategoryRecords(String id) throws IOException, UnexpectedResponseException {
+    public static PagedResponse<Leaderboard> getCategoryRecords(String id) throws IOException, UnexpectedResponseException {
         return getCategoryRecords(id, false);
     }
 }
