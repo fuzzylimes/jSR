@@ -19,7 +19,6 @@ public class UsersTest {
     public void deserializeUsersTest() throws IOException {
         JsonNode node = mapper.readTree(DeserializeUtil.getFile("/responses/Users.json"));
         PagedResponse<User> var = mapper.readValue(node.toString(), new TypeReference<PagedResponse<User>>() {});
-        System.out.println(node);
 
         Assertions.assertEquals(20, var.getResourceList().size());
         Assertions.assertEquals(20, var.getPagination().getSize());
@@ -32,7 +31,6 @@ public class UsersTest {
     public void deserializeUserByIdTest() throws IOException {
         JsonNode node = mapper.readTree(DeserializeUtil.getFile("/responses/UsersById.json"));
         User var = mapper.readValue(node.get("data").toString(), User.class);
-        System.out.println(node);
 
         Assertions.assertEquals(4, var.getLinks().size());
         Assertions.assertEquals("o86vmv3j", var.getId());
@@ -44,7 +42,6 @@ public class UsersTest {
     public void deserializeUsersEmbedTest() throws IOException {
         JsonNode node = mapper.readTree(DeserializeUtil.getFile("/responses/UsersByIdPersonalBest.json"));
         List<PersonalBest> var = mapper.readValue(node.get("data").toString(), new TypeReference<List<PersonalBest>>() {});
-        System.out.println(node);
 
         Assertions.assertEquals(10, var.get(1).getPlace());
         Assertions.assertEquals("mk923lvz", var.get(1).getRun().getId());

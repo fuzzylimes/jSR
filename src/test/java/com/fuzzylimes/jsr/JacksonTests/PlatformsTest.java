@@ -18,7 +18,6 @@ public class PlatformsTest {
     public void deserializePlatformsTest() throws IOException {
         JsonNode node = mapper.readTree(DeserializeUtil.getFile("/responses/Platforms.json"));
         PagedResponse<Platform> var = mapper.readValue(node.toString(), new TypeReference<PagedResponse<Platform>>() {});
-        System.out.println(node);
 
         Assertions.assertEquals(20, var.getResourceList().size());
         Assertions.assertEquals(20, var.getPagination().getSize());
@@ -29,7 +28,6 @@ public class PlatformsTest {
     public void deserializePlatformByIdTest() throws IOException {
         JsonNode node = mapper.readTree(DeserializeUtil.getFile("/responses/PlatformsById.json"));
         Platform var = mapper.readValue(node.get("data").toString(), Platform.class);
-        System.out.println(node);
 
         Assertions.assertEquals("jm9577eo", var.getId());
         Assertions.assertEquals(3, var.getLinks().size());

@@ -20,7 +20,6 @@ public class SeriesTest {
     public void deserializeSeriesTest() throws IOException {
         JsonNode node = mapper.readTree(DeserializeUtil.getFile("/responses/Series.json"));
         PagedResponse<Series> var = mapper.readValue(node.toString(), new TypeReference<PagedResponse<Series>>() {});
-        System.out.println(node);
 
         Assertions.assertEquals(20, var.getResourceList().size());
         Assertions.assertEquals(20, var.getPagination().getSize());
@@ -33,7 +32,6 @@ public class SeriesTest {
     public void deserializeSeriesEmbedTest() throws IOException {
         JsonNode node = mapper.readTree(DeserializeUtil.getFile("/responses/Series_Embed.json"));
         PagedResponse<Series> var = mapper.readValue(node.toString(), new TypeReference<PagedResponse<Series>>() {});
-        System.out.println(node);
 
         Assertions.assertEquals(20, var.getResourceList().size());
         Assertions.assertEquals(20, var.getPagination().getSize());
@@ -46,7 +44,6 @@ public class SeriesTest {
     public void deserializeSeriesByIdTest() throws IOException {
         JsonNode node = mapper.readTree(DeserializeUtil.getFile("/responses/SeriesById.json"));
         Series var = mapper.readValue(node.get("data").toString(), Series.class);
-        System.out.println(node);
 
         Assertions.assertEquals(".hack", var.getAbbreviation());
         Assertions.assertEquals(SUPER_MODERATOR, var.getModerators().getModeratorRoles().get("48ge6kyj"));

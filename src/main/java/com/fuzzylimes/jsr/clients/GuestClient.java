@@ -13,6 +13,13 @@ import static com.fuzzylimes.jsr.common.Properties.*;
 public class GuestClient {
 
     /**
+     * Should not be initialized. Use the static references to each resource call
+     */
+    private GuestClient() {
+        // Util method
+    }
+
+    /**
      * GET guests/{name}
      *
      * <p>Allows you to query for a guest by their guest name. Guests are non-registered users, where
@@ -24,7 +31,8 @@ public class GuestClient {
      *
      * @param name name of the guest to be retrieved
      * @return {@link Guest} object
-     * @throws IOException if unable to retrieve response or parse response
+     * @throws IOException if something goes wrong with mapping
+     * @throws UnexpectedResponseException if non-2XX or no body returned to request
      */
     public static Guest getGuestByName(String name) throws IOException, UnexpectedResponseException {
         JsonNode node = getSyncQuery(buildPath(BASE_RESOURCE, GUESTS_PATH, name));

@@ -28,6 +28,13 @@ public class RegionClient {
     private TypeReference<PagedResponse<Region>> typeReference = new TypeReference<PagedResponse<Region>>() {};
 
     /**
+     * Should not be initialized. Use the static references to each resource call
+     */
+    private RegionClient() {
+        // Util method
+    }
+
+    /**
      * GET regions
      *
      * <p>Used to retrieve a {@link PagedResponse} of {@link Region} objects, sorted by the parameters defined

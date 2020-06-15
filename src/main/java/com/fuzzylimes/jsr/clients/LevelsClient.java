@@ -17,9 +17,15 @@ import java.util.List;
 import static com.fuzzylimes.jsr.JsrClient.getSyncQuery;
 import static com.fuzzylimes.jsr.JsrClient.mapper;
 import static com.fuzzylimes.jsr.common.Properties.*;
-import static com.fuzzylimes.jsr.common.Properties.LEVEL_PATH;
 
 public class LevelsClient {
+
+    /**
+     * Should not be initialized. Use the static references to each resource call
+     */
+    private LevelsClient() {
+        // Util method
+    }
 
     /**
      * GET levels/{id}

@@ -18,7 +18,6 @@ public class VariablesTest {
     public void deserializeVariablesTest() throws IOException {
         JsonNode node = mapper.readTree(DeserializeUtil.getFile("/responses/VariablesById.json"));
         Variable var = mapper.readValue(node.get("data").toString(), Variable.class);
-        System.out.println(node);
 
         Assertions.assertEquals(9, var.getValues().getValues().size());
         Assertions.assertEquals(SINGLE_LEVEL, var.getScope().getType());

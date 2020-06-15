@@ -18,7 +18,6 @@ public class RunsTest {
     public void deserializeRunsTest() throws IOException {
         JsonNode node = mapper.readTree(DeserializeUtil.getFile("/responses/Runs.json"));
         PagedResponse<Run> var = mapper.readValue(node.toString(), new TypeReference<PagedResponse<Run>>() {});
-        System.out.println(node);
 
         Assertions.assertEquals(20, var.getResourceList().size());
         Assertions.assertEquals(20, var.getPagination().getSize());
@@ -32,7 +31,6 @@ public class RunsTest {
     public void deserializeRunsEmbedTest() throws IOException {
         JsonNode node = mapper.readTree(DeserializeUtil.getFile("/responses/Runs_Embed.json"));
         PagedResponse<Run> var = mapper.readValue(node.toString(), new TypeReference<PagedResponse<Run>>() {});
-        System.out.println(node);
 
         Assertions.assertEquals(20, var.getResourceList().size());
         Assertions.assertEquals(20, var.getPagination().getSize());
@@ -46,7 +44,6 @@ public class RunsTest {
     public void deserializeRunsByIdTest() throws IOException {
         JsonNode node = mapper.readTree(DeserializeUtil.getFile("/responses/RunsById.json"));
         Run var = mapper.readValue(node.get("data").toString(), Run.class);
-        System.out.println(node);
 
         Assertions.assertEquals("1wzpqgyq", var.getId());
         Assertions.assertEquals("nj1ne1p4", var.getGame().getId());
@@ -57,7 +54,6 @@ public class RunsTest {
     public void deserializeRunsByIdEmbedTest() throws IOException {
         JsonNode node = mapper.readTree(DeserializeUtil.getFile("/responses/RunsById_Embed.json"));
         Run var = mapper.readValue(node.get("data").toString(), Run.class);
-        System.out.println(node);
 
         Assertions.assertEquals("1wzpqgyq", var.getId());
         Assertions.assertEquals("nj1ne1p4", var.getGame().getGameEmbed().getId());

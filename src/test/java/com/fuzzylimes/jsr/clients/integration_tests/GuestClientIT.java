@@ -1,23 +1,21 @@
-package com.fuzzylimes.jsr.clients;
+package com.fuzzylimes.jsr.clients.integration_tests;
 
+import com.fuzzylimes.jsr.clients.GuestClient;
 import com.fuzzylimes.jsr.resources.Guest;
 import com.fuzzylimes.jsr.util.UnexpectedResponseException;
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 import java.io.IOException;
 
-import static com.fuzzylimes.jsr.JacksonTests.util.ClientTestUtil.MockJsrClientUrl;
-
-class GuestClientTest {
+class GuestClientIT {
 
     @Test
-    void getGuestByNameTest() throws IOException, UnexpectedResponseException {
-        MockJsrClientUrl("/responses/Guests.json");
-
+    @Disabled
+    void getGuestByNameIT() throws IOException, UnexpectedResponseException {
         Guest var = GuestClient.getGuestByName("Karin");
         Assertions.assertEquals(2, var.getLinks().size());
         Assertions.assertEquals("Karin", var.getName());
     }
-
 }

@@ -16,7 +16,6 @@ public class GuestsTest {
     public void deserializeGuestsTest() throws IOException {
         JsonNode node = mapper.readTree(DeserializeUtil.getFile("/responses/Guests.json"));
         Guest var = mapper.readValue(node.get("data").toString(), Guest.class);
-        System.out.println(node);
 
         Assertions.assertEquals(2, var.getLinks().size());
         Assertions.assertEquals("Karin", var.getName());

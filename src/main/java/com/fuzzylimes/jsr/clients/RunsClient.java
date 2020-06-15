@@ -9,6 +9,13 @@ import com.fuzzylimes.jsr.resources.Run;
 public class RunsClient {
 
     /**
+     * Should not be initialized. Use the static references to each resource call
+     */
+    private RunsClient() {
+        // Util method
+    }
+
+    /**
      * GET runs
      *
      * Returns a {@link PagedResponse} of {@link Run}

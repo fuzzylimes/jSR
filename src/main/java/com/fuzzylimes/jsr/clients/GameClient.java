@@ -13,6 +13,13 @@ public class GameClient {
         this.client = client;
     }
 
+    /**
+     * Should not be initialized. Use the static references to each resource call
+     */
+    private GameClient() {
+        // Util method
+    }
+
 //    public GameResponse getGameByName(String name) throws IOException {
 //        URL url = new URL(Properties.BASE_RESOURCE + Properties.GAME_PATH + "?name=" + name);
 //        Request request = new Request.Builder()

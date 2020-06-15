@@ -30,6 +30,13 @@ public class SeriesClient {
     }
 
     /**
+     * Should not be initialized. Use the static references to each resource call
+     */
+    private SeriesClient() {
+        // Util method
+    }
+
+    /**
      *  GET series
      *
      *  Returns a list of {@link Series} objects

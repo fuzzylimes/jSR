@@ -21,6 +21,13 @@ import static com.fuzzylimes.jsr.common.Properties.*;
 public class CategoryClient {
 
     /**
+     * Should not be initialized. Use the static references to each resource call
+     */
+    private CategoryClient() {
+        // Util method
+    }
+
+    /**
      * GET categories/{id} (embedded)
      *
      * <p>Used to retrieve a category resource by a specific category id with embedded values.

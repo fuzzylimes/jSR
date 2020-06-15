@@ -18,7 +18,6 @@ public class RegionsTest {
     public void deserializeRegionsTest() throws IOException {
         JsonNode node = mapper.readTree(DeserializeUtil.getFile("/responses/Regions.json"));
         PagedResponse<Region> var = mapper.readValue(node.toString(), new TypeReference<PagedResponse<Region>>() {});
-        System.out.println(node);
 
         Assertions.assertEquals(6, var.getResourceList().size());
         Assertions.assertEquals(6, var.getPagination().getSize());
@@ -29,7 +28,6 @@ public class RegionsTest {
     public void deserializeRegionsByIdTest() throws IOException {
         JsonNode node = mapper.readTree(DeserializeUtil.getFile("/responses/RegionsById.json"));
         Region var = mapper.readValue(node.get("data").toString(), Region.class);
-        System.out.println(node);
 
         Assertions.assertEquals("mol4z19n", var.getId());
         Assertions.assertEquals(3, var.getLinks().size());

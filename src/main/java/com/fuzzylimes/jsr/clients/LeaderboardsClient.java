@@ -17,6 +17,13 @@ import static com.fuzzylimes.jsr.common.Properties.*;
 public class LeaderboardsClient {
 
     /**
+     * Should not be initialized. Use the static references to each resource call
+     */
+    private LeaderboardsClient() {
+        // Util method
+    }
+
+    /**
      *  GET /leaderboards/{game}/category/{category}
      *
      *  <p>Used to retrieve a leaderboard for a specific {@link Game} and {@link Category}, filtered by

@@ -20,6 +20,13 @@ public class PlatformClient {
     private static final TypeReference<PagedResponse<Platform>> platformsType = new TypeReference<PagedResponse<Platform>>() {};
 
     /**
+     * Should not be initialized. Use the static references to each resource call
+     */
+    private PlatformClient() {
+        // Util method
+    }
+
+    /**
      * GET platforms
      *
      * <p>Used to retrieve a {@link PagedResponse} of {@link Platform} objects, and sorted by the

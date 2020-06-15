@@ -2,6 +2,13 @@ package com.fuzzylimes.jsr.clients;
 
 public class UserClient {
 
+    /**
+     * Should not be initialized. Use the static references to each resource call
+     */
+    private UserClient() {
+        // Util method
+    }
+
     // GET users
     // Returns a list of User objects
     // Supports the query parameters identified in `UserQuery`

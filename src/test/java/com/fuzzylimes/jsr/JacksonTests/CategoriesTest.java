@@ -19,7 +19,6 @@ public class CategoriesTest {
     public void deserializeCategoriesTest() throws IOException {
         JsonNode node = mapper.readTree(DeserializeUtil.getFile("/responses/CategoriesById.json"));
         Category var = mapper.readValue(node.get("data").toString(), Category.class);
-        System.out.println(node);
 
         Assertions.assertFalse(var.isMiscellaneous());
         Assertions.assertEquals("jdzme6kv", var.getId());
@@ -31,7 +30,6 @@ public class CategoriesTest {
     public void deserializeCategoriesEmbedTest() throws IOException {
         JsonNode node = mapper.readTree(DeserializeUtil.getFile("/responses/CategoriesById_Embed.json"));
         Category var = mapper.readValue(node.get("data").toString(), Category.class);
-        System.out.println(node);
 
         Assertions.assertFalse(var.isMiscellaneous());
         Assertions.assertEquals("jdzme6kv", var.getId());
@@ -46,7 +44,6 @@ public class CategoriesTest {
     public void deserializeCategoriesByIdRecordsTest() throws IOException {
         JsonNode node = mapper.readTree(DeserializeUtil.getFile("/responses/CategoriesByIdRecords.json"));
         PagedResponse<Leaderboard> var = mapper.readValue(node.toString(), new TypeReference<PagedResponse<Leaderboard>>() {});
-        System.out.println(node);
 
         Assertions.assertEquals("pdv0x91w", var.getResourceList().get(0).getGame().getId());
         Assertions.assertEquals(1, var.getResourceList().get(0).getRuns().get(0).getPlace());
@@ -58,7 +55,6 @@ public class CategoriesTest {
     public void deserializeCategoriesByIdRecordsEmbedTest() throws IOException {
         JsonNode node = mapper.readTree(DeserializeUtil.getFile("/responses/CategoriesByIdRecords_Embed.json"));
         PagedResponse<Leaderboard> var = mapper.readValue(node.toString(), new TypeReference<PagedResponse<Leaderboard>>() {});
-        System.out.println(node);
 
         Assertions.assertEquals("pdv0x91w", var.getResourceList().get(0).getGame().getGameEmbed().getId());
         Assertions.assertEquals(1, var.getResourceList().get(0).getRuns().get(0).getPlace());
@@ -72,7 +68,6 @@ public class CategoriesTest {
     public void deserializeCategoriesByIdVariablesTest() throws IOException {
         JsonNode node = mapper.readTree(DeserializeUtil.getFile("/responses/CategoriesByIdVariables.json"));
         List<Variable> var = mapper.readValue(node.get("data").toString(), new TypeReference<List<Variable>>() {});
-        System.out.println(node);
 
         Assertions.assertEquals(ScopeTypes.GLOBAL, var.get(0).getScope().getType());
         Assertions.assertEquals("9l73ympn", var.get(1).getId());
