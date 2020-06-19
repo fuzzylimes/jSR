@@ -3,9 +3,12 @@ package com.fuzzylimes.jsr.query_parameters;
 import lombok.Builder;
 import lombok.Data;
 
+import java.util.HashMap;
+import java.util.Map;
+
 @Data
 @Builder
-public class UserQuery {
+public class UserQuery implements QueryParam {
 
     /**
      * when given, searches the value (case-insensitive exact-string match) across user names,
@@ -39,4 +42,27 @@ public class UserQuery {
     private String speedRunsLive;
 
 
+    @Override
+    public Map<String, String> getQueryMap() {
+        Map<String, String> queryMap = new HashMap<>();
+        if (lookup != null) {
+            queryMap.put("lookup", lookup);
+        }
+        if (name != null) {
+            queryMap.put("name", name);
+        }
+        if (twitch != null) {
+            queryMap.put("twitch", twitch);
+        }
+        if (hitbox != null) {
+            queryMap.put("hitbox", hitbox);
+        }
+        if (twitter != null) {
+            queryMap.put("twitter", twitter);
+        }
+        if (speedRunsLive != null) {
+            queryMap.put("speedrunslive", speedRunsLive);
+        }
+        return queryMap;
+    }
 }

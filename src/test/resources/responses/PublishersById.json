@@ -1,0 +1,16 @@
+{
+  "data": {
+    "id": "w4npp2nl",
+    "name": "2K Games",
+    "links": [
+      {
+        "rel": "self",
+        "uri": "https://www.speedrun.com/api/v1/publishers/w4npp2nl"
+      },
+      {
+        "rel": "games",
+        "uri": "https://www.speedrun.com/api/v1/games?publisher=w4npp2nl"
+      }
+    ]
+  }
+}

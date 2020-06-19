@@ -2,6 +2,7 @@ package com.fuzzylimes.jsr.clients;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.JsonNode;
+import com.fuzzylimes.jsr.common.Properties;
 import com.fuzzylimes.jsr.query_parameters.LevelCategoriesQuery;
 import com.fuzzylimes.jsr.query_parameters.LevelLeaderboardsQuery;
 import com.fuzzylimes.jsr.query_parameters.sorting.CategoriesOrderBy;
@@ -34,7 +35,7 @@ public class LevelsClient {
      * enriched with embedded data objects.</p>
      *
      * <ul>
-     *     <li>Supports embedding with {@value com.fuzzylimes.jsr.common.Properties#LEVEL_EMBED_VALUES}</li>
+     *     <li>Supports embedding with {@value Properties#LEVEL_EMBED_VALUES}</li>
      *     <li><a href="https://github.com/speedruncomorg/api/blob/master/version1/levels.md#get-levelsid">API Docs</a></li>
      * </ul>
      *
@@ -206,7 +207,7 @@ public class LevelsClient {
      *
      * <ul>
      *     <li>Supports query parameters available in {@link LevelLeaderboardsQuery}</li>
-     *     <li>Supports embedding with {@value com.fuzzylimes.jsr.common.Properties#LEADERBOARD_EMBED_VALUES}
+     *     <li>Supports embedding with {@value Properties#LEADERBOARD_EMBED_VALUES}
      *     <li><a href="https://github.com/speedruncomorg/api/blob/master/version1/levels.md#get-levelsidrecords">API Doc</a></li>
      * </ul>
      *
@@ -252,7 +253,7 @@ public class LevelsClient {
      * and optionally enriched with embedded data objects
      *
      * <ul>
-     *     <li>Supports embedding with {@value com.fuzzylimes.jsr.common.Properties#LEADERBOARD_EMBED_VALUES}
+     *     <li>Supports embedding with {@value Properties#LEADERBOARD_EMBED_VALUES}
      *     <li><a href="https://github.com/speedruncomorg/api/blob/master/version1/levels.md#get-levelsidrecords">API Doc</a></li>
      * </ul>
      *

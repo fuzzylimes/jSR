@@ -1,0 +1,16 @@
+{
+  "data": {
+    "id": "w3vgmn3o",
+    "name": "ACKNEX",
+    "links": [
+      {
+        "rel": "self",
+        "uri": "https://www.speedrun.com/api/v1/engines/w3vgmn3o"
+      },
+      {
+        "rel": "games",
+        "uri": "https://www.speedrun.com/api/v1/games?engine=w3vgmn3o"
+      }
+    ]
+  }
+}

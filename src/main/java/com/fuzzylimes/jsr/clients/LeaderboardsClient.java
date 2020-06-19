@@ -1,6 +1,7 @@
 package com.fuzzylimes.jsr.clients;
 
 import com.fasterxml.jackson.databind.JsonNode;
+import com.fuzzylimes.jsr.common.Properties;
 import com.fuzzylimes.jsr.query_parameters.LeaderboardQuery;
 import com.fuzzylimes.jsr.resources.Category;
 import com.fuzzylimes.jsr.resources.Game;
@@ -34,7 +35,7 @@ public class LeaderboardsClient {
      *
      *  <ul>
      *      <li>Supports query parameters defined in {@link LeaderboardQuery}</li>
-     *      <li>Supports embedding with game,category,level,players,regions,platforms,variables</li>
+     *      <li>Supports embedding with {@value Properties#LEADERBOARD_EMBED_VALUES}</li>
      *      <li>https://github.com/speedruncomorg/api/blob/master/version1/leaderboards.md#get-leaderboardsgamecategorycategory</li>
      *  </ul>
      *
@@ -63,7 +64,7 @@ public class LeaderboardsClient {
      *  (e.g., /leaderboards/smw/category/Any1 will work as expected and redirect to the ID-based URLs).
      *
      *  <ul>
-     *      <li>Supports embedding with game,category,level,players,regions,platforms,variables</li>
+     *      <li>Supports embedding with {@value Properties#LEADERBOARD_EMBED_VALUES}</li>
      *      <li>https://github.com/speedruncomorg/api/blob/master/version1/leaderboards.md#get-leaderboardsgamecategorycategory</li>
      *  </ul>
      *
@@ -111,7 +112,7 @@ public class LeaderboardsClient {
      *
      *  <ul>
      *      <li>Supports query parameters defined in {@link LeaderboardQuery}</li>
-     *      <li>Supports embedding with game,category,level,players,regions,platforms,variables</li>
+     *      <li>Supports embedding with {@value Properties#LEADERBOARD_EMBED_VALUES}</li>
      *      <li>https://github.com/speedruncomorg/api/blob/master/version1/leaderboards.md#get-leaderboardsgamelevellevelcategory</li>
      *  </ul>
      *
@@ -142,7 +143,7 @@ public class LeaderboardsClient {
      *  (e.g., /leaderboards/smw/level/Yoshis_Island_1/Any1 will work as expected and redirect to the ID-based URLs).
      *
      *  <ul>
-     *      <li>Supports embedding with game,category,level,players,regions,platforms,variables</li>
+     *      <li>Supports embedding with {@value Properties#LEADERBOARD_EMBED_VALUES}</li>
      *      <li>https://github.com/speedruncomorg/api/blob/master/version1/leaderboards.md#get-leaderboardsgamelevellevelcategory</li>
      *  </ul>
      *

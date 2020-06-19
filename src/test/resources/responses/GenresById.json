@@ -1,0 +1,16 @@
+{
+  "data": {
+    "id": "r2lwz857",
+    "name": "2D Game",
+    "links": [
+      {
+        "rel": "self",
+        "uri": "https://www.speedrun.com/api/v1/genres/r2lwz857"
+      },
+      {
+        "rel": "games",
+        "uri": "https://www.speedrun.com/api/v1/games?genre=r2lwz857"
+      }
+    ]
+  }
+}

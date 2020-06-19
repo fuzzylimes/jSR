@@ -1,12 +1,11 @@
 package com.fuzzylimes.jsr.clients;
 
 import com.fuzzylimes.jsr.query_parameters.sorting.Direction;
-import com.fuzzylimes.jsr.query_parameters.sorting.PlatformOrderBy;
+import com.fuzzylimes.jsr.query_parameters.sorting.PlatformsOrderBy;
 import com.fuzzylimes.jsr.query_parameters.sorting.Sorting;
 import com.fuzzylimes.jsr.resources.PagedResponse;
 import com.fuzzylimes.jsr.resources.Platform;
 import com.fuzzylimes.jsr.util.UnexpectedResponseException;
-import jdk.nashorn.internal.ir.annotations.Ignore;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
@@ -31,7 +30,7 @@ class PlatformClientTest {
     void getPlatforms_SortingTest() throws IOException, UnexpectedResponseException {
         MockJsrClientUrlAndQueryParams("/responses/Platforms.json");
 
-        Sorting<PlatformOrderBy> order = Sorting.<PlatformOrderBy>builder().direction(Direction.ASCCENDING).orderBy(PlatformOrderBy.NAME).build();
+        Sorting<PlatformsOrderBy> order = Sorting.<PlatformsOrderBy>builder().direction(Direction.ASCCENDING).orderBy(PlatformsOrderBy.NAME).build();
         PagedResponse<Platform> var = PlatformClient.getPlatforms(order);
         Assertions.assertEquals(20, var.getResourceList().size());
         Assertions.assertEquals(20, var.getPagination().getSize());

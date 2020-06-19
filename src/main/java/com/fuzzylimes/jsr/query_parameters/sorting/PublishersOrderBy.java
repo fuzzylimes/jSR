@@ -1,16 +1,14 @@
 package com.fuzzylimes.jsr.query_parameters.sorting;
 
-public enum PlatformOrderBy implements OrderBy {
+public enum PublishersOrderBy implements OrderBy  {
 
 
-    /** sorts alphanumerically by the platform name */
-    NAME("name"),
-    /** sorts by the year the platform was released */
-    RELEASED("released");
+    /** sorts alphanumerically by the region name */
+    NAME("name");
 
     private String orderBy;
 
-    private PlatformOrderBy(String orderBy) {
+    private PublishersOrderBy(String orderBy) {
         this.orderBy = orderBy;
     }
 

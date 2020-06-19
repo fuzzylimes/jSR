@@ -2,22 +2,14 @@ package com.fuzzylimes.jsr.clients;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.JsonNode;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fuzzylimes.jsr.common.Properties;
-import com.fuzzylimes.jsr.query_parameters.sorting.CategoriesOrderBy;
 import com.fuzzylimes.jsr.query_parameters.sorting.Direction;
 import com.fuzzylimes.jsr.query_parameters.sorting.RegionsOrderBy;
 import com.fuzzylimes.jsr.query_parameters.sorting.Sorting;
 import com.fuzzylimes.jsr.resources.PagedResponse;
 import com.fuzzylimes.jsr.resources.Region;
 import com.fuzzylimes.jsr.util.UnexpectedResponseException;
-import okhttp3.OkHttpClient;
-import okhttp3.Request;
-import okhttp3.Response;
 
 import java.io.IOException;
-import java.net.URL;
-import java.util.List;
 
 import static com.fuzzylimes.jsr.JsrClient.getSyncQuery;
 import static com.fuzzylimes.jsr.JsrClient.mapper;
@@ -25,7 +17,7 @@ import static com.fuzzylimes.jsr.common.Properties.*;
 
 public class RegionClient {
 
-    private TypeReference<PagedResponse<Region>> typeReference = new TypeReference<PagedResponse<Region>>() {};
+    private static TypeReference<PagedResponse<Region>> typeReference = new TypeReference<PagedResponse<Region>>() {};
 
     /**
      * Should not be initialized. Use the static references to each resource call
@@ -50,7 +42,7 @@ public class RegionClient {
      * @throws IOException if something goes wrong with mapping
      * @throws UnexpectedResponseException if non-2XX or no body returned to request
      */
-    public PagedResponse<Region> getRegions(Sorting<RegionsOrderBy> sorting) throws IOException, UnexpectedResponseException {
+    public static PagedResponse<Region> getRegions(Sorting<RegionsOrderBy> sorting) throws IOException, UnexpectedResponseException {
         JsonNode node = getSyncQuery(buildPath(BASE_RESOURCE, REGION_PATH), sorting.getQueryMap());
         return mapper.readValue(node.toString(), typeReference);
     }
@@ -68,7 +60,7 @@ public class RegionClient {
      * @throws IOException if something goes wrong with mapping
      * @throws UnexpectedResponseException if non-2XX or no body returned to request
      */
-    public PagedResponse<Region> getRegions() throws IOException, UnexpectedResponseException {
+    public static PagedResponse<Region> getRegions() throws IOException, UnexpectedResponseException {
         return getRegions(Sorting.<RegionsOrderBy>builder().build());
     }
 
@@ -87,7 +79,7 @@ public class RegionClient {
      * @throws IOException if something goes wrong with mapping
      * @throws UnexpectedResponseException if non-2XX or no body returned to request
      */
-    public Region getRegionById(String regionId) throws IOException, UnexpectedResponseException {
+    public static Region getRegionById(String regionId) throws IOException, UnexpectedResponseException {
         JsonNode node = getSyncQuery(buildPath(BASE_RESOURCE, REGION_PATH, regionId));
         return mapper.readValue(node.get("data").toString(), Region.class);
     }

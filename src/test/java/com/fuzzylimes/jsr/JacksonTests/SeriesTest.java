@@ -49,4 +49,13 @@ public class SeriesTest {
         Assertions.assertEquals(SUPER_MODERATOR, var.getModerators().getModeratorRoles().get("48ge6kyj"));
     }
 
+    @Test
+    public void deserializeSeriesById_EmbedTest() throws IOException {
+        JsonNode node = mapper.readTree(DeserializeUtil.getFile("/responses/SeriesById_Embed.json"));
+        Series var = mapper.readValue(node.get("data").toString(), Series.class);
+
+        Assertions.assertEquals(".hack", var.getAbbreviation());
+        Assertions.assertEquals("68we7q8g", var.getModerators().getModeratorRolesEmbed().get(0).getId());
+    }
+
 }

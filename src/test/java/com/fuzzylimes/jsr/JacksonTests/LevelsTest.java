@@ -14,7 +14,7 @@ import java.util.List;
 
 import static com.fuzzylimes.jsr.resources.CategoryTypes.PER_LEVEL;
 
-public class LevelTest {
+public class LevelsTest {
     ObjectMapper mapper = new ObjectMapper();
 
     @Test
@@ -47,6 +47,18 @@ public class LevelTest {
         Assertions.assertEquals(2, var.size());
         Assertions.assertEquals("7dgrergk", var.get(0).getId());
         Assertions.assertEquals(PER_LEVEL, var.get(0).getType());
+    }
+
+    @Test
+    public void deserializeLevelsByIdCategories_EmbedTest() throws IOException {
+        JsonNode node = mapper.readTree(DeserializeUtil.getFile("/responses/LevelsByIdCategories_Embed.json"));
+        List<Category> var = mapper.readValue(node.get("data").toString(), new TypeReference<List<Category>>() {});
+
+        Assertions.assertEquals(2, var.size());
+        Assertions.assertEquals("7dgrergk", var.get(0).getId());
+        Assertions.assertEquals(PER_LEVEL, var.get(0).getType());
+        Assertions.assertEquals("pdv0x91w", var.get(0).getGame().getId());
+        Assertions.assertEquals("0nw2mjdn", var.get(0).getVariables().get(0).getId());
     }
 
     @Test

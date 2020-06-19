@@ -5,7 +5,7 @@ import java.util.Map;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
-import com.fuzzylimes.jsr.util.EmbeddedRegionsDeserializer;
+import com.fuzzylimes.jsr.util.*;
 import lombok.Data;
 
 @Data
@@ -16,7 +16,8 @@ public class Game{
 	private GameRegion regions;
 
 	@JsonProperty("developers")
-	private List<Object> developers;
+	@JsonDeserialize(using = EmbeddedDevelopersDeserializer.class)
+	private EmbeddedDevelopers developers;
 
 	@JsonProperty("release-date")
 	private String releaseDate;
@@ -37,7 +38,8 @@ public class Game{
 	private boolean romhack;
 
 	@JsonProperty("gametypes")
-	private List<Object> gametypes;
+	@JsonDeserialize(using = EmbeddedGameTypesDeserializer.class)
+	private EmbeddedGameTypes gametypes;
 
 	@JsonProperty("names")
 	private Names names;
@@ -46,16 +48,19 @@ public class Game{
 	private Assets assets;
 
 	@JsonProperty("genres")
-	private List<Object> genres;
+	@JsonDeserialize(using = EmbeddedGenresDeserializer.class)
+	private EmbeddedGenres genres;
 
 	@JsonProperty("engines")
-	private List<Object> engines;
+	@JsonDeserialize(using = EmbeddedEnginesDeserializer.class)
+	private EmbeddedEngines engines;
 
 	@JsonProperty("weblink")
 	private String weblink;
 
 	@JsonProperty("publishers")
-	private List<Object> publishers;
+	@JsonDeserialize(using = EmbeddedPublishersDeserializer.class)
+	private EmbeddedPublishers publishers;
 
 	@JsonProperty("links")
 	private List<LinksItem> links;

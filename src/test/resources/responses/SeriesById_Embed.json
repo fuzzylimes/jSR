@@ -1,0 +1,276 @@
+{
+  "data": {
+    "id": "8nwjpj7y",
+    "names": {
+      "international": ".hack//",
+      "japanese": null
+    },
+    "abbreviation": ".hack",
+    "weblink": "https://www.speedrun.com/.hack",
+    "moderators": {
+      "data": [
+        {
+          "id": "68we7q8g",
+          "names": {
+            "international": "Finzenku",
+            "japanese": null
+          },
+          "weblink": "https://www.speedrun.com/user/Finzenku",
+          "name-style": {
+            "style": "gradient",
+            "color-from": {
+              "light": "#A259C5",
+              "dark": "#C279E5"
+            },
+            "color-to": {
+              "light": "#A259C5",
+              "dark": "#C279E5"
+            }
+          },
+          "role": "user",
+          "signup": "2015-04-29T06:30:29Z",
+          "location": {
+            "country": {
+              "code": "us",
+              "names": {
+                "international": "United States",
+                "japanese": null
+              }
+            },
+            "region": {
+              "code": "us/hi",
+              "names": {
+                "international": "Hawaii, USA",
+                "japanese": null
+              }
+            }
+          },
+          "twitch": {
+            "uri": "https://www.twitch.tv/finzenku"
+          },
+          "hitbox": null,
+          "youtube": {
+            "uri": "https://www.youtube.com/user/finzenku"
+          },
+          "twitter": {
+            "uri": "https://www.twitter.com/finzenku"
+          },
+          "speedrunslive": null,
+          "links": [
+            {
+              "rel": "self",
+              "uri": "https://www.speedrun.com/api/v1/users/68we7q8g"
+            },
+            {
+              "rel": "runs",
+              "uri": "https://www.speedrun.com/api/v1/runs?user=68we7q8g"
+            },
+            {
+              "rel": "games",
+              "uri": "https://www.speedrun.com/api/v1/games?moderator=68we7q8g"
+            },
+            {
+              "rel": "personal-bests",
+              "uri": "https://www.speedrun.com/api/v1/users/68we7q8g/personal-bests"
+            }
+          ]
+        },
+        {
+          "id": "qjoee786",
+          "names": {
+            "international": "Hachrt",
+            "japanese": null
+          },
+          "weblink": "https://www.speedrun.com/user/Hachrt",
+          "name-style": {
+            "style": "gradient",
+            "color-from": {
+              "light": "#009856",
+              "dark": "#09B876"
+            },
+            "color-to": {
+              "light": "#009856",
+              "dark": "#09B876"
+            }
+          },
+          "role": "user",
+          "signup": "2015-05-05T06:38:58Z",
+          "location": {
+            "country": {
+              "code": "us",
+              "names": {
+                "international": "United States",
+                "japanese": null
+              }
+            },
+            "region": {
+              "code": "us/wi",
+              "names": {
+                "international": "Wisconsin, USA",
+                "japanese": null
+              }
+            }
+          },
+          "twitch": {
+            "uri": "https://www.twitch.tv/hachrt"
+          },
+          "hitbox": null,
+          "youtube": null,
+          "twitter": {
+            "uri": "https://www.twitter.com/hachrt"
+          },
+          "speedrunslive": null,
+          "links": [
+            {
+              "rel": "self",
+              "uri": "https://www.speedrun.com/api/v1/users/qjoee786"
+            },
+            {
+              "rel": "runs",
+              "uri": "https://www.speedrun.com/api/v1/runs?user=qjoee786"
+            },
+            {
+              "rel": "games",
+              "uri": "https://www.speedrun.com/api/v1/games?moderator=qjoee786"
+            },
+            {
+              "rel": "personal-bests",
+              "uri": "https://www.speedrun.com/api/v1/users/qjoee786/personal-bests"
+            }
+          ]
+        },
+        {
+          "id": "48ge6kyj",
+          "names": {
+            "international": "maxylobes",
+            "japanese": null
+          },
+          "weblink": "https://www.speedrun.com/user/maxylobes",
+          "name-style": {
+            "style": "gradient",
+            "color-from": {
+              "light": "#808080",
+              "dark": "#B8B8B8"
+            },
+            "color-to": {
+              "light": "#000000",
+              "dark": "#FFFFFF"
+            }
+          },
+          "role": "user",
+          "signup": "2015-07-23T06:05:11Z",
+          "location": {
+            "country": {
+              "code": "us",
+              "names": {
+                "international": "United States",
+                "japanese": null
+              }
+            },
+            "region": {
+              "code": "us/ca",
+              "names": {
+                "international": "California, USA",
+                "japanese": null
+              }
+            }
+          },
+          "twitch": {
+            "uri": "https://www.twitch.tv/maxylobes"
+          },
+          "hitbox": null,
+          "youtube": {
+            "uri": "https://www.youtube.com/c/maxylobes"
+          },
+          "twitter": {
+            "uri": "https://www.twitter.com/maxylobes"
+          },
+          "speedrunslive": null,
+          "links": [
+            {
+              "rel": "self",
+              "uri": "https://www.speedrun.com/api/v1/users/48ge6kyj"
+            },
+            {
+              "rel": "runs",
+              "uri": "https://www.speedrun.com/api/v1/runs?user=48ge6kyj"
+            },
+            {
+              "rel": "games",
+              "uri": "https://www.speedrun.com/api/v1/games?moderator=48ge6kyj"
+            },
+            {
+              "rel": "personal-bests",
+              "uri": "https://www.speedrun.com/api/v1/users/48ge6kyj/personal-bests"
+            }
+          ]
+        }
+      ]
+    },
+    "created": "2015-11-19T03:09:47Z",
+    "assets": {
+      "logo": {
+        "uri": "https://www.speedrun.com/themes/.hack/logo.png",
+        "width": 720,
+        "height": 128
+      },
+      "cover-tiny": {
+        "uri": "https://www.speedrun.com/themes/.hack/cover-32.png",
+        "width": 45,
+        "height": 28
+      },
+      "cover-small": {
+        "uri": "https://www.speedrun.com/themes/.hack/cover-64.png",
+        "width": 90,
+        "height": 56
+      },
+      "cover-medium": {
+        "uri": "https://www.speedrun.com/themes/.hack/cover-128.png",
+        "width": 180,
+        "height": 112
+      },
+      "cover-large": {
+        "uri": "https://www.speedrun.com/themes/.hack/cover-256.png",
+        "width": 360,
+        "height": 225
+      },
+      "icon": {
+        "uri": "https://www.speedrun.com/themes/Default/favicon.png",
+        "width": 64,
+        "height": 64
+      },
+      "trophy-1st": {
+        "uri": "https://www.speedrun.com/themes/Default/1st.png",
+        "width": 64,
+        "height": 64
+      },
+      "trophy-2nd": {
+        "uri": "https://www.speedrun.com/themes/Default/2nd.png",
+        "width": 64,
+        "height": 64
+      },
+      "trophy-3rd": {
+        "uri": "https://www.speedrun.com/themes/Default/3rd.png",
+        "width": 64,
+        "height": 64
+      },
+      "trophy-4th": null,
+      "background": {
+        "uri": "https://www.speedrun.com/themes/.hack/background.png",
+        "width": 3840,
+        "height": 2160
+      },
+      "foreground": null
+    },
+    "links": [
+      {
+        "rel": "self",
+        "uri": "https://www.speedrun.com/api/v1/series/8nwjpj7y"
+      },
+      {
+        "rel": "games",
+        "uri": "https://www.speedrun.com/api/v1/series/8nwjpj7y/games"
+      }
+    ]
+  }
+}

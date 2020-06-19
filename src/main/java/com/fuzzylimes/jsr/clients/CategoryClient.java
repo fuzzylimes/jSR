@@ -2,6 +2,7 @@ package com.fuzzylimes.jsr.clients;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.JsonNode;
+import com.fuzzylimes.jsr.common.Properties;
 import com.fuzzylimes.jsr.query_parameters.CategoryRecordsQuery;
 import com.fuzzylimes.jsr.resources.Category;
 import com.fuzzylimes.jsr.resources.Leaderboard;
@@ -28,12 +29,13 @@ public class CategoryClient {
     }
 
     /**
-     * GET categories/{id} (embedded)
+     * GET categories/{id}
      *
-     * <p>Used to retrieve a category resource by a specific category id with embedded values.
+     * <p>Used to retrieve a category resource by a specific category id, and optionally enriched with embedded data objects.
      *
      * <ul>
-     *   <li>Supports embed with {@value com.fuzzylimes.jsr.common.Properties#CATEGORY_EMBED_VALUES}
+     *   <li>Supports embed with {@value Properties#CATEGORY_EMBED_VALUES}
+     *   <a href="https://github.com/speedruncomorg/api/blob/master/version1/categories.md#get-categoriesid">API Docs</a>
      * </ul>
      *
      * @param id id of the category to query
@@ -54,8 +56,8 @@ public class CategoryClient {
      *
      * <p>Used to retrieve a category resource by a specific category id.
      *
-     * <li><a href="https://github.com/speedruncomorg/api/blob/master/version1/categories.md#get-categoriesid">
-     *     API Docs</a>
+     * <li>
+     *     <a href="https://github.com/speedruncomorg/api/blob/master/version1/categories.md#get-categoriesid">API Docs</a>
      * </ul>
      *
      * @param id id of the category to query
@@ -73,8 +75,8 @@ public class CategoryClient {
      *
      * <p>Used to retrieve a list of {@link Variable} associated with a specific category id.
      *
-     * <li><a href="https://github.com/speedruncomorg/api/blob/master/version1/categories.md#get-categoriesid">
-     *     API Docs</a>
+     * <li>
+     *     <a href="https://github.com/speedruncomorg/api/blob/master/version1/categories.md#get-categoriesid">API Docs</a>
      * </ul>
      *
      * @param id id of the category to query for variables
@@ -93,8 +95,8 @@ public class CategoryClient {
      * <p>Used to retrieve a list of {@link Variable} associated with a specific category id, sorted by
      * the parameters defined in {@link Sorting} of type {@link VariablesOrderBy}.
      *
-     * <li><a href="https://github.com/speedruncomorg/api/blob/master/version1/categories.md#get-categoriesidvariables">
-     *     API Docs</a>
+     * <li>
+     *     <a href="https://github.com/speedruncomorg/api/blob/master/version1/categories.md#get-categoriesidvariables">API Docs</a>
      * </ul>
      *
      * @param id id of the category to query for variables
@@ -115,10 +117,9 @@ public class CategoryClient {
      * <p>Used to retrieve a list of {@link Leaderboard} records associated with a specific category id, filtered by
      * a set of provided {@link CategoryRecordsQuery} query params and optionally enriched with embedded data objects.
      * <ul>
-     *   <li>Supports query parameters top and skip-empty
-     *   <li>Supports embed with {@value com.fuzzylimes.jsr.common.Properties#LEADERBOARD_EMBED_VALUES}</li>
-     *   <li><a href="https://github.com/speedruncomorg/api/blob/master/version1/categories.md#get-categoriesidrecords">
-     *       API Docs</a>
+     *   <li>Supports query parameters defined in {@link CategoryRecordsQuery}
+     *   <li>Supports embedding with {@value Properties#LEADERBOARD_EMBED_VALUES}</li>
+     *   <li><a href="https://github.com/speedruncomorg/api/blob/master/version1/categories.md#get-categoriesidrecords">API Docs</a>
      * </ul>
      *
      * @param id id of the category to query records for
@@ -141,9 +142,8 @@ public class CategoryClient {
      * <p>Used to retrieve a list of {@link Leaderboard} records associated with a specific category id, optionally
      * enriched with embedded data objects.
      * <ul>
-     *   <li>Supports {@value com.fuzzylimes.jsr.common.Properties#LEADERBOARD_EMBED_VALUES}</li>
-     *   <li><a href="https://github.com/speedruncomorg/api/blob/master/version1/categories.md#get-categoriesidrecords">
-     *       API Docs</a>
+     *   <li>Supports embedding with {@value Properties#LEADERBOARD_EMBED_VALUES}</li>
+     *   <li><a href="https://github.com/speedruncomorg/api/blob/master/version1/categories.md#get-categoriesidrecords">API Docs</a>
      * </ul>
      *
      * @param id id of the category to query records for
@@ -161,8 +161,7 @@ public class CategoryClient {
      *
      * <p>Used to retrieve a list of {@link Leaderboard} records associated with a specific category id
      * <ul>
-     * <li><a href="https://github.com/speedruncomorg/api/blob/master/version1/categories.md#get-categoriesidrecords">
-     *     API Docs</a>
+     *   <li><a href="https://github.com/speedruncomorg/api/blob/master/version1/categories.md#get-categoriesidrecords">API Docs</a>
      * </ul>
      *
      * @param id id of the category to query records for

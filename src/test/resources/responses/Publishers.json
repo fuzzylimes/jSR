@@ -1,0 +1,295 @@
+{
+  "data": [
+    {
+      "id": "d6jv876p",
+      "name": "++Good Games",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/publishers/d6jv876p"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?publisher=d6jv876p"
+        }
+      ]
+    },
+    {
+      "id": "gxrw0g6l",
+      "name": ".theprodukkt",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/publishers/gxrw0g6l"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?publisher=gxrw0g6l"
+        }
+      ]
+    },
+    {
+      "id": "1ngl5d6l",
+      "name": "00-Evan",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/publishers/1ngl5d6l"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?publisher=1ngl5d6l"
+        }
+      ]
+    },
+    {
+      "id": "363dg4nk",
+      "name": "07th Expansion",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/publishers/363dg4nk"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?publisher=363dg4nk"
+        }
+      ]
+    },
+    {
+      "id": "zr1l4jn8",
+      "name": "10Ants Hill",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/publishers/zr1l4jn8"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?publisher=zr1l4jn8"
+        }
+      ]
+    },
+    {
+      "id": "w4np1pnl",
+      "name": "11 bit studios",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/publishers/w4np1pnl"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?publisher=w4np1pnl"
+        }
+      ]
+    },
+    {
+      "id": "dnl03znl",
+      "name": "11Bits Studios",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/publishers/dnl03znl"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?publisher=dnl03znl"
+        }
+      ]
+    },
+    {
+      "id": "x363y7nk",
+      "name": "13AM Games",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/publishers/x363y7nk"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?publisher=x363y7nk"
+        }
+      ]
+    },
+    {
+      "id": "vr8702ng",
+      "name": "14 Hours Productions",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/publishers/vr8702ng"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?publisher=vr8702ng"
+        }
+      ]
+    },
+    {
+      "id": "dnlwe46l",
+      "name": "1C",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/publishers/dnlwe46l"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?publisher=dnlwe46l"
+        }
+      ]
+    },
+    {
+      "id": "9neq8jn5",
+      "name": "1C Company",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/publishers/9neq8jn5"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?publisher=9neq8jn5"
+        }
+      ]
+    },
+    {
+      "id": "9nekkqn5",
+      "name": "1C Entertainment",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/publishers/9nekkqn5"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?publisher=9nekkqn5"
+        }
+      ]
+    },
+    {
+      "id": "d6j8vvnp",
+      "name": "1C Publishing EU",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/publishers/d6j8vvnp"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?publisher=d6j8vvnp"
+        }
+      ]
+    },
+    {
+      "id": "564ddw6w",
+      "name": "1C-SoftClub",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/publishers/564ddw6w"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?publisher=564ddw6w"
+        }
+      ]
+    },
+    {
+      "id": "kr2d9one",
+      "name": "1С",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/publishers/kr2d9one"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?publisher=kr2d9one"
+        }
+      ]
+    },
+    {
+      "id": "dnl5zg6l",
+      "name": "21strongbenjamin",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/publishers/dnl5zg6l"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?publisher=dnl5zg6l"
+        }
+      ]
+    },
+    {
+      "id": "9nev1q65",
+      "name": "2D Boy",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/publishers/9nev1q65"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?publisher=9nev1q65"
+        }
+      ]
+    },
+    {
+      "id": "4np83prl",
+      "name": "2K",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/publishers/4np83prl"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?publisher=4np83prl"
+        }
+      ]
+    },
+    {
+      "id": "w4npp2nl",
+      "name": "2K Games",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/publishers/w4npp2nl"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?publisher=w4npp2nl"
+        }
+      ]
+    },
+    {
+      "id": "0604z0nl",
+      "name": "2K Play",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/publishers/0604z0nl"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?publisher=0604z0nl"
+        }
+      ]
+    }
+  ],
+  "pagination": {
+    "offset": 0,
+    "max": 20,
+    "size": 20,
+    "links": [
+      {
+        "rel": "next",
+        "uri": "https://www.speedrun.com/api/v1/publishers?offset=20"
+      }
+    ]
+  }
+}

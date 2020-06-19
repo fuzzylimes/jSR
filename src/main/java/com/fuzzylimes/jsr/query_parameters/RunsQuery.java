@@ -1,10 +1,15 @@
 package com.fuzzylimes.jsr.query_parameters;
 
 import com.fuzzylimes.jsr.resources.RunStatusTypes;
+import lombok.Builder;
 import lombok.Data;
 
+import java.util.HashMap;
+import java.util.Map;
+
 @Data
-public class RunsQuery {
+@Builder
+public class RunsQuery implements QueryParam {
 
     /** user ID; when given, only returns runs played by that user */
     private String user;
@@ -31,8 +36,44 @@ public class RunsQuery {
     private String region;
 
     /** when 1, yes or true, only games run on emulator will be returned */
-    private boolean emulated;
+    private Boolean emulated;
 
     /** filters by run status; new, verified and rejected are possible values for this parameter */
     private RunStatusTypes statusTypes;
+
+    @Override
+    public Map<String, String> getQueryMap() {
+        Map<String, String> queryMap = new HashMap<>();
+        if(user != null) {
+            queryMap.put("user", user);
+        }
+        if(guest != null) {
+            queryMap.put("guest", guest);
+        }
+        if(examiner != null) {
+            queryMap.put("examiner", examiner);
+        }
+        if(game != null) {
+            queryMap.put("game", game);
+        }
+        if(level != null) {
+            queryMap.put("level", level);
+        }
+        if(category != null) {
+            queryMap.put("category", category);
+        }
+        if(platform != null) {
+            queryMap.put("platform", platform);
+        }
+        if(region != null) {
+            queryMap.put("region", region);
+        }
+        if(emulated != null) {
+            queryMap.put("emulated", emulated.toString());
+        }
+        if(statusTypes != null) {
+            queryMap.put("statusTypes", statusTypes.toString());
+        }
+        return queryMap;
+    }
 }

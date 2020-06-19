@@ -1,0 +1,295 @@
+{
+  "data": [
+    {
+      "id": "pe137vzo",
+      "name": "\"Nikitia\" Ghost_RUS",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/developers/pe137vzo"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?developer=pe137vzo"
+        }
+      ]
+    },
+    {
+      "id": "ne4d99em",
+      "name": ".theprodukkt",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/developers/ne4d99em"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?developer=ne4d99em"
+        }
+      ]
+    },
+    {
+      "id": "1zkxmoej",
+      "name": "00-Evan",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/developers/1zkxmoej"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?developer=1zkxmoej"
+        }
+      ]
+    },
+    {
+      "id": "yzo7mleq",
+      "name": "07th Expansion",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/developers/yzo7mleq"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?developer=yzo7mleq"
+        }
+      ]
+    },
+    {
+      "id": "nergv56j",
+      "name": "08 Games",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/developers/nergv56j"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?developer=nergv56j"
+        }
+      ]
+    },
+    {
+      "id": "ne42gm6m",
+      "name": "10Ants Hill",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/developers/ne42gm6m"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?developer=ne42gm6m"
+        }
+      ]
+    },
+    {
+      "id": "rzj9376l",
+      "name": "10tons Entertainment",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/developers/rzj9376l"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?developer=rzj9376l"
+        }
+      ]
+    },
+    {
+      "id": "v6dldye2",
+      "name": "11 bit studios",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/developers/v6dldye2"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?developer=v6dldye2"
+        }
+      ]
+    },
+    {
+      "id": "jevmogek",
+      "name": "11Bits Studios",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/developers/jevmogek"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?developer=jevmogek"
+        }
+      ]
+    },
+    {
+      "id": "nerqqjzj",
+      "name": "1337 & senri",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/developers/nerqqjzj"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?developer=nerqqjzj"
+        }
+      ]
+    },
+    {
+      "id": "leqmpyzw",
+      "name": "13AM Games",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/developers/leqmpyzw"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?developer=leqmpyzw"
+        }
+      ]
+    },
+    {
+      "id": "yzodxleq",
+      "name": "14 Hours Productions",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/developers/yzodxleq"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?developer=yzodxleq"
+        }
+      ]
+    },
+    {
+      "id": "3zyl5d64",
+      "name": "1Button SARL",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/developers/3zyl5d64"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?developer=3zyl5d64"
+        }
+      ]
+    },
+    {
+      "id": "v6d3gme2",
+      "name": "1st Playable Production",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/developers/v6d3gme2"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?developer=v6d3gme2"
+        }
+      ]
+    },
+    {
+      "id": "v69wnxex",
+      "name": "1st Playable Productions",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/developers/v69wnxex"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?developer=v69wnxex"
+        }
+      ]
+    },
+    {
+      "id": "jev2og6k",
+      "name": "1upD",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/developers/jev2og6k"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?developer=jev2og6k"
+        }
+      ]
+    },
+    {
+      "id": "yz8og3ew",
+      "name": "2015",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/developers/yz8og3ew"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?developer=yz8og3ew"
+        }
+      ]
+    },
+    {
+      "id": "leqkxqew",
+      "name": "21strongbenjamin",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/developers/leqkxqew"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?developer=leqkxqew"
+        }
+      ]
+    },
+    {
+      "id": "nzm25re0",
+      "name": "2D Boy",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/developers/nzm25re0"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?developer=nzm25re0"
+        }
+      ]
+    },
+    {
+      "id": "5mznpr6r",
+      "name": "2K Australia",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/developers/5mznpr6r"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?developer=5mznpr6r"
+        }
+      ]
+    }
+  ],
+  "pagination": {
+    "offset": 0,
+    "max": 20,
+    "size": 20,
+    "links": [
+      {
+        "rel": "next",
+        "uri": "https://www.speedrun.com/api/v1/developers?offset=20"
+      }
+    ]
+  }
+}

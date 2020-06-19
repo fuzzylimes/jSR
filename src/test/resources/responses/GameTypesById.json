@@ -1,0 +1,17 @@
+{
+  "data": {
+    "id": "lyn97m9o",
+    "name": "Modification",
+    "allows-base-game": true,
+    "links": [
+      {
+        "rel": "self",
+        "uri": "https://www.speedrun.com/api/v1/gametypes/lyn97m9o"
+      },
+      {
+        "rel": "games",
+        "uri": "https://www.speedrun.com/api/v1/games?gametype=lyn97m9o"
+      }
+    ]
+  }
+}

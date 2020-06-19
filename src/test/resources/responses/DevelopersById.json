@@ -1,0 +1,16 @@
+{
+  "data": {
+    "id": "5mznpr6r",
+    "name": "2K Australia",
+    "links": [
+      {
+        "rel": "self",
+        "uri": "https://www.speedrun.com/api/v1/developers/5mznpr6r"
+      },
+      {
+        "rel": "games",
+        "uri": "https://www.speedrun.com/api/v1/games?developer=5mznpr6r"
+      }
+    ]
+  }
+}

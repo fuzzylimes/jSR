@@ -3,7 +3,7 @@ package com.fuzzylimes.jsr.clients;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fuzzylimes.jsr.query_parameters.sorting.Direction;
-import com.fuzzylimes.jsr.query_parameters.sorting.PlatformOrderBy;
+import com.fuzzylimes.jsr.query_parameters.sorting.PlatformsOrderBy;
 import com.fuzzylimes.jsr.query_parameters.sorting.Sorting;
 import com.fuzzylimes.jsr.resources.PagedResponse;
 import com.fuzzylimes.jsr.resources.Platform;
@@ -30,17 +30,17 @@ public class PlatformClient {
      * GET platforms
      *
      * <p>Used to retrieve a {@link PagedResponse} of {@link Platform} objects, and sorted by the
-     * parameters defined in {@link Sorting} of type {@link PlatformOrderBy}</p>
+     * parameters defined in {@link Sorting} of type {@link PlatformsOrderBy}</p>
      *
      * <ul>
-     *     <li>Supports OrderBy and Direction using {@link PlatformOrderBy} and {@link Direction}</li>
+     *     <li>Supports OrderBy and Direction using {@link PlatformsOrderBy} and {@link Direction}</li>
      *     <li><a href="https://github.com/speedruncomorg/api/blob/master/version1/platforms.md#get-platforms">API Docs</a></li>
      * </ul>
      *
      * @return Platforms object with list of Platforms and pagination
      * @throws IOException if unable to retrieve response or parse response
      */
-    public static PagedResponse<Platform> getPlatforms(Sorting<PlatformOrderBy> sorting) throws IOException, UnexpectedResponseException {
+    public static PagedResponse<Platform> getPlatforms(Sorting<PlatformsOrderBy> sorting) throws IOException, UnexpectedResponseException {
         JsonNode node = getSyncQuery(buildPath(BASE_RESOURCE, PLATFORMS_PATH), sorting.getQueryMap());
         return mapper.readValue(node.toString(), platformsType);
     }
@@ -58,7 +58,7 @@ public class PlatformClient {
      * @throws IOException if unable to retrieve response or parse response
      */
     public static PagedResponse<Platform> getPlatforms() throws IOException, UnexpectedResponseException {
-        return getPlatforms(Sorting.<PlatformOrderBy>builder().build());
+        return getPlatforms(Sorting.<PlatformsOrderBy>builder().build());
     }
 
 

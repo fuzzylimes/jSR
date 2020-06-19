@@ -1,0 +1,295 @@
+{
+  "data": [
+    {
+      "id": "92dk43nl",
+      "name": ".io",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/genres/92dk43nl"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?genre=92dk43nl"
+        }
+      ]
+    },
+    {
+      "id": "4n60zon9",
+      "name": "16-bit",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/genres/4n60zon9"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?genre=4n60zon9"
+        }
+      ]
+    },
+    {
+      "id": "g2zoj4nl",
+      "name": "1st-person shooter",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/genres/g2zoj4nl"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?genre=g2zoj4nl"
+        }
+      ]
+    },
+    {
+      "id": "d5ogj82w",
+      "name": "2-D",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/genres/d5ogj82w"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?genre=d5ogj82w"
+        }
+      ]
+    },
+    {
+      "id": "y5gkox2e",
+      "name": "2-D Platformer",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/genres/y5gkox2e"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?genre=y5gkox2e"
+        }
+      ]
+    },
+    {
+      "id": "75mjm853",
+      "name": "2-d side scrolling, action, puzzle, platforming",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/genres/75mjm853"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?genre=75mjm853"
+        }
+      ]
+    },
+    {
+      "id": "m211g424",
+      "name": "2.5 Fighter",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/genres/m211g424"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?genre=m211g424"
+        }
+      ]
+    },
+    {
+      "id": "q5w3vk2g",
+      "name": "2.5D action platformer",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/genres/q5w3vk2g"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?genre=q5w3vk2g"
+        }
+      ]
+    },
+    {
+      "id": "4n4mewn0",
+      "name": "2.5D Racer",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/genres/4n4mewn0"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?genre=4n4mewn0"
+        }
+      ]
+    },
+    {
+      "id": "y45xyv2d",
+      "name": "2D",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/genres/y45xyv2d"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?genre=y45xyv2d"
+        }
+      ]
+    },
+    {
+      "id": "6507042m",
+      "name": "2D Action",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/genres/6507042m"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?genre=6507042m"
+        }
+      ]
+    },
+    {
+      "id": "65jzw12k",
+      "name": "2D Action Platformer",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/genres/65jzw12k"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?genre=65jzw12k"
+        }
+      ]
+    },
+    {
+      "id": "x5e4m8n4",
+      "name": "2D Arcade Shooter",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/genres/x5e4m8n4"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?genre=x5e4m8n4"
+        }
+      ]
+    },
+    {
+      "id": "l28eky2r",
+      "name": "2D Building",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/genres/l28eky2r"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?genre=l28eky2r"
+        }
+      ]
+    },
+    {
+      "id": "pl2kwr21",
+      "name": "2D Fighter",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/genres/pl2kwr21"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?genre=pl2kwr21"
+        }
+      ]
+    },
+    {
+      "id": "75mj8853",
+      "name": "2D Fighting",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/genres/75mj8853"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?genre=75mj8853"
+        }
+      ]
+    },
+    {
+      "id": "r2lwqk57",
+      "name": "2D Fighting Game",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/genres/r2lwqk57"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?genre=r2lwqk57"
+        }
+      ]
+    },
+    {
+      "id": "r2lwz857",
+      "name": "2D Game",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/genres/r2lwz857"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?genre=r2lwz857"
+        }
+      ]
+    },
+    {
+      "id": "l28epk2r",
+      "name": "2D Golf",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/genres/l28epk2r"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?genre=l28epk2r"
+        }
+      ]
+    },
+    {
+      "id": "l28erk2r",
+      "name": "2D jump'n'run",
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/genres/l28erk2r"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?genre=l28erk2r"
+        }
+      ]
+    }
+  ],
+  "pagination": {
+    "offset": 0,
+    "max": 20,
+    "size": 20,
+    "links": [
+      {
+        "rel": "next",
+        "uri": "https://www.speedrun.com/api/v1/genres?offset=20"
+      }
+    ]
+  }
+}
