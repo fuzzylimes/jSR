@@ -14,7 +14,7 @@ public enum UsersOrderBy implements OrderBy  {
 
     private String orderBy;
 
-    private UsersOrderBy(String orderBy) {
+    UsersOrderBy(String orderBy) {
         this.orderBy = orderBy;
     }
 
@@ -22,7 +22,7 @@ public enum UsersOrderBy implements OrderBy  {
         return orderBy;
     }
 
-    public void setOrderBy(String orderBy) {
+    void setOrderBy(String orderBy) {
         this.orderBy = orderBy;
     }
 }

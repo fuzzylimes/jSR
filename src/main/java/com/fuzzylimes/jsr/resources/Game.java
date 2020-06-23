@@ -1,8 +1,8 @@
 package com.fuzzylimes.jsr.resources;
 
 import java.util.List;
-import java.util.Map;
 
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import com.fuzzylimes.jsr.util.*;
@@ -32,7 +32,8 @@ public class Game{
 	private String abbreviation;
 
 	@JsonProperty("platforms")
-	private List<String> platforms;
+	@JsonDeserialize(using = EmbeddedPlatformsDeserializer.class)
+	private EmbeddedPlatforms platforms;
 
 	@JsonProperty("romhack")
 	private boolean romhack;
@@ -72,5 +73,21 @@ public class Game{
 	private int released;
 
 	@JsonProperty("moderators")
-	private Map<String, ModeratorRoles> moderators;
+	@JsonDeserialize(using = ModeratorDeserializer.class)
+	private Moderators moderators;
+
+	@JsonProperty("levels")
+	@JsonDeserialize(using = EmbeddedLevelsDeserializer.class)
+	@JsonInclude(JsonInclude.Include.NON_NULL)
+	private List<Level> levels;
+
+	@JsonProperty("categories")
+	@JsonDeserialize(using = EmbeddedCategoriesDeserializer.class)
+	@JsonInclude(JsonInclude.Include.NON_NULL)
+	private List<Category> categories;
+
+	@JsonProperty("variables")
+	@JsonInclude(JsonInclude.Include.NON_NULL)
+	@JsonDeserialize(using = EmbeddedVariablesDeserializer.class)
+	private List<Variable> variables;
 }

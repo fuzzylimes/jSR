@@ -9,7 +9,6 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import java.io.IOException;
-import java.lang.System;
 import java.util.List;
 
 import static com.fuzzylimes.jsr.resources.CategoryTypes.PER_LEVEL;

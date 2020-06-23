@@ -13,7 +13,6 @@ import java.io.IOException;
 
 import static com.fuzzylimes.jsr.JacksonTests.util.ClientTestUtil.MockJsrClientUrl;
 import static com.fuzzylimes.jsr.JacksonTests.util.ClientTestUtil.MockJsrClientUrlAndQueryParams;
-import static org.junit.jupiter.api.Assertions.*;
 
 class PublishersClientTest {
 

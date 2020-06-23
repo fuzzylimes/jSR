@@ -10,7 +10,7 @@ public enum PlatformsOrderBy implements OrderBy {
 
     private String orderBy;
 
-    private PlatformsOrderBy(String orderBy) {
+    PlatformsOrderBy(String orderBy) {
         this.orderBy = orderBy;
     }
 
@@ -18,7 +18,7 @@ public enum PlatformsOrderBy implements OrderBy {
         return orderBy;
     }
 
-    public void setOrderBy(String orderBy) {
+    void setOrderBy(String orderBy) {
         this.orderBy = orderBy;
     }
 }

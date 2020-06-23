@@ -8,7 +8,7 @@ public enum EnginesOrderBy implements OrderBy  {
 
     private String orderBy;
 
-    private EnginesOrderBy(String orderBy) {
+    EnginesOrderBy(String orderBy) {
         this.orderBy = orderBy;
     }
 
@@ -16,7 +16,7 @@ public enum EnginesOrderBy implements OrderBy  {
         return orderBy;
     }
 
-    public void setOrderBy(String orderBy) {
+    void setOrderBy(String orderBy) {
         this.orderBy = orderBy;
     }
 }

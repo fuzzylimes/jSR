@@ -19,25 +19,25 @@ public class EmbeddedGameTypesDeserializer extends JsonDeserializer<EmbeddedGame
     ObjectMapper mapper = new ObjectMapper();
 
     @Override
-    public EmbeddedGameTypes deserialize(JsonParser jsonParser, DeserializationContext deserializationContext) throws IOException, JsonProcessingException {
+    public EmbeddedGameTypes deserialize(JsonParser jsonParser, DeserializationContext deserializationContext) throws IOException {
         ObjectCodec oc = jsonParser.getCodec();
         JsonNode root = oc.readTree(jsonParser);
         return buildCategory(root);
     }
 
     private EmbeddedGameTypes buildCategory(JsonNode root) throws JsonProcessingException {
-        EmbeddedGameTypes developers = new EmbeddedGameTypes();
+        EmbeddedGameTypes gameTypes = new EmbeddedGameTypes();
 
         if (!root.has("data")) {
             CollectionType listOfGameTypes = mapper.getTypeFactory().constructCollectionType(List.class, String.class);
             List<String> ids = mapper.readValue(root.toString(), listOfGameTypes);
-            developers.setIds(ids);
+            gameTypes.setIds(ids);
         } else {
             CollectionType listOfGameTypes = mapper.getTypeFactory().constructCollectionType(List.class, GameType.class);
             List<GameType> val = mapper.readValue(root.get("data").toString(), listOfGameTypes);
-            developers.setEmbedded(val);
+            gameTypes.setEmbedded(val);
         }
 
-        return developers;
+        return gameTypes;
     }
 }

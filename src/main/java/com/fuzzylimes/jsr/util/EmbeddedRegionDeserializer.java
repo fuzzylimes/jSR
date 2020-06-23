@@ -11,12 +11,12 @@ import com.fuzzylimes.jsr.resources.Region;
 
 import java.io.IOException;
 
-public class EmbeddedRegionDeserializer extends JsonDeserializer {
+public class EmbeddedRegionDeserializer extends JsonDeserializer<Region> {
 
     ObjectMapper mapper = new ObjectMapper();
 
     @Override
-    public Region deserialize(JsonParser jsonParser, DeserializationContext deserializationContext) throws IOException, JsonProcessingException {
+    public Region deserialize(JsonParser jsonParser, DeserializationContext deserializationContext) throws IOException {
         ObjectCodec oc = jsonParser.getCodec();
         JsonNode root = oc.readTree(jsonParser);
         return buildCategory(root);

@@ -15,7 +15,7 @@ public enum ScopeTypes {
 
     private String type;
 
-    private ScopeTypes(String type) {
+    ScopeTypes(String type) {
         this.type = type;
     }
 
@@ -24,7 +24,7 @@ public enum ScopeTypes {
         return type;
     }
 
-    public void setType(String type) {
+    void setType(String type) {
         this.type = type;
     }
 }

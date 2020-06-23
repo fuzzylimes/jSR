@@ -16,10 +16,10 @@ import org.junit.jupiter.api.Test;
 import java.io.IOException;
 import java.util.List;
 
+@Disabled
 class CategoryClientIT {
 
     @Test
-    @Disabled
     void getVariablesForCategoryIT() {
 
         Sorting<VariablesOrderBy> sorting = Sorting.<VariablesOrderBy>builder()
@@ -37,7 +37,6 @@ class CategoryClientIT {
     }
 
     @Test
-    @Disabled
     void getCategoriesByIdRecordsIT() throws IOException, UnexpectedResponseException {
         PagedResponse<Leaderboard> var = CategoryClient.getCategoryRecords("jdzme6kv");
         Assertions.assertEquals("pdv0x91w", var.getResourceList().get(0).getGame().getId());

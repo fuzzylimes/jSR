@@ -8,7 +8,7 @@ public enum GameTypesOrderBy implements OrderBy  {
 
     private String orderBy;
 
-    private GameTypesOrderBy(String orderBy) {
+    GameTypesOrderBy(String orderBy) {
         this.orderBy = orderBy;
     }
 
@@ -16,7 +16,7 @@ public enum GameTypesOrderBy implements OrderBy  {
         return orderBy;
     }
 
-    public void setOrderBy(String orderBy) {
+    void setOrderBy(String orderBy) {
         this.orderBy = orderBy;
     }
 }

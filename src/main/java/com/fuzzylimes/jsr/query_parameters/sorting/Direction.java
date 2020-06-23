@@ -7,7 +7,7 @@ public enum Direction {
 
     private String sortDirection;
 
-    private Direction(String role) {
+    Direction(String role) {
         this.sortDirection = role;
     }
 
@@ -15,7 +15,7 @@ public enum Direction {
         return sortDirection;
     }
 
-    public void setSortDirection(String sortDirection) {
+    void setSortDirection(String sortDirection) {
         this.sortDirection = sortDirection;
     }
 }

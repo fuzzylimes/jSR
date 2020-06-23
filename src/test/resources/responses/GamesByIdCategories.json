@@ -1,0 +1,574 @@
+{
+  "data": [
+    {
+      "id": "9d86vww2",
+      "name": "Any%",
+      "weblink": "https://www.speedrun.com/darksouls#Any",
+      "type": "per-game",
+      "rules": "https://wiki.speedsouls.com/darksouls:Any%25\r\n\r\nhttps://wiki.speedsouls.com/Dark_Souls#Rules",
+      "players": {
+        "type": "exactly",
+        "value": 1
+      },
+      "miscellaneous": false,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/categories/9d86vww2"
+        },
+        {
+          "rel": "game",
+          "uri": "https://www.speedrun.com/api/v1/games/w6jve26j"
+        },
+        {
+          "rel": "variables",
+          "uri": "https://www.speedrun.com/api/v1/categories/9d86vww2/variables"
+        },
+        {
+          "rel": "records",
+          "uri": "https://www.speedrun.com/api/v1/categories/9d86vww2/records"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?category=9d86vww2"
+        },
+        {
+          "rel": "leaderboard",
+          "uri": "https://www.speedrun.com/api/v1/leaderboards/w6jve26j/category/9d86vww2"
+        }
+      ]
+    },
+    {
+      "id": "7dg75ld4",
+      "name": "Any% No Wrong Warp",
+      "weblink": "https://www.speedrun.com/darksouls#Any_No_Wrong_Warp",
+      "type": "per-game",
+      "rules": "https://wiki.speedsouls.com/darksouls:Any%25_No_Wrong_Warp\r\n\r\nhttps://wiki.speedsouls.com/Dark_Souls#Rules",
+      "players": {
+        "type": "exactly",
+        "value": 1
+      },
+      "miscellaneous": false,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/categories/7dg75ld4"
+        },
+        {
+          "rel": "game",
+          "uri": "https://www.speedrun.com/api/v1/games/w6jve26j"
+        },
+        {
+          "rel": "variables",
+          "uri": "https://www.speedrun.com/api/v1/categories/7dg75ld4/variables"
+        },
+        {
+          "rel": "records",
+          "uri": "https://www.speedrun.com/api/v1/categories/7dg75ld4/records"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?category=7dg75ld4"
+        },
+        {
+          "rel": "leaderboard",
+          "uri": "https://www.speedrun.com/api/v1/leaderboards/w6jve26j/category/7dg75ld4"
+        }
+      ]
+    },
+    {
+      "id": "xk9zng20",
+      "name": "Any% Force Quit",
+      "weblink": "https://www.speedrun.com/darksouls#Any_Force_Quit",
+      "type": "per-game",
+      "rules": "https://wiki.speedsouls.com/darksouls:Any%25_Force_Quit\r\n\r\nhttps://wiki.speedsouls.com/Dark_Souls#Rules",
+      "players": {
+        "type": "exactly",
+        "value": 1
+      },
+      "miscellaneous": false,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/categories/xk9zng20"
+        },
+        {
+          "rel": "game",
+          "uri": "https://www.speedrun.com/api/v1/games/w6jve26j"
+        },
+        {
+          "rel": "variables",
+          "uri": "https://www.speedrun.com/api/v1/categories/xk9zng20/variables"
+        },
+        {
+          "rel": "records",
+          "uri": "https://www.speedrun.com/api/v1/categories/xk9zng20/records"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?category=xk9zng20"
+        },
+        {
+          "rel": "leaderboard",
+          "uri": "https://www.speedrun.com/api/v1/leaderboards/w6jve26j/category/xk9zng20"
+        }
+      ]
+    },
+    {
+      "id": "mke7jn26",
+      "name": "All Bosses",
+      "weblink": "https://www.speedrun.com/darksouls#All_Bosses",
+      "type": "per-game",
+      "rules": "https://wiki.speedsouls.com/darksouls:All_Bosses\r\n\r\nhttps://wiki.speedsouls.com/Dark_Souls#Rules",
+      "players": {
+        "type": "exactly",
+        "value": 1
+      },
+      "miscellaneous": false,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/categories/mke7jn26"
+        },
+        {
+          "rel": "game",
+          "uri": "https://www.speedrun.com/api/v1/games/w6jve26j"
+        },
+        {
+          "rel": "variables",
+          "uri": "https://www.speedrun.com/api/v1/categories/mke7jn26/variables"
+        },
+        {
+          "rel": "records",
+          "uri": "https://www.speedrun.com/api/v1/categories/mke7jn26/records"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?category=mke7jn26"
+        },
+        {
+          "rel": "leaderboard",
+          "uri": "https://www.speedrun.com/api/v1/leaderboards/w6jve26j/category/mke7jn26"
+        }
+      ]
+    },
+    {
+      "id": "zd3l9qnd",
+      "name": "All Achievements",
+      "weblink": "https://www.speedrun.com/darksouls#All_Achievements",
+      "type": "per-game",
+      "rules": "https://wiki.speedsouls.com/darksouls:All_Achievements\r\n\r\nhttps://wiki.speedsouls.com/Dark_Souls#Rules",
+      "players": {
+        "type": "exactly",
+        "value": 1
+      },
+      "miscellaneous": true,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/categories/zd3l9qnd"
+        },
+        {
+          "rel": "game",
+          "uri": "https://www.speedrun.com/api/v1/games/w6jve26j"
+        },
+        {
+          "rel": "variables",
+          "uri": "https://www.speedrun.com/api/v1/categories/zd3l9qnd/variables"
+        },
+        {
+          "rel": "records",
+          "uri": "https://www.speedrun.com/api/v1/categories/zd3l9qnd/records"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?category=zd3l9qnd"
+        },
+        {
+          "rel": "leaderboard",
+          "uri": "https://www.speedrun.com/api/v1/leaderboards/w6jve26j/category/zd3l9qnd"
+        }
+      ]
+    },
+    {
+      "id": "xd1e44r2",
+      "name": "100%",
+      "weblink": "https://www.speedrun.com/darksouls#100",
+      "type": "per-game",
+      "rules": "Rules:\r\n\r\nhttps://wiki.speedsouls.com/darksouls:100%25\r\n\r\nhttps://wiki.speedsouls.com/Dark_Souls#Rules",
+      "players": {
+        "type": "exactly",
+        "value": 1
+      },
+      "miscellaneous": true,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/categories/xd1e44r2"
+        },
+        {
+          "rel": "game",
+          "uri": "https://www.speedrun.com/api/v1/games/w6jve26j"
+        },
+        {
+          "rel": "variables",
+          "uri": "https://www.speedrun.com/api/v1/categories/xd1e44r2/variables"
+        },
+        {
+          "rel": "records",
+          "uri": "https://www.speedrun.com/api/v1/categories/xd1e44r2/records"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?category=xd1e44r2"
+        },
+        {
+          "rel": "leaderboard",
+          "uri": "https://www.speedrun.com/api/v1/leaderboards/w6jve26j/category/xd1e44r2"
+        }
+      ]
+    },
+    {
+      "id": "ndx1pwo2",
+      "name": "SL1 Any%",
+      "weblink": "https://www.speedrun.com/darksouls#SL1_Any",
+      "type": "per-game",
+      "rules": "https://wiki.speedsouls.com/Dark_Souls#Rules",
+      "players": {
+        "type": "exactly",
+        "value": 1
+      },
+      "miscellaneous": true,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/categories/ndx1pwo2"
+        },
+        {
+          "rel": "game",
+          "uri": "https://www.speedrun.com/api/v1/games/w6jve26j"
+        },
+        {
+          "rel": "variables",
+          "uri": "https://www.speedrun.com/api/v1/categories/ndx1pwo2/variables"
+        },
+        {
+          "rel": "records",
+          "uri": "https://www.speedrun.com/api/v1/categories/ndx1pwo2/records"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?category=ndx1pwo2"
+        },
+        {
+          "rel": "leaderboard",
+          "uri": "https://www.speedrun.com/api/v1/leaderboards/w6jve26j/category/ndx1pwo2"
+        }
+      ]
+    },
+    {
+      "id": "w20y14jk",
+      "name": "SL1 All Bosses",
+      "weblink": "https://www.speedrun.com/darksouls#SL1_All_Bosses",
+      "type": "per-game",
+      "rules": "https://wiki.speedsouls.com/Dark_Souls#Rules",
+      "players": {
+        "type": "exactly",
+        "value": 1
+      },
+      "miscellaneous": true,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/categories/w20y14jk"
+        },
+        {
+          "rel": "game",
+          "uri": "https://www.speedrun.com/api/v1/games/w6jve26j"
+        },
+        {
+          "rel": "variables",
+          "uri": "https://www.speedrun.com/api/v1/categories/w20y14jk/variables"
+        },
+        {
+          "rel": "records",
+          "uri": "https://www.speedrun.com/api/v1/categories/w20y14jk/records"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?category=w20y14jk"
+        },
+        {
+          "rel": "leaderboard",
+          "uri": "https://www.speedrun.com/api/v1/leaderboards/w6jve26j/category/w20y14jk"
+        }
+      ]
+    },
+    {
+      "id": "wdm841e2",
+      "name": "AotA",
+      "weblink": "https://www.speedrun.com/darksouls#AotA",
+      "type": "per-game",
+      "rules": "https://wiki.speedsouls.com/darksouls:Artorias_of_the_Abyss\r\n\r\nhttps://wiki.speedsouls.com/Dark_Souls#Rules",
+      "players": {
+        "type": "exactly",
+        "value": 1
+      },
+      "miscellaneous": true,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/categories/wdm841e2"
+        },
+        {
+          "rel": "game",
+          "uri": "https://www.speedrun.com/api/v1/games/w6jve26j"
+        },
+        {
+          "rel": "variables",
+          "uri": "https://www.speedrun.com/api/v1/categories/wdm841e2/variables"
+        },
+        {
+          "rel": "records",
+          "uri": "https://www.speedrun.com/api/v1/categories/wdm841e2/records"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?category=wdm841e2"
+        },
+        {
+          "rel": "leaderboard",
+          "uri": "https://www.speedrun.com/api/v1/leaderboards/w6jve26j/category/wdm841e2"
+        }
+      ]
+    },
+    {
+      "id": "wkpvqwjk",
+      "name": "NG+ Any%",
+      "weblink": "https://www.speedrun.com/darksouls#NG%2B_Any",
+      "type": "per-game",
+      "rules": "https://wiki.speedsouls.com/Dark_Souls#Rules",
+      "players": {
+        "type": "exactly",
+        "value": 1
+      },
+      "miscellaneous": true,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/categories/wkpvqwjk"
+        },
+        {
+          "rel": "game",
+          "uri": "https://www.speedrun.com/api/v1/games/w6jve26j"
+        },
+        {
+          "rel": "variables",
+          "uri": "https://www.speedrun.com/api/v1/categories/wkpvqwjk/variables"
+        },
+        {
+          "rel": "records",
+          "uri": "https://www.speedrun.com/api/v1/categories/wkpvqwjk/records"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?category=wkpvqwjk"
+        },
+        {
+          "rel": "leaderboard",
+          "uri": "https://www.speedrun.com/api/v1/leaderboards/w6jve26j/category/wkpvqwjk"
+        }
+      ]
+    },
+    {
+      "id": "7dg95vgk",
+      "name": "NG+ Any% Force Quit",
+      "weblink": "https://www.speedrun.com/darksouls#NG%2B_Any_Force_Quit",
+      "type": "per-game",
+      "rules": "https://wiki.speedsouls.com/Dark_Souls#Rules",
+      "players": {
+        "type": "exactly",
+        "value": 1
+      },
+      "miscellaneous": true,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/categories/7dg95vgk"
+        },
+        {
+          "rel": "game",
+          "uri": "https://www.speedrun.com/api/v1/games/w6jve26j"
+        },
+        {
+          "rel": "variables",
+          "uri": "https://www.speedrun.com/api/v1/categories/7dg95vgk/variables"
+        },
+        {
+          "rel": "records",
+          "uri": "https://www.speedrun.com/api/v1/categories/7dg95vgk/records"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?category=7dg95vgk"
+        },
+        {
+          "rel": "leaderboard",
+          "uri": "https://www.speedrun.com/api/v1/leaderboards/w6jve26j/category/7dg95vgk"
+        }
+      ]
+    },
+    {
+      "id": "ndx9xejd",
+      "name": "NG+ All Bosses",
+      "weblink": "https://www.speedrun.com/darksouls#NG_All_Bosses",
+      "type": "per-game",
+      "rules": "https://wiki.speedsouls.com/Dark_Souls#Rules",
+      "players": {
+        "type": "exactly",
+        "value": 1
+      },
+      "miscellaneous": true,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/categories/ndx9xejd"
+        },
+        {
+          "rel": "game",
+          "uri": "https://www.speedrun.com/api/v1/games/w6jve26j"
+        },
+        {
+          "rel": "variables",
+          "uri": "https://www.speedrun.com/api/v1/categories/ndx9xejd/variables"
+        },
+        {
+          "rel": "records",
+          "uri": "https://www.speedrun.com/api/v1/categories/ndx9xejd/records"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?category=ndx9xejd"
+        },
+        {
+          "rel": "leaderboard",
+          "uri": "https://www.speedrun.com/api/v1/leaderboards/w6jve26j/category/ndx9xejd"
+        }
+      ]
+    },
+    {
+      "id": "vdo3qe6d",
+      "name": "Least Bosses",
+      "weblink": "https://www.speedrun.com/darksouls#Least_Bosses",
+      "type": "per-game",
+      "rules": "https://wiki.speedsouls.com/Dark_Souls#Rules",
+      "players": {
+        "type": "exactly",
+        "value": 1
+      },
+      "miscellaneous": true,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/categories/vdo3qe6d"
+        },
+        {
+          "rel": "game",
+          "uri": "https://www.speedrun.com/api/v1/games/w6jve26j"
+        },
+        {
+          "rel": "variables",
+          "uri": "https://www.speedrun.com/api/v1/categories/vdo3qe6d/variables"
+        },
+        {
+          "rel": "records",
+          "uri": "https://www.speedrun.com/api/v1/categories/vdo3qe6d/records"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?category=vdo3qe6d"
+        },
+        {
+          "rel": "leaderboard",
+          "uri": "https://www.speedrun.com/api/v1/leaderboards/w6jve26j/category/vdo3qe6d"
+        }
+      ]
+    },
+    {
+      "id": "5dw8yrgd",
+      "name": "All Bosses No DLC",
+      "weblink": "https://www.speedrun.com/darksouls#All_Bosses_No_DLC",
+      "type": "per-game",
+      "rules": "https://wiki.speedsouls.com/Dark_Souls#Rules",
+      "players": {
+        "type": "exactly",
+        "value": 1
+      },
+      "miscellaneous": true,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/categories/5dw8yrgd"
+        },
+        {
+          "rel": "game",
+          "uri": "https://www.speedrun.com/api/v1/games/w6jve26j"
+        },
+        {
+          "rel": "variables",
+          "uri": "https://www.speedrun.com/api/v1/categories/5dw8yrgd/variables"
+        },
+        {
+          "rel": "records",
+          "uri": "https://www.speedrun.com/api/v1/categories/5dw8yrgd/records"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?category=5dw8yrgd"
+        },
+        {
+          "rel": "leaderboard",
+          "uri": "https://www.speedrun.com/api/v1/leaderboards/w6jve26j/category/5dw8yrgd"
+        }
+      ]
+    },
+    {
+      "id": "zdn107qk",
+      "name": "Lord of the Rings",
+      "weblink": "https://www.speedrun.com/darksouls#Lord_of_the_Rings",
+      "type": "per-game",
+      "rules": "- Have one of each ring in your inventory\r\n- Kill Gwyn\r\n\r\nhttps://wiki.speedsouls.com/Dark_Souls#Rules",
+      "players": {
+        "type": "exactly",
+        "value": 1
+      },
+      "miscellaneous": true,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/categories/zdn107qk"
+        },
+        {
+          "rel": "game",
+          "uri": "https://www.speedrun.com/api/v1/games/w6jve26j"
+        },
+        {
+          "rel": "variables",
+          "uri": "https://www.speedrun.com/api/v1/categories/zdn107qk/variables"
+        },
+        {
+          "rel": "records",
+          "uri": "https://www.speedrun.com/api/v1/categories/zdn107qk/records"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?category=zdn107qk"
+        },
+        {
+          "rel": "leaderboard",
+          "uri": "https://www.speedrun.com/api/v1/leaderboards/w6jve26j/category/zdn107qk"
+        }
+      ]
+    }
+  ]
+}

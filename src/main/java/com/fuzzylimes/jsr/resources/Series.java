@@ -32,6 +32,6 @@ public class Series{
 	private String abbreviation;
 
 	@JsonProperty("moderators")
-	@JsonDeserialize(using = ModeratorDeserializer.class, as = Moderators.class)
+	@JsonDeserialize(using = ModeratorDeserializer.class)
 	private Moderators moderators;
 }

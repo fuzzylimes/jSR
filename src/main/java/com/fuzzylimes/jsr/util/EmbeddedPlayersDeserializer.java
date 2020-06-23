@@ -14,12 +14,12 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class EmbeddedPlayersDeserializer extends JsonDeserializer {
+public class EmbeddedPlayersDeserializer extends JsonDeserializer<EmbeddedPlayers> {
 
     ObjectMapper mapper = new ObjectMapper();
 
     @Override
-    public EmbeddedPlayers deserialize(JsonParser jsonParser, DeserializationContext deserializationContext) throws IOException, JsonProcessingException {
+    public EmbeddedPlayers deserialize(JsonParser jsonParser, DeserializationContext deserializationContext) throws IOException {
         ObjectCodec oc = jsonParser.getCodec();
         JsonNode root = oc.readTree(jsonParser);
         return buildPlayers(root);

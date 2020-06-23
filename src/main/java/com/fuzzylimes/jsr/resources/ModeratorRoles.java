@@ -11,7 +11,7 @@ public enum ModeratorRoles {
 
     private String role;
 
-    private ModeratorRoles(String role) {
+    ModeratorRoles(String role) {
         this.role = role;
     }
 
@@ -20,7 +20,7 @@ public enum ModeratorRoles {
         return role;
     }
 
-    public void setRole(String role) {
+    void setRole(String role) {
         this.role = role;
     }
 }

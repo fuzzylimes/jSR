@@ -12,12 +12,12 @@ import com.fuzzylimes.jsr.resources.EmbeddedCategory;
 
 import java.io.IOException;
 
-public class EmbeddedCategoryDeserializer extends JsonDeserializer {
+public class EmbeddedCategoryDeserializer extends JsonDeserializer<EmbeddedCategory> {
 
     ObjectMapper mapper = new ObjectMapper();
 
     @Override
-    public EmbeddedCategory deserialize(JsonParser jsonParser, DeserializationContext deserializationContext) throws IOException, JsonProcessingException {
+    public EmbeddedCategory deserialize(JsonParser jsonParser, DeserializationContext deserializationContext) throws IOException {
         ObjectCodec oc = jsonParser.getCodec();
         JsonNode root = oc.readTree(jsonParser);
         return buildCategory(root);

@@ -1,4 +1,4 @@
-package com.fuzzylimes.jsr.util;//package com.fuzzylimes.jsr.util;
+package com.fuzzylimes.jsr.util;
 
 import com.fasterxml.jackson.core.JsonParser;
 import com.fasterxml.jackson.core.JsonProcessingException;
@@ -18,12 +18,12 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class ModeratorDeserializer extends JsonDeserializer {
+public class ModeratorDeserializer extends JsonDeserializer<Moderators> {
 
     ObjectMapper mapper = new ObjectMapper();
 
     @Override
-    public Moderators deserialize(JsonParser jsonParser, DeserializationContext deserializationContext) throws IOException, JsonProcessingException {
+    public Moderators deserialize(JsonParser jsonParser, DeserializationContext deserializationContext) throws IOException {
         ObjectCodec oc = jsonParser.getCodec();
         JsonNode root = oc.readTree(jsonParser);
         return buildModerators(root);

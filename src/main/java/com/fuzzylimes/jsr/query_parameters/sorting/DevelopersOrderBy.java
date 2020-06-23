@@ -8,7 +8,7 @@ public enum DevelopersOrderBy implements OrderBy  {
 
     private String orderBy;
 
-    private DevelopersOrderBy(String orderBy) {
+    DevelopersOrderBy(String orderBy) {
         this.orderBy = orderBy;
     }
 
@@ -16,7 +16,7 @@ public enum DevelopersOrderBy implements OrderBy  {
         return orderBy;
     }
 
-    public void setOrderBy(String orderBy) {
+    void setOrderBy(String orderBy) {
         this.orderBy = orderBy;
     }
 }

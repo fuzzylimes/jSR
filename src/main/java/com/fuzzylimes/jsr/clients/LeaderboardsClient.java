@@ -1,6 +1,7 @@
 package com.fuzzylimes.jsr.clients;
 
 import com.fasterxml.jackson.databind.JsonNode;
+import com.fuzzylimes.jsr.JsrClient;
 import com.fuzzylimes.jsr.common.Properties;
 import com.fuzzylimes.jsr.query_parameters.LeaderboardQuery;
 import com.fuzzylimes.jsr.resources.Category;
@@ -15,6 +16,16 @@ import static com.fuzzylimes.jsr.JsrClient.getSyncQuery;
 import static com.fuzzylimes.jsr.JsrClient.mapper;
 import static com.fuzzylimes.jsr.common.Properties.*;
 
+/**
+ * <p>This client is used to make requests to the /leaderboards set of resources on SpeedRun.com's API. The official documentation
+ * for this set of APIs can be found in <a href="https://github.com/speedruncomorg/api/blob/master/version1/leaderboards.md">the API Docs</a>.</p>
+ *
+ * <p>Leaderboards contain non-obsolete runs, sorted by time descending. In contrast to raw runs, leaderboards are
+ * automatically grouped according to the game/category/level rules that the moderators have defined.</p>
+ *
+ * <p>The client uses static methods for all of the resource calls, so there is now need to initialize
+ * anything to make a request. Simply reference the resource you wish to use to retrieve a related pojo.</p>
+ */
 public class LeaderboardsClient {
 
     /**
@@ -43,13 +54,14 @@ public class LeaderboardsClient {
      * @param category Either the ID of the category or the abbreviation of the category
      * @param embed whether or not to embed all additional, supported, embed items
      * @param queryParams {@link LeaderboardQuery} query params to be used to filter query
+     * @return {@link Leaderboard} object for the specified criteria
      * @throws IOException if something goes wrong with mapping
      * @throws UnexpectedResponseException if non-2XX or no body returned to request
      */
     public static Leaderboard getLeaderboardForGameCategory(String game, String category, Boolean embed, LeaderboardQuery queryParams) throws IOException, UnexpectedResponseException {
         JsonNode node = Boolean.TRUE.equals(embed) ?
-                getSyncQuery(buildPath(BASE_RESOURCE, LEADERBOARD_PATH, game, CATEGORY_PATH, category), LEADERBOARD_EMBED, queryParams.getQueryMap()):
-                getSyncQuery(buildPath(BASE_RESOURCE, LEADERBOARD_PATH, game, CATEGORY_PATH, category), queryParams.getQueryMap());
+                getSyncQuery(JsrClient.buildPath(BASE_RESOURCE, LEADERBOARD_PATH, game, CATEGORY_PATH, category), getLeaderboardEmbed(), queryParams.getQueryMap()):
+                getSyncQuery(JsrClient.buildPath(BASE_RESOURCE, LEADERBOARD_PATH, game, CATEGORY_PATH, category), queryParams.getQueryMap());
         return mapper.readValue(node.get("data").toString(), Leaderboard.class);
     }
 
@@ -71,6 +83,7 @@ public class LeaderboardsClient {
      * @param game Either the ID of the game or the abbreviation of the game to be queried
      * @param category Either the ID of the category or the abbreviation of the category
      * @param embed whether or not to embed all additional, supported, embed items
+     * @return {@link Leaderboard} object for the specified criteria
      * @throws IOException if something goes wrong with mapping
      * @throws UnexpectedResponseException if non-2XX or no body returned to request
      */
@@ -93,6 +106,7 @@ public class LeaderboardsClient {
      *
      * @param game Either the ID of the game or the abbreviation of the game to be queried
      * @param category Either the ID of the category or the abbreviation of the category
+     * @return {@link Leaderboard} object for the specified criteria
      * @throws IOException if something goes wrong with mapping
      * @throws UnexpectedResponseException if non-2XX or no body returned to request
      */
@@ -121,6 +135,7 @@ public class LeaderboardsClient {
      * @param category Either the ID of the category or the abbreviation of the category
      * @param embed whether or not to embed all additional, supported, embed items
      * @param queryParams {@link LeaderboardQuery} query params to be used to filter query
+     * @return {@link Leaderboard} object for the specified criteria
      * @throws IOException if something goes wrong with mapping
      * @throws UnexpectedResponseException if non-2XX or no body returned to request
      */
@@ -128,8 +143,8 @@ public class LeaderboardsClient {
                                                                  Boolean embed, LeaderboardQuery queryParams)
             throws IOException, UnexpectedResponseException {
         JsonNode node = Boolean.TRUE.equals(embed) ?
-                getSyncQuery(buildPath(BASE_RESOURCE, LEADERBOARD_PATH, game, LEVEL_PATH, level, category), LEADERBOARD_EMBED, queryParams.getQueryMap()):
-                getSyncQuery(buildPath(BASE_RESOURCE, LEADERBOARD_PATH, game, CATEGORY_PATH, category), queryParams.getQueryMap());
+                getSyncQuery(JsrClient.buildPath(BASE_RESOURCE, LEADERBOARD_PATH, game, LEVEL_PATH, level, category), getLeaderboardEmbed(), queryParams.getQueryMap()):
+                getSyncQuery(JsrClient.buildPath(BASE_RESOURCE, LEADERBOARD_PATH, game, CATEGORY_PATH, category), queryParams.getQueryMap());
         return mapper.readValue(node.get("data").toString(), Leaderboard.class);
     }
 
@@ -151,6 +166,7 @@ public class LeaderboardsClient {
      * @param level Either the ID of the level or the abbreviation of the level
      * @param category Either the ID of the category or the abbreviation of the category
      * @param embed whether or not to embed all additional, supported, embed items
+     * @return {@link Leaderboard} object for the specified criteria
      * @throws IOException if something goes wrong with mapping
      * @throws UnexpectedResponseException if non-2XX or no body returned to request
      */
@@ -177,6 +193,7 @@ public class LeaderboardsClient {
      * @param game Either the ID of the game or the abbreviation of the game to be queried
      * @param level Either the ID of the level or the abbreviation of the level
      * @param category Either the ID of the category or the abbreviation of the category
+     * @return {@link Leaderboard} object for the specified criteria
      * @throws IOException if something goes wrong with mapping
      * @throws UnexpectedResponseException if non-2XX or no body returned to request
      */

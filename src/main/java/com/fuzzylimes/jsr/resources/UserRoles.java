@@ -19,7 +19,7 @@ public enum UserRoles {
 
     private String role;
 
-    private UserRoles(String role) {
+    UserRoles(String role) {
         this.role = role;
     }
 
@@ -28,7 +28,7 @@ public enum UserRoles {
         return role;
     }
 
-    public void setRole(String role) {
+    void setRole(String role) {
         this.role = role;
     }
 }

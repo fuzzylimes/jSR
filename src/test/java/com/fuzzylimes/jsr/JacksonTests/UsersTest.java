@@ -9,7 +9,6 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import java.io.IOException;
-import java.lang.System;
 import java.util.List;
 
 public class UsersTest {
@@ -39,12 +38,22 @@ public class UsersTest {
 
 
     @Test
-    public void deserializeUsersEmbedTest() throws IOException {
+    public void deserializeUserRunsTest() throws IOException {
         JsonNode node = mapper.readTree(DeserializeUtil.getFile("/responses/UsersByIdPersonalBest.json"));
         List<PersonalBest> var = mapper.readValue(node.get("data").toString(), new TypeReference<List<PersonalBest>>() {});
 
         Assertions.assertEquals(10, var.get(1).getPlace());
         Assertions.assertEquals("mk923lvz", var.get(1).getRun().getId());
         Assertions.assertEquals("lde3woe6", var.get(1).getRun().getGame().getId());
+    }
+
+    @Test
+    public void deserializeUserRuns_EmbedTest() throws IOException {
+        JsonNode node = mapper.readTree(DeserializeUtil.getFile("/responses/UsersByIdPersonalBest_Embed.json"));
+        List<PersonalBest> var = mapper.readValue(node.get("data").toString(), new TypeReference<List<PersonalBest>>() {});
+
+        Assertions.assertEquals(10, var.get(1).getPlace());
+        Assertions.assertEquals("mk923lvz", var.get(1).getRun().getId());
+        Assertions.assertEquals("lde3woe6", var.get(1).getGame().getGameEmbed().getId());
     }
 }

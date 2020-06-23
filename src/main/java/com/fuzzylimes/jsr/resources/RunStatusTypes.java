@@ -13,7 +13,7 @@ public enum RunStatusTypes {
 
     private String type;
 
-    private RunStatusTypes(String type) {
+    RunStatusTypes(String type) {
         this.type = type;
     }
 
@@ -22,7 +22,7 @@ public enum RunStatusTypes {
         return type;
     }
 
-    public void setType(String type) {
+    void setType(String type) {
         this.type = type;
     }
 }

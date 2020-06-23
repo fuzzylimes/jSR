@@ -12,12 +12,12 @@ import com.fuzzylimes.jsr.resources.EmbeddedLevel;
 
 import java.io.IOException;
 
-public class EmbeddedLevelDeserializer extends JsonDeserializer {
+public class EmbeddedLevelDeserializer extends JsonDeserializer<EmbeddedLevel> {
 
     ObjectMapper mapper = new ObjectMapper();
 
     @Override
-    public EmbeddedLevel deserialize(JsonParser jsonParser, DeserializationContext deserializationContext) throws IOException, JsonProcessingException {
+    public EmbeddedLevel deserialize(JsonParser jsonParser, DeserializationContext deserializationContext) throws IOException {
         ObjectCodec oc = jsonParser.getCodec();
         JsonNode root = oc.readTree(jsonParser);
         return buildLevels(root);

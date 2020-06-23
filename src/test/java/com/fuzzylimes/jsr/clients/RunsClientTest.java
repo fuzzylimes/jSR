@@ -2,11 +2,9 @@ package com.fuzzylimes.jsr.clients;
 
 import com.fuzzylimes.jsr.query_parameters.RunsQuery;
 import com.fuzzylimes.jsr.query_parameters.sorting.Direction;
-import com.fuzzylimes.jsr.query_parameters.sorting.PlatformsOrderBy;
 import com.fuzzylimes.jsr.query_parameters.sorting.RunsOrderBy;
 import com.fuzzylimes.jsr.query_parameters.sorting.Sorting;
 import com.fuzzylimes.jsr.resources.PagedResponse;
-import com.fuzzylimes.jsr.resources.Platform;
 import com.fuzzylimes.jsr.resources.Run;
 import com.fuzzylimes.jsr.util.UnexpectedResponseException;
 import org.junit.jupiter.api.Assertions;
@@ -14,7 +12,6 @@ import org.junit.jupiter.api.Test;
 
 import java.io.IOException;
 
-import static com.fuzzylimes.jsr.JacksonTests.util.ClientTestUtil.MockJsrClientUrl;
 import static com.fuzzylimes.jsr.JacksonTests.util.ClientTestUtil.MockJsrClientUrlAndQueryParams;
 
 class RunsClientTest {
@@ -133,7 +130,7 @@ class RunsClientTest {
         Assertions.assertEquals("1wzpqgyq", var.getId());
         Assertions.assertEquals("PT21M52S", var.getTimes().getPrimary());
         Assertions.assertEquals("w89rwelk", var.getSystem().getPlatform());
-        Assertions.assertEquals("w89rwelk", var.getGame().getGameEmbed().getPlatforms().get(0));
+        Assertions.assertEquals("w89rwelk", var.getGame().getGameEmbed().getPlatforms().getIds().get(0));
         Assertions.assertEquals("prklq2n9", var.getCategory().getCategoryEmbed().getId());
     }
 

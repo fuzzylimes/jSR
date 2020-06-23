@@ -12,12 +12,12 @@ import com.fuzzylimes.jsr.resources.Game;
 
 import java.io.IOException;
 
-public class EmbeddedGameDeserializer extends JsonDeserializer {
+public class EmbeddedGameDeserializer extends JsonDeserializer<EmbeddedGame> {
 
     ObjectMapper mapper = new ObjectMapper();
 
     @Override
-    public EmbeddedGame deserialize(JsonParser jsonParser, DeserializationContext deserializationContext) throws IOException, JsonProcessingException {
+    public EmbeddedGame deserialize(JsonParser jsonParser, DeserializationContext deserializationContext) throws IOException {
         ObjectCodec oc = jsonParser.getCodec();
         JsonNode root = oc.readTree(jsonParser);
         return buildGames(root);

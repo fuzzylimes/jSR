@@ -5,7 +5,6 @@ import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fuzzylimes.jsr.JacksonTests.util.DeserializeUtil;
 import com.fuzzylimes.jsr.resources.GameType;
-import com.fuzzylimes.jsr.resources.Guest;
 import com.fuzzylimes.jsr.resources.PagedResponse;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;

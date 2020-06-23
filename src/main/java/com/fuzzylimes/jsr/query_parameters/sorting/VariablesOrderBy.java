@@ -14,7 +14,7 @@ public enum VariablesOrderBy implements OrderBy {
 
     private String orderBy;
 
-    private VariablesOrderBy(String orderBy) {
+    VariablesOrderBy(String orderBy) {
         this.orderBy = orderBy;
     }
 
@@ -22,7 +22,7 @@ public enum VariablesOrderBy implements OrderBy {
         return orderBy;
     }
 
-    public void setOrderBy(String orderBy) {
+    void setOrderBy(String orderBy) {
         this.orderBy = orderBy;
     }
 }

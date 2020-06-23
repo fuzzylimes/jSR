@@ -1,4 +1,4 @@
-package com.fuzzylimes.jsr.util;//package com.fuzzylimes.jsr.util;
+package com.fuzzylimes.jsr.util;
 
 import com.fasterxml.jackson.core.JsonParser;
 import com.fasterxml.jackson.core.JsonProcessingException;
@@ -13,12 +13,12 @@ import com.fuzzylimes.jsr.resources.Variable;
 import java.io.IOException;
 import java.util.List;
 
-public class VariableEmbedDeserializer extends JsonDeserializer {
+public class VariableEmbedDeserializer extends JsonDeserializer<List<Variable>> {
 
     ObjectMapper mapper = new ObjectMapper();
 
     @Override
-    public List<Variable> deserialize(JsonParser jsonParser, DeserializationContext deserializationContext) throws IOException, JsonProcessingException {
+    public List<Variable> deserialize(JsonParser jsonParser, DeserializationContext deserializationContext) throws IOException {
         ObjectCodec oc = jsonParser.getCodec();
         JsonNode root = oc.readTree(jsonParser);
         return buildVariable(root);

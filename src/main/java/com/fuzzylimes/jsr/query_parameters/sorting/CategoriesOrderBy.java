@@ -12,7 +12,7 @@ public enum CategoriesOrderBy implements OrderBy {
 
     private String orderBy;
 
-    private CategoriesOrderBy(String orderBy) {
+    CategoriesOrderBy(String orderBy) {
         this.orderBy = orderBy;
     }
 
@@ -20,7 +20,7 @@ public enum CategoriesOrderBy implements OrderBy {
         return orderBy;
     }
 
-    public void setOrderBy(String orderBy) {
+    void setOrderBy(String orderBy) {
         this.orderBy = orderBy;
     }
 }

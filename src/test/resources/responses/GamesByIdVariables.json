@@ -1,0 +1,1393 @@
+{
+  "data": [
+    {
+      "id": "0nwyx58q",
+      "name": "Full Game - The Princess Cliche",
+      "category": "wkpymyvk",
+      "scope": {
+        "type": "global"
+      },
+      "mandatory": true,
+      "user-defined": false,
+      "obsoletes": true,
+      "values": {
+        "_note": "`choices` is deprecated, please use `values` instead",
+        "choices": {
+          "xqke4ykq": "NEW VERSION",
+          "5q8eywgq": "Any Characters"
+        },
+        "values": {
+          "xqke4ykq": {
+            "label": "NEW VERSION",
+            "rules": "Beat the Princess Cliche(NEW VERSION) with any character you want.Timer starts when you accept save slot and ends when you kill Bowser \r\n\r\nUsing cheat commands is not allowed",
+            "flags": {
+              "miscellaneous": false
+            }
+          },
+          "5q8eywgq": {
+            "label": "Any Characters",
+            "rules": "You can use any ordering, any combination, and any version of any official characters you want.\r\n\r\nYou may not use Juni.\r\nYou may use a shared powerup script. This script has to hold for all characters\r\n\r\nWhen you submit please list out all characters and versions they are.",
+            "flags": {
+              "miscellaneous": false
+            }
+          }
+        },
+        "default": "xqke4ykq"
+      },
+      "is-subcategory": true,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/variables/0nwyx58q"
+        },
+        {
+          "rel": "game",
+          "uri": "https://www.speedrun.com/api/v1/games/pdv0x91w"
+        },
+        {
+          "rel": "category",
+          "uri": "https://www.speedrun.com/api/v1/categories/wkpymyvk"
+        }
+      ]
+    },
+    {
+      "id": "j84kwwjn",
+      "name": "Full Game - The Invasion 2",
+      "category": "jdzme6kv",
+      "scope": {
+        "type": "global"
+      },
+      "mandatory": true,
+      "user-defined": false,
+      "obsoletes": true,
+      "values": {
+        "_note": "`choices` is deprecated, please use `values` instead",
+        "choices": {
+          "zqomrrp1": "Any%",
+          "013vmzrl": "100%",
+          "013w55dq": "All Stars%",
+          "klrzwwj1": "Main Exits",
+          "0q5omg71": "Any% Any Characters"
+        },
+        "values": {
+          "zqomrrp1": {
+            "label": "Any%",
+            "rules": "Any% rules\r\nBeat The Invasion 2 episode with any of the following characters (Mario, Luigi, Peach, Toad, Link) you want. Timer starts on first Input and ends when you kill Bowser.\r\n\r\nUsing cheats not allowed.",
+            "flags": {
+              "miscellaneous": false
+            }
+          },
+          "013vmzrl": {
+            "label": "100%",
+            "rules": "-Collect 7 stars, beat all levels, and unlock all paths.\r\n-No cheats allowed.\r\n-Timer starts at first input.\r\n-Timer ends upon final hit on Bowser in The King of Koopas.",
+            "flags": {
+              "miscellaneous": false
+            }
+          },
+          "013w55dq": {
+            "label": "All Stars%",
+            "rules": "AllStars% rules\r\nCollect 7 stars in The Invasion 2 and end episode with any character you want. Timer starts on first input and ends when you kill Bowser. \r\n\r\nUsing cheats not allowed.",
+            "flags": {
+              "miscellaneous": false
+            }
+          },
+          "klrzwwj1": {
+            "label": "Main Exits",
+            "rules": "-You're not allowed to take any Secret exits such as keys, stars or other such things.\r\n-That means that you need to go through all worlds and you can't unlock any of the toad houses.\r\n-Timer starts when episode is loaded.\r\n-Timer ends on the final hit on Bowser in The King of Koopas.",
+            "flags": {
+              "miscellaneous": false
+            }
+          },
+          "0q5omg71": {
+            "label": "Any% Any Characters",
+            "rules": "You can use any ordering, any combination, and any version of any official characters you want.\r\n\r\nYou may not use Juni.\r\nYou may use a shared powerup script. This script has to hold for all characters\r\n\r\nWhen you submit please list out all characters and versions they are.",
+            "flags": {
+              "miscellaneous": false
+            }
+          }
+        },
+        "default": "zqomrrp1"
+      },
+      "is-subcategory": true,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/variables/j84kwwjn"
+        },
+        {
+          "rel": "game",
+          "uri": "https://www.speedrun.com/api/v1/games/pdv0x91w"
+        },
+        {
+          "rel": "category",
+          "uri": "https://www.speedrun.com/api/v1/categories/jdzme6kv"
+        }
+      ]
+    },
+    {
+      "id": "9l73ympn",
+      "name": "Shared Powerups",
+      "category": null,
+      "scope": {
+        "type": "full-game"
+      },
+      "mandatory": true,
+      "user-defined": true,
+      "obsoletes": true,
+      "values": {
+        "_note": "`choices` is deprecated, please use `values` instead",
+        "choices": {
+          "zqoydzx1": "No",
+          "5q8e5w3q": "Yes"
+        },
+        "values": {
+          "zqoydzx1": {
+            "label": "No"
+          },
+          "5q8e5w3q": {
+            "label": "Yes"
+          }
+        },
+        "default": null
+      },
+      "is-subcategory": false,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/variables/9l73ympn"
+        },
+        {
+          "rel": "game",
+          "uri": "https://www.speedrun.com/api/v1/games/pdv0x91w"
+        }
+      ]
+    },
+    {
+      "id": "0nw2mjdn",
+      "name": "Character",
+      "category": null,
+      "scope": {
+        "type": "global"
+      },
+      "mandatory": false,
+      "user-defined": true,
+      "obsoletes": true,
+      "values": {
+        "_note": "`choices` is deprecated, please use `values` instead",
+        "choices": {
+          "5lekggpl": "Mario",
+          "0q5oeer1": "Luigi",
+          "4lxxwwjl": "Toad",
+          "814xeewq": "Peach",
+          "z194gyjl": "Link",
+          "rqvmeoyq": "Other"
+        },
+        "values": {
+          "5lekggpl": {
+            "label": "Mario"
+          },
+          "0q5oeer1": {
+            "label": "Luigi"
+          },
+          "4lxxwwjl": {
+            "label": "Toad"
+          },
+          "814xeewq": {
+            "label": "Peach"
+          },
+          "z194gyjl": {
+            "label": "Link"
+          },
+          "rqvmeoyq": {
+            "label": "Other"
+          }
+        },
+        "default": null
+      },
+      "is-subcategory": false,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/variables/0nw2mjdn"
+        },
+        {
+          "rel": "game",
+          "uri": "https://www.speedrun.com/api/v1/games/pdv0x91w"
+        }
+      ]
+    },
+    {
+      "id": "wle6g1r8",
+      "name": "Level Exit - The Invasion 2 - 1-3 Misplaced Pipehammer Maze",
+      "category": null,
+      "scope": {
+        "type": "single-level",
+        "level": "r9g42zj9"
+      },
+      "mandatory": true,
+      "user-defined": false,
+      "obsoletes": true,
+      "values": {
+        "_note": "`choices` is deprecated, please use `values` instead",
+        "choices": {
+          "814xg5eq": "Goal",
+          "z194yjyl": "Secret Exit"
+        },
+        "values": {
+          "814xg5eq": {
+            "label": "Goal",
+            "rules": null,
+            "flags": {
+              "miscellaneous": null
+            }
+          },
+          "z194yjyl": {
+            "label": "Secret Exit",
+            "rules": null,
+            "flags": {
+              "miscellaneous": false
+            }
+          }
+        },
+        "default": "814xg5eq"
+      },
+      "is-subcategory": true,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/variables/wle6g1r8"
+        },
+        {
+          "rel": "game",
+          "uri": "https://www.speedrun.com/api/v1/games/pdv0x91w"
+        },
+        {
+          "rel": "level",
+          "uri": "https://www.speedrun.com/api/v1/levels/r9g42zj9"
+        }
+      ]
+    },
+    {
+      "id": "ylq9xjw8",
+      "name": "Level Exit - The Invasion 2 - 1-4 Floating Brick Niche",
+      "category": null,
+      "scope": {
+        "type": "single-level",
+        "level": "o9x7n23d"
+      },
+      "mandatory": true,
+      "user-defined": false,
+      "obsoletes": true,
+      "values": {
+        "_note": "`choices` is deprecated, please use `values` instead",
+        "choices": {
+          "81p7wnk1": "Goal",
+          "xqkrk8y1": "Star"
+        },
+        "values": {
+          "81p7wnk1": {
+            "label": "Goal",
+            "rules": null,
+            "flags": {
+              "miscellaneous": null
+            }
+          },
+          "xqkrk8y1": {
+            "label": "Star",
+            "rules": null,
+            "flags": {
+              "miscellaneous": false
+            }
+          }
+        },
+        "default": "81p7wnk1"
+      },
+      "is-subcategory": true,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/variables/ylq9xjw8"
+        },
+        {
+          "rel": "game",
+          "uri": "https://www.speedrun.com/api/v1/games/pdv0x91w"
+        },
+        {
+          "rel": "level",
+          "uri": "https://www.speedrun.com/api/v1/levels/o9x7n23d"
+        }
+      ]
+    },
+    {
+      "id": "rn11ymdn",
+      "name": "Level Exit - The Invasion 2 - 2-1 Subcon Nightmare Land",
+      "category": null,
+      "scope": {
+        "type": "single-level",
+        "level": "rdq7j0o9"
+      },
+      "mandatory": true,
+      "user-defined": false,
+      "obsoletes": true,
+      "values": {
+        "_note": "`choices` is deprecated, please use `values` instead",
+        "choices": {
+          "21gjdw61": "Goal",
+          "jqz6er21": "Secret Exit"
+        },
+        "values": {
+          "21gjdw61": {
+            "label": "Goal",
+            "rules": null,
+            "flags": {
+              "miscellaneous": null
+            }
+          },
+          "jqz6er21": {
+            "label": "Secret Exit",
+            "rules": null,
+            "flags": {
+              "miscellaneous": null
+            }
+          }
+        },
+        "default": "21gjdw61"
+      },
+      "is-subcategory": true,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/variables/rn11ymdn"
+        },
+        {
+          "rel": "game",
+          "uri": "https://www.speedrun.com/api/v1/games/pdv0x91w"
+        },
+        {
+          "rel": "level",
+          "uri": "https://www.speedrun.com/api/v1/levels/rdq7j0o9"
+        }
+      ]
+    },
+    {
+      "id": "p859yzxn",
+      "name": "Level Exit - The Invasion 2 - 2-2 Megaton Vase Hole",
+      "category": null,
+      "scope": {
+        "type": "single-level",
+        "level": "5d74v7qd"
+      },
+      "mandatory": true,
+      "user-defined": false,
+      "obsoletes": true,
+      "values": {
+        "_note": "`choices` is deprecated, please use `values` instead",
+        "choices": {
+          "klrz4eo1": "Goal",
+          "21d4gjp1": "Secret Exit"
+        },
+        "values": {
+          "klrz4eo1": {
+            "label": "Goal",
+            "rules": null,
+            "flags": {
+              "miscellaneous": null
+            }
+          },
+          "21d4gjp1": {
+            "label": "Secret Exit",
+            "rules": null,
+            "flags": {
+              "miscellaneous": null
+            }
+          }
+        },
+        "default": "klrz4eo1"
+      },
+      "is-subcategory": true,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/variables/p859yzxn"
+        },
+        {
+          "rel": "game",
+          "uri": "https://www.speedrun.com/api/v1/games/pdv0x91w"
+        },
+        {
+          "rel": "level",
+          "uri": "https://www.speedrun.com/api/v1/levels/5d74v7qd"
+        }
+      ]
+    },
+    {
+      "id": "38do94xl",
+      "name": "Level Exit - The Invasion 2 - 2-3 Field of Shotgun Vases",
+      "category": null,
+      "scope": {
+        "type": "single-level",
+        "level": "ewpxjpyd"
+      },
+      "mandatory": true,
+      "user-defined": false,
+      "obsoletes": true,
+      "values": {
+        "_note": "`choices` is deprecated, please use `values` instead",
+        "choices": {
+          "5q8e8xyq": "Goal",
+          "4qyxov6l": "Secret Exit"
+        },
+        "values": {
+          "5q8e8xyq": {
+            "label": "Goal",
+            "rules": null,
+            "flags": {
+              "miscellaneous": null
+            }
+          },
+          "4qyxov6l": {
+            "label": "Secret Exit",
+            "rules": null,
+            "flags": {
+              "miscellaneous": null
+            }
+          }
+        },
+        "default": "5q8e8xyq"
+      },
+      "is-subcategory": true,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/variables/38do94xl"
+        },
+        {
+          "rel": "game",
+          "uri": "https://www.speedrun.com/api/v1/games/pdv0x91w"
+        },
+        {
+          "rel": "level",
+          "uri": "https://www.speedrun.com/api/v1/levels/ewpxjpyd"
+        }
+      ]
+    },
+    {
+      "id": "r8rgr5wn",
+      "name": "Level Exit - The Invasion 2 - 2-A Brick Hole Massacre",
+      "category": null,
+      "scope": {
+        "type": "single-level",
+        "level": "y9mxjezw"
+      },
+      "mandatory": true,
+      "user-defined": false,
+      "obsoletes": true,
+      "values": {
+        "_note": "`choices` is deprecated, please use `values` instead",
+        "choices": {
+          "mlnym4o1": "Goal",
+          "8105jvoq": "Star"
+        },
+        "values": {
+          "mlnym4o1": {
+            "label": "Goal",
+            "rules": null,
+            "flags": {
+              "miscellaneous": null
+            }
+          },
+          "8105jvoq": {
+            "label": "Star",
+            "rules": null,
+            "flags": {
+              "miscellaneous": false
+            }
+          }
+        },
+        "default": "mlnym4o1"
+      },
+      "is-subcategory": true,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/variables/r8rgr5wn"
+        },
+        {
+          "rel": "game",
+          "uri": "https://www.speedrun.com/api/v1/games/pdv0x91w"
+        },
+        {
+          "rel": "level",
+          "uri": "https://www.speedrun.com/api/v1/levels/y9mxjezw"
+        }
+      ]
+    },
+    {
+      "id": "5lyjvojl",
+      "name": "Level Exit - The Invasion 2 - 3-4 Switch Action Zone",
+      "category": null,
+      "scope": {
+        "type": "single-level",
+        "level": "n9347g2d"
+      },
+      "mandatory": true,
+      "user-defined": false,
+      "obsoletes": true,
+      "values": {
+        "_note": "`choices` is deprecated, please use `values` instead",
+        "choices": {
+          "9qjzn771": "Goal",
+          "jq64r5v1": "Secret Exit"
+        },
+        "values": {
+          "9qjzn771": {
+            "label": "Goal",
+            "rules": null,
+            "flags": {
+              "miscellaneous": false
+            }
+          },
+          "jq64r5v1": {
+            "label": "Secret Exit",
+            "rules": null,
+            "flags": {
+              "miscellaneous": null
+            }
+          }
+        },
+        "default": "9qjzn771"
+      },
+      "is-subcategory": true,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/variables/5lyjvojl"
+        },
+        {
+          "rel": "game",
+          "uri": "https://www.speedrun.com/api/v1/games/pdv0x91w"
+        },
+        {
+          "rel": "level",
+          "uri": "https://www.speedrun.com/api/v1/levels/n9347g2d"
+        }
+      ]
+    },
+    {
+      "id": "e8my73m8",
+      "name": "Level Exit - The Invasion 2 - 3-5 Painful Playland",
+      "category": null,
+      "scope": {
+        "type": "single-level",
+        "level": "rdnz0p5d"
+      },
+      "mandatory": true,
+      "user-defined": false,
+      "obsoletes": true,
+      "values": {
+        "_note": "`choices` is deprecated, please use `values` instead",
+        "choices": {
+          "5lmx6o81": "Goal",
+          "81wmo4mq": "Star"
+        },
+        "values": {
+          "5lmx6o81": {
+            "label": "Goal",
+            "rules": null,
+            "flags": {
+              "miscellaneous": null
+            }
+          },
+          "81wmo4mq": {
+            "label": "Star",
+            "rules": null,
+            "flags": {
+              "miscellaneous": null
+            }
+          }
+        },
+        "default": "5lmx6o81"
+      },
+      "is-subcategory": true,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/variables/e8my73m8"
+        },
+        {
+          "rel": "game",
+          "uri": "https://www.speedrun.com/api/v1/games/pdv0x91w"
+        },
+        {
+          "rel": "level",
+          "uri": "https://www.speedrun.com/api/v1/levels/rdnz0p5d"
+        }
+      ]
+    },
+    {
+      "id": "kn043mol",
+      "name": "Level Exit - The Invasion 2 - 4-1 Flying Raccoon Zone",
+      "category": null,
+      "scope": {
+        "type": "single-level",
+        "level": "n9347g7d"
+      },
+      "mandatory": true,
+      "user-defined": false,
+      "obsoletes": true,
+      "values": {
+        "_note": "`choices` is deprecated, please use `values` instead",
+        "choices": {
+          "xqkr57y1": "Goal",
+          "gq7npky1": "Secret Exit"
+        },
+        "values": {
+          "xqkr57y1": {
+            "label": "Goal",
+            "rules": null,
+            "flags": {
+              "miscellaneous": null
+            }
+          },
+          "gq7npky1": {
+            "label": "Secret Exit",
+            "rules": null,
+            "flags": {
+              "miscellaneous": null
+            }
+          }
+        },
+        "default": "xqkr57y1"
+      },
+      "is-subcategory": true,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/variables/kn043mol"
+        },
+        {
+          "rel": "game",
+          "uri": "https://www.speedrun.com/api/v1/games/pdv0x91w"
+        },
+        {
+          "rel": "level",
+          "uri": "https://www.speedrun.com/api/v1/levels/n9347g7d"
+        }
+      ]
+    },
+    {
+      "id": "6njv1wpn",
+      "name": "Level Exit - The Invasion 2 - 4-4 Retroville",
+      "category": null,
+      "scope": {
+        "type": "single-level",
+        "level": "ldygypjd"
+      },
+      "mandatory": true,
+      "user-defined": false,
+      "obsoletes": true,
+      "values": {
+        "_note": "`choices` is deprecated, please use `values` instead",
+        "choices": {
+          "21gjdn61": "Goal",
+          "jqz6en21": "Secret Exit"
+        },
+        "values": {
+          "21gjdn61": {
+            "label": "Goal",
+            "rules": null,
+            "flags": {
+              "miscellaneous": null
+            }
+          },
+          "jqz6en21": {
+            "label": "Secret Exit",
+            "rules": null,
+            "flags": {
+              "miscellaneous": null
+            }
+          }
+        },
+        "default": "21gjdn61"
+      },
+      "is-subcategory": true,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/variables/6njv1wpn"
+        },
+        {
+          "rel": "game",
+          "uri": "https://www.speedrun.com/api/v1/games/pdv0x91w"
+        },
+        {
+          "rel": "level",
+          "uri": "https://www.speedrun.com/api/v1/levels/ldygypjd"
+        }
+      ]
+    },
+    {
+      "id": "0nw2dz5n",
+      "name": "Level Exit - The Invasion 2 - 4-6 A Short Level",
+      "category": null,
+      "scope": {
+        "type": "single-level",
+        "level": "nwlol7pw"
+      },
+      "mandatory": true,
+      "user-defined": false,
+      "obsoletes": true,
+      "values": {
+        "_note": "`choices` is deprecated, please use `values` instead",
+        "choices": {
+          "z194e0jl": "Goal",
+          "p125jgv1": "SMB3 Roulette"
+        },
+        "values": {
+          "z194e0jl": {
+            "label": "Goal",
+            "rules": null,
+            "flags": {
+              "miscellaneous": null
+            }
+          },
+          "p125jgv1": {
+            "label": "SMB3 Roulette",
+            "rules": null,
+            "flags": {
+              "miscellaneous": null
+            }
+          }
+        },
+        "default": "z194e0jl"
+      },
+      "is-subcategory": true,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/variables/0nw2dz5n"
+        },
+        {
+          "rel": "game",
+          "uri": "https://www.speedrun.com/api/v1/games/pdv0x91w"
+        },
+        {
+          "rel": "level",
+          "uri": "https://www.speedrun.com/api/v1/levels/nwlol7pw"
+        }
+      ]
+    },
+    {
+      "id": "kn04k63l",
+      "name": "Level Exit - The Invasion 2 - 4-7 Pwnhammer Deuce",
+      "category": null,
+      "scope": {
+        "type": "single-level",
+        "level": "ywe518qw"
+      },
+      "mandatory": true,
+      "user-defined": false,
+      "obsoletes": true,
+      "values": {
+        "_note": "`choices` is deprecated, please use `values` instead",
+        "choices": {
+          "klrz43o1": "Goal",
+          "21d4gkp1": "Star"
+        },
+        "values": {
+          "klrz43o1": {
+            "label": "Goal",
+            "rules": null,
+            "flags": {
+              "miscellaneous": null
+            }
+          },
+          "21d4gkp1": {
+            "label": "Star",
+            "rules": null,
+            "flags": {
+              "miscellaneous": null
+            }
+          }
+        },
+        "default": "klrz43o1"
+      },
+      "is-subcategory": true,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/variables/kn04k63l"
+        },
+        {
+          "rel": "game",
+          "uri": "https://www.speedrun.com/api/v1/games/pdv0x91w"
+        },
+        {
+          "rel": "level",
+          "uri": "https://www.speedrun.com/api/v1/levels/ywe518qw"
+        }
+      ]
+    },
+    {
+      "id": "ylq9x1m8",
+      "name": "Level Exit - The Invasion 2 - 5-2 Desert Maze",
+      "category": null,
+      "scope": {
+        "type": "single-level",
+        "level": "49556829"
+      },
+      "mandatory": true,
+      "user-defined": false,
+      "obsoletes": true,
+      "values": {
+        "_note": "`choices` is deprecated, please use `values` instead",
+        "choices": {
+          "zqoyox51": "Goal",
+          "013v79rl": "Secret Exit"
+        },
+        "values": {
+          "zqoyox51": {
+            "label": "Goal",
+            "rules": null,
+            "flags": {
+              "miscellaneous": null
+            }
+          },
+          "013v79rl": {
+            "label": "Secret Exit",
+            "rules": null,
+            "flags": {
+              "miscellaneous": null
+            }
+          }
+        },
+        "default": "zqoyox51"
+      },
+      "is-subcategory": true,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/variables/ylq9x1m8"
+        },
+        {
+          "rel": "game",
+          "uri": "https://www.speedrun.com/api/v1/games/pdv0x91w"
+        },
+        {
+          "rel": "level",
+          "uri": "https://www.speedrun.com/api/v1/levels/49556829"
+        }
+      ]
+    },
+    {
+      "id": "gnx06xjn",
+      "name": "Level Exit - The Invasion 2 - 5-3 Pyramid of Fail",
+      "category": null,
+      "scope": {
+        "type": "single-level",
+        "level": "rdq7j1m9"
+      },
+      "mandatory": true,
+      "user-defined": false,
+      "obsoletes": true,
+      "values": {
+        "_note": "`choices` is deprecated, please use `values` instead",
+        "choices": {
+          "rqv4ovrq": "Goal",
+          "5lekz2ml": "Star"
+        },
+        "values": {
+          "rqv4ovrq": {
+            "label": "Goal",
+            "rules": null,
+            "flags": {
+              "miscellaneous": null
+            }
+          },
+          "5lekz2ml": {
+            "label": "Star",
+            "rules": null,
+            "flags": {
+              "miscellaneous": null
+            }
+          }
+        },
+        "default": "rqv4ovrq"
+      },
+      "is-subcategory": true,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/variables/gnx06xjn"
+        },
+        {
+          "rel": "game",
+          "uri": "https://www.speedrun.com/api/v1/games/pdv0x91w"
+        },
+        {
+          "rel": "level",
+          "uri": "https://www.speedrun.com/api/v1/levels/rdq7j1m9"
+        }
+      ]
+    },
+    {
+      "id": "jlzkpzxl",
+      "name": "Level Exit - The Invasion 2 - 6-1 The Rawest Forest",
+      "category": null,
+      "scope": {
+        "type": "single-level",
+        "level": "owo602vw"
+      },
+      "mandatory": true,
+      "user-defined": false,
+      "obsoletes": true,
+      "values": {
+        "_note": "`choices` is deprecated, please use `values` instead",
+        "choices": {
+          "814xgoeq": "Goal",
+          "z194y2yl": "Secret Exit"
+        },
+        "values": {
+          "814xgoeq": {
+            "label": "Goal",
+            "rules": null,
+            "flags": {
+              "miscellaneous": null
+            }
+          },
+          "z194y2yl": {
+            "label": "Secret Exit",
+            "rules": null,
+            "flags": {
+              "miscellaneous": null
+            }
+          }
+        },
+        "default": "814xgoeq"
+      },
+      "is-subcategory": true,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/variables/jlzkpzxl"
+        },
+        {
+          "rel": "game",
+          "uri": "https://www.speedrun.com/api/v1/games/pdv0x91w"
+        },
+        {
+          "rel": "level",
+          "uri": "https://www.speedrun.com/api/v1/levels/owo602vw"
+        }
+      ]
+    },
+    {
+      "id": "9l73yd9n",
+      "name": "Level Exit - The Invasion 2 - 6-2 The Lost Woods",
+      "category": null,
+      "scope": {
+        "type": "single-level",
+        "level": "xd1275qw"
+      },
+      "mandatory": true,
+      "user-defined": false,
+      "obsoletes": true,
+      "values": {
+        "_note": "`choices` is deprecated, please use `values` instead",
+        "choices": {
+          "p125mvd1": "Goal",
+          "81p7oyv1": "Star"
+        },
+        "values": {
+          "p125mvd1": {
+            "label": "Goal",
+            "rules": null,
+            "flags": {
+              "miscellaneous": null
+            }
+          },
+          "81p7oyv1": {
+            "label": "Star",
+            "rules": null,
+            "flags": {
+              "miscellaneous": null
+            }
+          }
+        },
+        "default": "p125mvd1"
+      },
+      "is-subcategory": true,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/variables/9l73yd9n"
+        },
+        {
+          "rel": "game",
+          "uri": "https://www.speedrun.com/api/v1/games/pdv0x91w"
+        },
+        {
+          "rel": "level",
+          "uri": "https://www.speedrun.com/api/v1/levels/xd1275qw"
+        }
+      ]
+    },
+    {
+      "id": "dlomokr8",
+      "name": "Level Exit - The Invasion 2 - 6-3 Underground Battle Arena",
+      "category": null,
+      "scope": {
+        "type": "single-level",
+        "level": "ewpxjqld"
+      },
+      "mandatory": true,
+      "user-defined": false,
+      "obsoletes": true,
+      "values": {
+        "_note": "`choices` is deprecated, please use `values` instead",
+        "choices": {
+          "0q5ozv71": "Goal",
+          "4lxxo53l": "Secret Exit"
+        },
+        "values": {
+          "0q5ozv71": {
+            "label": "Goal",
+            "rules": null,
+            "flags": {
+              "miscellaneous": null
+            }
+          },
+          "4lxxo53l": {
+            "label": "Secret Exit",
+            "rules": null,
+            "flags": {
+              "miscellaneous": null
+            }
+          }
+        },
+        "default": "0q5ozv71"
+      },
+      "is-subcategory": true,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/variables/dlomokr8"
+        },
+        {
+          "rel": "game",
+          "uri": "https://www.speedrun.com/api/v1/games/pdv0x91w"
+        },
+        {
+          "rel": "level",
+          "uri": "https://www.speedrun.com/api/v1/levels/ewpxjqld"
+        }
+      ]
+    },
+    {
+      "id": "ql6gy5j8",
+      "name": "Level Exit - The Invasion 2 - 7-4 Dire Dire Rocks",
+      "category": null,
+      "scope": {
+        "type": "single-level",
+        "level": "rw6o44nw"
+      },
+      "mandatory": true,
+      "user-defined": false,
+      "obsoletes": true,
+      "values": {
+        "_note": "`choices` is deprecated, please use `values` instead",
+        "choices": {
+          "5q8e8kyq": "Goal",
+          "4qyxoz6l": "Star"
+        },
+        "values": {
+          "5q8e8kyq": {
+            "label": "Goal",
+            "rules": null,
+            "flags": {
+              "miscellaneous": null
+            }
+          },
+          "4qyxoz6l": {
+            "label": "Star",
+            "rules": null,
+            "flags": {
+              "miscellaneous": null
+            }
+          }
+        },
+        "default": "5q8e8kyq"
+      },
+      "is-subcategory": true,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/variables/ql6gy5j8"
+        },
+        {
+          "rel": "game",
+          "uri": "https://www.speedrun.com/api/v1/games/pdv0x91w"
+        },
+        {
+          "rel": "level",
+          "uri": "https://www.speedrun.com/api/v1/levels/rw6o44nw"
+        }
+      ]
+    },
+    {
+      "id": "68km1qql",
+      "name": "Level Exit - The Invasion 2 - Ice-1 White Savage Zone",
+      "category": null,
+      "scope": {
+        "type": "single-level",
+        "level": "kwjz5y09"
+      },
+      "mandatory": true,
+      "user-defined": false,
+      "obsoletes": true,
+      "values": {
+        "_note": "`choices` is deprecated, please use `values` instead",
+        "choices": {
+          "p125m6d1": "Goal",
+          "81p7o3v1": "Secret Exit"
+        },
+        "values": {
+          "p125m6d1": {
+            "label": "Goal",
+            "rules": null,
+            "flags": {
+              "miscellaneous": null
+            }
+          },
+          "81p7o3v1": {
+            "label": "Secret Exit",
+            "rules": null,
+            "flags": {
+              "miscellaneous": false
+            }
+          }
+        },
+        "default": "p125m6d1"
+      },
+      "is-subcategory": true,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/variables/68km1qql"
+        },
+        {
+          "rel": "game",
+          "uri": "https://www.speedrun.com/api/v1/games/pdv0x91w"
+        },
+        {
+          "rel": "level",
+          "uri": "https://www.speedrun.com/api/v1/levels/kwjz5y09"
+        }
+      ]
+    },
+    {
+      "id": "j84kjo4n",
+      "name": "Level Exit - The Invasion 2 - Ice-2 Frigid Awesome Land",
+      "category": null,
+      "scope": {
+        "type": "single-level",
+        "level": "owo60kjw"
+      },
+      "mandatory": true,
+      "user-defined": false,
+      "obsoletes": true,
+      "values": {
+        "_note": "`choices` is deprecated, please use `values` instead",
+        "choices": {
+          "xqkr0gd1": "Goal",
+          "gq7ndvp1": "Secret Exit"
+        },
+        "values": {
+          "xqkr0gd1": {
+            "label": "Goal",
+            "rules": null,
+            "flags": {
+              "miscellaneous": null
+            }
+          },
+          "gq7ndvp1": {
+            "label": "Secret Exit",
+            "rules": null,
+            "flags": {
+              "miscellaneous": null
+            }
+          }
+        },
+        "default": "xqkr0gd1"
+      },
+      "is-subcategory": true,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/variables/j84kjo4n"
+        },
+        {
+          "rel": "game",
+          "uri": "https://www.speedrun.com/api/v1/games/pdv0x91w"
+        },
+        {
+          "rel": "level",
+          "uri": "https://www.speedrun.com/api/v1/levels/owo60kjw"
+        }
+      ]
+    },
+    {
+      "id": "2lgzxw68",
+      "name": "Level Exit - The Princess Cliche - 1-1 Mushroom Plains",
+      "category": null,
+      "scope": {
+        "type": "single-level",
+        "level": "n934yznd"
+      },
+      "mandatory": true,
+      "user-defined": false,
+      "obsoletes": true,
+      "values": {
+        "_note": "`choices` is deprecated, please use `values` instead",
+        "choices": {
+          "81wm269q": "Goal",
+          "zqoyezg1": "Star Exit"
+        },
+        "values": {
+          "81wm269q": {
+            "label": "Goal",
+            "rules": null,
+            "flags": {
+              "miscellaneous": null
+            }
+          },
+          "zqoyezg1": {
+            "label": "Star Exit",
+            "rules": null,
+            "flags": {
+              "miscellaneous": false
+            }
+          }
+        },
+        "default": "81wm269q"
+      },
+      "is-subcategory": true,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/variables/2lgzxw68"
+        },
+        {
+          "rel": "game",
+          "uri": "https://www.speedrun.com/api/v1/games/pdv0x91w"
+        },
+        {
+          "rel": "level",
+          "uri": "https://www.speedrun.com/api/v1/levels/n934yznd"
+        }
+      ]
+    },
+    {
+      "id": "wl364ywl",
+      "name": "Level Exit - The Princess Cliche - 1-2 Fungi Hills",
+      "category": null,
+      "scope": {
+        "type": "single-level",
+        "level": "z987g4gw"
+      },
+      "mandatory": true,
+      "user-defined": false,
+      "obsoletes": true,
+      "values": {
+        "_note": "`choices` is deprecated, please use `values` instead",
+        "choices": {
+          "013vkzkl": "Star",
+          "rqv42j5q": "Ice Star"
+        },
+        "values": {
+          "013vkzkl": {
+            "label": "Star",
+            "rules": null,
+            "flags": {
+              "miscellaneous": null
+            }
+          },
+          "rqv42j5q": {
+            "label": "Ice Star",
+            "rules": null,
+            "flags": {
+              "miscellaneous": null
+            }
+          }
+        },
+        "default": "013vkzkl"
+      },
+      "is-subcategory": true,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/variables/wl364ywl"
+        },
+        {
+          "rel": "game",
+          "uri": "https://www.speedrun.com/api/v1/games/pdv0x91w"
+        },
+        {
+          "rel": "level",
+          "uri": "https://www.speedrun.com/api/v1/levels/z987g4gw"
+        }
+      ]
+    },
+    {
+      "id": "wle64vr8",
+      "name": "Level Exit - The Princess Cliche - 2-2 Frosty Frostland",
+      "category": null,
+      "scope": {
+        "type": "single-level",
+        "level": "ywe5mxyw"
+      },
+      "mandatory": true,
+      "user-defined": false,
+      "obsoletes": true,
+      "values": {
+        "_note": "`choices` is deprecated, please use `values` instead",
+        "choices": {
+          "5lekyppl": "Star",
+          "0q5owdr1": "Secret Exit"
+        },
+        "values": {
+          "5lekyppl": {
+            "label": "Star",
+            "rules": null,
+            "flags": {
+              "miscellaneous": null
+            }
+          },
+          "0q5owdr1": {
+            "label": "Secret Exit",
+            "rules": null,
+            "flags": {
+              "miscellaneous": null
+            }
+          }
+        },
+        "default": "5lekyppl"
+      },
+      "is-subcategory": true,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/variables/wle64vr8"
+        },
+        {
+          "rel": "game",
+          "uri": "https://www.speedrun.com/api/v1/games/pdv0x91w"
+        },
+        {
+          "rel": "level",
+          "uri": "https://www.speedrun.com/api/v1/levels/ywe5mxyw"
+        }
+      ]
+    }
+  ]
+}

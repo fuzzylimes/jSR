@@ -4,7 +4,6 @@ import com.fuzzylimes.jsr.query_parameters.sorting.Direction;
 import com.fuzzylimes.jsr.query_parameters.sorting.DevelopersOrderBy;
 import com.fuzzylimes.jsr.query_parameters.sorting.Sorting;
 import com.fuzzylimes.jsr.resources.Developer;
-import com.fuzzylimes.jsr.resources.Engine;
 import com.fuzzylimes.jsr.resources.PagedResponse;
 import com.fuzzylimes.jsr.util.UnexpectedResponseException;
 import org.junit.jupiter.api.Assertions;

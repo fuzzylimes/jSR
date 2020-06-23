@@ -2,6 +2,7 @@ package com.fuzzylimes.jsr.clients;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.JsonNode;
+import com.fuzzylimes.jsr.JsrClient;
 import com.fuzzylimes.jsr.common.Properties;
 import com.fuzzylimes.jsr.query_parameters.CategoryRecordsQuery;
 import com.fuzzylimes.jsr.resources.Category;
@@ -19,6 +20,16 @@ import static com.fuzzylimes.jsr.JsrClient.getSyncQuery;
 import static com.fuzzylimes.jsr.JsrClient.mapper;
 import static com.fuzzylimes.jsr.common.Properties.*;
 
+/**
+ * <p>This client is used to make requests to the /categories set of resources on SpeedRun.com's API. The official documentation
+ * for this set of APIs can be found in <a href="https://github.com/speedruncomorg/api/blob/master/version1/categories.md">the API Docs</a>.</p>
+ *
+ * <p>Categories are the different rulesets for speedruns. Categories are either per-game or per-level
+ * (if the game uses individual levels), both can be accessed via this resource.</p>
+ *
+ * <p>The client uses static methods for all of the resource calls, so there is now need to initialize
+ * anything to make a request. Simply reference the resource you wish to use to retrieve a related pojo.</p>
+ */
 public class CategoryClient {
 
     /**
@@ -34,8 +45,8 @@ public class CategoryClient {
      * <p>Used to retrieve a category resource by a specific category id, and optionally enriched with embedded data objects.
      *
      * <ul>
-     *   <li>Supports embed with {@value Properties#CATEGORY_EMBED_VALUES}
-     *   <a href="https://github.com/speedruncomorg/api/blob/master/version1/categories.md#get-categoriesid">API Docs</a>
+     *   <li>Supports embed with {@value Properties#CATEGORY_EMBED_VALUES}</li>
+     *   <li><a href="https://github.com/speedruncomorg/api/blob/master/version1/categories.md#get-categoriesid">API Docs</a></li>
      * </ul>
      *
      * @param id id of the category to query
@@ -46,18 +57,18 @@ public class CategoryClient {
      */
     public static Category getCategoryById(String id, Boolean embed) throws IOException, UnexpectedResponseException {
         JsonNode node = Boolean.TRUE.equals(embed) ?
-                getSyncQuery(buildPath(BASE_RESOURCE, CATEGORIES_PATH, id), CATEGORY_EMBED):
-                getSyncQuery(buildPath(BASE_RESOURCE, CATEGORIES_PATH, id));
+                getSyncQuery(JsrClient.buildPath(BASE_RESOURCE, CATEGORIES_PATH, id), getCategoryEmbed()):
+                getSyncQuery(JsrClient.buildPath(BASE_RESOURCE, CATEGORIES_PATH, id));
         return mapper.readValue(node.get("data").toString(), Category.class);
     }
 
     /**
      * GET categories/{id}
      *
-     * <p>Used to retrieve a category resource by a specific category id.
+     * <p>Used to retrieve a category resource by a specific category id.</p>
      *
-     * <li>
-     *     <a href="https://github.com/speedruncomorg/api/blob/master/version1/categories.md#get-categoriesid">API Docs</a>
+     * <ul>
+     *   <li><a href="https://github.com/speedruncomorg/api/blob/master/version1/categories.md#get-categoriesid">API Docs</a></li>
      * </ul>
      *
      * @param id id of the category to query
@@ -73,10 +84,10 @@ public class CategoryClient {
     /**
      * GET categories/{id}/variables
      *
-     * <p>Used to retrieve a list of {@link Variable} associated with a specific category id.
+     * <p>Used to retrieve a list of {@link Variable} associated with a specific category id.</p>
      *
-     * <li>
-     *     <a href="https://github.com/speedruncomorg/api/blob/master/version1/categories.md#get-categoriesid">API Docs</a>
+     * <ul>
+     *   <li><a href="https://github.com/speedruncomorg/api/blob/master/version1/categories.md#get-categoriesid">API Docs</a></li>
      * </ul>
      *
      * @param id id of the category to query for variables
@@ -93,10 +104,10 @@ public class CategoryClient {
      * GET categories/{id}/variables
      *
      * <p>Used to retrieve a list of {@link Variable} associated with a specific category id, sorted by
-     * the parameters defined in {@link Sorting} of type {@link VariablesOrderBy}.
+     * the parameters defined in {@link Sorting} of type {@link VariablesOrderBy}.</p>
      *
-     * <li>
-     *     <a href="https://github.com/speedruncomorg/api/blob/master/version1/categories.md#get-categoriesidvariables">API Docs</a>
+     * <ul>
+     *   <li><a href="https://github.com/speedruncomorg/api/blob/master/version1/categories.md#get-categoriesidvariables">API Docs</a></li>
      * </ul>
      *
      * @param id id of the category to query for variables
@@ -106,7 +117,7 @@ public class CategoryClient {
      * @throws UnexpectedResponseException if non-2XX or no body returned to request
      */
     public static List<Variable> getVariablesForCategory(String id, Sorting<VariablesOrderBy> sorting) throws IOException, UnexpectedResponseException {
-        JsonNode node = getSyncQuery(buildPath(BASE_RESOURCE, CATEGORIES_PATH, id, VARIABLES_PATH), sorting.getQueryMap());
+        JsonNode node = getSyncQuery(JsrClient.buildPath(BASE_RESOURCE, CATEGORIES_PATH, id, VARIABLES_PATH), sorting.getQueryMap());
         return mapper.readValue(node.get("data").toString(), new TypeReference<List<Variable>>() {});
     }
 
@@ -115,11 +126,11 @@ public class CategoryClient {
      * GET categories/{id}/records
      *
      * <p>Used to retrieve a list of {@link Leaderboard} records associated with a specific category id, filtered by
-     * a set of provided {@link CategoryRecordsQuery} query params and optionally enriched with embedded data objects.
+     * a set of provided {@link CategoryRecordsQuery} query params and optionally enriched with embedded data objects.</p>
      * <ul>
-     *   <li>Supports query parameters defined in {@link CategoryRecordsQuery}
+     *   <li>Supports query parameters defined in {@link CategoryRecordsQuery}</li>
      *   <li>Supports embedding with {@value Properties#LEADERBOARD_EMBED_VALUES}</li>
-     *   <li><a href="https://github.com/speedruncomorg/api/blob/master/version1/categories.md#get-categoriesidrecords">API Docs</a>
+     *   <li><a href="https://github.com/speedruncomorg/api/blob/master/version1/categories.md#get-categoriesidrecords">API Docs</a></li>
      * </ul>
      *
      * @param id id of the category to query records for
@@ -131,8 +142,8 @@ public class CategoryClient {
      */
     public static PagedResponse<Leaderboard> getCategoryRecords(String id, Boolean embed, CategoryRecordsQuery queryParams) throws IOException, UnexpectedResponseException {
         JsonNode node = Boolean.TRUE.equals(embed) ?
-                getSyncQuery(buildPath(BASE_RESOURCE, CATEGORIES_PATH, id, RECORDS_PATH), CATEGORY_EMBED, queryParams.getQueryMap()):
-                getSyncQuery(buildPath(BASE_RESOURCE, CATEGORIES_PATH, id, RECORDS_PATH), queryParams.getQueryMap());
+                getSyncQuery(JsrClient.buildPath(BASE_RESOURCE, CATEGORIES_PATH, id, RECORDS_PATH), getCategoryEmbed(), queryParams.getQueryMap()):
+                getSyncQuery(JsrClient.buildPath(BASE_RESOURCE, CATEGORIES_PATH, id, RECORDS_PATH), queryParams.getQueryMap());
         return mapper.readValue(node.toString(), new TypeReference<PagedResponse<Leaderboard>>() {});
     }
 
@@ -140,10 +151,10 @@ public class CategoryClient {
      * GET categories/{id}/records
      *
      * <p>Used to retrieve a list of {@link Leaderboard} records associated with a specific category id, optionally
-     * enriched with embedded data objects.
+     * enriched with embedded data objects.</p>
      * <ul>
      *   <li>Supports embedding with {@value Properties#LEADERBOARD_EMBED_VALUES}</li>
-     *   <li><a href="https://github.com/speedruncomorg/api/blob/master/version1/categories.md#get-categoriesidrecords">API Docs</a>
+     *   <li><a href="https://github.com/speedruncomorg/api/blob/master/version1/categories.md#get-categoriesidrecords">API Docs</a></li>
      * </ul>
      *
      * @param id id of the category to query records for
@@ -159,9 +170,9 @@ public class CategoryClient {
     /**
      * GET categories/{id}/records
      *
-     * <p>Used to retrieve a list of {@link Leaderboard} records associated with a specific category id
+     * <p>Used to retrieve a list of {@link Leaderboard} records associated with a specific category id</p>
      * <ul>
-     *   <li><a href="https://github.com/speedruncomorg/api/blob/master/version1/categories.md#get-categoriesidrecords">API Docs</a>
+     *   <li><a href="https://github.com/speedruncomorg/api/blob/master/version1/categories.md#get-categoriesidrecords">API Docs</a></li>
      * </ul>
      *
      * @param id id of the category to query records for

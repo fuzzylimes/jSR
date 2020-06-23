@@ -19,7 +19,7 @@ public class EmbeddedPublishersDeserializer extends JsonDeserializer<EmbeddedPub
     ObjectMapper mapper = new ObjectMapper();
 
     @Override
-    public EmbeddedPublishers deserialize(JsonParser jsonParser, DeserializationContext deserializationContext) throws IOException, JsonProcessingException {
+    public EmbeddedPublishers deserialize(JsonParser jsonParser, DeserializationContext deserializationContext) throws IOException {
         ObjectCodec oc = jsonParser.getCodec();
         JsonNode root = oc.readTree(jsonParser);
         return buildCategory(root);

@@ -11,12 +11,12 @@ import com.fuzzylimes.jsr.resources.Platform;
 
 import java.io.IOException;
 
-public class EmbeddedPlatformDeserializer extends JsonDeserializer {
+public class EmbeddedPlatformDeserializer extends JsonDeserializer<Platform> {
 
     ObjectMapper mapper = new ObjectMapper();
 
     @Override
-    public Platform deserialize(JsonParser jsonParser, DeserializationContext deserializationContext) throws IOException, JsonProcessingException {
+    public Platform deserialize(JsonParser jsonParser, DeserializationContext deserializationContext) throws IOException {
         ObjectCodec oc = jsonParser.getCodec();
         JsonNode root = oc.readTree(jsonParser);
         return buildCategory(root);

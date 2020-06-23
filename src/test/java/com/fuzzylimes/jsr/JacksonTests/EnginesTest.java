@@ -4,7 +4,6 @@ import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fuzzylimes.jsr.JacksonTests.util.DeserializeUtil;
-import com.fuzzylimes.jsr.resources.Developer;
 import com.fuzzylimes.jsr.resources.Engine;
 import com.fuzzylimes.jsr.resources.PagedResponse;
 import org.junit.jupiter.api.Assertions;

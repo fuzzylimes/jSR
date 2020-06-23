@@ -19,25 +19,25 @@ public class EmbeddedGenresDeserializer extends JsonDeserializer<EmbeddedGenres>
     ObjectMapper mapper = new ObjectMapper();
 
     @Override
-    public EmbeddedGenres deserialize(JsonParser jsonParser, DeserializationContext deserializationContext) throws IOException, JsonProcessingException {
+    public EmbeddedGenres deserialize(JsonParser jsonParser, DeserializationContext deserializationContext) throws IOException {
         ObjectCodec oc = jsonParser.getCodec();
         JsonNode root = oc.readTree(jsonParser);
         return buildCategory(root);
     }
 
     private EmbeddedGenres buildCategory(JsonNode root) throws JsonProcessingException {
-        EmbeddedGenres developers = new EmbeddedGenres();
+        EmbeddedGenres genres = new EmbeddedGenres();
 
         if (!root.has("data")) {
             CollectionType listOfGenres = mapper.getTypeFactory().constructCollectionType(List.class, String.class);
             List<String> ids = mapper.readValue(root.toString(), listOfGenres);
-            developers.setIds(ids);
+            genres.setIds(ids);
         } else {
             CollectionType listOfGenres = mapper.getTypeFactory().constructCollectionType(List.class, Genre.class);
             List<Genre> val = mapper.readValue(root.get("data").toString(), listOfGenres);
-            developers.setEmbedded(val);
+            genres.setEmbedded(val);
         }
 
-        return developers;
+        return genres;
     }
 }

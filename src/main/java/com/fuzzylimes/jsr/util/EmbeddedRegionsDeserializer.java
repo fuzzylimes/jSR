@@ -8,18 +8,18 @@ import com.fasterxml.jackson.databind.JsonDeserializer;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.type.CollectionType;
-import com.fuzzylimes.jsr.resources.EmbeddedGameRegion;
 import com.fuzzylimes.jsr.resources.GameRegion;
+import com.fuzzylimes.jsr.resources.Region;
 
 import java.io.IOException;
 import java.util.List;
 
-public class EmbeddedRegionsDeserializer extends JsonDeserializer {
+public class EmbeddedRegionsDeserializer extends JsonDeserializer<GameRegion> {
 
     ObjectMapper mapper = new ObjectMapper();
 
     @Override
-    public GameRegion deserialize(JsonParser jsonParser, DeserializationContext deserializationContext) throws IOException, JsonProcessingException {
+    public GameRegion deserialize(JsonParser jsonParser, DeserializationContext deserializationContext) throws IOException {
         ObjectCodec oc = jsonParser.getCodec();
         JsonNode root = oc.readTree(jsonParser);
         return buildCategory(root);
@@ -33,8 +33,8 @@ public class EmbeddedRegionsDeserializer extends JsonDeserializer {
             List<String> ids = mapper.readValue(root.toString(), listOfRegions);
             gameRegion.setIds(ids);
         } else {
-            CollectionType listOfRegions = mapper.getTypeFactory().constructCollectionType(List.class, EmbeddedGameRegion.class);
-            List<EmbeddedGameRegion> val = mapper.readValue(root.get("data").toString(), listOfRegions);
+            CollectionType listOfRegions = mapper.getTypeFactory().constructCollectionType(List.class, Region.class);
+            List<Region> val = mapper.readValue(root.get("data").toString(), listOfRegions);
             gameRegion.setEmbeddedRegions(val);
         }
 

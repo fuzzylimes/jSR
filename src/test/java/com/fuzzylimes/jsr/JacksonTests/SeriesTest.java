@@ -4,8 +4,7 @@ import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fuzzylimes.jsr.JacksonTests.util.DeserializeUtil;
-import com.fuzzylimes.jsr.resources.PagedResponse;
-import com.fuzzylimes.jsr.resources.Series;
+import com.fuzzylimes.jsr.resources.*;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
@@ -58,4 +57,35 @@ public class SeriesTest {
         Assertions.assertEquals("68we7q8g", var.getModerators().getModeratorRolesEmbed().get(0).getId());
     }
 
+    @Test
+    public void deserializeSeriesByIdGamesTest() throws IOException {
+        JsonNode node = mapper.readTree(DeserializeUtil.getFile("/responses/SeriesByIdGames.json"));
+        PagedResponse<Game> var = mapper.readValue(node.toString(), new TypeReference<PagedResponse<Game>>() {});
+
+        Assertions.assertEquals("guhd", var.getResourceList().get(0).getAbbreviation());
+        Assertions.assertEquals(SUPER_MODERATOR, var.getResourceList().get(0).getModerators().getModeratorRoles().get("qjoee786"));
+        Assertions.assertTrue(var.getResourceList().get(0).getPlatforms().getIds().contains("nzelkr6q"));
+        Assertions.assertTrue(var.getResourceList().get(0).getDevelopers().getIds().contains("1zkl9pej"));
+    }
+
+    @Test
+    public void deserializeSeriesByIdGames_EmbedTest() throws IOException {
+        JsonNode node = mapper.readTree(DeserializeUtil.getFile("/responses/SeriesByIdGames_Embed.json"));
+        PagedResponse<Game> var = mapper.readValue(node.toString(), new TypeReference<PagedResponse<Game>>() {});
+
+        Assertions.assertEquals("guhd", var.getResourceList().get(0).getAbbreviation());
+        Assertions.assertEquals(UserRoles.USER, var.getResourceList().get(0).getModerators().getModeratorRolesEmbed().get(0).getRole());
+        Assertions.assertEquals("nzelkr6q", var.getResourceList().get(0).getPlatforms().getEmbedded().get(0).getId());
+        Assertions.assertEquals("1zkl9pej", var.getResourceList().get(0).getDevelopers().getEmbedded().get(0).getId());
+    }
+
+    @Test
+    public void deserializeSeriesByIdGamesBulkTest() throws IOException {
+        JsonNode node = mapper.readTree(DeserializeUtil.getFile("/responses/SeriesByIdGames_Bulk.json"));
+        PagedResponse<BulkGame> var = mapper.readValue(node.toString(), new TypeReference<PagedResponse<BulkGame>>() {});
+
+        Assertions.assertEquals("guhd", var.getResourceList().get(0).getAbbreviation());
+        Assertions.assertEquals(".hack//G.U. Last Recode", var.getResourceList().get(0).getNames().getInternational());
+        Assertions.assertNull(var.getResourceList().get(0).getNames().getJapanese());
+    }
 }

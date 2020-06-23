@@ -1,0 +1,145 @@
+{
+  "data": {
+    "id": "w6jve26j",
+    "names": {
+      "international": "Dark Souls",
+      "japanese": null,
+      "twitch": "Dark Souls"
+    },
+    "abbreviation": "darksouls",
+    "weblink": "https://www.speedrun.com/darksouls",
+    "released": 2011,
+    "release-date": "2011-09-22",
+    "ruleset": {
+      "show-milliseconds": false,
+      "require-verification": true,
+      "require-video": true,
+      "run-times": [
+        "realtime",
+        "ingame"
+      ],
+      "default-time": "ingame",
+      "emulators-allowed": false
+    },
+    "romhack": false,
+    "gametypes": [],
+    "platforms": [
+      "mx6pwe3g",
+      "n568oevp",
+      "o7e2mx6w",
+      "8gej2n93"
+    ],
+    "regions": [],
+    "genres": [],
+    "engines": [],
+    "developers": [],
+    "publishers": [],
+    "moderators": {
+      "kjpq14xq": "super-moderator",
+      "5j5nmqjv": "moderator",
+      "zx7qwnr8": "super-moderator",
+      "zxz909e8": "moderator",
+      "7j4r73l8": "moderator",
+      "kjpokg58": "moderator",
+      "5j5qw9nj": "super-moderator",
+      "o86ddg0j": "moderator"
+    },
+    "created": "2015-02-20T23:39:17Z",
+    "assets": {
+      "logo": {
+        "uri": "https://www.speedrun.com/themes/Default/logo.png",
+        "width": 640,
+        "height": 78
+      },
+      "cover-tiny": {
+        "uri": "https://www.speedrun.com/themes/darksouls/cover-32.png",
+        "width": 32,
+        "height": 45
+      },
+      "cover-small": {
+        "uri": "https://www.speedrun.com/themes/darksouls/cover-64.png",
+        "width": 64,
+        "height": 90
+      },
+      "cover-medium": {
+        "uri": "https://www.speedrun.com/themes/darksouls/cover-128.png",
+        "width": 128,
+        "height": 180
+      },
+      "cover-large": {
+        "uri": "https://www.speedrun.com/themes/darksouls/cover-256.png",
+        "width": 256,
+        "height": 360
+      },
+      "icon": {
+        "uri": "https://www.speedrun.com/themes/Default/favicon.png",
+        "width": 64,
+        "height": 64
+      },
+      "trophy-1st": {
+        "uri": "https://www.speedrun.com/themes/Default/1st.png",
+        "width": 64,
+        "height": 64
+      },
+      "trophy-2nd": {
+        "uri": "https://www.speedrun.com/themes/Default/2nd.png",
+        "width": 64,
+        "height": 64
+      },
+      "trophy-3rd": {
+        "uri": "https://www.speedrun.com/themes/Default/3rd.png",
+        "width": 64,
+        "height": 64
+      },
+      "trophy-4th": null,
+      "background": {
+        "uri": "https://www.speedrun.com/themes/darksouls/background.png",
+        "width": 1920,
+        "height": 1080
+      },
+      "foreground": null
+    },
+    "links": [
+      {
+        "rel": "self",
+        "uri": "https://www.speedrun.com/api/v1/games/w6jve26j"
+      },
+      {
+        "rel": "runs",
+        "uri": "https://www.speedrun.com/api/v1/runs?game=w6jve26j"
+      },
+      {
+        "rel": "levels",
+        "uri": "https://www.speedrun.com/api/v1/games/w6jve26j/levels"
+      },
+      {
+        "rel": "categories",
+        "uri": "https://www.speedrun.com/api/v1/games/w6jve26j/categories"
+      },
+      {
+        "rel": "variables",
+        "uri": "https://www.speedrun.com/api/v1/games/w6jve26j/variables"
+      },
+      {
+        "rel": "records",
+        "uri": "https://www.speedrun.com/api/v1/games/w6jve26j/records"
+      },
+      {
+        "rel": "series",
+        "uri": "https://www.speedrun.com/api/v1/series/wnp06d7m"
+      },
+      {
+        "rel": "derived-games",
+        "uri": "https://www.speedrun.com/api/v1/games/w6jve26j/derived-games"
+      },
+      {
+        "rel": "romhacks",
+        "uri": "https://www.speedrun.com/api/v1/games/w6jve26j/derived-games"
+      },
+      {
+        "rel": "leaderboard",
+        "uri": "https://www.speedrun.com/api/v1/leaderboards/w6jve26j/category/9d86vww2"
+      }
+    ]
+  }
+}

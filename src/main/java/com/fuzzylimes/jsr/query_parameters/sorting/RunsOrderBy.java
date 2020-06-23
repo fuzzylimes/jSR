@@ -26,7 +26,7 @@ public enum RunsOrderBy implements OrderBy {
 
     private String orderBy;
 
-    private RunsOrderBy(String orderBy) {
+    RunsOrderBy(String orderBy) {
         this.orderBy = orderBy;
     }
 
@@ -34,7 +34,7 @@ public enum RunsOrderBy implements OrderBy {
         return orderBy;
     }
 
-    public void setOrderBy(String orderBy) {
+    void setOrderBy(String orderBy) {
         this.orderBy = orderBy;
     }
 }

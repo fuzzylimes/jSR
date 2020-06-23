@@ -8,7 +8,7 @@ public enum RegionsOrderBy implements OrderBy  {
 
     private String orderBy;
 
-    private RegionsOrderBy(String orderBy) {
+    RegionsOrderBy(String orderBy) {
         this.orderBy = orderBy;
     }
 
@@ -16,7 +16,7 @@ public enum RegionsOrderBy implements OrderBy  {
         return orderBy;
     }
 
-    public void setOrderBy(String orderBy) {
+    void setOrderBy(String orderBy) {
         this.orderBy = orderBy;
     }
 }

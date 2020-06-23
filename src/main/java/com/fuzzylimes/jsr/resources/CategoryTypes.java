@@ -11,7 +11,7 @@ public enum CategoryTypes {
 
     private String type;
 
-    private CategoryTypes(String type) {
+    CategoryTypes(String type) {
         this.type = type;
     }
 
@@ -20,7 +20,7 @@ public enum CategoryTypes {
         return type;
     }
 
-    public void setType(String type) {
+    void setType(String type) {
         this.type = type;
     }
 }

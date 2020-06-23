@@ -2,6 +2,7 @@ package com.fuzzylimes.jsr.clients;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.JsonNode;
+import com.fuzzylimes.jsr.JsrClient;
 import com.fuzzylimes.jsr.common.Properties;
 import com.fuzzylimes.jsr.query_parameters.RunsQuery;
 import com.fuzzylimes.jsr.query_parameters.sorting.Direction;
@@ -17,6 +18,18 @@ import static com.fuzzylimes.jsr.JsrClient.getSyncQuery;
 import static com.fuzzylimes.jsr.JsrClient.mapper;
 import static com.fuzzylimes.jsr.common.Properties.*;
 
+/**
+ * <p>This client is used to make requests to the /runs resource on SpeedRun.com's api. The official documentation
+ * for this set of APIs can be found in <a href="https://github.com/speedruncomorg/api/blob/master/version1/runs.md">the API Docs</a>.</p>
+ *
+ * <p>Runs are the records that represent completed speed run attempts for a given game. A Run record is created
+ * whenever a user submits a time to SpeedRun.com.</p>
+ *
+ * <p>For record keeping purposes, invalidated or obsoleted runs can still be retrieved via the APIs.</p>
+ *
+ * <p>The client uses static methods for all of the resource calls, so there is now need to initialize
+ * anything to make a request. Simply reference the resource you wish to use to retrieve a related pojo.</p>
+ */
 public class RunsClient {
 
     /**
@@ -49,8 +62,8 @@ public class RunsClient {
      */
     public static PagedResponse<Run> getRuns(RunsQuery queryParams, Sorting<RunsOrderBy> order, Boolean embed) throws IOException, UnexpectedResponseException {
         JsonNode node = Boolean.TRUE.equals(embed) ?
-                getSyncQuery(buildPath(BASE_RESOURCE, RUNS_PATH), RUNS_EMBED, queryParams.getQueryMap(), order.getQueryMap()):
-                getSyncQuery(buildPath(BASE_RESOURCE, RUNS_PATH), queryParams.getQueryMap(), order.getQueryMap());
+                getSyncQuery(JsrClient.buildPath(BASE_RESOURCE, RUNS_PATH), getRunsEmbed(), queryParams.getQueryMap(), order.getQueryMap()):
+                getSyncQuery(JsrClient.buildPath(BASE_RESOURCE, RUNS_PATH), queryParams.getQueryMap(), order.getQueryMap());
         return mapper.readValue(node.toString(), new TypeReference<PagedResponse<Run>>() {});
     }
 
@@ -208,12 +221,16 @@ public class RunsClient {
      *     <li><a href="https://github.com/speedruncomorg/api/blob/master/version1/runs.md#get-runsid">API Docs</a></li>
      * </ul>
      *
-     *
+     * @param id The id of the run to be queried
+     * @param embed whether or not to embed all additional, supported, embed items
+     * @return a {@link Run} object
+     * @throws IOException if something goes wrong with mapping
+     * @throws UnexpectedResponseException if non-2XX or no body returned to request
      */
     public static Run getRunById(String id, Boolean embed) throws IOException, UnexpectedResponseException {
         JsonNode node = Boolean.TRUE.equals(embed) ?
-                getSyncQuery(buildPath(BASE_RESOURCE, RUNS_PATH, id), RUNS_EMBED):
-                getSyncQuery(buildPath(BASE_RESOURCE, RUNS_PATH, id));
+                getSyncQuery(JsrClient.buildPath(BASE_RESOURCE, RUNS_PATH, id), getRunsEmbed()):
+                getSyncQuery(JsrClient.buildPath(BASE_RESOURCE, RUNS_PATH, id));
         return mapper.readValue(node.get("data").toString(), Run.class);
     }
 
@@ -226,7 +243,10 @@ public class RunsClient {
      *     <li><a href="https://github.com/speedruncomorg/api/blob/master/version1/runs.md#get-runsid">API Docs</a></li>
      * </ul>
      *
-     *
+     * @param id The id of the run to be queried
+     * @return a {@link Run} object
+     * @throws IOException if something goes wrong with mapping
+     * @throws UnexpectedResponseException if non-2XX or no body returned to request
      */
     public static Run getRunById(String id) throws IOException, UnexpectedResponseException {
         return getRunById(id, false);

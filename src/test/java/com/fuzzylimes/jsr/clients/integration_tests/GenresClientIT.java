@@ -13,13 +13,10 @@ import org.junit.jupiter.api.Test;
 
 import java.io.IOException;
 
-import static com.fuzzylimes.jsr.JacksonTests.util.ClientTestUtil.MockJsrClientUrl;
-import static com.fuzzylimes.jsr.JacksonTests.util.ClientTestUtil.MockJsrClientUrlAndQueryParams;
-
+@Disabled
 class GenresClientIT {
 
     @Test
-    @Disabled
     void getGenres_SortingTest() throws IOException, UnexpectedResponseException {
         Sorting<GenresOrderBy> order = Sorting.<GenresOrderBy>builder()
                 .direction(Direction.ASCCENDING).orderBy(GenresOrderBy.NAME).build();
@@ -29,7 +26,6 @@ class GenresClientIT {
     }
 
     @Test
-    @Disabled
     void getGenresByIdTest() throws IOException, UnexpectedResponseException {
         Genre var = GenresClient.getGenresById("r2lwz857");
         Assertions.assertEquals(2, var.getLinks().size());

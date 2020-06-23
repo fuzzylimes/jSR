@@ -2,6 +2,7 @@ package com.fuzzylimes.jsr.clients;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.JsonNode;
+import com.fuzzylimes.jsr.JsrClient;
 import com.fuzzylimes.jsr.common.Properties;
 import com.fuzzylimes.jsr.query_parameters.LevelCategoriesQuery;
 import com.fuzzylimes.jsr.query_parameters.LevelLeaderboardsQuery;
@@ -19,6 +20,15 @@ import static com.fuzzylimes.jsr.JsrClient.getSyncQuery;
 import static com.fuzzylimes.jsr.JsrClient.mapper;
 import static com.fuzzylimes.jsr.common.Properties.*;
 
+/**
+ * <p>This client is used to make requests to the /levels set of resources on SpeedRun.com's API. The official documentation
+ * for this set of APIs can be found in <a href="https://github.com/speedruncomorg/api/blob/master/version1/levels.md">the API Docs</a>.</p>
+ *
+ * <p>Levels are the stages/worlds/maps within a game. Not all games have levels.</p>
+ *
+ * <p>The client uses static methods for all of the resource calls, so there is now need to initialize
+ * anything to make a request. Simply reference the resource you wish to use to retrieve a related pojo.</p>
+ */
 public class LevelsClient {
 
     /**
@@ -47,8 +57,8 @@ public class LevelsClient {
      */
     public static Level getLevelById(String levelId, Boolean embed) throws IOException, UnexpectedResponseException {
         JsonNode node = Boolean.TRUE.equals(embed) ?
-                getSyncQuery(buildPath(BASE_RESOURCE, LEVELS_PATH, levelId), LEVEL_EMBED):
-                getSyncQuery(buildPath(BASE_RESOURCE, LEVELS_PATH, levelId));
+                getSyncQuery(JsrClient.buildPath(BASE_RESOURCE, LEVELS_PATH, levelId), getLevelEmbed()):
+                getSyncQuery(JsrClient.buildPath(BASE_RESOURCE, LEVELS_PATH, levelId));
         return mapper.readValue(node.get("data").toString(), Level.class);
     }
 
@@ -92,7 +102,7 @@ public class LevelsClient {
      * @throws UnexpectedResponseException if non-2XX or no body returned to request
      */
     public static List<Category> getCategoriesForLevelId(String levelId, LevelCategoriesQuery queryParams, Sorting<CategoriesOrderBy> order) throws IOException, UnexpectedResponseException {
-        JsonNode node = getSyncQuery(buildPath(BASE_RESOURCE, LEVELS_PATH, levelId, CATEGORIES_PATH), queryParams.getQueryMap(), order.getQueryMap());
+        JsonNode node = getSyncQuery(JsrClient.buildPath(BASE_RESOURCE, LEVELS_PATH, levelId, CATEGORIES_PATH), queryParams.getQueryMap(), order.getQueryMap());
         return mapper.readValue(node.get("data").toString(), new TypeReference<List<Category>>() {});
     }
 
@@ -175,7 +185,7 @@ public class LevelsClient {
      * @throws UnexpectedResponseException if non-2XX or no body returned to request
      */
     public static List<Variable> getVaribaleForLevelId(String levelId, Sorting<VariablesOrderBy> order) throws IOException, UnexpectedResponseException {
-        JsonNode node = getSyncQuery(buildPath(BASE_RESOURCE, LEVELS_PATH, levelId, VARIABLES_PATH), order.getQueryMap());
+        JsonNode node = getSyncQuery(JsrClient.buildPath(BASE_RESOURCE, LEVELS_PATH, levelId, VARIABLES_PATH), order.getQueryMap());
         return mapper.readValue(node.get("data").toString(), new TypeReference<List<Variable>>() {});
     }
 
@@ -220,8 +230,8 @@ public class LevelsClient {
      */
     public static PagedResponse<Leaderboard> getLeaderboardForLevelId(String levelId, boolean embed, LevelLeaderboardsQuery queryParams) throws IOException, UnexpectedResponseException {
         JsonNode node = Boolean.TRUE.equals(embed) ?
-                getSyncQuery(buildPath(BASE_RESOURCE, LEVELS_PATH, levelId, RECORDS_PATH), LEADERBOARD_EMBED, queryParams.getQueryMap()):
-                getSyncQuery(buildPath(BASE_RESOURCE, LEVELS_PATH, levelId, RECORDS_PATH), queryParams.getQueryMap());
+                getSyncQuery(JsrClient.buildPath(BASE_RESOURCE, LEVELS_PATH, levelId, RECORDS_PATH), getLeaderboardEmbed(), queryParams.getQueryMap()):
+                getSyncQuery(JsrClient.buildPath(BASE_RESOURCE, LEVELS_PATH, levelId, RECORDS_PATH), queryParams.getQueryMap());
         return mapper.readValue(node.toString(), new TypeReference<PagedResponse<Leaderboard>>() {});
     }
 

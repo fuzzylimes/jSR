@@ -8,7 +8,7 @@ public enum GenresOrderBy implements OrderBy  {
 
     private String orderBy;
 
-    private GenresOrderBy(String orderBy) {
+    GenresOrderBy(String orderBy) {
         this.orderBy = orderBy;
     }
 
@@ -16,7 +16,7 @@ public enum GenresOrderBy implements OrderBy  {
         return orderBy;
     }
 
-    public void setOrderBy(String orderBy) {
+    void setOrderBy(String orderBy) {
         this.orderBy = orderBy;
     }
 }

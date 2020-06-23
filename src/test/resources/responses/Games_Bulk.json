@@ -1,0 +1,2265 @@
+{
+  "data": [
+    {
+      "id": "k6qqkx6g",
+      "names": {
+        "international": "! Fishy !",
+        "japanese": null
+      },
+      "abbreviation": "fishy",
+      "weblink": "https://www.speedrun.com/fishy"
+    },
+    {
+      "id": "3dx2pk41",
+      "names": {
+        "international": "!findseed the map",
+        "japanese": null
+      },
+      "abbreviation": "findseed",
+      "weblink": "https://www.speedrun.com/findseed"
+    },
+    {
+      "id": "46wxo91r",
+      "names": {
+        "international": "&meow; (Meow)",
+        "japanese": null
+      },
+      "abbreviation": "meow",
+      "weblink": "https://www.speedrun.com/meow"
+    },
+    {
+      "id": "pdvp7kdw",
+      "names": {
+        "international": "'Allo 'Allo! Cartoon Fun!",
+        "japanese": null
+      },
+      "abbreviation": "allo_allo_cartoon_fun",
+      "weblink": "https://www.speedrun.com/allo_allo_cartoon_fun"
+    },
+    {
+      "id": "m1m8opd2",
+      "names": {
+        "international": "'Splosion Man",
+        "japanese": null
+      },
+      "abbreviation": "splosion_man",
+      "weblink": "https://www.speedrun.com/splosion_man"
+    },
+    {
+      "id": "9d3yzw6l",
+      "names": {
+        "international": "(The) Final Fantasy Legend",
+        "japanese": "魔界塔士 Sa・Ga"
+      },
+      "abbreviation": "the_final_fantasy_legend",
+      "weblink": "https://www.speedrun.com/the_final_fantasy_legend"
+    },
+    {
+      "id": "m1m8r3d2",
+      "names": {
+        "international": "..and the mooncats",
+        "japanese": null
+      },
+      "abbreviation": ".and_the_mooncats",
+      "weblink": "https://www.speedrun.com/.and_the_mooncats"
+    },
+    {
+      "id": "y65e0e6e",
+      "names": {
+        "international": ".flow",
+        "japanese": null
+      },
+      "abbreviation": ".flow",
+      "weblink": "https://www.speedrun.com/.flow"
+    },
+    {
+      "id": "nd2ekj5d",
+      "names": {
+        "international": ".hack//G.U. Last Recode",
+        "japanese": null
+      },
+      "abbreviation": "guhd",
+      "weblink": "https://www.speedrun.com/guhd"
+    },
+    {
+      "id": "pd0y226e",
+      "names": {
+        "international": ".hack//G.U. Volume 1: Rebirth",
+        "japanese": null
+      },
+      "abbreviation": ".hack_g.u._volume_1_rebirth",
+      "weblink": "https://www.speedrun.com/.hack_g.u._volume_1_rebirth"
+    },
+    {
+      "id": "kdk7ye1m",
+      "names": {
+        "international": ".hack//G.U. Volume 2: Reminisce",
+        "japanese": null
+      },
+      "abbreviation": ".hack_g.u._volume_2_reminisce",
+      "weblink": "https://www.speedrun.com/.hack_g.u._volume_2_reminisce"
+    },
+    {
+      "id": "o1ygzr1q",
+      "names": {
+        "international": ".hack//G.U. Volume 3: Redemption",
+        "japanese": null
+      },
+      "abbreviation": ".hack_g.u._volume_3_redemption",
+      "weblink": "https://www.speedrun.com/.hack_g.u._volume_3_redemption"
+    },
+    {
+      "id": "k6qrzm1g",
+      "names": {
+        "international": ".hack//Infection",
+        "japanese": ".hack//感染拡大"
+      },
+      "abbreviation": ".hackinfection",
+      "weblink": "https://www.speedrun.com/.hackinfection"
+    },
+    {
+      "id": "369k2gdl",
+      "names": {
+        "international": ".hack//Mutation",
+        "japanese": ".hack//悪性変異"
+      },
+      "abbreviation": ".hackmutation",
+      "weblink": "https://www.speedrun.com/.hackmutation"
+    },
+    {
+      "id": "y65p30de",
+      "names": {
+        "international": ".hack//Outbreak",
+        "japanese": null
+      },
+      "abbreviation": ".hackoutbreak",
+      "weblink": "https://www.speedrun.com/.hackoutbreak"
+    },
+    {
+      "id": "w6j2ye1j",
+      "names": {
+        "international": ".hack//Quarantine",
+        "japanese": null
+      },
+      "abbreviation": ".hackquarantine",
+      "weblink": "https://www.speedrun.com/.hackquarantine"
+    },
+    {
+      "id": "pdvnrv6w",
+      "names": {
+        "international": ".kkrieger",
+        "japanese": null
+      },
+      "abbreviation": "kkrieger",
+      "weblink": "https://www.speedrun.com/kkrieger"
+    },
+    {
+      "id": "nd2g9v10",
+      "names": {
+        "international": "007 Legends",
+        "japanese": null
+      },
+      "abbreviation": "007_legends",
+      "weblink": "https://www.speedrun.com/007_legends"
+    },
+    {
+      "id": "o1y93e46",
+      "names": {
+        "international": "007 Racing",
+        "japanese": null
+      },
+      "abbreviation": "007_racing",
+      "weblink": "https://www.speedrun.com/007_racing"
+    },
+    {
+      "id": "y65r071e",
+      "names": {
+        "international": "007: Agent Under Fire",
+        "japanese": null
+      },
+      "abbreviation": "auf",
+      "weblink": "https://www.speedrun.com/auf"
+    },
+    {
+      "id": "o1yql4dq",
+      "names": {
+        "international": "007: From Russia With Love",
+        "japanese": null
+      },
+      "abbreviation": "007frwl",
+      "weblink": "https://www.speedrun.com/007frwl"
+    },
+    {
+      "id": "268j3kdp",
+      "names": {
+        "international": "007: NightFire (GBA)",
+        "japanese": null
+      },
+      "abbreviation": "007nf_gba",
+      "weblink": "https://www.speedrun.com/007nf_gba"
+    },
+    {
+      "id": "j1llvev1",
+      "names": {
+        "international": "007: Nightfire Category Extensions",
+        "japanese": null
+      },
+      "abbreviation": "007nfca",
+      "weblink": "https://www.speedrun.com/007nfca"
+    },
+    {
+      "id": "nd272v10",
+      "names": {
+        "international": "007: The World is Not Enough",
+        "japanese": null
+      },
+      "abbreviation": "twine",
+      "weblink": "https://www.speedrun.com/twine"
+    },
+    {
+      "id": "v1p5rpd8",
+      "names": {
+        "international": "007: The World is Not Enough (PS1)",
+        "japanese": null
+      },
+      "abbreviation": "twineps1",
+      "weblink": "https://www.speedrun.com/twineps1"
+    },
+    {
+      "id": "o6gl8y8d",
+      "names": {
+        "international": "03.04",
+        "japanese": null
+      },
+      "abbreviation": "03.04",
+      "weblink": "https://www.speedrun.com/03.04"
+    },
+    {
+      "id": "y65pv8de",
+      "names": {
+        "international": "0error0",
+        "japanese": null
+      },
+      "abbreviation": "0error0",
+      "weblink": "https://www.speedrun.com/0error0"
+    },
+    {
+      "id": "o1y9np26",
+      "names": {
+        "international": "1 Screen Platformer",
+        "japanese": null
+      },
+      "abbreviation": "1sp",
+      "weblink": "https://www.speedrun.com/1sp"
+    },
+    {
+      "id": "pdvv39dw",
+      "names": {
+        "international": "1 vs 100",
+        "japanese": null
+      },
+      "abbreviation": "1_vs_100",
+      "weblink": "https://www.speedrun.com/1_vs_100"
+    },
+    {
+      "id": "4d72l367",
+      "names": {
+        "international": "1-2-Switch",
+        "japanese": null
+      },
+      "abbreviation": "1-2-switch",
+      "weblink": "https://www.speedrun.com/1-2-switch"
+    },
+    {
+      "id": "yd4oqp51",
+      "names": {
+        "international": "10 Beautiful Postcards",
+        "japanese": null
+      },
+      "abbreviation": "tenpostcards",
+      "weblink": "https://www.speedrun.com/tenpostcards"
+    },
+    {
+      "id": "46w332l1",
+      "names": {
+        "international": "10 Gnomes 10: Seashore",
+        "japanese": null
+      },
+      "abbreviation": "10_gnomes_10_2008",
+      "weblink": "https://www.speedrun.com/10_gnomes_10_2008"
+    },
+    {
+      "id": "o6glln8d",
+      "names": {
+        "international": "10 Gnomes 11: the Remains",
+        "japanese": null
+      },
+      "abbreviation": "10_gnomes_11",
+      "weblink": "https://www.speedrun.com/10_gnomes_11"
+    },
+    {
+      "id": "76rxx3v6",
+      "names": {
+        "international": "10 Gnomes 12: the Tank",
+        "japanese": null
+      },
+      "abbreviation": "10_gnomes_12",
+      "weblink": "https://www.speedrun.com/10_gnomes_12"
+    },
+    {
+      "id": "k6q44wmd",
+      "names": {
+        "international": "10 Gnomes 1: the Rooftops",
+        "japanese": null
+      },
+      "abbreviation": "10_gnomes_1",
+      "weblink": "https://www.speedrun.com/10_gnomes_1"
+    },
+    {
+      "id": "j1nee8e1",
+      "names": {
+        "international": "10 Gnomes 2: Walk in the Park",
+        "japanese": null
+      },
+      "abbreviation": "10_gnomes_2",
+      "weblink": "https://www.speedrun.com/10_gnomes_2"
+    },
+    {
+      "id": "lde33jj6",
+      "names": {
+        "international": "10 Gnomes 3: Early Spring Garden",
+        "japanese": null
+      },
+      "abbreviation": "10_gnomes_3",
+      "weblink": "https://www.speedrun.com/10_gnomes_3"
+    },
+    {
+      "id": "268eew96",
+      "names": {
+        "international": "10 Gnomes 4: Foggy Flat",
+        "japanese": null
+      },
+      "abbreviation": "10_gnomes_4",
+      "weblink": "https://www.speedrun.com/10_gnomes_4"
+    },
+    {
+      "id": "9doww8k1",
+      "names": {
+        "international": "10 Gnomes 5: the Shipyard",
+        "japanese": null
+      },
+      "abbreviation": "10_gnomes_5",
+      "weblink": "https://www.speedrun.com/10_gnomes_5"
+    },
+    {
+      "id": "m1mxxn36",
+      "names": {
+        "international": "10 Gnomes 6: the Hall",
+        "japanese": null
+      },
+      "abbreviation": "10_gnomes_6",
+      "weblink": "https://www.speedrun.com/10_gnomes_6"
+    },
+    {
+      "id": "yd4ookg1",
+      "names": {
+        "international": "10 Gnomes 7: the Solitude",
+        "japanese": null
+      },
+      "abbreviation": "10_gnomes_7",
+      "weblink": "https://www.speedrun.com/10_gnomes_7"
+    },
+    {
+      "id": "3dx22k51",
+      "names": {
+        "international": "10 Gnomes 8: Water Forge",
+        "japanese": null
+      },
+      "abbreviation": "10_gnomes_8",
+      "weblink": "https://www.speedrun.com/10_gnomes_8"
+    },
+    {
+      "id": "v1pooxz6",
+      "names": {
+        "international": "10 Gnomes 9: Chemistry",
+        "japanese": null
+      },
+      "abbreviation": "10_gnomes_9_chemistry",
+      "weblink": "https://www.speedrun.com/10_gnomes_9_chemistry"
+    },
+    {
+      "id": "j1lllqj1",
+      "names": {
+        "international": "10 Gnomes in Bologna",
+        "japanese": null
+      },
+      "abbreviation": "10_gnomes_in_b",
+      "weblink": "https://www.speedrun.com/10_gnomes_in_b"
+    },
+    {
+      "id": "pdvzz2k6",
+      "names": {
+        "international": "10 Gnomes in Dubrovnik",
+        "japanese": null
+      },
+      "abbreviation": "10_gnomes_in_d",
+      "weblink": "https://www.speedrun.com/10_gnomes_in_d"
+    },
+    {
+      "id": "pd0wwq31",
+      "names": {
+        "international": "10 Gnomes in Liege",
+        "japanese": null
+      },
+      "abbreviation": "10_gnomes_in_l",
+      "weblink": "https://www.speedrun.com/10_gnomes_in_l"
+    },
+    {
+      "id": "9d3r9p0d",
+      "names": {
+        "international": "10 Gnomes in Malmo",
+        "japanese": null
+      },
+      "abbreviation": "10_gnomes_in_malmo",
+      "weblink": "https://www.speedrun.com/10_gnomes_in_malmo"
+    },
+    {
+      "id": "nd2ee8qd",
+      "names": {
+        "international": "10 Gnomes in Montaigut-le-Blanc",
+        "japanese": null
+      },
+      "abbreviation": "10_gnomes_in_m",
+      "weblink": "https://www.speedrun.com/10_gnomes_in_m"
+    },
+    {
+      "id": "j1ne2ml1",
+      "names": {
+        "international": "10 Gnomes in Oristano",
+        "japanese": null
+      },
+      "abbreviation": "10_gnomes_in_oristano",
+      "weblink": "https://www.speedrun.com/10_gnomes_in_oristano"
+    },
+    {
+      "id": "k6q4krxd",
+      "names": {
+        "international": "10 Gnomes in Paris",
+        "japanese": null
+      },
+      "abbreviation": "10_gnomes_in_paris",
+      "weblink": "https://www.speedrun.com/10_gnomes_in_paris"
+    },
+    {
+      "id": "369pp831",
+      "names": {
+        "international": "10 Gnomes in Porto Petro",
+        "japanese": null
+      },
+      "abbreviation": "10_gnomes_in_p",
+      "weblink": "https://www.speedrun.com/10_gnomes_in_p"
+    },
+    {
+      "id": "4d799nr1",
+      "names": {
+        "international": "10 Gnomes in Pothia",
+        "japanese": null
+      },
+      "abbreviation": "10_gnomes_in_pothia",
+      "weblink": "https://www.speedrun.com/10_gnomes_in_pothia"
+    },
+    {
+      "id": "9d3rr80d",
+      "names": {
+        "international": "10 Gnomes in Trstenik",
+        "japanese": null
+      },
+      "abbreviation": "10_gnomes_in_t",
+      "weblink": "https://www.speedrun.com/10_gnomes_in_t"
+    },
+    {
+      "id": "m1zjjk06",
+      "names": {
+        "international": "10 Gnomes in Venice",
+        "japanese": null
+      },
+      "abbreviation": "10_gnomes_in_v",
+      "weblink": "https://www.speedrun.com/10_gnomes_in_v"
+    },
+    {
+      "id": "m1zm2m60",
+      "names": {
+        "international": "10 Second Ninja",
+        "japanese": null
+      },
+      "abbreviation": "10sn",
+      "weblink": "https://www.speedrun.com/10sn"
+    },
+    {
+      "id": "m1mkwpd2",
+      "names": {
+        "international": "10 Second Ninja X",
+        "japanese": null
+      },
+      "abbreviation": "10snx",
+      "weblink": "https://www.speedrun.com/10snx"
+    },
+    {
+      "id": "pdvz9v46",
+      "names": {
+        "international": "10 Second Run Returns",
+        "japanese": null
+      },
+      "abbreviation": "10srr",
+      "weblink": "https://www.speedrun.com/10srr"
+    },
+    {
+      "id": "j1llv941",
+      "names": {
+        "international": "10 Second Shuriken",
+        "japanese": null
+      },
+      "abbreviation": "10_second_shuriken",
+      "weblink": "https://www.speedrun.com/10_second_shuriken"
+    },
+    {
+      "id": "m1m0wx62",
+      "names": {
+        "international": "10-Yard Fight",
+        "japanese": "10ヤードファイト"
+      },
+      "abbreviation": "10-yard_fight",
+      "weblink": "https://www.speedrun.com/10-yard_fight"
+    },
+    {
+      "id": "lde33q56",
+      "names": {
+        "international": "100 Rooms of Enemies",
+        "japanese": null
+      },
+      "abbreviation": "100rooms",
+      "weblink": "https://www.speedrun.com/100rooms"
+    },
+    {
+      "id": "j1n2gw1p",
+      "names": {
+        "international": "100% Orange Juice!",
+        "japanese": "100%おれんじじゅ～すっ！"
+      },
+      "abbreviation": "100oj",
+      "weblink": "https://www.speedrun.com/100oj"
+    },
+    {
+      "id": "o6ge0n12",
+      "names": {
+        "international": "1000 Amps",
+        "japanese": null
+      },
+      "abbreviation": "1000_amps",
+      "weblink": "https://www.speedrun.com/1000_amps"
+    },
+    {
+      "id": "m1mk8xd2",
+      "names": {
+        "international": "1000 Coins",
+        "japanese": null
+      },
+      "abbreviation": "1000",
+      "weblink": "https://www.speedrun.com/1000"
+    },
+    {
+      "id": "j1llmjj1",
+      "names": {
+        "international": "1000 Days to Escape",
+        "japanese": null
+      },
+      "abbreviation": "1000_days_to_escape",
+      "weblink": "https://www.speedrun.com/1000_days_to_escape"
+    },
+    {
+      "id": "9do4vm6p",
+      "names": {
+        "international": "10000000",
+        "japanese": null
+      },
+      "abbreviation": "10000000",
+      "weblink": "https://www.speedrun.com/10000000"
+    },
+    {
+      "id": "yd4o5w1e",
+      "names": {
+        "international": "1001 Spikes",
+        "japanese": null
+      },
+      "abbreviation": "1001_spikes",
+      "weblink": "https://www.speedrun.com/1001_spikes"
+    },
+    {
+      "id": "268eko56",
+      "names": {
+        "international": "101 Dalmatians: Escape from DeVil Manor",
+        "japanese": null
+      },
+      "abbreviation": "101_dalmatians_escape_from_devil_manor",
+      "weblink": "https://www.speedrun.com/101_dalmatians_escape_from_devil_manor"
+    },
+    {
+      "id": "pdvlzo1w",
+      "names": {
+        "international": "1010!",
+        "japanese": null
+      },
+      "abbreviation": "1010",
+      "weblink": "https://www.speedrun.com/1010"
+    },
+    {
+      "id": "9dowvo1p",
+      "names": {
+        "international": "1080° Avalanche",
+        "japanese": "テン・エイティ シルバーストーム"
+      },
+      "abbreviation": "1080avalanche",
+      "weblink": "https://www.speedrun.com/1080avalanche"
+    },
+    {
+      "id": "268ery6p",
+      "names": {
+        "international": "1080° Snowboarding",
+        "japanese": "テン・エイティ スノーボーディング"
+      },
+      "abbreviation": "1080snowboarding",
+      "weblink": "https://www.speedrun.com/1080snowboarding"
+    },
+    {
+      "id": "3dx2xk41",
+      "names": {
+        "international": "1187: Episode One",
+        "japanese": null
+      },
+      "abbreviation": "1187ep1",
+      "weblink": "https://www.speedrun.com/1187ep1"
+    },
+    {
+      "id": "3dxwxg1y",
+      "names": {
+        "international": "12 is Better Than 6",
+        "japanese": null
+      },
+      "abbreviation": "12_is_better_than_6",
+      "weblink": "https://www.speedrun.com/12_is_better_than_6"
+    },
+    {
+      "id": "nd297r60",
+      "names": {
+        "international": "12 Labours of Hercules",
+        "japanese": null
+      },
+      "abbreviation": "12loh1",
+      "weblink": "https://www.speedrun.com/12loh1"
+    },
+    {
+      "id": "ldevql13",
+      "names": {
+        "international": "12 Labours of Hercules II: The Cretan Bull",
+        "japanese": null
+      },
+      "abbreviation": "12loh2",
+      "weblink": "https://www.speedrun.com/12loh2"
+    },
+    {
+      "id": "268g4ydp",
+      "names": {
+        "international": "12 Labours of Hercules III: Girl Power",
+        "japanese": null
+      },
+      "abbreviation": "12loh3",
+      "weblink": "https://www.speedrun.com/12loh3"
+    },
+    {
+      "id": "9dom5o6p",
+      "names": {
+        "international": "12 Labours of Hercules IV: Mother Nature",
+        "japanese": null
+      },
+      "abbreviation": "12loh4",
+      "weblink": "https://www.speedrun.com/12loh4"
+    },
+    {
+      "id": "m1m85xd2",
+      "names": {
+        "international": "12 Labours of Hercules V: Kids of Hellas",
+        "japanese": null
+      },
+      "abbreviation": "12loh5",
+      "weblink": "https://www.speedrun.com/12loh5"
+    },
+    {
+      "id": "yd44pkde",
+      "names": {
+        "international": "12 Labours of Hercules VI: Race for Olympus",
+        "japanese": null
+      },
+      "abbreviation": "12loh6",
+      "weblink": "https://www.speedrun.com/12loh6"
+    },
+    {
+      "id": "yd4o0551",
+      "names": {
+        "international": "13 Gates",
+        "japanese": null
+      },
+      "abbreviation": "13g",
+      "weblink": "https://www.speedrun.com/13g"
+    },
+    {
+      "id": "j1llk3e1",
+      "names": {
+        "international": "13 Sentinels: Aegis Rim",
+        "japanese": null
+      },
+      "abbreviation": "13_sentinels_aegis_rim",
+      "weblink": "https://www.speedrun.com/13_sentinels_aegis_rim"
+    },
+    {
+      "id": "nd2vx510",
+      "names": {
+        "international": "14 Locks",
+        "japanese": null
+      },
+      "abbreviation": "14locks",
+      "weblink": "https://www.speedrun.com/14locks"
+    },
+    {
+      "id": "9d3r70dl",
+      "names": {
+        "international": "140",
+        "japanese": null
+      },
+      "abbreviation": "140",
+      "weblink": "https://www.speedrun.com/140"
+    },
+    {
+      "id": "3dx03ydy",
+      "names": {
+        "international": "15 Seconds",
+        "japanese": null
+      },
+      "abbreviation": "mcm_15s",
+      "weblink": "https://www.speedrun.com/mcm_15s"
+    },
+    {
+      "id": "4d794jn1",
+      "names": {
+        "international": "150,000 B.C.",
+        "japanese": null
+      },
+      "abbreviation": "150000_b.c.",
+      "weblink": "https://www.speedrun.com/150000_b.c."
+    },
+    {
+      "id": "o1y90ov6",
+      "names": {
+        "international": "16t",
+        "japanese": null
+      },
+      "abbreviation": "16t",
+      "weblink": "https://www.speedrun.com/16t"
+    },
+    {
+      "id": "268e9776",
+      "names": {
+        "international": "18 Wheeler: American Pro Trucker",
+        "japanese": null
+      },
+      "abbreviation": "18_wheeler_american_pro_trucker",
+      "weblink": "https://www.speedrun.com/18_wheeler_american_pro_trucker"
+    },
+    {
+      "id": "o6gl3vod",
+      "names": {
+        "international": "1917 - The Alien Invasion DX",
+        "japanese": null
+      },
+      "abbreviation": "1917_-_the_alien_invasion_dx",
+      "weblink": "https://www.speedrun.com/1917_-_the_alien_invasion_dx"
+    },
+    {
+      "id": "v1pogy76",
+      "names": {
+        "international": "1941: Counter Attack",
+        "japanese": null
+      },
+      "abbreviation": "1941_counter_attack",
+      "weblink": "https://www.speedrun.com/1941_counter_attack"
+    },
+    {
+      "id": "w6j5zx1j",
+      "names": {
+        "international": "1942",
+        "japanese": null
+      },
+      "abbreviation": "1942",
+      "weblink": "https://www.speedrun.com/1942"
+    },
+    {
+      "id": "369pkx31",
+      "names": {
+        "international": "1942: First Strike",
+        "japanese": null
+      },
+      "abbreviation": "1942_first_strike",
+      "weblink": "https://www.speedrun.com/1942_first_strike"
+    },
+    {
+      "id": "76rxm0v6",
+      "names": {
+        "international": "1942: Joint Strike",
+        "japanese": null
+      },
+      "abbreviation": "1942_joint_strike",
+      "weblink": "https://www.speedrun.com/1942_joint_strike"
+    },
+    {
+      "id": "76rxj056",
+      "names": {
+        "international": "1943 Kai: Midway Kaisen",
+        "japanese": null
+      },
+      "abbreviation": "1943_kai_midway_kaisen",
+      "weblink": "https://www.speedrun.com/1943_kai_midway_kaisen"
+    },
+    {
+      "id": "yd49zp1e",
+      "names": {
+        "international": "1943: The Battle of Midway",
+        "japanese": null
+      },
+      "abbreviation": "1943_the_battle_of_midway",
+      "weblink": "https://www.speedrun.com/1943_the_battle_of_midway"
+    },
+    {
+      "id": "3dx2pwp1",
+      "names": {
+        "international": "1944: The Loop Master",
+        "japanese": null
+      },
+      "abbreviation": "1944_the_loop_master_",
+      "weblink": "https://www.speedrun.com/1944_the_loop_master_"
+    },
+    {
+      "id": "9d3rj3ed",
+      "names": {
+        "international": "1954: Alcatraz",
+        "japanese": null
+      },
+      "abbreviation": "1954_alcatraz",
+      "weblink": "https://www.speedrun.com/1954_alcatraz"
+    },
+    {
+      "id": "w6j2p51j",
+      "names": {
+        "international": "1982 (Steam)",
+        "japanese": null
+      },
+      "abbreviation": "1982",
+      "weblink": "https://www.speedrun.com/1982"
+    },
+    {
+      "id": "3dx2v9p1",
+      "names": {
+        "international": "198X",
+        "japanese": null
+      },
+      "abbreviation": "198x",
+      "weblink": "https://www.speedrun.com/198x"
+    },
+    {
+      "id": "yd4p3xde",
+      "names": {
+        "international": "1999: Hore, Mita koto ka! Seikimatsu",
+        "japanese": "1999ほれ、みたことか!世紀末"
+      },
+      "abbreviation": "1999_hore_mita_koto_ka_seikimatsu",
+      "weblink": "https://www.speedrun.com/1999_hore_mita_koto_ka_seikimatsu"
+    },
+    {
+      "id": "9dow9q71",
+      "names": {
+        "international": "19XX: The War Against Destiny",
+        "japanese": null
+      },
+      "abbreviation": "19xx_the_war_against_destiny",
+      "weblink": "https://www.speedrun.com/19xx_the_war_against_destiny"
+    },
+    {
+      "id": "46w3wmn1",
+      "names": {
+        "international": "1nsane",
+        "japanese": null
+      },
+      "abbreviation": "1nsane",
+      "weblink": "https://www.speedrun.com/1nsane"
+    },
+    {
+      "id": "369ppxg1",
+      "names": {
+        "international": "1px",
+        "japanese": null
+      },
+      "abbreviation": "1px",
+      "weblink": "https://www.speedrun.com/1px"
+    },
+    {
+      "id": "m1mxgep6",
+      "names": {
+        "international": "2 Builders 2 Tools",
+        "japanese": null
+      },
+      "abbreviation": "2b2t",
+      "weblink": "https://www.speedrun.com/2b2t"
+    },
+    {
+      "id": "o6g989d2",
+      "names": {
+        "international": "2 Cars",
+        "japanese": null
+      },
+      "abbreviation": "2_cars",
+      "weblink": "https://www.speedrun.com/2_cars"
+    },
+    {
+      "id": "v1pkg4d8",
+      "names": {
+        "international": "2 Ninjas 1 Cup",
+        "japanese": null
+      },
+      "abbreviation": "2_ninjas_1_cup",
+      "weblink": "https://www.speedrun.com/2_ninjas_1_cup"
+    },
+    {
+      "id": "o6g82512",
+      "names": {
+        "international": "200% Mixed Juice!",
+        "japanese": "200％みっくすじゅ～すっ！"
+      },
+      "abbreviation": "200mj",
+      "weblink": "https://www.speedrun.com/200mj"
+    },
+    {
+      "id": "kdk74g1m",
+      "names": {
+        "international": "2000:1: A Space Felony",
+        "japanese": null
+      },
+      "abbreviation": "2000-1-asf",
+      "weblink": "https://www.speedrun.com/2000-1-asf"
+    },
+    {
+      "id": "j1lexz6g",
+      "names": {
+        "international": "2003 Gu Huo Lang II / 2003 Crash II Advance",
+        "japanese": null
+      },
+      "abbreviation": "crashiiadv",
+      "weblink": "https://www.speedrun.com/crashiiadv"
+    },
+    {
+      "id": "576rp418",
+      "names": {
+        "international": "2048",
+        "japanese": null
+      },
+      "abbreviation": "2048",
+      "weblink": "https://www.speedrun.com/2048"
+    },
+    {
+      "id": "9do57m1p",
+      "names": {
+        "international": "2064: Read Only Memories",
+        "japanese": null
+      },
+      "abbreviation": "2064_read_only_memories",
+      "weblink": "https://www.speedrun.com/2064_read_only_memories"
+    },
+    {
+      "id": "ldepze13",
+      "names": {
+        "international": "20XX",
+        "japanese": null
+      },
+      "abbreviation": "20xx",
+      "weblink": "https://www.speedrun.com/20xx"
+    },
+    {
+      "id": "y654478d",
+      "names": {
+        "international": "222 Hearts",
+        "japanese": null
+      },
+      "abbreviation": "222_hearts",
+      "weblink": "https://www.speedrun.com/222_hearts"
+    },
+    {
+      "id": "o1yk0odq",
+      "names": {
+        "international": "24 HOURS",
+        "japanese": null
+      },
+      "abbreviation": "24_hours",
+      "weblink": "https://www.speedrun.com/24_hours"
+    },
+    {
+      "id": "pdv5o46w",
+      "names": {
+        "international": "25 To Life",
+        "japanese": null
+      },
+      "abbreviation": "25_to_life",
+      "weblink": "https://www.speedrun.com/25_to_life"
+    },
+    {
+      "id": "3dx27j41",
+      "names": {
+        "international": "2D Zelda Games",
+        "japanese": null
+      },
+      "abbreviation": "2dzelda",
+      "weblink": "https://www.speedrun.com/2dzelda"
+    },
+    {
+      "id": "pdvlg41w",
+      "names": {
+        "international": "2Dark",
+        "japanese": null
+      },
+      "abbreviation": "2dark",
+      "weblink": "https://www.speedrun.com/2dark"
+    },
+    {
+      "id": "46w8736r",
+      "names": {
+        "international": "3 Foot Ninja",
+        "japanese": null
+      },
+      "abbreviation": "3_foot_ninja",
+      "weblink": "https://www.speedrun.com/3_foot_ninja"
+    },
+    {
+      "id": "pd0wpl31",
+      "names": {
+        "international": "3 in 1 Supergun",
+        "japanese": null
+      },
+      "abbreviation": "3_in_1_supergun",
+      "weblink": "https://www.speedrun.com/3_in_1_supergun"
+    },
+    {
+      "id": "369w20dl",
+      "names": {
+        "international": "3 Ninjas Kick Back",
+        "japanese": null
+      },
+      "abbreviation": "3_ninjas_kick_back",
+      "weblink": "https://www.speedrun.com/3_ninjas_kick_back"
+    },
+    {
+      "id": "o1y94ok6",
+      "names": {
+        "international": "3 on 3 NHL Arcade",
+        "japanese": null
+      },
+      "abbreviation": "3_on_3_nhl_arcade",
+      "weblink": "https://www.speedrun.com/3_on_3_nhl_arcade"
+    },
+    {
+      "id": "76rxwje6",
+      "names": {
+        "international": "3-D Dinosaur Adventure",
+        "japanese": null
+      },
+      "abbreviation": "3-d_dinosaur_adventure",
+      "weblink": "https://www.speedrun.com/3-d_dinosaur_adventure"
+    },
+    {
+      "id": "m1z44060",
+      "names": {
+        "international": "3-D WorldRunner",
+        "japanese": null
+      },
+      "abbreviation": "3-d_worldrunner",
+      "weblink": "https://www.speedrun.com/3-d_worldrunner"
+    },
+    {
+      "id": "3690z06l",
+      "names": {
+        "international": "35MM",
+        "japanese": null
+      },
+      "abbreviation": "35mm",
+      "weblink": "https://www.speedrun.com/35mm"
+    },
+    {
+      "id": "j1neejw1",
+      "names": {
+        "international": "36 Fragments of Midnight",
+        "japanese": null
+      },
+      "abbreviation": "36_fragments_of_midnight",
+      "weblink": "https://www.speedrun.com/36_fragments_of_midnight"
+    },
+    {
+      "id": "lde3p4x6",
+      "names": {
+        "international": "39 Days to Mars",
+        "japanese": null
+      },
+      "abbreviation": "39_days_to_mars",
+      "weblink": "https://www.speedrun.com/39_days_to_mars"
+    },
+    {
+      "id": "4d79z731",
+      "names": {
+        "international": "3AM At The Krusty Krab",
+        "japanese": null
+      },
+      "abbreviation": "3am_at_the_krusty_krab",
+      "weblink": "https://www.speedrun.com/3am_at_the_krusty_krab"
+    },
+    {
+      "id": "lde3knx6",
+      "names": {
+        "international": "3D Body Adventure",
+        "japanese": null
+      },
+      "abbreviation": "3dbody",
+      "weblink": "https://www.speedrun.com/3dbody"
+    },
+    {
+      "id": "369nw0dl",
+      "names": {
+        "international": "3D Classics : Excitebike",
+        "japanese": null
+      },
+      "abbreviation": "arikaeb",
+      "weblink": "https://www.speedrun.com/arikaeb"
+    },
+    {
+      "id": "76r3z468",
+      "names": {
+        "international": "3D Dot Game Heroes",
+        "japanese": null
+      },
+      "abbreviation": "3d_dot_game_heroes",
+      "weblink": "https://www.speedrun.com/3d_dot_game_heroes"
+    },
+    {
+      "id": "268emp76",
+      "names": {
+        "international": "3D Frog Frenzy",
+        "japanese": null
+      },
+      "abbreviation": "3dfrog",
+      "weblink": "https://www.speedrun.com/3dfrog"
+    },
+    {
+      "id": "yd4o3rx1",
+      "names": {
+        "international": "3D Frog Man",
+        "japanese": null
+      },
+      "abbreviation": "3d_frog_man",
+      "weblink": "https://www.speedrun.com/3d_frog_man"
+    },
+    {
+      "id": "o1y9yer6",
+      "names": {
+        "international": "3D Maze Man: Adventures in Winter Wonderland",
+        "japanese": null
+      },
+      "abbreviation": "3d_maze_man_adventures_in_winter_wonderland",
+      "weblink": "https://www.speedrun.com/3d_maze_man_adventures_in_winter_wonderland"
+    },
+    {
+      "id": "76rx2w56",
+      "names": {
+        "international": "3D Maze Man: Amazing Adventures",
+        "japanese": null
+      },
+      "abbreviation": "3d_maze_man_amazing_adventures",
+      "weblink": "https://www.speedrun.com/3d_maze_man_amazing_adventures"
+    },
+    {
+      "id": "m1mryx62",
+      "names": {
+        "international": "3D Monster Maze",
+        "japanese": null
+      },
+      "abbreviation": "3d_monster_maze",
+      "weblink": "https://www.speedrun.com/3d_monster_maze"
+    },
+    {
+      "id": "yd4oyxp1",
+      "names": {
+        "international": "3D Ms. Maze: Tropical Adventures",
+        "japanese": null
+      },
+      "abbreviation": "3d_ms_maze_tropical_adventures",
+      "weblink": "https://www.speedrun.com/3d_ms_maze_tropical_adventures"
+    },
+    {
+      "id": "3dx2mzg1",
+      "names": {
+        "international": "3D Munch Man II",
+        "japanese": null
+      },
+      "abbreviation": "3d_munch_man_ii",
+      "weblink": "https://www.speedrun.com/3d_munch_man_ii"
+    },
+    {
+      "id": "pd0mz26e",
+      "names": {
+        "international": "3D Pinball for Windows: Space Cadet",
+        "japanese": null
+      },
+      "abbreviation": "3pwsc",
+      "weblink": "https://www.speedrun.com/3pwsc"
+    },
+    {
+      "id": "m1zjnz36",
+      "names": {
+        "international": "3D Retro Dungeon Puzzle Challenge",
+        "japanese": null
+      },
+      "abbreviation": "3d_retro_dungeon_puzzle_challenge",
+      "weblink": "https://www.speedrun.com/3d_retro_dungeon_puzzle_challenge"
+    },
+    {
+      "id": "268e0l56",
+      "names": {
+        "international": "3D Stress Ball",
+        "japanese": null
+      },
+      "abbreviation": "3d_stress_ball",
+      "weblink": "https://www.speedrun.com/3d_stress_ball"
+    },
+    {
+      "id": "y659e31e",
+      "names": {
+        "international": "3D Tetris",
+        "japanese": null
+      },
+      "abbreviation": "3d_tetris",
+      "weblink": "https://www.speedrun.com/3d_tetris"
+    },
+    {
+      "id": "j1lwze6g",
+      "names": {
+        "international": "3D Ultra Minigolf",
+        "japanese": null
+      },
+      "abbreviation": "3d_ultra_minigolf",
+      "weblink": "https://www.speedrun.com/3d_ultra_minigolf"
+    },
+    {
+      "id": "3dxv3g6y",
+      "names": {
+        "international": "3D Ultra Minigolf Adventures",
+        "japanese": null
+      },
+      "abbreviation": "3duma",
+      "weblink": "https://www.speedrun.com/3duma"
+    },
+    {
+      "id": "k6q40o9d",
+      "names": {
+        "international": "3D Ultra NASCAR Pinball",
+        "japanese": null
+      },
+      "abbreviation": "3d_ultra_nascar_pinball",
+      "weblink": "https://www.speedrun.com/3d_ultra_nascar_pinball"
+    },
+    {
+      "id": "9dowjjk1",
+      "names": {
+        "international": "3D Ultra Pinball",
+        "japanese": null
+      },
+      "abbreviation": "3d_ultra_pinball",
+      "weblink": "https://www.speedrun.com/3d_ultra_pinball"
+    },
+    {
+      "id": "pd0w54v1",
+      "names": {
+        "international": "3D Ultra Pinball: Creep Night",
+        "japanese": null
+      },
+      "abbreviation": "3d_ultra_pinball_creep_night",
+      "weblink": "https://www.speedrun.com/3d_ultra_pinball_creep_night"
+    },
+    {
+      "id": "o6glwmnd",
+      "names": {
+        "international": "3D Ultra Pinball: The Lost Continent",
+        "japanese": null
+      },
+      "abbreviation": "3d_ultra_pinball_the_lost_continent",
+      "weblink": "https://www.speedrun.com/3d_ultra_pinball_the_lost_continent"
+    },
+    {
+      "id": "m1zj3lz6",
+      "names": {
+        "international": "3D Ultra Pinball: Thrillride",
+        "japanese": null
+      },
+      "abbreviation": "3d_ultra_pinball_thrillride",
+      "weblink": "https://www.speedrun.com/3d_ultra_pinball_thrillride"
+    },
+    {
+      "id": "o6glv55d",
+      "names": {
+        "international": "3D Zelda Games",
+        "japanese": null
+      },
+      "abbreviation": "3dzelda",
+      "weblink": "https://www.speedrun.com/3dzelda"
+    },
+    {
+      "id": "w6jreedj",
+      "names": {
+        "international": "3D Zelda Relay",
+        "japanese": null
+      },
+      "abbreviation": "3d_zelda_relay",
+      "weblink": "https://www.speedrun.com/3d_zelda_relay"
+    },
+    {
+      "id": "76r2zqd8",
+      "names": {
+        "international": "3D Zombie Hell 2",
+        "japanese": null
+      },
+      "abbreviation": "3d_zombie_hell_2",
+      "weblink": "https://www.speedrun.com/3d_zombie_hell_2"
+    },
+    {
+      "id": "j1l0p41g",
+      "names": {
+        "international": "3DCube",
+        "japanese": "3Dキューブ"
+      },
+      "abbreviation": "3dcube",
+      "weblink": "https://www.speedrun.com/3dcube"
+    },
+    {
+      "id": "3dxgwy6y",
+      "names": {
+        "international": "3Xtreme",
+        "japanese": null
+      },
+      "abbreviation": "3xtreme",
+      "weblink": "https://www.speedrun.com/3xtreme"
+    },
+    {
+      "id": "yd4owrp1",
+      "names": {
+        "international": "4 PAK All Action",
+        "japanese": null
+      },
+      "abbreviation": "4_pak_all_action",
+      "weblink": "https://www.speedrun.com/4_pak_all_action"
+    },
+    {
+      "id": "9do2g31p",
+      "names": {
+        "international": "4-in-1 Fun Pak",
+        "japanese": null
+      },
+      "abbreviation": "4-in-1_fun_pak",
+      "weblink": "https://www.speedrun.com/4-in-1_fun_pak"
+    },
+    {
+      "id": "pd0g836e",
+      "names": {
+        "international": "4-in-1 Funpak: Volume II",
+        "japanese": null
+      },
+      "abbreviation": "4-in-1_funpak_volume_ii",
+      "weblink": "https://www.speedrun.com/4-in-1_funpak_volume_ii"
+    },
+    {
+      "id": "46wo3q1r",
+      "names": {
+        "international": "40 Winks",
+        "japanese": null
+      },
+      "abbreviation": "40winks",
+      "weblink": "https://www.speedrun.com/40winks"
+    },
+    {
+      "id": "o1y95kr6",
+      "names": {
+        "international": "400 Years",
+        "japanese": null
+      },
+      "abbreviation": "400_years",
+      "weblink": "https://www.speedrun.com/400_years"
+    },
+    {
+      "id": "ldekmld3",
+      "names": {
+        "international": "404Sight",
+        "japanese": null
+      },
+      "abbreviation": "404sight",
+      "weblink": "https://www.speedrun.com/404sight"
+    },
+    {
+      "id": "o1y4r41q",
+      "names": {
+        "international": "40xEscape",
+        "japanese": null
+      },
+      "abbreviation": "40xescape",
+      "weblink": "https://www.speedrun.com/40xescape"
+    },
+    {
+      "id": "k6qe5x6g",
+      "names": {
+        "international": "44",
+        "japanese": null
+      },
+      "abbreviation": "44",
+      "weblink": "https://www.speedrun.com/44"
+    },
+    {
+      "id": "w6jl0m7d",
+      "names": {
+        "international": "44th Anniversary of the Birth of Hip Hop",
+        "japanese": null
+      },
+      "abbreviation": "44th_anniversary_of_the_birth_of_hip_hop",
+      "weblink": "https://www.speedrun.com/44th_anniversary_of_the_birth_of_hip_hop"
+    },
+    {
+      "id": "9d3v7y6l",
+      "names": {
+        "international": "46 Okunen Monogatari: The Shinkaron",
+        "japanese": null
+      },
+      "abbreviation": "46_omts_evo",
+      "weblink": "https://www.speedrun.com/46_omts_evo"
+    },
+    {
+      "id": "pdvzkrr6",
+      "names": {
+        "international": "46th Anniversary of Star Trek's 1st Broadcast",
+        "japanese": null
+      },
+      "abbreviation": "46th_anniversary_of_star_treks_1st_broadcast",
+      "weblink": "https://www.speedrun.com/46th_anniversary_of_star_treks_1st_broadcast"
+    },
+    {
+      "id": "m1mx7wj6",
+      "names": {
+        "international": "4PM",
+        "japanese": null
+      },
+      "abbreviation": "4pm",
+      "weblink": "https://www.speedrun.com/4pm"
+    },
+    {
+      "id": "j1lv94dg",
+      "names": {
+        "international": "4th Of July 64",
+        "japanese": null
+      },
+      "abbreviation": "4th_of_july_64",
+      "weblink": "https://www.speedrun.com/4th_of_july_64"
+    },
+    {
+      "id": "pdvzjpo6",
+      "names": {
+        "international": "4XM",
+        "japanese": null
+      },
+      "abbreviation": "4xm",
+      "weblink": "https://www.speedrun.com/4xm"
+    },
+    {
+      "id": "j1nvmx6p",
+      "names": {
+        "international": "5 Days a Stranger",
+        "japanese": null
+      },
+      "abbreviation": "five_days_a_stranger",
+      "weblink": "https://www.speedrun.com/five_days_a_stranger"
+    },
+    {
+      "id": "4d7w2l67",
+      "names": {
+        "international": "5 in 1 Funpak",
+        "japanese": null
+      },
+      "abbreviation": "5_in_1_funpak",
+      "weblink": "https://www.speedrun.com/5_in_1_funpak"
+    },
+    {
+      "id": "v1po7k86",
+      "names": {
+        "international": "5.0",
+        "japanese": null
+      },
+      "abbreviation": "5.0",
+      "weblink": "https://www.speedrun.com/5.0"
+    },
+    {
+      "id": "k6qjmxdg",
+      "names": {
+        "international": "50 Cent: Blood on the Sand",
+        "japanese": null
+      },
+      "abbreviation": "50_cent_blood_on_the_sand",
+      "weblink": "https://www.speedrun.com/50_cent_blood_on_the_sand"
+    },
+    {
+      "id": "3dxmm56y",
+      "names": {
+        "international": "50 Cent: Bulletproof",
+        "japanese": null
+      },
+      "abbreviation": "50_cent_bulletproof",
+      "weblink": "https://www.speedrun.com/50_cent_bulletproof"
+    },
+    {
+      "id": "yd4o7851",
+      "names": {
+        "international": "50 Cent: Bulletproof - G Unit Edition",
+        "japanese": null
+      },
+      "abbreviation": "50_cent_bulletproof_-_g_unit_edition",
+      "weblink": "https://www.speedrun.com/50_cent_bulletproof_-_g_unit_edition"
+    },
+    {
+      "id": "w6jl442d",
+      "names": {
+        "international": "50 Years",
+        "japanese": null
+      },
+      "abbreviation": "50_years",
+      "weblink": "https://www.speedrun.com/50_years"
+    },
+    {
+      "id": "o6gllpnd",
+      "names": {
+        "international": "5xMan",
+        "japanese": null
+      },
+      "abbreviation": "httpsarmorgames.complay68195xman",
+      "weblink": "https://www.speedrun.com/httpsarmorgames.complay68195xman"
+    },
+    {
+      "id": "kdklnx6m",
+      "names": {
+        "international": "6 Days a Sacrifice",
+        "japanese": null
+      },
+      "abbreviation": "6_days_a_sacrifice",
+      "weblink": "https://www.speedrun.com/6_days_a_sacrifice"
+    },
+    {
+      "id": "lde3o8x6",
+      "names": {
+        "international": "6.0",
+        "japanese": null
+      },
+      "abbreviation": "6.0",
+      "weblink": "https://www.speedrun.com/6.0"
+    },
+    {
+      "id": "j1nem291",
+      "names": {
+        "international": "60 Parsecs!",
+        "japanese": null
+      },
+      "abbreviation": "60_parsecs",
+      "weblink": "https://www.speedrun.com/60_parsecs"
+    },
+    {
+      "id": "o6g4mo62",
+      "names": {
+        "international": "60 Seconds Burger Run",
+        "japanese": null
+      },
+      "abbreviation": "60sbr",
+      "weblink": "https://www.speedrun.com/60sbr"
+    },
+    {
+      "id": "nd2vpq10",
+      "names": {
+        "international": "60 Seconds to Save the Queen",
+        "japanese": null
+      },
+      "abbreviation": "60_seconds_to_save_the_queen",
+      "weblink": "https://www.speedrun.com/60_seconds_to_save_the_queen"
+    },
+    {
+      "id": "j1ljjjdg",
+      "names": {
+        "international": "60 Seconds!",
+        "japanese": null
+      },
+      "abbreviation": "60_seconds",
+      "weblink": "https://www.speedrun.com/60_seconds"
+    },
+    {
+      "id": "nd2e9z3d",
+      "names": {
+        "international": "60 Seconds! Reatomized",
+        "japanese": null
+      },
+      "abbreviation": "60_seconds_reatomized",
+      "weblink": "https://www.speedrun.com/60_seconds_reatomized"
+    },
+    {
+      "id": "4d79lz17",
+      "names": {
+        "international": "6180 the moon",
+        "japanese": null
+      },
+      "abbreviation": "6180_the_moon",
+      "weblink": "https://www.speedrun.com/6180_the_moon"
+    },
+    {
+      "id": "46w39391",
+      "names": {
+        "international": "64th Street: A Detective Story",
+        "japanese": null
+      },
+      "abbreviation": "64th_street_a_detective_story",
+      "weblink": "https://www.speedrun.com/64th_street_a_detective_story"
+    },
+    {
+      "id": "v1poyn46",
+      "names": {
+        "international": "6PackMan",
+        "japanese": null
+      },
+      "abbreviation": "6packman",
+      "weblink": "https://www.speedrun.com/6packman"
+    },
+    {
+      "id": "nd2e29qd",
+      "names": {
+        "international": "7",
+        "japanese": null
+      },
+      "abbreviation": "7",
+      "weblink": "https://www.speedrun.com/7"
+    },
+    {
+      "id": "pd0gkl6e",
+      "names": {
+        "international": "7 Days a Skeptic",
+        "japanese": null
+      },
+      "abbreviation": "seven_days_a_skeptic",
+      "weblink": "https://www.speedrun.com/seven_days_a_skeptic"
+    },
+    {
+      "id": "m1mg2x12",
+      "names": {
+        "international": "720°",
+        "japanese": null
+      },
+      "abbreviation": "720",
+      "weblink": "https://www.speedrun.com/720"
+    },
+    {
+      "id": "kdkzgrgd",
+      "names": {
+        "international": "7554",
+        "japanese": null
+      },
+      "abbreviation": "7554_glorious_memories_revived",
+      "weblink": "https://www.speedrun.com/7554_glorious_memories_revived"
+    },
+    {
+      "id": "3dx2mkg1",
+      "names": {
+        "international": "7Days",
+        "japanese": null
+      },
+      "abbreviation": "7days",
+      "weblink": "https://www.speedrun.com/7days"
+    },
+    {
+      "id": "w6jl3q4d",
+      "names": {
+        "international": "7th Dragon",
+        "japanese": null
+      },
+      "abbreviation": "7th_dragon",
+      "weblink": "https://www.speedrun.com/7th_dragon"
+    },
+    {
+      "id": "lde3pwe6",
+      "names": {
+        "international": "7th Dragon 2020",
+        "japanese": null
+      },
+      "abbreviation": "7th_dragon_2020",
+      "weblink": "https://www.speedrun.com/7th_dragon_2020"
+    },
+    {
+      "id": "yd490w1e",
+      "names": {
+        "international": "7th Street",
+        "japanese": null
+      },
+      "abbreviation": "7th_street",
+      "weblink": "https://www.speedrun.com/7th_street"
+    },
+    {
+      "id": "9d38je1l",
+      "names": {
+        "international": "8 Eyes",
+        "japanese": null
+      },
+      "abbreviation": "8_eyes",
+      "weblink": "https://www.speedrun.com/8_eyes"
+    },
+    {
+      "id": "o1y973o6",
+      "names": {
+        "international": "8 Trials Await",
+        "japanese": null
+      },
+      "abbreviation": "8_trials_await",
+      "weblink": "https://www.speedrun.com/8_trials_await"
+    },
+    {
+      "id": "9d3pwe6l",
+      "names": {
+        "international": "8-Bit Armies",
+        "japanese": null
+      },
+      "abbreviation": "8bitarmies",
+      "weblink": "https://www.speedrun.com/8bitarmies"
+    },
+    {
+      "id": "m1mkk3d2",
+      "names": {
+        "international": "8-Bit Bayonetta",
+        "japanese": null
+      },
+      "abbreviation": "8-bit_bayonetta",
+      "weblink": "https://www.speedrun.com/8-bit_bayonetta"
+    },
+    {
+      "id": "268e8596",
+      "names": {
+        "international": "8-Bit Commando",
+        "japanese": null
+      },
+      "abbreviation": "8-bit_commando",
+      "weblink": "https://www.speedrun.com/8-bit_commando"
+    },
+    {
+      "id": "ldeq7xd3",
+      "names": {
+        "international": "8-Bit Hordes",
+        "japanese": null
+      },
+      "abbreviation": "8bithordes",
+      "weblink": "https://www.speedrun.com/8bithordes"
+    },
+    {
+      "id": "kdk4lx1m",
+      "names": {
+        "international": "8-Bit Invaders!",
+        "japanese": null
+      },
+      "abbreviation": "8bitinvaders",
+      "weblink": "https://www.speedrun.com/8bitinvaders"
+    },
+    {
+      "id": "o1y9jx46",
+      "names": {
+        "international": "868-HACK",
+        "japanese": null
+      },
+      "abbreviation": "868-hack",
+      "weblink": "https://www.speedrun.com/868-hack"
+    },
+    {
+      "id": "j1llymv1",
+      "names": {
+        "international": "88 Heroes / 88 Heroes 98 Heroes Edition",
+        "japanese": null
+      },
+      "abbreviation": "88_heroes__88_heroes_98_heroes_edition",
+      "weblink": "https://www.speedrun.com/88_heroes__88_heroes_98_heroes_edition"
+    },
+    {
+      "id": "k6qxm91g",
+      "names": {
+        "international": "88 Madness",
+        "japanese": null
+      },
+      "abbreviation": "88_madness",
+      "weblink": "https://www.speedrun.com/88_madness"
+    },
+    {
+      "id": "4d79jrr1",
+      "names": {
+        "international": "8Bit Fiesta",
+        "japanese": null
+      },
+      "abbreviation": "8bit_fiesta",
+      "weblink": "https://www.speedrun.com/8bit_fiesta"
+    },
+    {
+      "id": "v1p02868",
+      "names": {
+        "international": "8BitBoy",
+        "japanese": null
+      },
+      "abbreviation": "8bitboy",
+      "weblink": "https://www.speedrun.com/8bitboy"
+    },
+    {
+      "id": "j1lqg76g",
+      "names": {
+        "international": "9 Hours, 9 Persons, 9 Doors",
+        "japanese": null
+      },
+      "abbreviation": "999",
+      "weblink": "https://www.speedrun.com/999"
+    },
+    {
+      "id": "369p4k01",
+      "names": {
+        "international": "911 Fire Rescue",
+        "japanese": null
+      },
+      "abbreviation": "911_fire_rescue",
+      "weblink": "https://www.speedrun.com/911_fire_rescue"
+    },
+    {
+      "id": "pdvz8wo6",
+      "names": {
+        "international": "9MM",
+        "japanese": null
+      },
+      "abbreviation": "9mm",
+      "weblink": "https://www.speedrun.com/9mm"
+    },
+    {
+      "id": "v1pzgpd8",
+      "names": {
+        "international": ":The Game:",
+        "japanese": null
+      },
+      "abbreviation": "tg",
+      "weblink": "https://www.speedrun.com/tg"
+    },
+    {
+      "id": "o1ylr26q",
+      "names": {
+        "international": ">OBSERVER_",
+        "japanese": null
+      },
+      "abbreviation": "observer",
+      "weblink": "https://www.speedrun.com/observer"
+    },
+    {
+      "id": "kdk7k21m",
+      "names": {
+        "international": "A Bird Story",
+        "japanese": null
+      },
+      "abbreviation": "a_bird_story",
+      "weblink": "https://www.speedrun.com/a_bird_story"
+    },
+    {
+      "id": "ldewnxd3",
+      "names": {
+        "international": "A Boy and His Blob (2009)",
+        "japanese": null
+      },
+      "abbreviation": "blob09",
+      "weblink": "https://www.speedrun.com/blob09"
+    },
+    {
+      "id": "y65re01e",
+      "names": {
+        "international": "A Bug's Life",
+        "japanese": null
+      },
+      "abbreviation": "abl",
+      "weblink": "https://www.speedrun.com/abl"
+    },
+    {
+      "id": "9dowxr31",
+      "names": {
+        "international": "A Bug's Life (GBC)",
+        "japanese": null
+      },
+      "abbreviation": "ablgbc",
+      "weblink": "https://www.speedrun.com/ablgbc"
+    },
+    {
+      "id": "76rxmvl6",
+      "names": {
+        "international": "A Dance of Fire and Ice",
+        "japanese": null
+      },
+      "abbreviation": "adofai",
+      "weblink": "https://www.speedrun.com/adofai"
+    },
+    {
+      "id": "9domk76p",
+      "names": {
+        "international": "A Dark Room",
+        "japanese": null
+      },
+      "abbreviation": "a_dark_room",
+      "weblink": "https://www.speedrun.com/a_dark_room"
+    },
+    {
+      "id": "pdvzv2r6",
+      "names": {
+        "international": "A Day In The Future",
+        "japanese": null
+      },
+      "abbreviation": "a_day_in_the_future",
+      "weblink": "https://www.speedrun.com/a_day_in_the_future"
+    },
+    {
+      "id": "pdvzw346",
+      "names": {
+        "international": "A Golden Wake",
+        "japanese": null
+      },
+      "abbreviation": "a_golden_wake",
+      "weblink": "https://www.speedrun.com/a_golden_wake"
+    },
+    {
+      "id": "m1zjqp36",
+      "names": {
+        "international": "A Good Snowman Is Hard To Build",
+        "japanese": null
+      },
+      "abbreviation": "a_good_snowman_is_hard_to_build",
+      "weblink": "https://www.speedrun.com/a_good_snowman_is_hard_to_build"
+    },
+    {
+      "id": "yd4ljx1e",
+      "names": {
+        "international": "A Hat in Time",
+        "japanese": null
+      },
+      "abbreviation": "ahit",
+      "weblink": "https://www.speedrun.com/ahit"
+    },
+    {
+      "id": "9dokrk1p",
+      "names": {
+        "international": "A Hat in Time (Alpha Build)",
+        "japanese": null
+      },
+      "abbreviation": "ahitab",
+      "weblink": "https://www.speedrun.com/ahitab"
+    },
+    {
+      "id": "pdvje9dw",
+      "names": {
+        "international": "A Hat in Time (Beta Build)",
+        "japanese": null
+      },
+      "abbreviation": "ahitbb",
+      "weblink": "https://www.speedrun.com/ahitbb"
+    },
+    {
+      "id": "m1mxvrx6",
+      "names": {
+        "international": "A Hat in Time Workshop",
+        "japanese": null
+      },
+      "abbreviation": "ahitw",
+      "weblink": "https://www.speedrun.com/ahitw"
+    },
+    {
+      "id": "pdvz3zk6",
+      "names": {
+        "international": "A Hole New World",
+        "japanese": null
+      },
+      "abbreviation": "a_hole_new_world",
+      "weblink": "https://www.speedrun.com/a_hole_new_world"
+    },
+    {
+      "id": "yd49pk1e",
+      "names": {
+        "international": "A King's Tale: Final Fantasy XV",
+        "japanese": null
+      },
+      "abbreviation": "a_kings_tale_final_fantasy_xv",
+      "weblink": "https://www.speedrun.com/a_kings_tale_final_fantasy_xv"
+    },
+    {
+      "id": "j1ll7v41",
+      "names": {
+        "international": "A Kingdom for Keflings",
+        "japanese": null
+      },
+      "abbreviation": "a_kingdom_for_keflings",
+      "weblink": "https://www.speedrun.com/a_kingdom_for_keflings"
+    },
+    {
+      "id": "pd0kg31e",
+      "names": {
+        "international": "A Kitty Dream",
+        "japanese": null
+      },
+      "abbreviation": "a_kitty_dream",
+      "weblink": "https://www.speedrun.com/a_kitty_dream"
+    },
+    {
+      "id": "369p3ll1",
+      "names": {
+        "international": "A Knight's Quest",
+        "japanese": null
+      },
+      "abbreviation": "akq",
+      "weblink": "https://www.speedrun.com/akq"
+    },
+    {
+      "id": "nd2ekl5d",
+      "names": {
+        "international": "A Koopa's Revenge",
+        "japanese": null
+      },
+      "abbreviation": "httpwww.koopasrevenge.net",
+      "weblink": "https://www.speedrun.com/httpwww.koopasrevenge.net"
+    },
+    {
+      "id": "9d3rlmwd",
+      "names": {
+        "international": "A Koopa's Revenge 2",
+        "japanese": null
+      },
+      "abbreviation": "akr2",
+      "weblink": "https://www.speedrun.com/akr2"
+    },
+    {
+      "id": "v1po8qz6",
+      "names": {
+        "international": "A Lenda do Herói (Songs for a Hero)",
+        "japanese": null
+      },
+      "abbreviation": "a_lenda_do_heroi_songs_for_a_hero",
+      "weblink": "https://www.speedrun.com/a_lenda_do_heroi_songs_for_a_hero"
+    },
+    {
+      "id": "j1llmrj1",
+      "names": {
+        "international": "A Lenda dos Mortos",
+        "japanese": null
+      },
+      "abbreviation": "aldm",
+      "weblink": "https://www.speedrun.com/aldm"
+    },
+    {
+      "id": "v1pope76",
+      "names": {
+        "international": "A Link to the Future",
+        "japanese": null
+      },
+      "abbreviation": "alttf",
+      "weblink": "https://www.speedrun.com/alttf"
+    },
+    {
+      "id": "m1zjyk06",
+      "names": {
+        "international": "A Link To The Past Category Extensions",
+        "japanese": null
+      },
+      "abbreviation": "alttpce",
+      "weblink": "https://www.speedrun.com/alttpce"
+    },
+    {
+      "id": "m1zj3036",
+      "names": {
+        "international": "A Little Bit of... Dr Kawashima’s Brain Training™: Arts Edition",
+        "japanese": null
+      },
+      "abbreviation": "a_little_bit_of._dr_kawashimas_brain_training_arts_edition",
+      "weblink": "https://www.speedrun.com/a_little_bit_of._dr_kawashimas_brain_training_arts_edition"
+    },
+    {
+      "id": "3dxm9p6y",
+      "names": {
+        "international": "A Lucid Dream",
+        "japanese": null
+      },
+      "abbreviation": "robloxld",
+      "weblink": "https://www.speedrun.com/robloxld"
+    },
+    {
+      "id": "pd0wwg21",
+      "names": {
+        "international": "A Mini Falafel Adventure",
+        "japanese": null
+      },
+      "abbreviation": "a_mini_falafel_adventure",
+      "weblink": "https://www.speedrun.com/a_mini_falafel_adventure"
+    },
+    {
+      "id": "o6glryod",
+      "names": {
+        "international": "A New Beginning",
+        "japanese": null
+      },
+      "abbreviation": "anb",
+      "weblink": "https://www.speedrun.com/anb"
+    },
+    {
+      "id": "9dowlq71",
+      "names": {
+        "international": "A Night at the Races",
+        "japanese": null
+      },
+      "abbreviation": "a_night_at_the_races",
+      "weblink": "https://www.speedrun.com/a_night_at_the_races"
+    },
+    {
+      "id": "9do4p36p",
+      "names": {
+        "international": "A Nightmare on Elm Street",
+        "japanese": null
+      },
+      "abbreviation": "anoes",
+      "weblink": "https://www.speedrun.com/anoes"
+    },
+    {
+      "id": "3dxowvdy",
+      "names": {
+        "international": "A Normal Lost Phone",
+        "japanese": null
+      },
+      "abbreviation": "anlp",
+      "weblink": "https://www.speedrun.com/anlp"
+    },
+    {
+      "id": "o6gly99d",
+      "names": {
+        "international": "A Pirate and his Crates",
+        "japanese": null
+      },
+      "abbreviation": "a_pirate_and_his_crates",
+      "weblink": "https://www.speedrun.com/a_pirate_and_his_crates"
+    },
+    {
+      "id": "o1yznvdq",
+      "names": {
+        "international": "A Pixel Story",
+        "japanese": null
+      },
+      "abbreviation": "a_pixel_story",
+      "weblink": "https://www.speedrun.com/a_pixel_story"
+    },
+    {
+      "id": "m1mx2jx6",
+      "names": {
+        "international": "A Plague Tale: Innocence",
+        "japanese": null
+      },
+      "abbreviation": "a_plague_tale_innocence",
+      "weblink": "https://www.speedrun.com/a_plague_tale_innocence"
+    },
+    {
+      "id": "4d799yl1",
+      "names": {
+        "international": "A Platformer for Ants",
+        "japanese": null
+      },
+      "abbreviation": "apfa",
+      "weblink": "https://www.speedrun.com/apfa"
+    },
+    {
+      "id": "v1po8976",
+      "names": {
+        "international": "A Plumber to the Past",
+        "japanese": null
+      },
+      "abbreviation": "apttp",
+      "weblink": "https://www.speedrun.com/apttp"
+    },
+    {
+      "id": "nd2erjed",
+      "names": {
+        "international": "A Pure Vanilla Hack",
+        "japanese": null
+      },
+      "abbreviation": "a_pure_vanilla_hack",
+      "weblink": "https://www.speedrun.com/a_pure_vanilla_hack"
+    },
+    {
+      "id": "3690q36l",
+      "names": {
+        "international": "A ROBLOX Quest: Bloxxy-Tooie",
+        "japanese": null
+      },
+      "abbreviation": "arq_bt",
+      "weblink": "https://www.speedrun.com/arq_bt"
+    },
+    {
+      "id": "j1lgy4dg",
+      "names": {
+        "international": "A ROBLOX Quest: Elements Of Robloxia",
+        "japanese": null
+      },
+      "abbreviation": "arq_eor",
+      "weblink": "https://www.speedrun.com/arq_eor"
+    },
+    {
+      "id": "o1y8mvdq",
+      "names": {
+        "international": "A ROBLOX Quest: Quest to the Guest",
+        "japanese": null
+      },
+      "abbreviation": "arq_qttg",
+      "weblink": "https://www.speedrun.com/arq_qttg"
+    },
+    {
+      "id": "o1y9jrv6",
+      "names": {
+        "international": "A Robot Named Fight!",
+        "japanese": null
+      },
+      "abbreviation": "a_robot_named_fight",
+      "weblink": "https://www.speedrun.com/a_robot_named_fight"
+    },
+    {
+      "id": "y6544k0d",
+      "names": {
+        "international": "A Rose in the Twilight",
+        "japanese": "ロゼと黄昏の古城"
+      },
+      "abbreviation": "aritt",
+      "weblink": "https://www.speedrun.com/aritt"
+    }
+  ],
+  "pagination": {
+    "offset": 0,
+    "max": 250,
+    "size": 250,
+    "links": [
+      {
+        "rel": "next",
+        "uri": "https://www.speedrun.com/api/v1/games?_bulk=true&offset=250"
+      }
+    ]
+  }
+}

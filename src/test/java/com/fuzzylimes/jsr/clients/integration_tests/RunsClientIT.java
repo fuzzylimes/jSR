@@ -14,12 +14,10 @@ import org.junit.jupiter.api.Test;
 
 import java.io.IOException;
 
-import static com.fuzzylimes.jsr.JacksonTests.util.ClientTestUtil.MockJsrClientUrlAndQueryParams;
-
+@Disabled
 class RunsClientIT {
 
     @Test
-    @Disabled
     void getRuns_ParamsAndSortingTest() throws IOException, UnexpectedResponseException {
         RunsQuery query = RunsQuery.builder().build();
         Sorting<RunsOrderBy> order = Sorting.<RunsOrderBy>builder().direction(Direction.ASCCENDING).orderBy(RunsOrderBy.GAME).build();
@@ -34,13 +32,12 @@ class RunsClientIT {
     }
 
     @Test
-    @Disabled
     void getRunById_EmbedTest() throws IOException, UnexpectedResponseException {
         Run var = RunsClient.getRunById("1wzpqgyq", true);
         Assertions.assertEquals("1wzpqgyq", var.getId());
         Assertions.assertEquals("PT21M52S", var.getTimes().getPrimary());
         Assertions.assertEquals("w89rwelk", var.getSystem().getPlatform());
-        Assertions.assertEquals("w89rwelk", var.getGame().getGameEmbed().getPlatforms().get(0));
+        Assertions.assertEquals("w89rwelk", var.getGame().getGameEmbed().getPlatforms().getIds().get(0));
         Assertions.assertEquals("prklq2n9", var.getCategory().getCategoryEmbed().getId());
     }
 
