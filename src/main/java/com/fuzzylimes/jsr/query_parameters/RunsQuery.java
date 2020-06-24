@@ -7,6 +7,12 @@ import lombok.Data;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * <p>Builder to create the query parameters specific to Runs queries.</p>
+ *
+ * <h3>Example</h3>
+ * {@code RunsQuery query = RunsQuery.builder().emulated(false).build();}
+ */
 @Data
 @Builder
 public class RunsQuery implements QueryParam {

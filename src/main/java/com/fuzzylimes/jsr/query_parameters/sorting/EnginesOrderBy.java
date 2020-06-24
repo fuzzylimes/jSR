@@ -1,7 +1,9 @@
 package com.fuzzylimes.jsr.query_parameters.sorting;
 
+/**
+ * Supported fields to order by when performing an Engines query.
+ */
 public enum EnginesOrderBy implements OrderBy  {
-
 
     /** sorts alphanumerically by the region name */
     NAME("name");
@@ -14,9 +16,5 @@ public enum EnginesOrderBy implements OrderBy  {
 
     public String getOrderBy() {
         return orderBy;
-    }
-
-    void setOrderBy(String orderBy) {
-        this.orderBy = orderBy;
     }
 }

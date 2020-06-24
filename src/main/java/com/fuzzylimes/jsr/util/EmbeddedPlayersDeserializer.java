@@ -14,6 +14,9 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Custom Jackson JsonDeserializer to handle embedded Player objects when deserializing response payloads.
+ */
 public class EmbeddedPlayersDeserializer extends JsonDeserializer<EmbeddedPlayers> {
 
     ObjectMapper mapper = new ObjectMapper();
@@ -22,10 +25,7 @@ public class EmbeddedPlayersDeserializer extends JsonDeserializer<EmbeddedPlayer
     public EmbeddedPlayers deserialize(JsonParser jsonParser, DeserializationContext deserializationContext) throws IOException {
         ObjectCodec oc = jsonParser.getCodec();
         JsonNode root = oc.readTree(jsonParser);
-        return buildPlayers(root);
-    }
 
-    private EmbeddedPlayers buildPlayers(JsonNode root) throws JsonProcessingException {
         EmbeddedPlayers embeddedPlayers = new EmbeddedPlayers();
 
         if (!root.has("data")) {

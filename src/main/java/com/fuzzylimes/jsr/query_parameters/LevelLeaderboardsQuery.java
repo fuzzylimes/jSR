@@ -6,6 +6,12 @@ import lombok.Data;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * <p>Builder to create the query parameters specific to performing level/{id}/leaderboards queries.</p>
+ *
+ * <h3>Example</h3>
+ * {@code LevelLeaderboardsQuery query = LevelLeaderboardsQuery.builder().top(3).skipEmpty(false).build();}
+ */
 @Data
 @Builder
 public class LevelLeaderboardsQuery implements QueryParam {

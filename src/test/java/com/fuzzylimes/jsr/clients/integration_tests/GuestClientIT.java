@@ -9,10 +9,10 @@ import org.junit.jupiter.api.Test;
 
 import java.io.IOException;
 
+@Disabled
 class GuestClientIT {
 
     @Test
-    @Disabled
     void getGuestByNameIT() throws IOException, UnexpectedResponseException {
         Guest var = GuestClient.getGuestByName("Karin");
         Assertions.assertEquals(2, var.getLinks().size());

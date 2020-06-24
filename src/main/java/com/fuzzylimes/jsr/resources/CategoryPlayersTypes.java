@@ -3,18 +3,18 @@ package com.fuzzylimes.jsr.resources;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 /**
- * Supported Game Categories
+ * Supported types of Players for a Category
  */
-public enum CategoryTypes {
+public enum CategoryPlayersTypes {
 
-    @JsonProperty("per-game")
-    PER_GAME("per-game"),
-    @JsonProperty("per-level")
-    PER_LEVEL("per-level");
+    @JsonProperty("exactly")
+    EXACTLY("exactly"),
+    @JsonProperty("up-to")
+    UP_TO("up-to");
 
     private String type;
 
-    CategoryTypes(String type) {
+    CategoryPlayersTypes(String type) {
         this.type = type;
     }
 

@@ -13,10 +13,10 @@ import org.junit.jupiter.api.Test;
 
 import java.io.IOException;
 
+@Disabled
 class DevelopersClientIT {
 
     @Test
-    @Disabled
     void getDevelopers_SortingTest() throws IOException, UnexpectedResponseException {
         Sorting<DevelopersOrderBy> order = Sorting.<DevelopersOrderBy>builder()
                 .direction(Direction.ASCCENDING).orderBy(DevelopersOrderBy.NAME).build();
@@ -26,7 +26,6 @@ class DevelopersClientIT {
     }
 
     @Test
-    @Disabled
     void getDevelopersByIdTest() throws IOException, UnexpectedResponseException {
         Developer var = DevelopersClient.getDevelopersById("5mznpr6r");
         Assertions.assertEquals(2, var.getLinks().size());

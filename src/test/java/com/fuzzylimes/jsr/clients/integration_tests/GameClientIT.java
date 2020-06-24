@@ -131,7 +131,7 @@ class GameClientIT {
         Assertions.assertEquals(5, var.getPagination().getSize());
         Assertions.assertEquals("y65lw01e", var.getResourceList().get(0).getId());
         Assertions.assertEquals("2015-03-27T22:09:05Z", var.getResourceList().get(0).getCreated());
-        Assertions.assertEquals("o316x197", var.getResourceList().get(0).getRegions().getEmbeddedRegions().get(2).getId());
+        Assertions.assertEquals("o316x197", var.getResourceList().get(0).getRegions().getEmbedded().get(2).getId());
     }
 
     private void getGamesBulkResponseValidation(PagedResponse<BulkGame> var) {

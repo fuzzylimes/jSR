@@ -1,7 +1,9 @@
 package com.fuzzylimes.jsr.query_parameters.sorting;
 
+/**
+ * Supported fields to order by when performing a Runs query.
+ */
 public enum RunsOrderBy implements OrderBy {
-
 
     /** sorts by the game the run was done in */
     GAME("game"),
@@ -32,9 +34,5 @@ public enum RunsOrderBy implements OrderBy {
 
     public String getOrderBy() {
         return orderBy;
-    }
-
-    void setOrderBy(String orderBy) {
-        this.orderBy = orderBy;
     }
 }

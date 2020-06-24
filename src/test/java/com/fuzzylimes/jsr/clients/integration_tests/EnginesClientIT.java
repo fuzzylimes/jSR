@@ -13,9 +13,9 @@ import org.junit.jupiter.api.Test;
 
 import java.io.IOException;
 
+@Disabled
 public class EnginesClientIT {
     @Test
-    @Disabled
     void getEngines_SortingTest() throws IOException, UnexpectedResponseException {
         Sorting<EnginesOrderBy> order = Sorting.<EnginesOrderBy>builder()
                 .direction(Direction.ASCCENDING).orderBy(EnginesOrderBy.NAME).build();
@@ -25,7 +25,6 @@ public class EnginesClientIT {
     }
 
     @Test
-    @Disabled
     void getEnginesByIdTest() throws IOException, UnexpectedResponseException {
         Engine var = EnginesClient.getEnginesById("w3vgmn3o");
         Assertions.assertEquals(2, var.getLinks().size());

@@ -1,7 +1,9 @@
 package com.fuzzylimes.jsr.query_parameters.sorting;
 
+/**
+ * Supported fields to order by when performing a Platform query.
+ */
 public enum PlatformsOrderBy implements OrderBy {
-
 
     /** sorts alphanumerically by the platform name */
     NAME("name"),
@@ -16,9 +18,5 @@ public enum PlatformsOrderBy implements OrderBy {
 
     public String getOrderBy() {
         return orderBy;
-    }
-
-    void setOrderBy(String orderBy) {
-        this.orderBy = orderBy;
     }
 }

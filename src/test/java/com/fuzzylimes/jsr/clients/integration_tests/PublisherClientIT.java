@@ -13,9 +13,9 @@ import org.junit.jupiter.api.Test;
 
 import java.io.IOException;
 
+@Disabled
 public class PublisherClientIT {
     @Test
-    @Disabled
     void getPublishers_SortingTest() throws IOException, UnexpectedResponseException {
         Sorting<PublishersOrderBy> order = Sorting.<PublishersOrderBy>builder()
                 .direction(Direction.ASCCENDING).orderBy(PublishersOrderBy.NAME).build();
@@ -25,7 +25,6 @@ public class PublisherClientIT {
     }
 
     @Test
-    @Disabled
     void getPublishersByIdTest() throws IOException, UnexpectedResponseException {
         Publisher var = PublishersClient.getPublishersById("w4npp2nl");
         Assertions.assertEquals(2, var.getLinks().size());

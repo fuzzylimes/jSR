@@ -13,10 +13,10 @@ import org.junit.jupiter.api.Test;
 
 import java.io.IOException;
 
+@Disabled
 class RegionClientIT {
 
     @Test
-    @Disabled
     void getRegions_SortingTest() throws IOException, UnexpectedResponseException {
         Sorting<RegionsOrderBy> order = Sorting.<RegionsOrderBy>builder().direction(Direction.ASCCENDING).orderBy(RegionsOrderBy.NAME).build();
         PagedResponse<Region> var = RegionClient.getRegions(order);
@@ -26,7 +26,6 @@ class RegionClientIT {
     }
 
     @Test
-    @Disabled
     void getRegionByIdTest() throws IOException, UnexpectedResponseException {
         Region var = RegionClient.getRegionById("mol4z19n");
         Assertions.assertEquals("mol4z19n", var.getId());

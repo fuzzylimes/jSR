@@ -2,6 +2,9 @@ package com.fuzzylimes.jsr.resources;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
+/**
+ * The states that a run may be in at any given point in time
+ */
 public enum RunStatusTypes {
 
     @JsonProperty("new")
@@ -20,9 +23,5 @@ public enum RunStatusTypes {
     @JsonProperty
     public String getType() {
         return type;
-    }
-
-    void setType(String type) {
-        this.type = type;
     }
 }

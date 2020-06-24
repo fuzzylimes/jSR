@@ -20,10 +20,10 @@ import java.util.List;
 
 import static com.fuzzylimes.jsr.resources.CategoryTypes.PER_LEVEL;
 
+@Disabled
 class LevelsClientIT {
 
     @Test
-    @Disabled
     public void getLevelById_EmbedIT() throws IOException, UnexpectedResponseException {
         Level var = LevelsClient.getLevelById("5d74ypvd", true);
         Assertions.assertEquals("5d74ypvd", var.getId());
@@ -35,7 +35,6 @@ class LevelsClientIT {
     }
 
     @Test
-    @Disabled
     public void getCategoriesByLevelId_querySortIT() throws IOException, UnexpectedResponseException {
         LevelCategoriesQuery query = LevelCategoriesQuery.builder().miscellaneous(false).build();
         Sorting<CategoriesOrderBy> sorting = Sorting.<CategoriesOrderBy>builder().direction(Direction.ASCCENDING).orderBy(CategoriesOrderBy.POS).build();
@@ -47,9 +46,7 @@ class LevelsClientIT {
     }
 
     @Test
-    @Disabled
     public void getRecordsByLevelId_embedQueryIT() throws IOException, UnexpectedResponseException {
-
         LevelLeaderboardsQuery query = LevelLeaderboardsQuery.builder().top(3).skipEmpty(false).build();
 
         PagedResponse<Leaderboard> var = LevelsClient.getLeaderboardForLevelId("5d74ypvd", true, query);

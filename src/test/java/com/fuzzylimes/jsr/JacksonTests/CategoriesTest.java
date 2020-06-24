@@ -33,7 +33,7 @@ public class CategoriesTest {
         Assertions.assertFalse(var.isMiscellaneous());
         Assertions.assertEquals("jdzme6kv", var.getId());
         Assertions.assertEquals(1, var.getPlayers().getValue());
-        Assertions.assertEquals("realtime", var.getGame().getRuleset().getDefaultTime());
+        Assertions.assertEquals(RunTimeTypes.REALTIME, var.getGame().getRuleset().getDefaultTime());
         Assertions.assertTrue(var.getVariables().get(0).isMandatory());
         Assertions.assertTrue(var.getVariables().get(0).getValues().getValues().containsKey("zqomrrp1"));
 

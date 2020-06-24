@@ -1,7 +1,9 @@
 package com.fuzzylimes.jsr.query_parameters.sorting;
 
+/**
+ * Supported fields to order by when performing a Category query.
+ */
 public enum CategoriesOrderBy implements OrderBy {
-
 
     /** sorts alphanumerically by the category name */
     NAME("name"),
@@ -18,9 +20,5 @@ public enum CategoriesOrderBy implements OrderBy {
 
     public String getOrderBy() {
         return orderBy;
-    }
-
-    void setOrderBy(String orderBy) {
-        this.orderBy = orderBy;
     }
 }

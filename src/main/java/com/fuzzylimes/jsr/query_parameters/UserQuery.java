@@ -6,6 +6,12 @@ import lombok.Data;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * <p>Builder to create the query parameters specific to User queries.</p>
+ *
+ * <h3>Example</h3>
+ * {@code UserQuery query = UserQuery.builder().twitch("Elajjaz").build();}
+ */
 @Data
 @Builder
 public class UserQuery implements QueryParam {

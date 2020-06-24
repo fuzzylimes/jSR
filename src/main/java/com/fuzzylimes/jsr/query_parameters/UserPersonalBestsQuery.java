@@ -6,6 +6,12 @@ import lombok.Data;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * <p>Builder to create the query parameters specific to user/{id}/personal-best queries.</p>
+ *
+ * <h3>Example</h3>
+ * {@code UserPersonalBestsQuery query = UserPersonalBestsQuery.builder().top(20).build();}
+ */
 @Data
 @Builder
 public class UserPersonalBestsQuery implements QueryParam {

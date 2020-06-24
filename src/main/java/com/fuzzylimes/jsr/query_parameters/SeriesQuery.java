@@ -6,6 +6,12 @@ import lombok.Data;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * <p>Builder to create the query parameters specific to Series queries.</p>
+ *
+ * <h3>Example</h3>
+ * {@code SeriesQuery query = SeriesQuery.builder().name(".hack").build();}
+ */
 @Data
 @Builder
 public class SeriesQuery implements QueryParam {

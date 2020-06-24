@@ -2,6 +2,9 @@ package com.fuzzylimes.jsr.resources;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
+/**
+ * The
+ */
 public enum ScopeTypes {
 
     @JsonProperty("global")
@@ -24,7 +27,4 @@ public enum ScopeTypes {
         return type;
     }
 
-    void setType(String type) {
-        this.type = type;
-    }
 }

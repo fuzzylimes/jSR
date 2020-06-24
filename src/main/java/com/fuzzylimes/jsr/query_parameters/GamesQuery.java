@@ -6,6 +6,12 @@ import lombok.Data;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * <p>Builder to create the query parameters specific to performing Game queries.</p>
+ *
+ * <h3>Example</h3>
+ * {@code GamesQuery query = GamesQuery.builder().name("darksouls").romhack(false).build();}
+ */
 @Data
 @Builder
 public class GamesQuery implements QueryParam {

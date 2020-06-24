@@ -4,7 +4,7 @@ import java.util.List;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
-import com.fuzzylimes.jsr.util.ModeratorDeserializer;
+import com.fuzzylimes.jsr.util.EmbeddedModeratorDeserializer;
 import lombok.Data;
 
 @Data
@@ -32,6 +32,6 @@ public class Series{
 	private String abbreviation;
 
 	@JsonProperty("moderators")
-	@JsonDeserialize(using = ModeratorDeserializer.class)
+	@JsonDeserialize(using = EmbeddedModeratorDeserializer.class)
 	private Moderators moderators;
 }

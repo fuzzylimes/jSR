@@ -1,7 +1,6 @@
 package com.fuzzylimes.jsr.util;
 
 import com.fasterxml.jackson.core.JsonParser;
-import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.core.ObjectCodec;
 import com.fasterxml.jackson.databind.DeserializationContext;
 import com.fasterxml.jackson.databind.JsonDeserializer;
@@ -14,6 +13,9 @@ import com.fuzzylimes.jsr.resources.Genre;
 import java.io.IOException;
 import java.util.List;
 
+/**
+ * Custom Jackson JsonDeserializer to handle embedded Genres objects when deserializing response payloads.
+ */
 public class EmbeddedGenresDeserializer extends JsonDeserializer<EmbeddedGenres> {
 
     ObjectMapper mapper = new ObjectMapper();
@@ -22,10 +24,7 @@ public class EmbeddedGenresDeserializer extends JsonDeserializer<EmbeddedGenres>
     public EmbeddedGenres deserialize(JsonParser jsonParser, DeserializationContext deserializationContext) throws IOException {
         ObjectCodec oc = jsonParser.getCodec();
         JsonNode root = oc.readTree(jsonParser);
-        return buildCategory(root);
-    }
 
-    private EmbeddedGenres buildCategory(JsonNode root) throws JsonProcessingException {
         EmbeddedGenres genres = new EmbeddedGenres();
 
         if (!root.has("data")) {

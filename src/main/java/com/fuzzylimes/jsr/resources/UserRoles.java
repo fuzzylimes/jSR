@@ -2,6 +2,9 @@ package com.fuzzylimes.jsr.resources;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
+/**
+ * Roles that a user may have on the site
+ */
 public enum UserRoles {
 
     @JsonProperty("banned")
@@ -26,9 +29,5 @@ public enum UserRoles {
     @JsonProperty
     public String getRole() {
         return role;
-    }
-
-    void setRole(String role) {
-        this.role = role;
     }
 }

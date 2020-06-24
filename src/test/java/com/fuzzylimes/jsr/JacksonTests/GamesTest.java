@@ -33,7 +33,7 @@ public class GamesTest {
         Assertions.assertEquals(20, var.getPagination().getSize());
         Assertions.assertEquals("y65r071e", var.getResourceList().get(19).getId());
         Assertions.assertEquals("2015-01-03T22:44:26Z", var.getResourceList().get(19).getCreated());
-        Assertions.assertEquals("o316x197", var.getResourceList().get(19).getRegions().getEmbeddedRegions().get(2).getId());
+        Assertions.assertEquals("o316x197", var.getResourceList().get(19).getRegions().getEmbedded().get(2).getId());
     }
 
     @Test

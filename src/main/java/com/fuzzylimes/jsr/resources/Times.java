@@ -3,6 +3,9 @@ package com.fuzzylimes.jsr.resources;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
 
+/**
+ * The record times for a run
+ */
 @Data
 public class Times{
 

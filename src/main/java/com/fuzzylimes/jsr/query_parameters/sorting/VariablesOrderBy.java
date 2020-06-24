@@ -1,7 +1,9 @@
 package com.fuzzylimes.jsr.query_parameters.sorting;
 
+/**
+ * Supported fields to order by when performing a Variables query.
+ */
 public enum VariablesOrderBy implements OrderBy {
-
 
     /** sorts alphanumerically by the variable name */
     NAME("name"),
@@ -20,9 +22,5 @@ public enum VariablesOrderBy implements OrderBy {
 
     public String getOrderBy() {
         return orderBy;
-    }
-
-    void setOrderBy(String orderBy) {
-        this.orderBy = orderBy;
     }
 }

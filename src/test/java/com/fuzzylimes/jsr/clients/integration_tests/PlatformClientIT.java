@@ -13,10 +13,10 @@ import org.junit.jupiter.api.Test;
 
 import java.io.IOException;
 
+@Disabled
 class PlatformClientIT {
 
     @Test
-    @Disabled
     void getPlatforms_SortingIT() throws IOException, UnexpectedResponseException {
         Sorting<PlatformsOrderBy> order = Sorting.<PlatformsOrderBy>builder().direction(Direction.ASCCENDING).orderBy(PlatformsOrderBy.NAME).build();
         PagedResponse<Platform> var = PlatformClient.getPlatforms(order);

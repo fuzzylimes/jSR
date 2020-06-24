@@ -12,12 +12,15 @@ import java.util.List;
 @Data
 public class Developer {
 
+	/** developer name */
 	@JsonProperty("name")
 	private String name;
 
+	/** resource links */
 	@JsonProperty("links")
 	private List<LinksItem> links;
 
+	/** internal id */
 	@JsonProperty("id")
 	private String id;
 }

@@ -6,6 +6,12 @@ import lombok.Data;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * <p>Builder to create the query parameters specific to performing Category queries.</p>
+ *
+ * <h3>Example</h3>
+ * {@code CategoryRecordsQuery query = CategoryRecordsQuery.builder().top(10).skipEmpty(true).build;}
+ */
 @Data
 @Builder
 public class CategoryRecordsQuery implements QueryParam {

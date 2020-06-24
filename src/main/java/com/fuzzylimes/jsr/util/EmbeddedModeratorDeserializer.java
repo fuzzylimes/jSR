@@ -1,7 +1,6 @@
 package com.fuzzylimes.jsr.util;
 
 import com.fasterxml.jackson.core.JsonParser;
-import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.core.ObjectCodec;
 import com.fasterxml.jackson.databind.DeserializationContext;
 import com.fasterxml.jackson.databind.JsonDeserializer;
@@ -18,7 +17,10 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class ModeratorDeserializer extends JsonDeserializer<Moderators> {
+/**
+ * Custom Jackson JsonDeserializer to handle embedded Moderator(User) objects when deserializing response payloads.
+ */
+public class EmbeddedModeratorDeserializer extends JsonDeserializer<Moderators> {
 
     ObjectMapper mapper = new ObjectMapper();
 
@@ -26,10 +28,7 @@ public class ModeratorDeserializer extends JsonDeserializer<Moderators> {
     public Moderators deserialize(JsonParser jsonParser, DeserializationContext deserializationContext) throws IOException {
         ObjectCodec oc = jsonParser.getCodec();
         JsonNode root = oc.readTree(jsonParser);
-        return buildModerators(root);
-    }
 
-    private Moderators buildModerators(JsonNode root) throws JsonProcessingException {
         Moderators moderators = new Moderators();
 
         if (!root.has("data")) {

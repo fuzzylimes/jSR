@@ -6,6 +6,12 @@ import lombok.Data;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * <p>Builder to create the query parameters specific to performing Leaderboard queries.</p>
+ *
+ * <h3>Example</h3>
+ * {@code LeaderboardQuery query = LeaderboardQuery.builder().top(10).emulators(false).build();}
+ */
 @Data
 @Builder
 public class LeaderboardQuery implements QueryParam {

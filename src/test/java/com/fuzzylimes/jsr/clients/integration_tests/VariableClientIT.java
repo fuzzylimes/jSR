@@ -11,10 +11,10 @@ import java.io.IOException;
 
 import static com.fuzzylimes.jsr.resources.ScopeTypes.SINGLE_LEVEL;
 
+@Disabled
 class VariableClientIT {
 
     @Test
-    @Disabled
     void getVariableByIdIT() throws IOException, UnexpectedResponseException {
         Variable var = VariableClient.getVariableById("dlomqkj8");
         Assertions.assertEquals(9, var.getValues().getValues().size());

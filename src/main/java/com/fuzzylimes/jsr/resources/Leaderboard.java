@@ -59,7 +59,7 @@ public class Leaderboard{
 	@JsonProperty("regions")
 	@JsonInclude(JsonInclude.Include.NON_NULL)
 	@JsonDeserialize(using = EmbeddedRegionsDeserializer.class)
-	private GameRegion regions;
+	private EmbeddedRegions regions;
 
 	@JsonProperty("platforms")
 	@JsonInclude(JsonInclude.Include.NON_NULL)

@@ -1,7 +1,9 @@
 package com.fuzzylimes.jsr.query_parameters.sorting;
 
+/**
+ * Supported fields to order by when performing a Games query.
+ */
 public enum GamesOrderBy implements OrderBy  {
-
 
     /** sorts alphanumerically by the international name */
     NAME_INT("name.int"),
@@ -24,9 +26,5 @@ public enum GamesOrderBy implements OrderBy  {
 
     public String getOrderBy() {
         return orderBy;
-    }
-
-    void setOrderBy(String orderBy) {
-        this.orderBy = orderBy;
     }
 }
