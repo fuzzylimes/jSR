@@ -1,3 +1,5 @@
+![Master Branch](https://github.com/fuzzylimes/jSR/workflows/Master%20Branch/badge.svg?branch=master) [![codecov](https://codecov.io/gh/fuzzylimes/jSR/branch/master/graph/badge.svg)](https://codecov.io/gh/fuzzylimes/jSR)
+
 ## Overview
 jSR (javaSpeedRun) is a Java client for the public SpeedRun.com APIs. It simplifies the process 
 of retrieving data using their rest APIs by abstracting away the calls, and serializing all response
