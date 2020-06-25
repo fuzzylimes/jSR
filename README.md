@@ -21,6 +21,11 @@ please open a ticket.
 
 General functionality and usage will be covered in this readme.
 
+| Release | Documentation |
+| ------- | ------------- |
+| v0.1.0  | [v0.1.0 javadoc](https://fuzzylimes.github.io/jSR/docs/v0_1_0/) |
+
+
 ## Usage
 A corresponding client exists for each of the SpeedRun.com resources. The clients are:
 
