@@ -54,7 +54,9 @@ public class PlatformClient {
      */
     public static PagedResponse<Platform> getPlatforms(Sorting<PlatformsOrderBy> order) throws IOException, UnexpectedResponseException {
         JsonNode node = getSyncQuery(JsrClient.buildPath(BASE_RESOURCE, PLATFORMS_PATH), order.getQueryMap());
-        return mapper.readValue(node.toString(), platformsType);
+        PagedResponse<Platform> response = mapper.readValue(node.toString(), platformsType);
+        response.setType(Platform.class);
+        return response;
     }
 
     /**

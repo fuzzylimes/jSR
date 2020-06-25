@@ -61,7 +61,9 @@ public class UserClient {
      */
     public static PagedResponse<User> getUsers(UserQuery queryParams, Sorting<UsersOrderBy> order) throws IOException, UnexpectedResponseException {
         JsonNode node = getSyncQuery(JsrClient.buildPath(BASE_RESOURCE, USERS_PATH), queryParams.getQueryMap(), order.getQueryMap());
-        return mapper.readValue(node.toString(), new TypeReference<PagedResponse<User>>() {});
+        PagedResponse<User> response = mapper.readValue(node.toString(), new TypeReference<PagedResponse<User>>() {});
+        response.setType(User.class);
+        return response;
     }
 
     /**

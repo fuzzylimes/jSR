@@ -52,7 +52,9 @@ public class EnginesClient {
      */
     public static PagedResponse<Engine> getEngines(Sorting<EnginesOrderBy> order) throws IOException, UnexpectedResponseException {
         JsonNode node = getSyncQuery(JsrClient.buildPath(BASE_RESOURCE, ENGINES_PATH), order.getQueryMap());
-        return mapper.readValue(node.toString(), new TypeReference<PagedResponse<Engine>>() {});
+        PagedResponse<Engine> response = mapper.readValue(node.toString(), new TypeReference<PagedResponse<Engine>>() {});
+        response.setType(Engine.class);
+        return response;
     }
 
     /**

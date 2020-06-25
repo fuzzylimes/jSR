@@ -64,7 +64,9 @@ public class RunsClient {
         JsonNode node = Boolean.TRUE.equals(embed) ?
                 getSyncQuery(JsrClient.buildPath(BASE_RESOURCE, RUNS_PATH), getRunsEmbed(), queryParams.getQueryMap(), order.getQueryMap()):
                 getSyncQuery(JsrClient.buildPath(BASE_RESOURCE, RUNS_PATH), queryParams.getQueryMap(), order.getQueryMap());
-        return mapper.readValue(node.toString(), new TypeReference<PagedResponse<Run>>() {});
+        PagedResponse<Run> response = mapper.readValue(node.toString(), new TypeReference<PagedResponse<Run>>() {});
+        response.setType(Run.class);
+        return response;
     }
 
     /**

@@ -232,7 +232,9 @@ public class LevelsClient {
         JsonNode node = Boolean.TRUE.equals(embed) ?
                 getSyncQuery(JsrClient.buildPath(BASE_RESOURCE, LEVELS_PATH, levelId, RECORDS_PATH), getLeaderboardEmbed(), queryParams.getQueryMap()):
                 getSyncQuery(JsrClient.buildPath(BASE_RESOURCE, LEVELS_PATH, levelId, RECORDS_PATH), queryParams.getQueryMap());
-        return mapper.readValue(node.toString(), new TypeReference<PagedResponse<Leaderboard>>() {});
+        PagedResponse<Leaderboard> response = mapper.readValue(node.toString(), new TypeReference<PagedResponse<Leaderboard>>() {});
+        response.setType(Leaderboard.class);
+        return response;
     }
 
     /**

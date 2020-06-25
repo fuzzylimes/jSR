@@ -52,7 +52,9 @@ public class GenresClient {
      */
     public static PagedResponse<Genre> getGenres(Sorting<GenresOrderBy> order) throws IOException, UnexpectedResponseException {
         JsonNode node = getSyncQuery(JsrClient.buildPath(BASE_RESOURCE, GENRES_PATH), order.getQueryMap());
-        return mapper.readValue(node.toString(), new TypeReference<PagedResponse<Genre>>() {});
+        PagedResponse<Genre> response = mapper.readValue(node.toString(), new TypeReference<PagedResponse<Genre>>() {});
+        response.setType(Genre.class);
+        return response;
     }
 
     /**

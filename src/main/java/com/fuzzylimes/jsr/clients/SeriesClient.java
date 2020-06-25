@@ -68,7 +68,9 @@ public class SeriesClient {
         JsonNode node = Boolean.TRUE.equals(embed) ?
                 getSyncQuery(JsrClient.buildPath(BASE_RESOURCE, SERIES_PATH), getSeriesEmbed(), queryParams.getQueryMap(), order.getQueryMap()):
                 getSyncQuery(JsrClient.buildPath(BASE_RESOURCE, SERIES_PATH), queryParams.getQueryMap(), order.getQueryMap());
-        return mapper.readValue(node.toString(), new TypeReference<PagedResponse<Series>>() {});
+        PagedResponse<Series> response = mapper.readValue(node.toString(), new TypeReference<PagedResponse<Series>>() {});
+        response.setType(Series.class);
+        return response;
     }
 
     /**
@@ -281,7 +283,9 @@ public class SeriesClient {
         JsonNode node = Boolean.TRUE.equals(embed) ?
                 getSyncQuery(JsrClient.buildPath(BASE_RESOURCE, SERIES_PATH, id, GAME_PATH), getGameEmbed(), queryParams.getQueryMap(), order.getQueryMap()):
                 getSyncQuery(JsrClient.buildPath(BASE_RESOURCE, SERIES_PATH, id, GAME_PATH), queryParams.getQueryMap(), order.getQueryMap());
-        return mapper.readValue(node.toString(), new TypeReference<PagedResponse<Game>>() {});
+        PagedResponse<Game> response = mapper.readValue(node.toString(), new TypeReference<PagedResponse<Game>>() {});
+        response.setType(Game.class);
+        return response;
     }
 
     /**
@@ -458,7 +462,9 @@ public class SeriesClient {
      */
     public static PagedResponse<BulkGame> getGamesForSeriesBulk(String id, GamesQuery queryParams, Sorting<GamesOrderBy> order) throws IOException, UnexpectedResponseException {
         JsonNode node = getSyncQuery(JsrClient.buildPath(BASE_RESOURCE, SERIES_PATH, id, GAME_PATH), getBulkEmbed(), queryParams.getQueryMap(), order.getQueryMap());
-        return mapper.readValue(node.toString(), new TypeReference<PagedResponse<BulkGame>>() {});
+        PagedResponse<BulkGame> response = mapper.readValue(node.toString(), new TypeReference<PagedResponse<BulkGame>>() {});
+        response.setType(BulkGame.class);
+        return response;
     }
 
     /**

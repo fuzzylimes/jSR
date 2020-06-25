@@ -53,7 +53,9 @@ public class DevelopersClient {
      */
     public static PagedResponse<Developer> getDevelopers(Sorting<DevelopersOrderBy> order) throws IOException, UnexpectedResponseException {
         JsonNode node = getSyncQuery(JsrClient.buildPath(BASE_RESOURCE, DEVELOPERS_PATH), order.getQueryMap());
-        return mapper.readValue(node.toString(), new TypeReference<PagedResponse<Developer>>() {});
+        PagedResponse<Developer> response = mapper.readValue(node.toString(), new TypeReference<PagedResponse<Developer>>() {});
+        response.setType(Developer.class);
+        return response;
     }
 
     /**

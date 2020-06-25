@@ -54,7 +54,9 @@ public class RegionClient {
      */
     public static PagedResponse<Region> getRegions(Sorting<RegionsOrderBy> sorting) throws IOException, UnexpectedResponseException {
         JsonNode node = getSyncQuery(JsrClient.buildPath(BASE_RESOURCE, REGION_PATH), sorting.getQueryMap());
-        return mapper.readValue(node.toString(), typeReference);
+        PagedResponse<Region> response = mapper.readValue(node.toString(), typeReference);
+        response.setType(Region.class);
+        return response;
     }
 
     /**

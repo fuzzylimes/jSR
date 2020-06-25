@@ -144,7 +144,9 @@ public class CategoryClient {
         JsonNode node = Boolean.TRUE.equals(embed) ?
                 getSyncQuery(JsrClient.buildPath(BASE_RESOURCE, CATEGORIES_PATH, id, RECORDS_PATH), getCategoryEmbed(), queryParams.getQueryMap()):
                 getSyncQuery(JsrClient.buildPath(BASE_RESOURCE, CATEGORIES_PATH, id, RECORDS_PATH), queryParams.getQueryMap());
-        return mapper.readValue(node.toString(), new TypeReference<PagedResponse<Leaderboard>>() {});
+        PagedResponse<Leaderboard> response = mapper.readValue(node.toString(), new TypeReference<PagedResponse<Leaderboard>>() {});
+        response.setType(Leaderboard.class);
+        return response;
     }
 
     /**

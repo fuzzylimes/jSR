@@ -52,7 +52,9 @@ public class GameTypesClient {
      */
     public static PagedResponse<GameType> getGameTypes(Sorting<GameTypesOrderBy> order) throws IOException, UnexpectedResponseException {
         JsonNode node = getSyncQuery(JsrClient.buildPath(BASE_RESOURCE, GAME_TYPES_PATH), order.getQueryMap());
-        return mapper.readValue(node.toString(), new TypeReference<PagedResponse<GameType>>() {});
+        PagedResponse<GameType> response = mapper.readValue(node.toString(), new TypeReference<PagedResponse<GameType>>() {});
+        response.setType(GameType.class);
+        return response;
     }
 
     /**

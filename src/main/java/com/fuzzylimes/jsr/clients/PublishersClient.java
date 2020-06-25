@@ -52,7 +52,9 @@ public class PublishersClient {
      */
     public static PagedResponse<Publisher> getPublishers(Sorting<PublishersOrderBy> order) throws IOException, UnexpectedResponseException {
         JsonNode node = getSyncQuery(JsrClient.buildPath(BASE_RESOURCE, PUBLISHERS_PATH), order.getQueryMap());
-        return mapper.readValue(node.toString(), new TypeReference<PagedResponse<Publisher>>() {});
+        PagedResponse<Publisher> response = mapper.readValue(node.toString(), new TypeReference<PagedResponse<Publisher>>() {});
+        response.setType(Publisher.class);
+        return response;
     }
 
     /**
